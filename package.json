@@ -1,0 +1,9 @@
+{
+  "name": "typeshi-message-dashboard",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory public",
+    "generate": "python3 scripts/generate_data.py --share-safe"
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.vercel/
+
+# Never commit local database files or ad-hoc exports.
+*.db
+*.db-shm
+*.db-wal
+chat.db*
+AddressBook*.abcddb

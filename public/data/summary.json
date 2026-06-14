@@ -1,0 +1,450 @@
+{
+  "groupName": "type shi",
+  "generatedAt": "2026-06-13T19:18:21-05:00",
+  "windowStart": "2026-05-30T19:18:21-05:00",
+  "windowEnd": "2026-06-13T19:18:21-05:00",
+  "days": 14,
+  "totalMessages": 7158,
+  "participantCount": 25,
+  "attachmentMessages": 428,
+  "averagePerDay": 511.3,
+  "averageTextLength": 30.8,
+  "matchedChats": [],
+  "senders": [
+    {
+      "id": "d587cd6e52a4",
+      "label": "luke",
+      "detail": "participant",
+      "initials": "LU",
+      "count": 1478,
+      "firstMessageAt": "2026-05-30T22:31:49-05:00",
+      "lastMessageAt": "2026-06-13T18:49:31-05:00",
+      "rank": 1,
+      "share": 20.6
+    },
+    {
+      "id": "me",
+      "label": "You",
+      "detail": "You",
+      "initials": "YO",
+      "count": 568,
+      "firstMessageAt": "2026-05-30T19:32:35-05:00",
+      "lastMessageAt": "2026-06-13T19:15:01-05:00",
+      "rank": 2,
+      "share": 7.9
+    },
+    {
+      "id": "9da774e53314",
+      "label": "Akul",
+      "detail": "participant",
+      "initials": "AK",
+      "count": 558,
+      "firstMessageAt": "2026-05-30T19:25:06-05:00",
+      "lastMessageAt": "2026-06-13T18:48:27-05:00",
+      "rank": 3,
+      "share": 7.8
+    },
+    {
+      "id": "5a8eabe2f61f",
+      "label": "rohan",
+      "detail": "participant",
+      "initials": "RO",
+      "count": 525,
+      "firstMessageAt": "2026-05-30T22:32:19-05:00",
+      "lastMessageAt": "2026-06-13T19:14:44-05:00",
+      "rank": 4,
+      "share": 7.3
+    },
+    {
+      "id": "927099698f13",
+      "label": "anish chandra",
+      "detail": "participant",
+      "initials": "AC",
+      "count": 519,
+      "firstMessageAt": "2026-05-30T19:25:16-05:00",
+      "lastMessageAt": "2026-06-13T18:12:29-05:00",
+      "rank": 5,
+      "share": 7.3
+    },
+    {
+      "id": "853e1fb16021",
+      "label": "Akash",
+      "detail": "participant",
+      "initials": "AK",
+      "count": 507,
+      "firstMessageAt": "2026-05-30T19:25:36-05:00",
+      "lastMessageAt": "2026-06-13T18:48:19-05:00",
+      "rank": 6,
+      "share": 7.1
+    },
+    {
+      "id": "a4f760927e68",
+      "label": "Vaibhav",
+      "detail": "participant",
+      "initials": "VA",
+      "count": 386,
+      "firstMessageAt": "2026-05-30T21:44:46-05:00",
+      "lastMessageAt": "2026-06-13T19:13:59-05:00",
+      "rank": 7,
+      "share": 5.4
+    },
+    {
+      "id": "7fe1e18b7de7",
+      "label": "Aryan Shah",
+      "detail": "participant",
+      "initials": "AS",
+      "count": 385,
+      "firstMessageAt": "2026-05-30T22:10:50-05:00",
+      "lastMessageAt": "2026-06-13T17:59:10-05:00",
+      "rank": 8,
+      "share": 5.4
+    },
+    {
+      "id": "6714d0f0bb88",
+      "label": "Soham",
+      "detail": "participant",
+      "initials": "SO",
+      "count": 353,
+      "firstMessageAt": "2026-05-30T20:23:03-05:00",
+      "lastMessageAt": "2026-06-13T15:42:42-05:00",
+      "rank": 9,
+      "share": 4.9
+    },
+    {
+      "id": "0a4d24854447",
+      "label": "anish",
+      "detail": "participant",
+      "initials": "AN",
+      "count": 349,
+      "firstMessageAt": "2026-05-30T19:34:05-05:00",
+      "lastMessageAt": "2026-06-13T18:43:07-05:00",
+      "rank": 10,
+      "share": 4.9
+    },
+    {
+      "id": "5e1974d93f6b",
+      "label": "vasu banga",
+      "detail": "participant",
+      "initials": "VB",
+      "count": 260,
+      "firstMessageAt": "2026-05-30T19:24:50-05:00",
+      "lastMessageAt": "2026-06-12T20:52:48-05:00",
+      "rank": 11,
+      "share": 3.6
+    },
+    {
+      "id": "0c7eaf83f3d7",
+      "label": "Aadit",
+      "detail": "participant",
+      "initials": "AA",
+      "count": 230,
+      "firstMessageAt": "2026-05-30T19:25:43-05:00",
+      "lastMessageAt": "2026-06-13T15:44:19-05:00",
+      "rank": 12,
+      "share": 3.2
+    },
+    {
+      "id": "3c308bc86771",
+      "label": "Wentai",
+      "detail": "participant",
+      "initials": "WE",
+      "count": 199,
+      "firstMessageAt": "2026-05-31T14:51:19-05:00",
+      "lastMessageAt": "2026-06-13T18:17:23-05:00",
+      "rank": 13,
+      "share": 2.8
+    },
+    {
+      "id": "ec676377cf59",
+      "label": "Sanjit Vijay",
+      "detail": "participant",
+      "initials": "SV",
+      "count": 187,
+      "firstMessageAt": "2026-05-30T19:29:46-05:00",
+      "lastMessageAt": "2026-06-13T18:45:14-05:00",
+      "rank": 14,
+      "share": 2.6
+    },
+    {
+      "id": "63cde7ff703c",
+      "label": "Dev Srikar Nimmala",
+      "detail": "participant",
+      "initials": "DN",
+      "count": 135,
+      "firstMessageAt": "2026-05-31T22:45:53-05:00",
+      "lastMessageAt": "2026-06-13T17:51:46-05:00",
+      "rank": 15,
+      "share": 1.9
+    },
+    {
+      "id": "1b579ece7ab1",
+      "label": "Arnav Bhaskar",
+      "detail": "participant",
+      "initials": "AB",
+      "count": 117,
+      "firstMessageAt": "2026-05-30T21:25:37-05:00",
+      "lastMessageAt": "2026-06-13T18:48:04-05:00",
+      "rank": 16,
+      "share": 1.6
+    },
+    {
+      "id": "4d2bf10786de",
+      "label": "aditya bodanapu",
+      "detail": "participant",
+      "initials": "AB",
+      "count": 74,
+      "firstMessageAt": "2026-05-30T19:33:35-05:00",
+      "lastMessageAt": "2026-06-13T12:52:07-05:00",
+      "rank": 17,
+      "share": 1.0
+    },
+    {
+      "id": "157ef0386885",
+      "label": "Bendi",
+      "detail": "participant",
+      "initials": "BE",
+      "count": 74,
+      "firstMessageAt": "2026-05-30T19:25:49-05:00",
+      "lastMessageAt": "2026-06-12T17:53:17-05:00",
+      "rank": 18,
+      "share": 1.0
+    },
+    {
+      "id": "121dc03b59e4",
+      "label": "Sunny",
+      "detail": "participant",
+      "initials": "SU",
+      "count": 62,
+      "firstMessageAt": "2026-05-30T19:34:15-05:00",
+      "lastMessageAt": "2026-06-13T18:05:54-05:00",
+      "rank": 19,
+      "share": 0.9
+    },
+    {
+      "id": "936e64a0f3bd",
+      "label": "Vishnu",
+      "detail": "participant",
+      "initials": "VI",
+      "count": 50,
+      "firstMessageAt": "2026-05-30T19:40:46-05:00",
+      "lastMessageAt": "2026-06-12T17:52:33-05:00",
+      "rank": 20,
+      "share": 0.7
+    },
+    {
+      "id": "3b9ccd282db5",
+      "label": "Jon D",
+      "detail": "participant",
+      "initials": "JD",
+      "count": 48,
+      "firstMessageAt": "2026-05-30T19:41:46-05:00",
+      "lastMessageAt": "2026-06-13T10:31:46-05:00",
+      "rank": 21,
+      "share": 0.7
+    },
+    {
+      "id": "eb8394fdd1de",
+      "label": "Krish Ven",
+      "detail": "participant",
+      "initials": "KV",
+      "count": 32,
+      "firstMessageAt": "2026-06-01T15:14:35-05:00",
+      "lastMessageAt": "2026-06-13T15:32:05-05:00",
+      "rank": 22,
+      "share": 0.4
+    },
+    {
+      "id": "4e8f400e2e57",
+      "label": "Prajwal",
+      "detail": "participant",
+      "initials": "PR",
+      "count": 31,
+      "firstMessageAt": "2026-05-31T20:21:59-05:00",
+      "lastMessageAt": "2026-06-10T22:51:14-05:00",
+      "rank": 23,
+      "share": 0.4
+    },
+    {
+      "id": "cdc21f6c9290",
+      "label": "saad",
+      "detail": "participant",
+      "initials": "SA",
+      "count": 23,
+      "firstMessageAt": "2026-06-04T20:15:34-05:00",
+      "lastMessageAt": "2026-06-12T13:51:40-05:00",
+      "rank": 24,
+      "share": 0.3
+    },
+    {
+      "id": "f4242e882687",
+      "label": "Participant 25",
+      "detail": "participant",
+      "initials": "P2",
+      "count": 8,
+      "firstMessageAt": "2026-06-06T13:49:59-05:00",
+      "lastMessageAt": "2026-06-13T16:09:15-05:00",
+      "rank": 25,
+      "share": 0.1
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-05-30",
+      "count": 206
+    },
+    {
+      "date": "2026-05-31",
+      "count": 185
+    },
+    {
+      "date": "2026-06-01",
+      "count": 634
+    },
+    {
+      "date": "2026-06-02",
+      "count": 262
+    },
+    {
+      "date": "2026-06-03",
+      "count": 362
+    },
+    {
+      "date": "2026-06-04",
+      "count": 609
+    },
+    {
+      "date": "2026-06-05",
+      "count": 990
+    },
+    {
+      "date": "2026-06-06",
+      "count": 645
+    },
+    {
+      "date": "2026-06-07",
+      "count": 93
+    },
+    {
+      "date": "2026-06-08",
+      "count": 382
+    },
+    {
+      "date": "2026-06-09",
+      "count": 570
+    },
+    {
+      "date": "2026-06-10",
+      "count": 811
+    },
+    {
+      "date": "2026-06-11",
+      "count": 563
+    },
+    {
+      "date": "2026-06-12",
+      "count": 265
+    },
+    {
+      "date": "2026-06-13",
+      "count": 581
+    }
+  ],
+  "hourly": [
+    {
+      "hour": 0,
+      "count": 382
+    },
+    {
+      "hour": 1,
+      "count": 132
+    },
+    {
+      "hour": 2,
+      "count": 128
+    },
+    {
+      "hour": 3,
+      "count": 32
+    },
+    {
+      "hour": 4,
+      "count": 7
+    },
+    {
+      "hour": 5,
+      "count": 59
+    },
+    {
+      "hour": 6,
+      "count": 4
+    },
+    {
+      "hour": 7,
+      "count": 20
+    },
+    {
+      "hour": 8,
+      "count": 35
+    },
+    {
+      "hour": 9,
+      "count": 35
+    },
+    {
+      "hour": 10,
+      "count": 97
+    },
+    {
+      "hour": 11,
+      "count": 630
+    },
+    {
+      "hour": 12,
+      "count": 366
+    },
+    {
+      "hour": 13,
+      "count": 342
+    },
+    {
+      "hour": 14,
+      "count": 766
+    },
+    {
+      "hour": 15,
+      "count": 1230
+    },
+    {
+      "hour": 16,
+      "count": 481
+    },
+    {
+      "hour": 17,
+      "count": 445
+    },
+    {
+      "hour": 18,
+      "count": 224
+    },
+    {
+      "hour": 19,
+      "count": 185
+    },
+    {
+      "hour": 20,
+      "count": 171
+    },
+    {
+      "hour": 21,
+      "count": 445
+    },
+    {
+      "hour": 22,
+      "count": 742
+    },
+    {
+      "hour": 23,
+      "count": 200
+    }
+  ]
+}

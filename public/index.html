@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>type shi message traffic</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">Messages DB / local aggregate</p>
+          <h1>type shi traffic</h1>
+        </div>
+        <div class="stamp">
+          <span>Window</span>
+          <strong id="windowLabel">Loading</strong>
+        </div>
+      </header>
+
+      <section class="metric-grid" aria-label="Summary metrics">
+        <article class="metric primary">
+          <span>Total messages</span>
+          <strong id="totalMessages">0</strong>
+        </article>
+        <article class="metric">
+          <span>People active</span>
+          <strong id="participantCount">0</strong>
+        </article>
+        <article class="metric">
+          <span>Messages / day</span>
+          <strong id="averagePerDay">0</strong>
+        </article>
+        <article class="metric">
+          <span>Top sender</span>
+          <strong id="topSender">None</strong>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <article class="panel rank-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Leaderboard</p>
+              <h2>Messages by person</h2>
+            </div>
+            <label class="filter">
+              <span>Find</span>
+              <input id="senderFilter" type="search" placeholder="Name" />
+            </label>
+          </div>
+          <div id="senderBars" class="bars" aria-live="polite"></div>
+        </article>
+
+        <aside class="side-stack">
+          <article class="panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="eyebrow">Daily pulse</p>
+                <h2>Last 14 days</h2>
+              </div>
+            </div>
+            <div id="dailyPulse" class="daily-grid"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="eyebrow">Time of day</p>
+                <h2>Hourly traffic</h2>
+              </div>
+            </div>
+            <div id="hourlyChart" class="hourly-chart"></div>
+          </article>
+
+          <article class="panel next-panel">
+            <p class="eyebrow">Next pass</p>
+            <h2>Moment detectors</h2>
+            <div class="detector-row">
+              <span>pick-me moments</span>
+              <b>needs rubric</b>
+            </div>
+            <div class="detector-row">
+              <span>phrase counts</span>
+              <b>ready</b>
+            </div>
+            <div class="detector-row">
+              <span>inside-joke velocity</span>
+              <b>ready</b>
+            </div>
+          </article>
+        </aside>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
