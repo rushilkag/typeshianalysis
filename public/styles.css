@@ -255,10 +255,14 @@ h2 {
 
 .coming-soon {
   display: inline-block;
-  margin-top: 5px;
-  color: var(--muted);
+  margin-top: 8px;
+  padding: 6px 8px;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--acid);
   font-family: Menlo, Consolas, monospace;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.02em;
   text-transform: uppercase;
