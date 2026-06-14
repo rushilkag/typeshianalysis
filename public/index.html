@@ -6,14 +6,14 @@
     <title>type shi message traffic dashboard</title>
     <meta
       name="description"
-      content="A share-safe dashboard for type shi message volume, leaderboard movement, reactions, mentions, and group-chat vibe stats."
+      content="A share-safe dashboard for type shi normalized conversation turns, leaderboard movement, reactions, mentions, and group-chat vibe stats."
     />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="type shi traffic" />
     <meta property="og:title" content="type shi message traffic" />
     <meta
       property="og:description"
-      content="A share-safe dashboard for type shi message volume, reactions, mentions, and group-chat vibe stats."
+      content="A share-safe dashboard for type shi normalized conversation turns, reactions, mentions, and group-chat vibe stats."
     />
     <meta property="og:url" content="https://typeshi-message-dashboard.vercel.app/" />
     <meta
@@ -22,12 +22,12 @@
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Dashboard preview showing type shi message traffic metrics and charts." />
+    <meta property="og:image:alt" content="Dashboard preview showing type shi normalized message traffic metrics and charts." />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="type shi message traffic" />
     <meta
       name="twitter:description"
-      content="A share-safe dashboard for type shi message volume, reactions, mentions, and group-chat vibe stats."
+      content="A share-safe dashboard for type shi normalized conversation turns, reactions, mentions, and group-chat vibe stats."
     />
     <meta
       name="twitter:image"
@@ -51,7 +51,7 @@
 
       <section class="metric-grid" aria-label="Summary metrics">
         <article class="metric primary">
-          <span>Total messages</span>
+          <span>Conversation turns</span>
           <strong id="totalMessages">0</strong>
         </article>
         <article class="metric">
@@ -59,7 +59,7 @@
           <strong id="participantCount">0</strong>
         </article>
         <article class="metric">
-          <span>Messages / day</span>
+          <span>Turns / day</span>
           <strong id="averagePerDay">0</strong>
         </article>
         <article class="metric">
@@ -93,7 +93,7 @@
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Leaderboard</p>
-              <h2>Messages by person</h2>
+              <h2>Turns by person</h2>
             </div>
             <label class="filter">
               <span>Find</span>

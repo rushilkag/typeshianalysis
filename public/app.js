@@ -50,6 +50,7 @@ function buildWindowSummary() {
   const lastOverallDay = summary.daily[summary.daily.length - 1]?.date;
   const participantById = new Map(summary.senders.map((sender) => [sender.id, sender]));
   const senderCounts = new Map();
+  const rawSenderCounts = new Map();
   const vibeBySender = new Map();
   const reactionBySender = new Map();
   const slurBySender = new Map();
@@ -58,21 +59,29 @@ function buildWindowSummary() {
   const hourlyCounts = Array.from({ length: 24 }, () => 0);
 
   let totalMessages = 0;
+  let totalTurns = 0;
   let attachmentMessages = 0;
+  let attachmentTurns = 0;
   let textLengthSum = 0;
   let textMessageCount = 0;
 
   selectedDaily.forEach((day) => {
     totalMessages += day.count || 0;
+    totalTurns += day.turnCount ?? day.count ?? 0;
     attachmentMessages += day.attachmentMessages || 0;
+    attachmentTurns += day.attachmentTurns ?? day.attachmentMessages ?? 0;
     textLengthSum += day.textLengthSum || 0;
     textMessageCount += day.textMessageCount || 0;
 
     Object.entries(day.bySender || {}).forEach(([senderId, count]) => {
+      rawSenderCounts.set(senderId, (rawSenderCounts.get(senderId) || 0) + count);
+    });
+
+    Object.entries(day.turnsBySender || day.bySender || {}).forEach(([senderId, count]) => {
       senderCounts.set(senderId, (senderCounts.get(senderId) || 0) + count);
     });
 
-    (day.byHour || []).forEach((count, hour) => {
+    (day.turnsByHour || day.byHour || []).forEach((count, hour) => {
       hourlyCounts[hour] += count || 0;
     });
 
@@ -118,7 +127,8 @@ function buildWindowSummary() {
       return {
         ...base,
         count,
-        share: totalMessages ? roundOne((count / totalMessages) * 100) : 0,
+        rawCount: rawSenderCounts.get(senderId) || count,
+        share: totalTurns ? roundOne((count / totalTurns) * 100) : 0,
       };
     })
     .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
@@ -136,13 +146,15 @@ function buildWindowSummary() {
 
   const vibeRows = Array.from(vibeBySender.entries()).map(([senderId, scores]) => ({
     ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
-    messageCount: senderCounts.get(senderId) || 0,
+    messageCount: rawSenderCounts.get(senderId) || senderCounts.get(senderId) || 0,
+    turnCount: senderCounts.get(senderId) || 0,
     scores,
   }));
 
   const reactionRows = Array.from(reactionBySender.entries()).map(([senderId, reactionCount]) => ({
     ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
-    messageCount: senderCounts.get(senderId) || 0,
+    messageCount: rawSenderCounts.get(senderId) || senderCounts.get(senderId) || 0,
+    turnCount: senderCounts.get(senderId) || 0,
     reactionCount,
   }));
 
@@ -170,9 +182,12 @@ function buildWindowSummary() {
     days,
     actualDays: selectedDaily.length,
     totalMessages,
+    totalTurns,
     participantCount: senders.length,
     attachmentMessages,
-    averagePerDay: selectedDaily.length ? roundOne(totalMessages / selectedDaily.length) : totalMessages,
+    attachmentTurns,
+    burstReductionPercent: totalMessages ? roundOne(((totalMessages - totalTurns) / totalMessages) * 100) : 0,
+    averagePerDay: selectedDaily.length ? roundOne(totalTurns / selectedDaily.length) : totalTurns,
     averageTextLength: textMessageCount ? roundOne(textLengthSum / textMessageCount) : 0,
     windowStartDate: startDate,
     windowEndDate: endDate,
@@ -194,7 +209,7 @@ function roundOne(value) {
 }
 
 function updateMetrics(windowSummary) {
-  setText("totalMessages", fmt.format(windowSummary.totalMessages));
+  setText("totalMessages", fmt.format(windowSummary.totalTurns));
   setText("participantCount", fmt.format(windowSummary.participantCount));
   setText("averagePerDay", fmt.format(windowSummary.averagePerDay));
   setText("topSender", windowSummary.senders[0]?.label || "None");
@@ -205,7 +220,10 @@ function updateMetrics(windowSummary) {
   const end = shortDate.format(dateFromKey(windowSummary.windowEndDate));
   setText("windowLabel", `${start} - ${end}`);
   setText("windowValue", pluralDays(windowSummary.days));
-  setText("dataDepth", `${fmt.format(state.summary.maxWindowDays || state.summary.days)} days loaded`);
+  setText(
+    "dataDepth",
+    `${fmt.format(state.summary.maxWindowDays || state.summary.days)} days loaded · ${state.summary.turnGapSeconds || 30}s normalization`
+  );
 }
 
 function renderWindowControls() {
@@ -249,14 +267,14 @@ function renderSenders(windowSummary) {
           <div class="rank">${sender.rank}</div>
           <div class="person">
             <strong title="${label}">${label}</strong>
-            <span>${detail} / ${sender.share}% share</span>
+            <span>${detail} / ${sender.share}% share / ${fmt.format(sender.rawCount)} bubbles</span>
           </div>
-          <div class="meter" aria-label="${label}: ${sender.count} messages">
+          <div class="meter" aria-label="${label}: ${sender.count} normalized turns">
             <div class="meter-fill" style="--w: ${width}%"></div>
           </div>
           <div class="count">
             <strong>${fmt.format(sender.count)}</strong>
-            <span>texts</span>
+            <span>turns</span>
           </div>
         </div>
       `;
@@ -275,15 +293,17 @@ function renderDaily(windowSummary) {
     root.classList.add("compact");
   }
 
-  const max = Math.max(...windowSummary.daily.map((day) => day.count), 1);
+  const max = Math.max(...windowSummary.daily.map((day) => day.turnCount ?? day.count), 1);
   root.innerHTML = windowSummary.daily
     .map((day) => {
-      const heat = Math.round((day.count / max) * 78);
+      const count = day.turnCount ?? day.count;
+      const rawCount = day.count || count;
+      const heat = Math.round((count / max) * 78);
       const label = escapeHtml(shortDate.format(dateFromKey(day.date)));
       return `
-        <div class="day-cell" style="--heat: ${heat}%" title="${label}: ${fmt.format(day.count)} messages">
+        <div class="day-cell" style="--heat: ${heat}%" title="${label}: ${fmt.format(count)} turns / ${fmt.format(rawCount)} bubbles">
           <span>${label}</span>
-          <strong>${fmt.format(day.count)}</strong>
+          <strong>${fmt.format(count)}</strong>
         </div>
       `;
     })
@@ -329,9 +349,9 @@ function topReactionWarrior(windowSummary) {
     .map((row) => ({
       label: row.label,
       count: row.reactionCount || 0,
-      denominator: row.messageCount || 0,
-      rate: percent(row.reactionCount || 0, row.messageCount || 0),
-      basis: "reactions / messages",
+      denominator: row.turnCount || row.messageCount || 0,
+      rate: percent(row.reactionCount || 0, row.turnCount || row.messageCount || 0),
+      basis: "reactions / turns",
     }))
     .filter((row) => row.denominator >= AWARD_MIN_MESSAGES)
     .sort((a, b) => b.rate - a.rate || b.count - a.count || a.label.localeCompare(b.label))[0];

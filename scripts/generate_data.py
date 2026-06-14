@@ -370,6 +370,16 @@ class MessageRow:
     is_from_me: bool
 
 
+@dataclass(frozen=True)
+class ConversationTurn:
+    sender_key: str
+    date: datetime
+    text: str
+    text_length: int
+    has_attachment: bool
+    message_count: int
+
+
 def find_matching_chats(conn: sqlite3.Connection, group_name: str) -> list[sqlite3.Row]:
     normalized = normalize_name(group_name)
     return conn.execute(
@@ -457,6 +467,66 @@ def fetch_messages(
         )
 
     return messages
+
+
+def build_conversation_turns(messages: list[MessageRow], gap_seconds: int) -> list[ConversationTurn]:
+    turns: list[ConversationTurn] = []
+    current_sender: str | None = None
+    current_date: datetime | None = None
+    current_last_date: datetime | None = None
+    current_texts: list[str] = []
+    current_text_length = 0
+    current_has_attachment = False
+    current_message_count = 0
+
+    def flush() -> None:
+        nonlocal current_sender
+        nonlocal current_date
+        nonlocal current_last_date
+        nonlocal current_texts
+        nonlocal current_text_length
+        nonlocal current_has_attachment
+        nonlocal current_message_count
+
+        if current_sender is None or current_date is None:
+            return
+
+        turns.append(
+            ConversationTurn(
+                sender_key=current_sender,
+                date=current_date,
+                text=" ".join(text for text in current_texts if text).strip(),
+                text_length=current_text_length,
+                has_attachment=current_has_attachment,
+                message_count=current_message_count,
+            )
+        )
+        current_sender = None
+        current_date = None
+        current_last_date = None
+        current_texts = []
+        current_text_length = 0
+        current_has_attachment = False
+        current_message_count = 0
+
+    for message in messages:
+        same_sender = current_sender == message.sender_key
+        gap = (message.date - current_last_date).total_seconds() if current_last_date else None
+        same_turn = same_sender and gap is not None and gap <= gap_seconds
+
+        if not same_turn:
+            flush()
+            current_sender = message.sender_key
+            current_date = message.date
+
+        current_last_date = message.date
+        current_texts.append(message.text)
+        current_text_length += message.text_length
+        current_has_attachment = current_has_attachment or message.has_attachment
+        current_message_count += 1
+
+    flush()
+    return turns
 
 
 def build_mention_aliases(senders: Iterable[dict]) -> list[tuple[str, str]]:
@@ -640,11 +710,15 @@ def sender_initials(label: str) -> str:
 def empty_day_bucket() -> dict:
     return {
         "count": 0,
+        "turnCount": 0,
         "attachmentMessages": 0,
+        "attachmentTurns": 0,
         "textLengthSum": 0,
         "textMessageCount": 0,
         "bySender": Counter(),
+        "turnsBySender": Counter(),
         "byHour": Counter(),
+        "turnsByHour": Counter(),
         "vibesBySender": defaultdict(Counter),
         "reactionBySender": Counter(),
         "mentions": Counter(),
@@ -666,6 +740,8 @@ def build_summary(
     days: int,
     default_window_days: int,
     messages: list[MessageRow],
+    turns: list[ConversationTurn],
+    turn_gap_seconds: int,
     chat_rows: Iterable[sqlite3.Row],
     reaction_messages: list[dict],
     reaction_daily_by_sender: dict[str, Counter],
@@ -677,8 +753,10 @@ def build_summary(
 ) -> dict:
     sender_profiles: dict[str, dict] = {}
     sender_totals: Counter[str] = Counter()
+    sender_turn_totals: Counter[str] = Counter()
     daily_buckets: dict[str, dict] = defaultdict(empty_day_bucket)
     attachment_count = 0
+    attachment_turn_count = 0
     text_length_sum = 0
     text_message_count = 0
 
@@ -698,15 +776,25 @@ def build_summary(
         sender_totals[message.sender_key] += 1
         sender["lastMessageAt"] = iso_local(message.date)
 
+    for turn in turns:
+        sender_turn_totals[turn.sender_key] += 1
+
     total = len(messages)
+    total_turns = len(turns)
     senders = sorted(
         sender_profiles.values(),
-        key=lambda item: (-sender_totals[item["id"]], item["label"].lower()),
+        key=lambda item: (-sender_turn_totals[item["id"]], -sender_totals[item["id"]], item["label"].lower()),
     )
     for index, sender in enumerate(senders, start=1):
         sender["totalCount"] = sender_totals[sender["id"]]
+        sender["turnCount"] = sender_turn_totals[sender["id"]]
+        sender["burstReductionPercent"] = (
+            round(((sender["totalCount"] - sender["turnCount"]) / sender["totalCount"]) * 100, 1)
+            if sender["totalCount"]
+            else 0
+        )
         sender["rank"] = index
-        sender["share"] = round((sender["totalCount"] / total) * 100, 1) if total else 0
+        sender["share"] = round((sender["turnCount"] / total_turns) * 100, 1) if total_turns else 0
         if share_safe:
             if re.fullmatch(r"\*{3}-\d{4}", sender["label"]):
                 sender["label"] = f"Participant {index}"
@@ -742,6 +830,16 @@ def build_summary(
             bucket["slurBySender"][message.sender_key][category] += count
             bucket["slurByCategory"][category] += count
 
+    for turn in turns:
+        local_dt = turn.date.astimezone()
+        day_key = local_dt.date().isoformat()
+        bucket = daily_buckets[day_key]
+        bucket["turnCount"] += 1
+        bucket["turnsBySender"][turn.sender_key] += 1
+        bucket["turnsByHour"][local_dt.hour] += 1
+        attachment_turn_count += int(turn.has_attachment)
+        bucket["attachmentTurns"] += int(turn.has_attachment)
+
     daily = []
     day_cursor = window_start.astimezone().date()
     last_day = generated_at.astimezone().date()
@@ -754,7 +852,9 @@ def build_summary(
             {
                 "date": day,
                 "count": bucket["count"],
+                "turnCount": bucket["turnCount"],
                 "attachmentMessages": bucket["attachmentMessages"],
+                "attachmentTurns": bucket["attachmentTurns"],
                 "textLengthSum": bucket["textLengthSum"],
                 "textMessageCount": bucket["textMessageCount"],
                 "bySender": {
@@ -764,7 +864,15 @@ def build_summary(
                         key=lambda item: (-item[1], item[0]),
                     )
                 },
+                "turnsBySender": {
+                    sender_id: count
+                    for sender_id, count in sorted(
+                        bucket["turnsBySender"].items(),
+                        key=lambda item: (-item[1], item[0]),
+                    )
+                },
                 "byHour": [bucket["byHour"][hour] for hour in range(24)],
+                "turnsByHour": [bucket["turnsByHour"][hour] for hour in range(24)],
                 "vibesBySender": serialize_nested_counters(bucket["vibesBySender"]),
                 "reactionBySender": dict(
                     sorted(bucket["reactionBySender"].items(), key=lambda item: (-item[1], item[0]))
@@ -791,9 +899,13 @@ def build_summary(
         "defaultWindowDays": min(default_window_days, len(daily)),
         "windowOptions": [option for option in [7, 14, 30, 90, 180, 365] if option <= len(daily)],
         "totalMessages": total,
+        "totalTurns": total_turns,
+        "turnGapSeconds": turn_gap_seconds,
+        "burstReductionPercent": round(((total - total_turns) / total) * 100, 1) if total else 0,
         "participantCount": len(senders),
         "attachmentMessages": attachment_count,
-        "averagePerDay": round(total / len(daily), 1) if daily else total,
+        "attachmentTurns": attachment_turn_count,
+        "averagePerDay": round(total_turns / len(daily), 1) if daily else total_turns,
         "averageTextLength": avg_text_length,
         "matchedChats": []
         if share_safe
@@ -810,7 +922,7 @@ def build_summary(
         "daily": daily,
         "reactionMessages": reaction_messages,
         "analysis": {
-            "method": "deterministic lexicon and name matching; awards use signal-message percentage per sender",
+            "method": "30-second same-sender conversation-turn normalization; deterministic lexicon and name matching; awards use signal-message percentage per sender",
             "previewsPublished": any("preview" in item for item in reaction_messages),
             "slurLexiconConfigured": slur_lexicon_configured,
             "slurCategories": sorted(slur_lexicon),
@@ -869,6 +981,12 @@ def parse_args() -> argparse.Namespace:
         default=500,
         help="Maximum reacted-message summaries to write to JSON.",
     )
+    parser.add_argument(
+        "--turn-gap-seconds",
+        type=int,
+        default=30,
+        help="Collapse consecutive same-sender messages within this many seconds into one conversation turn.",
+    )
     return parser.parse_args()
 
 
@@ -880,6 +998,8 @@ def main() -> None:
         raise SystemExit("--default-window-days must be at least 1.")
     if args.reaction_limit < 1:
         raise SystemExit("--reaction-limit must be at least 1.")
+    if args.turn_gap_seconds < 0:
+        raise SystemExit("--turn-gap-seconds must be zero or greater.")
 
     generated_at = datetime.now().astimezone()
     start_date = generated_at.date() - timedelta(days=args.days - 1)
@@ -907,11 +1027,14 @@ def main() -> None:
     finally:
         conn.close()
 
+    turns = build_conversation_turns(messages, args.turn_gap_seconds)
     summary = build_summary(
         args.group,
         args.days,
         args.default_window_days,
         messages,
+        turns,
+        args.turn_gap_seconds,
         chat_rows,
         reaction_messages,
         reaction_daily_by_sender,
@@ -926,7 +1049,8 @@ def main() -> None:
 
     print(f"Wrote {args.output}")
     print(
-        f"Matched {len(chat_rows)} chat rows and {summary['totalMessages']} messages "
+        f"Matched {len(chat_rows)} chat rows, {summary['totalMessages']} message bubbles, "
+        f"and {summary['totalTurns']} normalized turns "
         f"across the last {summary['days']} calendar days."
     )
 
