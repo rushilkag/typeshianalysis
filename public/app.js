@@ -1,6 +1,7 @@
 const state = {
   summary: null,
   filter: "",
+  windowDays: 14,
 };
 
 const fmt = new Intl.NumberFormat();
@@ -12,6 +13,10 @@ function $(id) {
 
 function parseDate(value) {
   return new Date(value);
+}
+
+function dateFromKey(dateKey) {
+  return parseDate(`${dateKey}T12:00:00`);
 }
 
 function setText(id, value) {
@@ -28,24 +33,121 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function updateMetrics(summary) {
-  setText("totalMessages", fmt.format(summary.totalMessages));
-  setText("participantCount", fmt.format(summary.participantCount));
-  setText("averagePerDay", fmt.format(summary.averagePerDay));
-  setText("topSender", summary.senders[0]?.label || "None");
-
-  const start = shortDate.format(parseDate(summary.windowStart));
-  const end = shortDate.format(parseDate(summary.windowEnd));
-  setText("windowLabel", `${start} - ${end}`);
+function pluralDays(days) {
+  return `${fmt.format(days)} day${days === 1 ? "" : "s"}`;
 }
 
-function renderSenders() {
-  const root = $("senderBars");
+function clampWindowDays(value) {
+  const max = state.summary?.maxWindowDays || state.summary?.daily?.length || 365;
+  return Math.min(Math.max(Number(value) || 1, 1), max);
+}
+
+function buildWindowSummary() {
   const summary = state.summary;
-  if (!root || !summary) return;
+  const days = clampWindowDays(state.windowDays);
+  const selectedDaily = summary.daily.slice(-days);
+  const lastOverallDay = summary.daily[summary.daily.length - 1]?.date;
+  const participantById = new Map(summary.senders.map((sender) => [sender.id, sender]));
+  const senderCounts = new Map();
+  const hourlyCounts = Array.from({ length: 24 }, () => 0);
+
+  let totalMessages = 0;
+  let attachmentMessages = 0;
+  let textLengthSum = 0;
+  let textMessageCount = 0;
+
+  selectedDaily.forEach((day) => {
+    totalMessages += day.count || 0;
+    attachmentMessages += day.attachmentMessages || 0;
+    textLengthSum += day.textLengthSum || 0;
+    textMessageCount += day.textMessageCount || 0;
+
+    Object.entries(day.bySender || {}).forEach(([senderId, count]) => {
+      senderCounts.set(senderId, (senderCounts.get(senderId) || 0) + count);
+    });
+
+    (day.byHour || []).forEach((count, hour) => {
+      hourlyCounts[hour] += count || 0;
+    });
+  });
+
+  const senders = Array.from(senderCounts.entries())
+    .map(([senderId, count]) => {
+      const base = participantById.get(senderId) || {
+        id: senderId,
+        label: "Participant",
+        detail: "participant",
+        initials: "PA",
+      };
+
+      return {
+        ...base,
+        count,
+        share: totalMessages ? roundOne((count / totalMessages) * 100) : 0,
+      };
+    })
+    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+
+  senders.forEach((sender, index) => {
+    sender.rank = index + 1;
+  });
+
+  return {
+    days,
+    actualDays: selectedDaily.length,
+    totalMessages,
+    participantCount: senders.length,
+    attachmentMessages,
+    averagePerDay: selectedDaily.length ? roundOne(totalMessages / selectedDaily.length) : totalMessages,
+    averageTextLength: textMessageCount ? roundOne(textLengthSum / textMessageCount) : 0,
+    windowStartDate: selectedDaily[0]?.date || summary.daily[0]?.date,
+    windowEndDate: selectedDaily[selectedDaily.length - 1]?.date || lastOverallDay,
+    senders,
+    daily: selectedDaily,
+    hourly: hourlyCounts.map((count, hour) => ({ hour, count })),
+  };
+}
+
+function roundOne(value) {
+  return Math.round(value * 10) / 10;
+}
+
+function updateMetrics(windowSummary) {
+  setText("totalMessages", fmt.format(windowSummary.totalMessages));
+  setText("participantCount", fmt.format(windowSummary.participantCount));
+  setText("averagePerDay", fmt.format(windowSummary.averagePerDay));
+  setText("topSender", windowSummary.senders[0]?.label || "None");
+  setText("windowTitle", `Last ${pluralDays(windowSummary.days)}`);
+  setText("dailyTitle", `Last ${pluralDays(windowSummary.days)}`);
+
+  const start = shortDate.format(dateFromKey(windowSummary.windowStartDate));
+  const end = shortDate.format(dateFromKey(windowSummary.windowEndDate));
+  setText("windowLabel", `${start} - ${end}`);
+  setText("windowValue", pluralDays(windowSummary.days));
+  setText("dataDepth", `${fmt.format(state.summary.maxWindowDays || state.summary.days)} days loaded`);
+}
+
+function renderWindowControls() {
+  const max = state.summary.maxWindowDays || state.summary.daily.length;
+  const slider = $("windowSlider");
+  if (slider) {
+    slider.max = String(max);
+    slider.value = String(state.windowDays);
+  }
+
+  document.querySelectorAll("[data-window-days]").forEach((button) => {
+    const days = Number(button.dataset.windowDays);
+    button.hidden = days > max;
+    button.classList.toggle("active", days === state.windowDays);
+  });
+}
+
+function renderSenders(windowSummary) {
+  const root = $("senderBars");
+  if (!root) return;
 
   const query = state.filter.trim().toLowerCase();
-  const filtered = summary.senders.filter((sender) => {
+  const filtered = windowSummary.senders.filter((sender) => {
     const haystack = `${sender.label} ${sender.detail}`.toLowerCase();
     return haystack.includes(query);
   });
@@ -55,7 +157,7 @@ function renderSenders() {
     return;
   }
 
-  const max = Math.max(...summary.senders.map((sender) => sender.count), 1);
+  const max = Math.max(...windowSummary.senders.map((sender) => sender.count), 1);
   root.innerHTML = filtered
     .map((sender) => {
       const width = Math.max((sender.count / max) * 100, 2).toFixed(2);
@@ -81,17 +183,25 @@ function renderSenders() {
     .join("");
 }
 
-function renderDaily(summary) {
+function renderDaily(windowSummary) {
   const root = $("dailyPulse");
   if (!root) return;
 
-  const max = Math.max(...summary.daily.map((day) => day.count), 1);
-  root.innerHTML = summary.daily
+  root.className = "daily-grid";
+  if (windowSummary.daily.length > 180) {
+    root.classList.add("mini");
+  } else if (windowSummary.daily.length > 45) {
+    root.classList.add("compact");
+  }
+
+  const max = Math.max(...windowSummary.daily.map((day) => day.count), 1);
+  root.innerHTML = windowSummary.daily
     .map((day) => {
       const heat = Math.round((day.count / max) * 78);
+      const label = escapeHtml(shortDate.format(dateFromKey(day.date)));
       return `
-        <div class="day-cell" style="--heat: ${heat}%">
-          <span>${shortDate.format(parseDate(`${day.date}T12:00:00`))}</span>
+        <div class="day-cell" style="--heat: ${heat}%" title="${label}: ${fmt.format(day.count)} messages">
+          <span>${label}</span>
           <strong>${fmt.format(day.count)}</strong>
         </div>
       `;
@@ -99,18 +209,27 @@ function renderDaily(summary) {
     .join("");
 }
 
-function renderHourly(summary) {
+function renderHourly(windowSummary) {
   const root = $("hourlyChart");
   if (!root) return;
 
-  const max = Math.max(...summary.hourly.map((hour) => hour.count), 1);
-  root.innerHTML = summary.hourly
+  const max = Math.max(...windowSummary.hourly.map((hour) => hour.count), 1);
+  root.innerHTML = windowSummary.hourly
     .map((hour) => {
       const height = Math.max((hour.count / max) * 128, 8).toFixed(1);
       const label = hour.hour % 6 === 0 ? String(hour.hour).padStart(2, "0") : "";
-      return `<div class="hour-bar" style="--h: ${height}px" data-hour="${label}" title="${hour.hour}:00 - ${hour.count} messages"></div>`;
+      return `<div class="hour-bar" style="--h: ${height}px" data-hour="${label}" title="${hour.hour}:00 - ${fmt.format(hour.count)} messages"></div>`;
     })
     .join("");
+}
+
+function render() {
+  const windowSummary = buildWindowSummary();
+  renderWindowControls();
+  updateMetrics(windowSummary);
+  renderSenders(windowSummary);
+  renderDaily(windowSummary);
+  renderHourly(windowSummary);
 }
 
 async function loadSummary() {
@@ -125,21 +244,31 @@ async function init() {
   try {
     const summary = await loadSummary();
     state.summary = summary;
-    updateMetrics(summary);
-    renderSenders();
-    renderDaily(summary);
-    renderHourly(summary);
+    state.windowDays = clampWindowDays(summary.defaultWindowDays || 14);
+    render();
   } catch (error) {
     const root = $("senderBars");
     if (root) {
-      root.innerHTML = `<div class="empty">Run <code>python3 scripts/generate_data.py</code> to create dashboard data.</div>`;
+      root.innerHTML = `<div class="empty">Run <code>npm run generate</code> to create dashboard data.</div>`;
     }
     console.error(error);
   }
 
   $("senderFilter")?.addEventListener("input", (event) => {
     state.filter = event.target.value;
-    renderSenders();
+    render();
+  });
+
+  $("windowSlider")?.addEventListener("input", (event) => {
+    state.windowDays = clampWindowDays(event.target.value);
+    render();
+  });
+
+  document.querySelectorAll("[data-window-days]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.windowDays = clampWindowDays(button.dataset.windowDays);
+      render();
+    });
   });
 }
 

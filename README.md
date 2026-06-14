@@ -5,20 +5,21 @@ Local dashboard for aggregate Messages stats. The generator reads your macOS Mes
 ## Refresh data
 
 ```bash
-python3 scripts/generate_data.py --share-safe
+python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe
 ```
 
 Defaults:
 
 - group: `type shi`
-- window: trailing 14 days
+- data range: trailing 365 calendar days
+- default dashboard window: trailing 14 days
 - output: `public/data/summary.json`
 - hosted data: share-safe mode removes phone-tail details and chat row metadata
 
 Use a different group or window:
 
 ```bash
-python3 scripts/generate_data.py --group "type shi" --days 30 --share-safe
+python3 scripts/generate_data.py --group "type shi" --days 365 --default-window-days 30 --share-safe
 ```
 
 ## Run the site

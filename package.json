@@ -4,6 +4,6 @@
   "private": false,
   "scripts": {
     "dev": "python3 -m http.server 4173 --directory public",
-    "generate": "python3 scripts/generate_data.py --share-safe"
+    "generate": "python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe"
   }
 }

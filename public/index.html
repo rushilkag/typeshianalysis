@@ -38,6 +38,26 @@
         </article>
       </section>
 
+      <section class="control-strip" aria-label="Time window controls">
+        <div>
+          <p class="eyebrow">Window control</p>
+          <h2 id="windowTitle">Last 14 days</h2>
+          <span id="dataDepth" class="data-depth">365 days loaded</span>
+        </div>
+        <div class="window-actions" role="group" aria-label="Preset windows">
+          <button type="button" class="window-button" data-window-days="7">7d</button>
+          <button type="button" class="window-button" data-window-days="14">14d</button>
+          <button type="button" class="window-button" data-window-days="30">30d</button>
+          <button type="button" class="window-button" data-window-days="90">90d</button>
+          <button type="button" class="window-button" data-window-days="180">180d</button>
+          <button type="button" class="window-button" data-window-days="365">1y</button>
+        </div>
+        <label class="range-control">
+          <span id="windowValue">14 days</span>
+          <input id="windowSlider" type="range" min="1" max="365" value="14" />
+        </label>
+      </section>
+
       <section class="workspace">
         <article class="panel rank-panel">
           <div class="panel-heading">
@@ -58,7 +78,7 @@
             <div class="panel-heading compact">
               <div>
                 <p class="eyebrow">Daily pulse</p>
-                <h2>Last 14 days</h2>
+                <h2 id="dailyTitle">Last 14 days</h2>
               </div>
             </div>
             <div id="dailyPulse" class="daily-grid"></div>

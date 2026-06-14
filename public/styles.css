@@ -31,6 +31,10 @@ input {
   font: inherit;
 }
 
+button {
+  cursor: pointer;
+}
+
 .dashboard {
   width: min(1420px, calc(100% - 32px));
   margin: 0 auto;
@@ -140,6 +144,73 @@ h2 {
 
 .metric:not(.primary) strong {
   color: var(--ink);
+}
+
+.control-strip {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto minmax(230px, 340px);
+  gap: 16px;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 16px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: rgba(216, 255, 55, 0.52);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.data-depth {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.window-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+}
+
+.window-button {
+  min-width: 48px;
+  min-height: 40px;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.74);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.window-button:hover,
+.window-button.active {
+  color: white;
+  background: var(--ink);
+}
+
+.range-control {
+  display: grid;
+  gap: 9px;
+}
+
+.range-control span {
+  color: var(--ink);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 12px;
+  font-weight: 900;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.range-control input {
+  width: 100%;
+  accent-color: var(--ink);
 }
 
 .workspace {
@@ -323,6 +394,41 @@ h2 {
   line-height: 0.9;
 }
 
+.daily-grid.compact {
+  grid-template-columns: repeat(13, 1fr);
+  gap: 4px;
+}
+
+.daily-grid.compact .day-cell {
+  min-height: 32px;
+  padding: 4px;
+}
+
+.daily-grid.compact .day-cell span {
+  display: none;
+}
+
+.daily-grid.compact .day-cell strong {
+  margin-top: 3px;
+  font-size: 19px;
+}
+
+.daily-grid.mini {
+  grid-template-columns: repeat(26, 1fr);
+  gap: 3px;
+}
+
+.daily-grid.mini .day-cell {
+  min-height: 12px;
+  padding: 0;
+  border-radius: 3px;
+}
+
+.daily-grid.mini .day-cell span,
+.daily-grid.mini .day-cell strong {
+  display: none;
+}
+
 .hourly-chart {
   display: grid;
   grid-template-columns: repeat(24, minmax(4px, 1fr));
@@ -394,6 +500,7 @@ h2 {
   }
 
   .metric-grid,
+  .control-strip,
   .workspace {
     grid-template-columns: 1fr;
   }
@@ -429,5 +536,13 @@ h2 {
 
   .daily-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .daily-grid.compact {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .daily-grid.mini {
+    grid-template-columns: repeat(14, 1fr);
   }
 }

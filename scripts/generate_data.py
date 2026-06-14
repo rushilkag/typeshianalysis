@@ -15,7 +15,7 @@ import re
 import sqlite3
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Iterable
 
@@ -246,7 +246,7 @@ def fetch_messages(
         handle = row["handle"]
 
         if is_from_me:
-            sender_label = "You"
+            sender_label = "Rushil"
             sender_detail = "This Mac"
             sender_key = "me"
         else:
@@ -274,8 +274,8 @@ def iso_local(value: datetime) -> str:
 
 
 def sender_initials(label: str) -> str:
-    if label == "You":
-        return "YO"
+    if label == "Rushil":
+        return "RU"
 
     words = re.findall(r"[A-Za-z0-9]+", label)
     if not words:
@@ -288,28 +288,45 @@ def sender_initials(label: str) -> str:
 def build_summary(
     group_name: str,
     days: int,
+    default_window_days: int,
     messages: list[MessageRow],
     chat_rows: Iterable[sqlite3.Row],
     generated_at: datetime,
     window_start: datetime,
     share_safe: bool,
 ) -> dict:
-    sender_counts: dict[str, dict] = {}
-    daily_counts: Counter[str] = Counter()
-    hourly_counts: Counter[int] = Counter()
+    sender_profiles: dict[str, dict] = {}
+    sender_totals: Counter[str] = Counter()
+    daily_buckets: dict[str, dict] = defaultdict(
+        lambda: {
+            "count": 0,
+            "attachmentMessages": 0,
+            "textLengthSum": 0,
+            "textMessageCount": 0,
+            "bySender": Counter(),
+            "byHour": Counter(),
+        }
+    )
     attachment_count = 0
-    text_lengths: list[int] = []
+    text_length_sum = 0
+    text_message_count = 0
 
     for message in messages:
         local_dt = message.date.astimezone()
         day_key = local_dt.date().isoformat()
-        daily_counts[day_key] += 1
-        hourly_counts[local_dt.hour] += 1
+        bucket = daily_buckets[day_key]
+        bucket["count"] += 1
+        bucket["bySender"][message.sender_key] += 1
+        bucket["byHour"][local_dt.hour] += 1
         attachment_count += int(message.has_attachment)
+        bucket["attachmentMessages"] += int(message.has_attachment)
         if message.text_length:
-            text_lengths.append(message.text_length)
+            text_length_sum += message.text_length
+            text_message_count += 1
+            bucket["textLengthSum"] += message.text_length
+            bucket["textMessageCount"] += 1
 
-        sender = sender_counts.setdefault(
+        sender = sender_profiles.setdefault(
             message.sender_key,
             {
                 "id": message.sender_key,
@@ -321,41 +338,64 @@ def build_summary(
                 "lastMessageAt": iso_local(message.date),
             },
         )
-        sender["count"] += 1
+        sender_totals[message.sender_key] += 1
         sender["lastMessageAt"] = iso_local(message.date)
 
     total = len(messages)
-    senders = sorted(sender_counts.values(), key=lambda item: (-item["count"], item["label"].lower()))
+    senders = sorted(
+        sender_profiles.values(),
+        key=lambda item: (-sender_totals[item["id"]], item["label"].lower()),
+    )
     for index, sender in enumerate(senders, start=1):
+        sender["totalCount"] = sender_totals[sender["id"]]
         sender["rank"] = index
-        sender["share"] = round((sender["count"] / total) * 100, 1) if total else 0
+        sender["share"] = round((sender["totalCount"] / total) * 100, 1) if total else 0
         if share_safe:
             if re.fullmatch(r"\*{3}-\d{4}", sender["label"]):
                 sender["label"] = f"Participant {index}"
                 sender["initials"] = sender_initials(sender["label"])
-            sender["detail"] = "You" if sender["id"] == "me" else "participant"
+            sender["detail"] = "Rushil" if sender["id"] == "me" else "participant"
 
     daily = []
     day_cursor = window_start.astimezone().date()
     last_day = generated_at.astimezone().date()
     while day_cursor <= last_day:
         day = day_cursor.isoformat()
-        daily.append({"date": day, "count": daily_counts[day]})
+        bucket = daily_buckets[day]
+        daily.append(
+            {
+                "date": day,
+                "count": bucket["count"],
+                "attachmentMessages": bucket["attachmentMessages"],
+                "textLengthSum": bucket["textLengthSum"],
+                "textMessageCount": bucket["textMessageCount"],
+                "bySender": {
+                    sender_id: count
+                    for sender_id, count in sorted(
+                        bucket["bySender"].items(),
+                        key=lambda item: (-item[1], item[0]),
+                    )
+                },
+                "byHour": [bucket["byHour"][hour] for hour in range(24)],
+            }
+        )
         day_cursor += timedelta(days=1)
 
-    hourly = [{"hour": hour, "count": hourly_counts[hour]} for hour in range(24)]
-    avg_text_length = round(sum(text_lengths) / len(text_lengths), 1) if text_lengths else 0
+    avg_text_length = round(text_length_sum / text_message_count, 1) if text_message_count else 0
 
     return {
         "groupName": group_name,
         "generatedAt": iso_local(generated_at),
         "windowStart": iso_local(window_start),
         "windowEnd": iso_local(generated_at),
-        "days": days,
+        "days": len(daily),
+        "maxWindowDays": len(daily),
+        "defaultWindowDays": min(default_window_days, len(daily)),
+        "windowOptions": [option for option in [7, 14, 30, 90, 180, 365] if option <= len(daily)],
         "totalMessages": total,
         "participantCount": len(senders),
         "attachmentMessages": attachment_count,
-        "averagePerDay": round(total / days, 1) if days else total,
+        "averagePerDay": round(total / len(daily), 1) if daily else total,
         "averageTextLength": avg_text_length,
         "matchedChats": []
         if share_safe
@@ -370,14 +410,19 @@ def build_summary(
         ],
         "senders": senders,
         "daily": daily,
-        "hourly": hourly,
     }
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate aggregate data for the type shi message dashboard.")
     parser.add_argument("--group", default="type shi", help="Messages group display name to analyze.")
-    parser.add_argument("--days", type=int, default=14, help="Number of trailing days to include.")
+    parser.add_argument("--days", type=int, default=365, help="Number of trailing calendar days to include.")
+    parser.add_argument(
+        "--default-window-days",
+        type=int,
+        default=14,
+        help="Initial dashboard window within the generated range.",
+    )
     parser.add_argument(
         "--messages-db",
         type=Path,
@@ -406,8 +451,14 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    if args.days < 1:
+        raise SystemExit("--days must be at least 1.")
+    if args.default_window_days < 1:
+        raise SystemExit("--default-window-days must be at least 1.")
+
     generated_at = datetime.now().astimezone()
-    window_start = generated_at - timedelta(days=args.days)
+    start_date = generated_at.date() - timedelta(days=args.days - 1)
+    window_start = datetime.combine(start_date, time.min).astimezone()
     cutoff_ns = apple_ns_from_datetime(window_start)
 
     contacts = load_contacts(args.address_book_dir)
@@ -424,6 +475,7 @@ def main() -> None:
     summary = build_summary(
         args.group,
         args.days,
+        args.default_window_days,
         messages,
         chat_rows,
         generated_at,
@@ -434,7 +486,10 @@ def main() -> None:
     args.output.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
 
     print(f"Wrote {args.output}")
-    print(f"Matched {len(chat_rows)} chat rows and {summary['totalMessages']} messages in the last {args.days} days.")
+    print(
+        f"Matched {len(chat_rows)} chat rows and {summary['totalMessages']} messages "
+        f"across the last {summary['days']} calendar days."
+    )
 
 
 if __name__ == "__main__":
