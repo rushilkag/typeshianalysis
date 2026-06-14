@@ -1,8 +1,8 @@
 {
   "groupName": "type shi",
-  "generatedAt": "2026-06-14T18:43:45-05:00",
+  "generatedAt": "2026-06-14T18:53:22-05:00",
   "windowStart": "2025-06-15T00:00:00-05:00",
-  "windowEnd": "2026-06-14T18:43:45-05:00",
+  "windowEnd": "2026-06-14T18:53:22-05:00",
   "days": 365,
   "maxWindowDays": 365,
   "defaultWindowDays": 14,
@@ -14,13 +14,13 @@
     180,
     365
   ],
-  "totalMessages": 23957,
-  "totalTurns": 18512,
+  "totalMessages": 23962,
+  "totalTurns": 18517,
   "turnGapSeconds": 30,
   "burstReductionPercent": 22.7,
   "participantCount": 29,
-  "attachmentMessages": 2635,
-  "attachmentTurns": 2530,
+  "attachmentMessages": 2637,
+  "attachmentTurns": 2532,
   "averagePerDay": 50.7,
   "averageTextLength": 25.6,
   "matchedChats": [],
@@ -102,9 +102,9 @@
       "initials": "RO",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:30-05:00",
-      "lastMessageAt": "2026-06-14T17:19:08-05:00",
-      "totalCount": 1557,
-      "turnCount": 1262,
+      "lastMessageAt": "2026-06-14T18:50:33-05:00",
+      "totalCount": 1559,
+      "turnCount": 1264,
       "burstReductionPercent": 18.9,
       "rank": 6,
       "share": 6.8
@@ -158,9 +158,9 @@
       "initials": "VA",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:24-05:00",
-      "lastMessageAt": "2026-06-14T17:21:03-05:00",
-      "totalCount": 1069,
-      "turnCount": 873,
+      "lastMessageAt": "2026-06-14T18:51:01-05:00",
+      "totalCount": 1071,
+      "turnCount": 875,
       "burstReductionPercent": 18.3,
       "rank": 10,
       "share": 4.7
@@ -172,9 +172,9 @@
       "initials": "SO",
       "count": 0,
       "firstMessageAt": "2025-08-27T18:14:52-05:00",
-      "lastMessageAt": "2026-06-14T18:30:11-05:00",
-      "totalCount": 1044,
-      "turnCount": 866,
+      "lastMessageAt": "2026-06-14T18:45:27-05:00",
+      "totalCount": 1045,
+      "turnCount": 867,
       "burstReductionPercent": 17.0,
       "rank": 11,
       "share": 4.7
@@ -497,6 +497,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -565,6 +566,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -633,6 +635,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -701,6 +704,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -769,6 +773,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -837,6 +842,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -905,6 +911,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -973,6 +980,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1041,6 +1049,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1109,6 +1118,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1177,6 +1187,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1245,6 +1256,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1313,6 +1325,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1381,6 +1394,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1449,6 +1463,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1517,6 +1532,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1585,6 +1601,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1653,6 +1670,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1721,6 +1739,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1789,6 +1808,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1857,6 +1877,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1925,6 +1946,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -1993,6 +2015,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2061,6 +2084,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2129,6 +2153,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2197,6 +2222,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2265,6 +2291,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2333,6 +2360,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2401,6 +2429,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2469,6 +2498,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2537,6 +2567,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2605,6 +2636,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2673,6 +2705,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2741,6 +2774,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2809,6 +2843,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2877,6 +2912,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -2945,6 +2981,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3013,6 +3050,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3081,6 +3119,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3149,6 +3188,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3217,6 +3257,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3285,6 +3326,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3353,6 +3395,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3421,6 +3464,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3489,6 +3533,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3557,6 +3602,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3625,6 +3671,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3693,6 +3740,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3761,6 +3809,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3829,6 +3878,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3897,6 +3947,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -3965,6 +4016,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4033,6 +4085,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4101,6 +4154,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4169,6 +4223,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4237,6 +4292,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4305,6 +4361,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4373,6 +4430,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4441,6 +4499,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4509,6 +4568,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4577,6 +4637,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4645,6 +4706,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4713,6 +4775,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4781,6 +4844,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4849,6 +4913,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4917,6 +4982,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -4985,6 +5051,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -5053,6 +5120,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -5121,6 +5189,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -5189,6 +5258,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -5257,6 +5327,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -5325,6 +5396,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -5393,6 +5465,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -5504,6 +5577,15 @@
         "p_kephgajchogi": 1,
         "p_olidjepnnbno": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 6,
+        "p_fobjhenjdpgl": 5,
+        "p_kephgajchogi": 3,
+        "p_dljmmncicnlf": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_hpobobilhnoh": 1,
+        "p_pigpbogjgabl": 1
       },
       "mentions": [
         {
@@ -5665,6 +5747,17 @@
         "p_ghbenapallii": 1,
         "p_hpobobilhnoh": 1,
         "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 6,
+        "p_bfhopadigiif": 2,
+        "p_hpobobilhnoh": 2,
+        "p_jchajjgjipbd": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_ifdobplbgacb": 1,
+        "p_jnkhheofddbe": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -5838,6 +5931,17 @@
         "p_bfhopadigiif": 1,
         "p_ghbenapallii": 1
       },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 10,
+        "p_jnkhheofddbe": 6,
+        "p_fkioklocpgbp": 4,
+        "p_kephgajchogi": 4,
+        "p_fobjhenjdpgl": 3,
+        "p_bcbnmadlfjoe": 2,
+        "p_nfihmngofcke": 2,
+        "me": 1,
+        "p_pigpbogjgabl": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -5968,6 +6072,10 @@
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -6068,6 +6176,14 @@
         "p_olidjepnnbno": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 8,
+        "p_bcbnmadlfjoe": 2,
+        "p_hkfgpjfalkgj": 2,
+        "p_dmdailmighhb": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -6144,6 +6260,7 @@
       "reactionBySender": {
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -6251,6 +6368,10 @@
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 6,
+        "p_jnkhheofddbe": 4
       },
       "mentions": [
         {
@@ -6446,6 +6567,22 @@
         "p_pigpbogjgabl": 2,
         "p_bfhopadigiif": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 20,
+        "p_jchajjgjipbd": 10,
+        "p_blfhjomohklb": 8,
+        "p_fkioklocpgbp": 8,
+        "p_ifdobplbgacb": 5,
+        "p_bfhopadigiif": 3,
+        "p_jnkhheofddbe": 3,
+        "p_kephgajchogi": 3,
+        "p_nfihmngofcke": 3,
+        "me": 2,
+        "p_ghbenapallii": 2,
+        "p_akenceifeeeh": 1,
+        "p_gdmnohpphadm": 1,
+        "p_jdgogekapdln": 1
       },
       "mentions": [
         {
@@ -6776,6 +6913,16 @@
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 6,
+        "p_fkioklocpgbp": 6,
+        "p_amhokpidpdnh": 2,
+        "p_jnkhheofddbe": 2,
+        "p_ifdobplbgacb": 1,
+        "p_kephgajchogi": 1,
+        "p_nfihmngofcke": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -7009,6 +7156,13 @@
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 6,
+        "me": 2,
+        "p_fkioklocpgbp": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_blfhjomohklb",
@@ -7162,6 +7316,14 @@
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1,
         "p_pigpbogjgabl": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 13,
+        "p_blfhjomohklb": 2,
+        "p_hpobobilhnoh": 2,
+        "p_akenceifeeeh": 1,
+        "p_bfhopadigiif": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -7350,6 +7512,11 @@
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 8,
+        "p_jchajjgjipbd": 3,
+        "p_hpobobilhnoh": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -7452,6 +7619,11 @@
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1,
         "p_pigpbogjgabl": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 9,
+        "p_jdgogekapdln": 4,
+        "p_eoipeaaocofh": 2
       },
       "mentions": [
         {
@@ -7565,6 +7737,13 @@
         "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_amhokpidpdnh": 8,
+        "p_hkfgpjfalkgj": 3,
+        "p_olidjepnnbno": 3,
+        "me": 1,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [
         {
@@ -7708,6 +7887,16 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 7,
+        "p_fobjhenjdpgl": 5,
+        "p_kephgajchogi": 4,
+        "p_dmdailmighhb": 3,
+        "me": 2,
+        "p_akenceifeeeh": 2,
+        "p_nfihmngofcke": 2,
+        "p_bcbnmadlfjoe": 1
+      },
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
@@ -7813,6 +8002,9 @@
       },
       "reactionBySender": {
         "me": 1,
+        "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
         "p_omghgdhhmpfj": 1
       },
       "mentions": [
@@ -7949,6 +8141,12 @@
         "p_omghgdhhmpfj": 1,
         "p_pigpbogjgabl": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 11,
+        "p_ifdobplbgacb": 7,
+        "p_nfihmngofcke": 4,
+        "p_fkioklocpgbp": 3
+      },
       "mentions": [
         {
           "from": "p_blfhjomohklb",
@@ -8060,6 +8258,7 @@
         "p_blfhjomohklb": 1,
         "p_jchajjgjipbd": 1
       },
+      "reactionByAuthor": {},
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -8144,6 +8343,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -8260,6 +8460,11 @@
         "p_jnkhheofddbe": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 7,
+        "p_amhokpidpdnh": 2,
+        "p_jchajjgjipbd": 2
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -8361,6 +8566,9 @@
       "vibesBySender": {},
       "reactionBySender": {
         "p_bcbnmadlfjoe": 1
+      },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -8483,6 +8691,14 @@
         "p_hpobobilhnoh": 1,
         "p_jnkhheofddbe": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 6,
+        "p_ifdobplbgacb": 2,
+        "p_akenceifeeeh": 1,
+        "p_dmdailmighhb": 1,
+        "p_ghbenapallii": 1,
+        "p_kephgajchogi": 1
       },
       "mentions": [
         {
@@ -8609,6 +8825,14 @@
         "p_gdmnohpphadm": 1,
         "p_jchajjgjipbd": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 2,
+        "p_blfhjomohklb": 1,
+        "p_fkioklocpgbp": 1,
+        "p_ifdobplbgacb": 1,
+        "p_jchajjgjipbd": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_bfhopadigiif",
@@ -8710,6 +8934,10 @@
         "p_fobjhenjdpgl": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -8795,6 +9023,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -8863,6 +9092,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -8980,6 +9210,16 @@
         "me": 1,
         "p_fkioklocpgbp": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 3,
+        "p_jchajjgjipbd": 3,
+        "p_fkioklocpgbp": 2,
+        "me": 1,
+        "p_akenceifeeeh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_dmdailmighhb": 1,
+        "p_eoipeaaocofh": 1
       },
       "mentions": [
         {
@@ -9114,6 +9354,9 @@
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 10
       },
       "mentions": [
         {
@@ -9260,6 +9503,14 @@
         "p_jdgogekapdln": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_kephgajchogi": 9,
+        "p_dmdailmighhb": 5,
+        "p_fkioklocpgbp": 2,
+        "p_ifdobplbgacb": 2,
+        "p_ghbenapallii": 1,
+        "p_hkfgpjfalkgj": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -9392,6 +9643,11 @@
         "p_hkfgpjfalkgj": 1,
         "p_jchajjgjipbd": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 8,
+        "p_jchajjgjipbd": 2,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -9513,6 +9769,10 @@
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 7,
+        "me": 2
       },
       "mentions": [
         {
@@ -9655,6 +9915,19 @@
         "p_gdmnohpphadm": 1,
         "p_ghbenapallii": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_dljmmncicnlf": 20,
+        "p_akenceifeeeh": 8,
+        "p_hpobobilhnoh": 5,
+        "p_amhokpidpdnh": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_dmdailmighhb": 1,
+        "p_enclpbahigno": 1,
+        "p_ghbenapallii": 1,
+        "p_ifdobplbgacb": 1,
+        "p_jnkhheofddbe": 1,
+        "p_pigpbogjgabl": 1
       },
       "mentions": [
         {
@@ -9815,6 +10088,19 @@
         "p_enclpbahigno": 1,
         "p_ghbenapallii": 1,
         "p_ifdobplbgacb": 1
+      },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 12,
+        "p_nfihmngofcke": 6,
+        "p_pigpbogjgabl": 6,
+        "p_akenceifeeeh": 5,
+        "p_ghbenapallii": 5,
+        "p_fkioklocpgbp": 4,
+        "p_jnkhheofddbe": 4,
+        "me": 3,
+        "p_enclpbahigno": 3,
+        "p_dmdailmighhb": 1,
+        "p_mnmcbpgmjcja": 1
       },
       "mentions": [
         {
@@ -10036,6 +10322,13 @@
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_dljmmncicnlf": 6,
+        "p_dmdailmighhb": 4,
+        "p_olidjepnnbno": 4,
+        "p_bcbnmadlfjoe": 2,
+        "p_fkioklocpgbp": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -10194,6 +10487,17 @@
         "p_mnmcbpgmjcja": 1,
         "p_nfihmngofcke": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_bcbnmadlfjoe": 10,
+        "p_fkioklocpgbp": 9,
+        "p_ifdobplbgacb": 9,
+        "p_kephgajchogi": 7,
+        "me": 6,
+        "p_dmdailmighhb": 6,
+        "p_amhokpidpdnh": 5,
+        "p_akenceifeeeh": 4,
+        "p_hpobobilhnoh": 1
       },
       "mentions": [
         {
@@ -10462,6 +10766,17 @@
         "p_nfihmngofcke": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_nfihmngofcke": 10,
+        "p_hpobobilhnoh": 7,
+        "me": 5,
+        "p_kephgajchogi": 5,
+        "p_dmdailmighhb": 3,
+        "p_akenceifeeeh": 2,
+        "p_fkioklocpgbp": 1,
+        "p_ghbenapallii": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_hpobobilhnoh",
@@ -10676,6 +10991,20 @@
         "p_amhokpidpdnh": 1,
         "p_ghbenapallii": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 36,
+        "p_fkioklocpgbp": 18,
+        "me": 13,
+        "p_akenceifeeeh": 9,
+        "p_dmdailmighhb": 4,
+        "p_amhokpidpdnh": 3,
+        "p_gdmnohpphadm": 3,
+        "p_jnkhheofddbe": 2,
+        "p_kephgajchogi": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_mnmcbpgmjcja": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -10923,6 +11252,18 @@
         "p_gdmnohpphadm": 1,
         "p_jdgogekapdln": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 12,
+        "p_jnkhheofddbe": 5,
+        "p_akenceifeeeh": 3,
+        "p_enclpbahigno": 3,
+        "me": 2,
+        "p_dmdailmighhb": 1,
+        "p_eoipeaaocofh": 1,
+        "p_fkioklocpgbp": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_jdgogekapdln": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -11083,6 +11424,21 @@
         "me": 11,
         "p_jchajjgjipbd": 2,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 3,
+        "p_akenceifeeeh": 1,
+        "p_amhokpidpdnh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_blfhjomohklb": 1,
+        "p_dljmmncicnlf": 1,
+        "p_fkioklocpgbp": 1,
+        "p_gdmnohpphadm": 1,
+        "p_ghbenapallii": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jnkhheofddbe": 1,
+        "p_kephgajchogi": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -11265,6 +11621,19 @@
         "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 8,
+        "me": 3,
+        "p_enclpbahigno": 2,
+        "p_ifdobplbgacb": 2,
+        "p_jchajjgjipbd": 2,
+        "p_akenceifeeeh": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jdgogekapdln": 1,
+        "p_jnkhheofddbe": 1,
+        "p_olidjepnnbno": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -11438,6 +11807,16 @@
         "p_mnmcbpgmjcja": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 16,
+        "p_ghbenapallii": 6,
+        "p_dmdailmighhb": 3,
+        "p_ifdobplbgacb": 2,
+        "p_jdgogekapdln": 2,
+        "p_akenceifeeeh": 1,
+        "p_nfihmngofcke": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -11553,6 +11932,13 @@
         "p_mnmcbpgmjcja": 1,
         "p_nfihmngofcke": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 13,
+        "p_hpobobilhnoh": 7,
+        "me": 2,
+        "p_dljmmncicnlf": 1,
+        "p_ifdobplbgacb": 1
       },
       "mentions": [
         {
@@ -11689,6 +12075,11 @@
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_bcbnmadlfjoe": 9,
+        "p_hpobobilhnoh": 5,
+        "p_enclpbahigno": 1
       },
       "mentions": [
         {
@@ -11839,6 +12230,10 @@
         "p_akenceifeeeh": 2,
         "p_fkioklocpgbp": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 2,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -11938,6 +12333,10 @@
       "reactionBySender": {
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -12024,6 +12423,7 @@
       "reactionBySender": {
         "p_enclpbahigno": 1
       },
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -12092,6 +12492,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -12217,6 +12618,10 @@
         "p_fobjhenjdpgl": 1,
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 3,
+        "p_hpobobilhnoh": 3
       },
       "mentions": [
         {
@@ -12415,6 +12820,11 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 9,
+        "p_omghgdhhmpfj": 3,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_enclpbahigno",
@@ -12578,6 +12988,11 @@
         "p_kephgajchogi": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 8,
+        "me": 1,
+        "p_amhokpidpdnh": 1
+      },
       "mentions": [
         {
           "from": "p_hpobobilhnoh",
@@ -12729,6 +13144,19 @@
         "p_bcbnmadlfjoe": 1,
         "p_enclpbahigno": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 16,
+        "p_ifdobplbgacb": 15,
+        "p_fkioklocpgbp": 6,
+        "p_akenceifeeeh": 5,
+        "p_jdgogekapdln": 5,
+        "p_kephgajchogi": 5,
+        "p_omghgdhhmpfj": 5,
+        "p_amhokpidpdnh": 4,
+        "p_ghbenapallii": 2,
+        "p_enclpbahigno": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -12926,6 +13354,22 @@
         "p_jdgogekapdln": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 9,
+        "me": 7,
+        "p_amhokpidpdnh": 7,
+        "p_fkioklocpgbp": 5,
+        "p_ifdobplbgacb": 5,
+        "p_akenceifeeeh": 4,
+        "p_nfihmngofcke": 4,
+        "p_gdmnohpphadm": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_enclpbahigno": 1,
+        "p_jchajjgjipbd": 1,
+        "p_jnkhheofddbe": 1,
+        "p_kephgajchogi": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_enclpbahigno",
@@ -13043,6 +13487,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -13138,6 +13583,10 @@
         "p_fobjhenjdpgl": 2,
         "p_gdmnohpphadm": 1
       },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 3,
+        "p_hpobobilhnoh": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -13225,6 +13674,9 @@
         "p_gdmnohpphadm": 1,
         "p_mnmcbpgmjcja": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 7
       },
       "mentions": [
         {
@@ -13381,6 +13833,17 @@
         "p_ghbenapallii": 1,
         "p_jnkhheofddbe": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_dljmmncicnlf": 28,
+        "p_amhokpidpdnh": 5,
+        "p_bfhopadigiif": 5,
+        "p_eoipeaaocofh": 3,
+        "p_fkioklocpgbp": 2,
+        "p_blfhjomohklb": 1,
+        "p_ghbenapallii": 1,
+        "p_jnkhheofddbe": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -13650,6 +14113,19 @@
         "p_kephgajchogi": 1,
         "p_mnmcbpgmjcja": 1
       },
+      "reactionByAuthor": {
+        "p_dljmmncicnlf": 6,
+        "p_mnmcbpgmjcja": 6,
+        "p_kephgajchogi": 4,
+        "p_nfihmngofcke": 4,
+        "p_bcbnmadlfjoe": 3,
+        "p_hpobobilhnoh": 3,
+        "p_jchajjgjipbd": 3,
+        "p_ifdobplbgacb": 2,
+        "p_akenceifeeeh": 1,
+        "p_enclpbahigno": 1,
+        "p_fobjhenjdpgl": 1
+      },
       "mentions": [
         {
           "from": "p_hpobobilhnoh",
@@ -13852,6 +14328,15 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 10,
+        "p_jchajjgjipbd": 7,
+        "p_ifdobplbgacb": 5,
+        "p_fkioklocpgbp": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "me",
@@ -14009,6 +14494,14 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 5,
+        "p_dljmmncicnlf": 4,
+        "p_bcbnmadlfjoe": 3,
+        "p_ifdobplbgacb": 2,
+        "p_jdgogekapdln": 2,
+        "p_enclpbahigno": 1
+      },
       "mentions": [
         {
           "from": "p_enclpbahigno",
@@ -14148,6 +14641,11 @@
         "p_fobjhenjdpgl": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_bcbnmadlfjoe": 2,
+        "p_fkioklocpgbp": 1,
+        "p_hpobobilhnoh": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -14273,6 +14771,11 @@
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 4,
+        "p_jchajjgjipbd": 3,
+        "p_akenceifeeeh": 1
       },
       "mentions": [
         {
@@ -14446,6 +14949,20 @@
         "p_blfhjomohklb": 1,
         "p_mnmcbpgmjcja": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_bcbnmadlfjoe": 17,
+        "p_hpobobilhnoh": 13,
+        "p_jchajjgjipbd": 9,
+        "p_bfhopadigiif": 7,
+        "p_enclpbahigno": 7,
+        "p_ifdobplbgacb": 7,
+        "p_dljmmncicnlf": 6,
+        "p_gdmnohpphadm": 5,
+        "p_akenceifeeeh": 4,
+        "p_fobjhenjdpgl": 2,
+        "p_jnkhheofddbe": 2,
+        "me": 1
       },
       "mentions": [
         {
@@ -14654,6 +15171,14 @@
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_amhokpidpdnh": 5,
+        "p_dljmmncicnlf": 3,
+        "p_akenceifeeeh": 2,
+        "me": 1,
+        "p_fkioklocpgbp": 1,
+        "p_jchajjgjipbd": 1
+      },
       "mentions": [
         {
           "from": "p_amhokpidpdnh",
@@ -14825,6 +15350,10 @@
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 8,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -14906,6 +15435,9 @@
         "p_jchajjgjipbd": 1,
         "p_kephgajchogi": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 9
       },
       "mentions": [],
       "slurBySender": {},
@@ -15000,6 +15532,11 @@
         "p_dmdailmighhb": 1,
         "p_fkioklocpgbp": 1,
         "p_ifdobplbgacb": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 1,
+        "p_gdmnohpphadm": 1,
+        "p_hpobobilhnoh": 1
       },
       "mentions": [
         {
@@ -15123,6 +15660,16 @@
         "p_mnmcbpgmjcja": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 9,
+        "p_gdmnohpphadm": 7,
+        "p_bcbnmadlfjoe": 5,
+        "p_jchajjgjipbd": 2,
+        "p_blfhjomohklb": 1,
+        "p_dljmmncicnlf": 1,
+        "p_enclpbahigno": 1,
+        "p_fkioklocpgbp": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -15213,6 +15760,10 @@
         "p_kephgajchogi": 1,
         "p_mnmcbpgmjcja": 1
       },
+      "reactionByAuthor": {
+        "p_nfihmngofcke": 6,
+        "p_jnkhheofddbe": 2
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -15285,6 +15836,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -15363,6 +15915,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -15440,6 +15993,9 @@
         "p_mnmcbpgmjcja": 2,
         "p_dmdailmighhb": 1,
         "p_ghbenapallii": 1
+      },
+      "reactionByAuthor": {
+        "me": 9
       },
       "mentions": [],
       "slurBySender": {},
@@ -15561,6 +16117,11 @@
         "p_jchajjgjipbd": 1,
         "p_jdgogekapdln": 1
       },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 7,
+        "p_enclpbahigno": 1,
+        "p_fkioklocpgbp": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -15660,6 +16221,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -15757,6 +16319,11 @@
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 5,
+        "p_ghbenapallii": 4,
+        "p_akenceifeeeh": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -15825,6 +16392,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -15924,6 +16492,11 @@
         "p_blfhjomohklb": 2,
         "p_fobjhenjdpgl": 2
       },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -15998,6 +16571,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -16164,6 +16738,20 @@
         "p_omghgdhhmpfj": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 25,
+        "p_nfihmngofcke": 8,
+        "p_ifdobplbgacb": 4,
+        "p_kephgajchogi": 4,
+        "p_blfhjomohklb": 3,
+        "p_fkioklocpgbp": 3,
+        "p_akenceifeeeh": 2,
+        "p_fobjhenjdpgl": 2,
+        "p_hpobobilhnoh": 2,
+        "p_jnkhheofddbe": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_enclpbahigno": 1
+      },
       "mentions": [
         {
           "from": "p_hpobobilhnoh",
@@ -16300,6 +16888,13 @@
         "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 9,
+        "p_dmdailmighhb": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_hpobobilhnoh": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_hpobobilhnoh",
@@ -16423,6 +17018,18 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 9,
+        "p_bcbnmadlfjoe": 7,
+        "p_mnmcbpgmjcja": 6,
+        "p_fobjhenjdpgl": 4,
+        "p_dljmmncicnlf": 2,
+        "p_enclpbahigno": 2,
+        "p_jnkhheofddbe": 2,
+        "p_akenceifeeeh": 1,
+        "p_bfhopadigiif": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_jnkhheofddbe",
@@ -16521,6 +17128,9 @@
         "p_jchajjgjipbd": 2,
         "p_eoipeaaocofh": 1,
         "p_fobjhenjdpgl": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 2
       },
       "mentions": [
         {
@@ -16621,6 +17231,9 @@
         "p_jchajjgjipbd": 1,
         "p_mnmcbpgmjcja": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 9
       },
       "mentions": [
         {
@@ -16750,6 +17363,12 @@
         "p_bfhopadigiif": 1,
         "p_dljmmncicnlf": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 9,
+        "p_ifdobplbgacb": 5,
+        "p_hpobobilhnoh": 3,
+        "p_blfhjomohklb": 1
       },
       "mentions": [
         {
@@ -16881,6 +17500,11 @@
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 13,
+        "p_akenceifeeeh": 12,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -16988,6 +17612,11 @@
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_mnmcbpgmjcja": 9,
+        "p_ghbenapallii": 5,
+        "p_ifdobplbgacb": 3
+      },
       "mentions": [
         {
           "from": "me",
@@ -17085,6 +17714,9 @@
       "vibesBySender": {},
       "reactionBySender": {
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -17196,6 +17828,14 @@
         "p_kephgajchogi": 2,
         "p_dmdailmighhb": 1,
         "p_hpobobilhnoh": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 3,
+        "p_bfhopadigiif": 2,
+        "p_blfhjomohklb": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_ifdobplbgacb": 1,
+        "p_pececoiicgih": 1
       },
       "mentions": [
         {
@@ -17331,6 +17971,13 @@
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 9,
+        "p_enclpbahigno": 4,
+        "p_akenceifeeeh": 1,
+        "p_fkioklocpgbp": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
@@ -17420,6 +18067,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -17493,6 +18141,9 @@
       "vibesBySender": {},
       "reactionBySender": {
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -17644,6 +18295,23 @@
         "p_omghgdhhmpfj": 2,
         "me": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 11,
+        "p_gdmnohpphadm": 11,
+        "p_ifdobplbgacb": 11,
+        "p_enclpbahigno": 9,
+        "p_eoipeaaocofh": 9,
+        "p_fobjhenjdpgl": 9,
+        "p_hpobobilhnoh": 7,
+        "p_dmdailmighhb": 5,
+        "p_nfihmngofcke": 4,
+        "p_pececoiicgih": 4,
+        "p_akenceifeeeh": 3,
+        "p_bcbnmadlfjoe": 2,
+        "p_ghbenapallii": 2,
+        "p_jnkhheofddbe": 2,
+        "p_olidjepnnbno": 2
       },
       "mentions": [
         {
@@ -17831,6 +18499,20 @@
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "p_kephgajchogi": 7,
+        "p_amhokpidpdnh": 6,
+        "p_hpobobilhnoh": 2,
+        "p_akenceifeeeh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_blfhjomohklb": 1,
+        "p_fkioklocpgbp": 1,
+        "p_gdmnohpphadm": 1,
+        "p_ghbenapallii": 1,
+        "p_mnmcbpgmjcja": 1,
+        "p_nfihmngofcke": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -18055,6 +18737,15 @@
         "p_jnkhheofddbe": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 12,
+        "p_ghbenapallii": 4,
+        "p_jchajjgjipbd": 4,
+        "p_dljmmncicnlf": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_ifdobplbgacb": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_enclpbahigno",
@@ -18225,6 +18916,10 @@
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_kephgajchogi": 5,
+        "p_akenceifeeeh": 3
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -18340,6 +19035,16 @@
         "p_gdmnohpphadm": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_kephgajchogi": 3,
+        "me": 2,
+        "p_hpobobilhnoh": 2,
+        "p_akenceifeeeh": 1,
+        "p_fkioklocpgbp": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_ghbenapallii": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_kephgajchogi",
@@ -18438,6 +19143,11 @@
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 4,
+        "p_dmdailmighhb": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -18613,6 +19323,20 @@
         "p_jdgogekapdln": 1,
         "p_kephgajchogi": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_fobjhenjdpgl": 7,
+        "p_jnkhheofddbe": 7,
+        "p_mnmcbpgmjcja": 5,
+        "p_akenceifeeeh": 4,
+        "p_amhokpidpdnh": 2,
+        "p_bcbnmadlfjoe": 2,
+        "p_dmdailmighhb": 2,
+        "p_kephgajchogi": 2,
+        "p_nfihmngofcke": 2,
+        "p_pececoiicgih": 2,
+        "p_eoipeaaocofh": 1,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [
         {
@@ -18814,6 +19538,9 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_jdgogekapdln": 13
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -18914,6 +19641,7 @@
         }
       },
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -19047,6 +19775,12 @@
         "p_nfihmngofcke": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 7,
+        "p_bcbnmadlfjoe": 5,
+        "p_nfihmngofcke": 2,
+        "me": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -19152,6 +19886,10 @@
         "p_mnmcbpgmjcja": 1,
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 9,
+        "p_fobjhenjdpgl": 2
       },
       "mentions": [
         {
@@ -19268,6 +20006,15 @@
         "p_hpobobilhnoh": 1,
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1
+      },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 4,
+        "p_hpobobilhnoh": 3,
+        "p_ghbenapallii": 2,
+        "p_kephgajchogi": 2,
+        "me": 1,
+        "p_enclpbahigno": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -19404,6 +20151,16 @@
         "p_ifdobplbgacb": 1,
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 6,
+        "p_omghgdhhmpfj": 5,
+        "p_nfihmngofcke": 3,
+        "p_hpobobilhnoh": 2,
+        "p_akenceifeeeh": 1,
+        "p_amhokpidpdnh": 1,
+        "p_jchajjgjipbd": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_amhokpidpdnh",
@@ -19537,6 +20294,10 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 6,
+        "p_nfihmngofcke": 2
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -19661,6 +20422,14 @@
         "p_jnkhheofddbe": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 4,
+        "p_gdmnohpphadm": 3,
+        "p_akenceifeeeh": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_kephgajchogi": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -19775,6 +20544,11 @@
         "p_jdgogekapdln": 1,
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 9,
+        "p_ifdobplbgacb": 1,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -19964,6 +20738,19 @@
         "p_bfhopadigiif": 1,
         "p_dljmmncicnlf": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_amggoddlmlck": 30,
+        "p_ifdobplbgacb": 18,
+        "p_akenceifeeeh": 15,
+        "p_nfihmngofcke": 11,
+        "p_dmdailmighhb": 8,
+        "p_bfhopadigiif": 6,
+        "p_hpobobilhnoh": 6,
+        "p_jchajjgjipbd": 6,
+        "me": 5,
+        "p_ghbenapallii": 3,
+        "p_fkioklocpgbp": 1
       },
       "mentions": [
         {
@@ -20331,6 +21118,25 @@
         "p_kephgajchogi": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 13,
+        "p_amhokpidpdnh": 7,
+        "p_ghbenapallii": 7,
+        "p_pececoiicgih": 7,
+        "p_jnkhheofddbe": 6,
+        "p_dmdailmighhb": 5,
+        "p_fkioklocpgbp": 5,
+        "p_ifdobplbgacb": 4,
+        "p_amggoddlmlck": 3,
+        "p_dljmmncicnlf": 3,
+        "p_enclpbahigno": 3,
+        "p_hpobobilhnoh": 3,
+        "p_blfhjomohklb": 2,
+        "p_nfihmngofcke": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_kephgajchogi": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -20572,6 +21378,11 @@
         "p_enclpbahigno": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 1,
+        "p_jnkhheofddbe": 1,
+        "p_ockcbdcbjmil": 1
+      },
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
@@ -20665,6 +21476,10 @@
         "p_dljmmncicnlf": 1,
         "p_hpobobilhnoh": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_kephgajchogi": 2,
+        "me": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -20799,6 +21614,19 @@
         "p_dljmmncicnlf": 1,
         "p_omghgdhhmpfj": 1,
         "p_pececoiicgih": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 15,
+        "p_enclpbahigno": 11,
+        "p_dmdailmighhb": 10,
+        "p_jchajjgjipbd": 8,
+        "p_eoipeaaocofh": 5,
+        "p_akenceifeeeh": 4,
+        "p_amhokpidpdnh": 2,
+        "p_hpobobilhnoh": 2,
+        "p_ifdobplbgacb": 2,
+        "p_nfihmngofcke": 2,
+        "p_gdmnohpphadm": 1
       },
       "mentions": [
         {
@@ -21037,6 +21865,19 @@
         "p_omghgdhhmpfj": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 16,
+        "p_nfihmngofcke": 9,
+        "p_akenceifeeeh": 7,
+        "p_fobjhenjdpgl": 3,
+        "p_jchajjgjipbd": 3,
+        "p_kephgajchogi": 2,
+        "p_pececoiicgih": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_bfhopadigiif": 1,
+        "p_fkioklocpgbp": 1,
+        "p_ghbenapallii": 1
+      },
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
@@ -21261,6 +22102,19 @@
         "p_jdgogekapdln": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 18,
+        "p_bcbnmadlfjoe": 11,
+        "p_eoipeaaocofh": 10,
+        "p_fobjhenjdpgl": 6,
+        "p_ifdobplbgacb": 4,
+        "p_amhokpidpdnh": 3,
+        "p_enclpbahigno": 3,
+        "p_kephgajchogi": 3,
+        "p_akenceifeeeh": 1,
+        "p_blfhjomohklb": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -21392,6 +22246,9 @@
         "p_fobjhenjdpgl": 1,
         "p_gdmnohpphadm": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 5
       },
       "mentions": [
         {
@@ -21542,6 +22399,18 @@
         "p_hpobobilhnoh": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 14,
+        "p_dmdailmighhb": 6,
+        "p_jnkhheofddbe": 4,
+        "p_nfihmngofcke": 3,
+        "p_fobjhenjdpgl": 2,
+        "p_ghbenapallii": 2,
+        "p_jdgogekapdln": 2,
+        "p_kephgajchogi": 2,
+        "me": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -21673,6 +22542,10 @@
         "p_bfhopadigiif": 2,
         "p_dmdailmighhb": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -21752,6 +22625,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -21826,6 +22700,9 @@
       "reactionBySender": {
         "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 2
       },
       "mentions": [
         {
@@ -21948,6 +22825,11 @@
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 11,
+        "p_nfihmngofcke": 4,
+        "p_akenceifeeeh": 2
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -22056,6 +22938,9 @@
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_eoipeaaocofh": 8
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -22133,6 +23018,7 @@
         "p_dmdailmighhb": 1,
         "p_jchajjgjipbd": 1
       },
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -22244,6 +23130,11 @@
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 12,
+        "p_blfhjomohklb": 5,
+        "p_nfihmngofcke": 3
+      },
       "mentions": [
         {
           "from": "p_blfhjomohklb",
@@ -22335,6 +23226,9 @@
         "p_blfhjomohklb": 1,
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 2
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -22418,6 +23312,9 @@
       },
       "reactionBySender": {
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -22542,6 +23439,17 @@
         "p_jdgogekapdln": 2,
         "p_bfhopadigiif": 1,
         "p_hpobobilhnoh": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 17,
+        "p_enclpbahigno": 16,
+        "p_jnkhheofddbe": 8,
+        "p_ifdobplbgacb": 6,
+        "p_akenceifeeeh": 4,
+        "p_ghbenapallii": 3,
+        "p_amhokpidpdnh": 2,
+        "p_fobjhenjdpgl": 2,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [
         {
@@ -22699,6 +23607,14 @@
         "p_ghbenapallii": 1,
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1
+      },
+      "reactionByAuthor": {
+        "p_nfihmngofcke": 8,
+        "p_amggoddlmlck": 6,
+        "p_enclpbahigno": 4,
+        "p_akenceifeeeh": 2,
+        "p_dljmmncicnlf": 1,
+        "p_hpobobilhnoh": 1
       },
       "mentions": [
         {
@@ -22867,6 +23783,14 @@
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 9,
+        "p_bfhopadigiif": 6,
+        "p_jnkhheofddbe": 4,
+        "p_hpobobilhnoh": 2,
+        "p_enclpbahigno": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -22995,6 +23919,16 @@
         "p_jdgogekapdln": 1,
         "p_mnmcbpgmjcja": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 13,
+        "p_nfihmngofcke": 11,
+        "p_bfhopadigiif": 8,
+        "p_akenceifeeeh": 6,
+        "p_ifdobplbgacb": 2,
+        "p_jchajjgjipbd": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_fobjhenjdpgl": 1
       },
       "mentions": [
         {
@@ -23140,6 +24074,12 @@
         "p_blfhjomohklb": 1,
         "p_enclpbahigno": 1,
         "p_fobjhenjdpgl": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 2,
+        "p_bfhopadigiif": 1,
+        "p_blfhjomohklb": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -23299,6 +24239,18 @@
         "p_dljmmncicnlf": 1,
         "p_ghbenapallii": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 19,
+        "p_ifdobplbgacb": 16,
+        "p_hpobobilhnoh": 9,
+        "p_nfihmngofcke": 4,
+        "p_olidjepnnbno": 3,
+        "p_pececoiicgih": 3,
+        "p_dmdailmighhb": 2,
+        "p_ghbenapallii": 2,
+        "p_jdgogekapdln": 2,
+        "p_blfhjomohklb": 1
       },
       "mentions": [
         {
@@ -23470,6 +24422,10 @@
         "p_fobjhenjdpgl": 1,
         "p_ghbenapallii": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 3,
+        "p_hpobobilhnoh": 1
+      },
       "mentions": [
         {
           "from": "p_bfhopadigiif",
@@ -23578,6 +24534,10 @@
         "p_hpobobilhnoh": 1,
         "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 1,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [
         {
@@ -23732,6 +24692,15 @@
         "p_jchajjgjipbd": 1,
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {
+        "me": 6,
+        "p_akenceifeeeh": 2,
+        "p_dmdailmighhb": 2,
+        "p_enclpbahigno": 2,
+        "p_nfihmngofcke": 2,
+        "p_ifdobplbgacb": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -23869,6 +24838,13 @@
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 4,
+        "p_ifdobplbgacb": 4,
+        "p_dmdailmighhb": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -23986,6 +24962,15 @@
         "p_ghbenapallii": 1,
         "p_jchajjgjipbd": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 15,
+        "p_ifdobplbgacb": 5,
+        "p_akenceifeeeh": 4,
+        "p_nfihmngofcke": 2,
+        "p_jnkhheofddbe": 1,
+        "p_kephgajchogi": 1,
+        "p_olidjepnnbno": 1
       },
       "mentions": [
         {
@@ -24131,6 +25116,14 @@
         "p_jdgogekapdln": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 6,
+        "p_ifdobplbgacb": 2,
+        "p_fkioklocpgbp": 1,
+        "p_ghbenapallii": 1,
+        "p_hpobobilhnoh": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_jnkhheofddbe",
@@ -24226,6 +25219,11 @@
         "p_enclpbahigno": 1,
         "p_fobjhenjdpgl": 1,
         "p_ifdobplbgacb": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 5,
+        "p_enclpbahigno": 1,
+        "p_jnkhheofddbe": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -24334,6 +25332,15 @@
         "p_jdgogekapdln": 1,
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 6,
+        "p_dmdailmighhb": 2,
+        "p_ghbenapallii": 2,
+        "p_akenceifeeeh": 1,
+        "p_ifdobplbgacb": 1,
+        "p_jnkhheofddbe": 1,
+        "p_olidjepnnbno": 1
       },
       "mentions": [
         {
@@ -24521,6 +25528,24 @@
         "p_amhokpidpdnh": 1,
         "p_bcbnmadlfjoe": 1,
         "p_gdmnohpphadm": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 17,
+        "p_omghgdhhmpfj": 15,
+        "p_ghbenapallii": 12,
+        "p_ifdobplbgacb": 10,
+        "p_kephgajchogi": 8,
+        "p_akenceifeeeh": 7,
+        "p_jdgogekapdln": 7,
+        "p_jnkhheofddbe": 7,
+        "p_fobjhenjdpgl": 6,
+        "p_dljmmncicnlf": 5,
+        "p_hpobobilhnoh": 4,
+        "p_amhokpidpdnh": 2,
+        "p_nfihmngofcke": 2,
+        "p_fkioklocpgbp": 1,
+        "p_jchajjgjipbd": 1,
+        "p_mnmcbpgmjcja": 1
       },
       "mentions": [
         {
@@ -24862,6 +25887,18 @@
         "p_olidjepnnbno": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 12,
+        "p_kephgajchogi": 4,
+        "p_nfihmngofcke": 4,
+        "p_gdmnohpphadm": 3,
+        "p_bfhopadigiif": 2,
+        "p_eoipeaaocofh": 2,
+        "p_ifdobplbgacb": 2,
+        "p_olidjepnnbno": 2,
+        "p_enclpbahigno": 1,
+        "p_fobjhenjdpgl": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -25110,6 +26147,22 @@
         "p_gdmnohpphadm": 1,
         "p_jdgogekapdln": 1,
         "p_pececoiicgih": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 13,
+        "p_akenceifeeeh": 12,
+        "p_ifdobplbgacb": 11,
+        "p_fkioklocpgbp": 7,
+        "p_blfhjomohklb": 6,
+        "p_hpobobilhnoh": 5,
+        "p_amhokpidpdnh": 4,
+        "p_ghbenapallii": 4,
+        "p_jchajjgjipbd": 4,
+        "me": 3,
+        "p_kephgajchogi": 2,
+        "p_jnkhheofddbe": 1,
+        "p_nfihmngofcke": 1,
+        "p_olidjepnnbno": 1
       },
       "mentions": [
         {
@@ -25362,6 +26415,14 @@
         "p_kephgajchogi": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "me": 6,
+        "p_akenceifeeeh": 3,
+        "p_bfhopadigiif": 2,
+        "p_nfihmngofcke": 2,
+        "p_fkioklocpgbp": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -25557,6 +26618,11 @@
         "p_ghbenapallii": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 5,
+        "p_akenceifeeeh": 3,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -25678,6 +26744,9 @@
       "reactionBySender": {
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -25760,6 +26829,7 @@
         }
       },
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -25886,6 +26956,13 @@
         "p_ghbenapallii": 1,
         "p_jchajjgjipbd": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 7,
+        "p_bfhopadigiif": 1,
+        "p_dmdailmighhb": 1,
+        "p_enclpbahigno": 1,
+        "p_eoipeaaocofh": 1
       },
       "mentions": [
         {
@@ -26078,6 +27155,12 @@
         "p_kephgajchogi": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 8,
+        "me": 4,
+        "p_fobjhenjdpgl": 3,
+        "p_hpobobilhnoh": 2
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -26186,6 +27269,12 @@
         "p_fkioklocpgbp": 1,
         "p_jchajjgjipbd": 1,
         "p_kephgajchogi": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 7,
+        "p_jnkhheofddbe": 4,
+        "p_dljmmncicnlf": 1,
+        "p_ifdobplbgacb": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -26336,6 +27425,20 @@
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 14,
+        "p_jchajjgjipbd": 7,
+        "p_jnkhheofddbe": 3,
+        "p_bfhopadigiif": 2,
+        "p_jdgogekapdln": 2,
+        "p_olidjepnnbno": 2,
+        "me": 1,
+        "p_akenceifeeeh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_ifdobplbgacb": 1,
+        "p_kephgajchogi": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -26563,6 +27666,20 @@
         "p_nfihmngofcke": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 24,
+        "p_jnkhheofddbe": 7,
+        "me": 6,
+        "p_ghbenapallii": 5,
+        "p_bfhopadigiif": 3,
+        "p_omghgdhhmpfj": 2,
+        "p_amhokpidpdnh": 1,
+        "p_dljmmncicnlf": 1,
+        "p_enclpbahigno": 1,
+        "p_kephgajchogi": 1,
+        "p_nfihmngofcke": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -26693,6 +27810,10 @@
         "p_bcbnmadlfjoe": 1,
         "p_fobjhenjdpgl": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 1,
+        "p_fobjhenjdpgl": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -26818,6 +27939,14 @@
         "p_dmdailmighhb": 1,
         "p_ifdobplbgacb": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 19,
+        "p_kephgajchogi": 3,
+        "me": 2,
+        "p_eoipeaaocofh": 2,
+        "p_akenceifeeeh": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -26960,6 +28089,13 @@
         "p_eoipeaaocofh": 1,
         "p_ghbenapallii": 1,
         "p_hpobobilhnoh": 1
+      },
+      "reactionByAuthor": {
+        "p_eoipeaaocofh": 2,
+        "p_mnmcbpgmjcja": 2,
+        "p_nfihmngofcke": 2,
+        "me": 1,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [
         {
@@ -27116,6 +28252,20 @@
         "p_ghbenapallii": 1,
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 11,
+        "p_fkioklocpgbp": 8,
+        "p_omghgdhhmpfj": 8,
+        "p_ifdobplbgacb": 5,
+        "p_ghbenapallii": 3,
+        "p_nfihmngofcke": 3,
+        "p_amhokpidpdnh": 2,
+        "p_akenceifeeeh": 1,
+        "p_bfhopadigiif": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jchajjgjipbd": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_jnkhheofddbe",
@@ -27266,6 +28416,13 @@
         "p_jchajjgjipbd": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 5,
+        "p_fkioklocpgbp": 2,
+        "p_dmdailmighhb": 1,
+        "p_ifdobplbgacb": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -27360,6 +28517,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -27462,6 +28620,11 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 16,
+        "p_amhokpidpdnh": 8,
+        "p_ghbenapallii": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -27543,6 +28706,9 @@
         "p_fobjhenjdpgl": 1,
         "p_jchajjgjipbd": 1,
         "p_kephgajchogi": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 7
       },
       "mentions": [],
       "slurBySender": {},
@@ -27630,6 +28796,10 @@
       "reactionBySender": {
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 1,
+        "p_mnmcbpgmjcja": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -27769,6 +28939,19 @@
         "p_ifdobplbgacb": 2,
         "p_nfihmngofcke": 2,
         "p_bfhopadigiif": 1,
+        "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 13,
+        "p_jnkhheofddbe": 11,
+        "me": 6,
+        "p_fkioklocpgbp": 5,
+        "p_mnmcbpgmjcja": 5,
+        "p_dmdailmighhb": 4,
+        "p_ghbenapallii": 3,
+        "p_ifdobplbgacb": 3,
+        "p_kephgajchogi": 3,
+        "p_jdgogekapdln": 1,
         "p_olidjepnnbno": 1
       },
       "mentions": [
@@ -27969,6 +29152,16 @@
         "p_enclpbahigno": 1,
         "p_ifdobplbgacb": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 8,
+        "p_akenceifeeeh": 6,
+        "p_enclpbahigno": 4,
+        "p_jnkhheofddbe": 4,
+        "p_fobjhenjdpgl": 3,
+        "p_dljmmncicnlf": 2,
+        "p_jdgogekapdln": 2,
+        "p_amhokpidpdnh": 1
       },
       "mentions": [
         {
@@ -28181,6 +29374,25 @@
         "p_ghbenapallii": 1,
         "p_jchajjgjipbd": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_fobjhenjdpgl": 6,
+        "p_ifdobplbgacb": 6,
+        "p_jnkhheofddbe": 6,
+        "p_nfihmngofcke": 6,
+        "p_fkioklocpgbp": 5,
+        "p_blfhjomohklb": 3,
+        "p_akenceifeeeh": 2,
+        "p_dmdailmighhb": 2,
+        "p_ghbenapallii": 2,
+        "me": 1,
+        "p_amhokpidpdnh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_bfhopadigiif": 1,
+        "p_eoipeaaocofh": 1,
+        "p_gdmnohpphadm": 1,
+        "p_jdgogekapdln": 1,
+        "p_olidjepnnbno": 1
       },
       "mentions": [
         {
@@ -28410,6 +29622,21 @@
         "p_enclpbahigno": 1,
         "p_ghbenapallii": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 12,
+        "p_nfihmngofcke": 10,
+        "me": 7,
+        "p_blfhjomohklb": 4,
+        "p_fkioklocpgbp": 4,
+        "p_hpobobilhnoh": 4,
+        "p_amhokpidpdnh": 2,
+        "p_jnkhheofddbe": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_enclpbahigno": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_ifdobplbgacb": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_jnkhheofddbe",
@@ -28538,6 +29765,14 @@
         "p_fobjhenjdpgl": 1,
         "p_ifdobplbgacb": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 7,
+        "p_nfihmngofcke": 6,
+        "p_ghbenapallii": 4,
+        "p_dmdailmighhb": 2,
+        "p_omghgdhhmpfj": 2,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -28689,6 +29924,21 @@
         "p_fkioklocpgbp": 1,
         "p_hpobobilhnoh": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 9,
+        "p_ifdobplbgacb": 9,
+        "p_kephgajchogi": 7,
+        "p_fobjhenjdpgl": 6,
+        "p_gdmnohpphadm": 3,
+        "p_mnmcbpgmjcja": 3,
+        "p_nfihmngofcke": 3,
+        "p_olidjepnnbno": 3,
+        "p_jnkhheofddbe": 2,
+        "me": 1,
+        "p_dmdailmighhb": 1,
+        "p_fkioklocpgbp": 1,
+        "p_ghbenapallii": 1
       },
       "mentions": [
         {
@@ -28866,6 +30116,13 @@
         "p_olidjepnnbno": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 10,
+        "me": 2,
+        "p_dmdailmighhb": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -29011,6 +30268,12 @@
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 17,
+        "p_eoipeaaocofh": 5,
+        "p_bfhopadigiif": 4,
+        "p_fkioklocpgbp": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -29124,6 +30387,11 @@
         "p_ghbenapallii": 1,
         "p_jdgogekapdln": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 7,
+        "p_dmdailmighhb": 4,
+        "p_hpobobilhnoh": 2
       },
       "mentions": [
         {
@@ -29252,6 +30520,12 @@
         "p_dmdailmighhb": 1,
         "p_hpobobilhnoh": 1,
         "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "me": 4,
+        "p_ghbenapallii": 1,
+        "p_hpobobilhnoh": 1,
+        "p_mnmcbpgmjcja": 1
       },
       "mentions": [
         {
@@ -29494,6 +30768,26 @@
         "p_gdmnohpphadm": 1,
         "p_hpobobilhnoh": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 21,
+        "p_akenceifeeeh": 20,
+        "p_ifdobplbgacb": 18,
+        "p_ghbenapallii": 17,
+        "p_bfhopadigiif": 14,
+        "p_gdmnohpphadm": 11,
+        "me": 10,
+        "p_kephgajchogi": 9,
+        "p_blfhjomohklb": 3,
+        "p_jdgogekapdln": 3,
+        "p_jnkhheofddbe": 3,
+        "p_amhokpidpdnh": 2,
+        "p_dmdailmighhb": 2,
+        "p_nfihmngofcke": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_mnmcbpgmjcja": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -29693,6 +30987,9 @@
         "p_blfhjomohklb": 2,
         "p_bfhopadigiif": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -29795,6 +31092,15 @@
         "p_dmdailmighhb": 1,
         "p_jnkhheofddbe": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 3,
+        "p_amhokpidpdnh": 2,
+        "p_fkioklocpgbp": 2,
+        "p_blfhjomohklb": 1,
+        "p_dmdailmighhb": 1,
+        "p_ifdobplbgacb": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -29958,6 +31264,12 @@
         "p_fkioklocpgbp": 1,
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 8,
+        "me": 5,
+        "p_fobjhenjdpgl": 2,
+        "p_bfhopadigiif": 1
       },
       "mentions": [
         {
@@ -30149,6 +31461,9 @@
         "p_olidjepnnbno": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_dljmmncicnlf": 11
+      },
       "mentions": [
         {
           "from": "p_jchajjgjipbd",
@@ -30299,6 +31614,20 @@
         "p_ghbenapallii": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 13,
+        "p_jnkhheofddbe": 7,
+        "p_fobjhenjdpgl": 3,
+        "p_mnmcbpgmjcja": 3,
+        "p_nfihmngofcke": 2,
+        "p_akenceifeeeh": 1,
+        "p_amhokpidpdnh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_blfhjomohklb": 1,
+        "p_dmdailmighhb": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jchajjgjipbd": 1
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -30434,6 +31763,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -30507,6 +31837,9 @@
       "vibesBySender": {},
       "reactionBySender": {
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_eoipeaaocofh": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -30617,6 +31950,14 @@
         "p_hpobobilhnoh": 1,
         "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_nfihmngofcke": 5,
+        "p_ifdobplbgacb": 3,
+        "p_ghbenapallii": 2,
+        "p_fkioklocpgbp": 1,
+        "p_jchajjgjipbd": 1,
+        "p_kephgajchogi": 1
       },
       "mentions": [
         {
@@ -30758,6 +32099,15 @@
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 6,
+        "p_ghbenapallii": 3,
+        "p_fkioklocpgbp": 2,
+        "p_ifdobplbgacb": 2,
+        "p_jnkhheofddbe": 2,
+        "me": 1,
+        "p_dmdailmighhb": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -30856,6 +32206,9 @@
         "p_ghbenapallii": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 4
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -30934,6 +32287,9 @@
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 6
       },
       "mentions": [],
       "slurBySender": {},
@@ -31020,6 +32376,9 @@
       "vibesBySender": {},
       "reactionBySender": {
         "p_bcbnmadlfjoe": 1
+      },
+      "reactionByAuthor": {
+        "me": 1
       },
       "mentions": [
         {
@@ -31112,6 +32471,9 @@
       },
       "reactionBySender": {
         "p_bcbnmadlfjoe": 1
+      },
+      "reactionByAuthor": {
+        "p_nfihmngofcke": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -31232,6 +32594,12 @@
         "p_jchajjgjipbd": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 7,
+        "p_gdmnohpphadm": 5,
+        "p_hpobobilhnoh": 4,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
@@ -31326,6 +32694,9 @@
       "reactionBySender": {
         "p_blfhjomohklb": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -31394,6 +32765,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -31466,6 +32838,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -31594,6 +32967,13 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 23,
+        "p_bfhopadigiif": 4,
+        "p_bcbnmadlfjoe": 2,
+        "p_hpobobilhnoh": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -31689,6 +33069,9 @@
         "p_akenceifeeeh": 1,
         "p_blfhjomohklb": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 2
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -31780,6 +33163,12 @@
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 9,
+        "p_ghbenapallii": 4,
+        "p_hpobobilhnoh": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -31854,6 +33243,7 @@
       ],
       "vibesBySender": {},
       "reactionBySender": {},
+      "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -31941,6 +33331,10 @@
         "p_blfhjomohklb": 1,
         "p_hpobobilhnoh": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_dljmmncicnlf": 12,
+        "p_amhokpidpdnh": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -32039,6 +33433,13 @@
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 9,
+        "p_fobjhenjdpgl": 3,
+        "p_hpobobilhnoh": 2,
+        "p_ifdobplbgacb": 2,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -32129,6 +33530,10 @@
         "p_ghbenapallii": 1,
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 11,
+        "p_fkioklocpgbp": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -32258,6 +33663,18 @@
         "me": 1,
         "p_dmdailmighhb": 1,
         "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 16,
+        "p_ghbenapallii": 12,
+        "p_bfhopadigiif": 11,
+        "p_dljmmncicnlf": 6,
+        "p_jnkhheofddbe": 6,
+        "p_akenceifeeeh": 5,
+        "p_fobjhenjdpgl": 2,
+        "p_enclpbahigno": 1,
+        "p_gdmnohpphadm": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -32426,6 +33843,14 @@
         "p_jchajjgjipbd": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_amhokpidpdnh": 6,
+        "p_fkioklocpgbp": 6,
+        "p_fobjhenjdpgl": 4,
+        "p_blfhjomohklb": 2,
+        "me": 1,
+        "p_akenceifeeeh": 1
+      },
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
@@ -32509,6 +33934,9 @@
         "p_fkioklocpgbp": 1,
         "p_jdgogekapdln": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_olidjepnnbno": 9
       },
       "mentions": [],
       "slurBySender": {},
@@ -32624,6 +34052,15 @@
         "p_fkioklocpgbp": 1,
         "p_ifdobplbgacb": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 12,
+        "p_fkioklocpgbp": 7,
+        "p_fobjhenjdpgl": 6,
+        "p_akenceifeeeh": 1,
+        "p_blfhjomohklb": 1,
+        "p_hpobobilhnoh": 1,
+        "p_ifdobplbgacb": 1
       },
       "mentions": [
         {
@@ -32793,6 +34230,23 @@
         "p_gdmnohpphadm": 1,
         "p_hpobobilhnoh": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 17,
+        "p_nfihmngofcke": 16,
+        "p_dmdailmighhb": 12,
+        "me": 11,
+        "p_fobjhenjdpgl": 7,
+        "p_ghbenapallii": 7,
+        "p_ifdobplbgacb": 6,
+        "p_akenceifeeeh": 2,
+        "p_jnkhheofddbe": 2,
+        "p_blfhjomohklb": 1,
+        "p_enclpbahigno": 1,
+        "p_fkioklocpgbp": 1,
+        "p_gdmnohpphadm": 1,
+        "p_hpobobilhnoh": 1,
+        "p_kephgajchogi": 1
       },
       "mentions": [
         {
@@ -33033,6 +34487,21 @@
         "p_dmdailmighhb": 1,
         "p_enclpbahigno": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 13,
+        "p_dljmmncicnlf": 13,
+        "p_ghbenapallii": 10,
+        "me": 9,
+        "p_ifdobplbgacb": 9,
+        "p_jnkhheofddbe": 7,
+        "p_fkioklocpgbp": 5,
+        "p_amhokpidpdnh": 2,
+        "p_enclpbahigno": 2,
+        "p_hpobobilhnoh": 2,
+        "p_jdgogekapdln": 2,
+        "p_eoipeaaocofh": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -33165,6 +34634,11 @@
         "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 11,
+        "p_akenceifeeeh": 4,
+        "p_ifdobplbgacb": 4
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -33257,6 +34731,11 @@
         "p_bcbnmadlfjoe": 1,
         "p_gdmnohpphadm": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 3,
+        "p_fkioklocpgbp": 1,
+        "p_ifdobplbgacb": 1
       },
       "mentions": [
         {
@@ -33390,6 +34869,12 @@
         "p_jchajjgjipbd": 1,
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 17,
+        "p_bfhopadigiif": 3,
+        "p_ghbenapallii": 2,
+        "p_eoipeaaocofh": 1
       },
       "mentions": [
         {
@@ -33597,6 +35082,21 @@
         "p_eoipeaaocofh": 1,
         "p_mnmcbpgmjcja": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 20,
+        "p_amhokpidpdnh": 14,
+        "p_eoipeaaocofh": 8,
+        "p_ifdobplbgacb": 8,
+        "p_gdmnohpphadm": 7,
+        "p_bcbnmadlfjoe": 5,
+        "p_jchajjgjipbd": 4,
+        "me": 2,
+        "p_hpobobilhnoh": 2,
+        "p_dmdailmighhb": 1,
+        "p_fkioklocpgbp": 1,
+        "p_jnkhheofddbe": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_amhokpidpdnh",
@@ -33796,6 +35296,18 @@
         "p_jchajjgjipbd": 1,
         "p_jdgogekapdln": 1
       },
+      "reactionByAuthor": {
+        "p_blfhjomohklb": 8,
+        "p_kephgajchogi": 7,
+        "p_amhokpidpdnh": 6,
+        "p_ifdobplbgacb": 4,
+        "p_fkioklocpgbp": 3,
+        "me": 2,
+        "p_hpobobilhnoh": 2,
+        "p_jnkhheofddbe": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_ghbenapallii": 1
+      },
       "mentions": [
         {
           "from": "p_dmdailmighhb",
@@ -33937,6 +35449,14 @@
         "p_fobjhenjdpgl": 1,
         "p_jchajjgjipbd": 1,
         "p_kephgajchogi": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 11,
+        "p_nfihmngofcke": 10,
+        "p_akenceifeeeh": 4,
+        "p_jnkhheofddbe": 2,
+        "p_amhokpidpdnh": 1,
+        "p_eoipeaaocofh": 1
       },
       "mentions": [
         {
@@ -34098,6 +35618,14 @@
         "p_jchajjgjipbd": 1,
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 10,
+        "p_hpobobilhnoh": 8,
+        "p_jchajjgjipbd": 5,
+        "p_dmdailmighhb": 1,
+        "p_gdmnohpphadm": 1,
+        "p_jnkhheofddbe": 1
       },
       "mentions": [
         {
@@ -34314,6 +35842,17 @@
         "p_jchajjgjipbd": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 11,
+        "p_jchajjgjipbd": 11,
+        "p_nfihmngofcke": 4,
+        "me": 3,
+        "p_ifdobplbgacb": 2,
+        "p_amhokpidpdnh": 1,
+        "p_fkioklocpgbp": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jnkhheofddbe": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -34523,6 +36062,21 @@
         "p_mnmcbpgmjcja": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 18,
+        "p_hpobobilhnoh": 15,
+        "p_dljmmncicnlf": 10,
+        "p_ghbenapallii": 10,
+        "p_nfihmngofcke": 10,
+        "p_ifdobplbgacb": 6,
+        "p_kephgajchogi": 6,
+        "p_bcbnmadlfjoe": 5,
+        "p_fobjhenjdpgl": 5,
+        "p_amhokpidpdnh": 1,
+        "p_dmdailmighhb": 1,
+        "p_fkioklocpgbp": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_blfhjomohklb",
@@ -34718,6 +36272,20 @@
         "p_jchajjgjipbd": 1,
         "p_nfihmngofcke": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 14,
+        "p_fkioklocpgbp": 9,
+        "p_nfihmngofcke": 9,
+        "p_blfhjomohklb": 7,
+        "p_jnkhheofddbe": 7,
+        "p_eoipeaaocofh": 5,
+        "p_fobjhenjdpgl": 5,
+        "p_olidjepnnbno": 5,
+        "p_ghbenapallii": 3,
+        "me": 1,
+        "p_bfhopadigiif": 1,
+        "p_ifdobplbgacb": 1
       },
       "mentions": [
         {
@@ -34920,6 +36488,18 @@
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 19,
+        "p_jchajjgjipbd": 16,
+        "p_akenceifeeeh": 7,
+        "p_mnmcbpgmjcja": 5,
+        "p_fkioklocpgbp": 4,
+        "p_hpobobilhnoh": 2,
+        "p_enclpbahigno": 1,
+        "p_ifdobplbgacb": 1,
+        "p_jnkhheofddbe": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -35082,6 +36662,24 @@
         "p_fobjhenjdpgl": 1,
         "p_ghbenapallii": 1,
         "p_kephgajchogi": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 6,
+        "p_fkioklocpgbp": 6,
+        "p_ghbenapallii": 2,
+        "p_jnkhheofddbe": 2,
+        "me": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_bfhopadigiif": 1,
+        "p_blfhjomohklb": 1,
+        "p_dljmmncicnlf": 1,
+        "p_eoipeaaocofh": 1,
+        "p_ifdobplbgacb": 1,
+        "p_jchajjgjipbd": 1,
+        "p_kephgajchogi": 1,
+        "p_mnmcbpgmjcja": 1,
+        "p_nfihmngofcke": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -35265,6 +36863,10 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_fobjhenjdpgl": 12,
+        "p_jnkhheofddbe": 4
+      },
       "mentions": [
         {
           "from": "p_enclpbahigno",
@@ -35397,6 +36999,13 @@
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_amhokpidpdnh": 12,
+        "p_eoipeaaocofh": 2,
+        "p_ghbenapallii": 2,
+        "p_nfihmngofcke": 2,
+        "p_fkioklocpgbp": 1
+      },
       "mentions": [
         {
           "from": "p_amhokpidpdnh",
@@ -35524,6 +37133,14 @@
         "p_jchajjgjipbd": 1,
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 8,
+        "p_jchajjgjipbd": 2,
+        "p_jnkhheofddbe": 2,
+        "p_amhokpidpdnh": 1,
+        "p_dmdailmighhb": 1,
+        "p_fobjhenjdpgl": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -35693,6 +37310,11 @@
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 7,
+        "p_kephgajchogi": 6,
+        "p_ghbenapallii": 1
       },
       "mentions": [
         {
@@ -35926,6 +37548,12 @@
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_amhokpidpdnh": 6,
+        "p_olidjepnnbno": 3,
+        "p_blfhjomohklb": 2,
+        "p_enclpbahigno": 1
+      },
       "mentions": [
         {
           "from": "p_amhokpidpdnh",
@@ -36081,6 +37709,23 @@
         "p_bfhopadigiif": 1,
         "p_dljmmncicnlf": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 21,
+        "p_fkioklocpgbp": 18,
+        "me": 14,
+        "p_ghbenapallii": 8,
+        "p_hpobobilhnoh": 8,
+        "p_jnkhheofddbe": 6,
+        "p_enclpbahigno": 5,
+        "p_ifdobplbgacb": 3,
+        "p_blfhjomohklb": 2,
+        "p_fobjhenjdpgl": 2,
+        "p_jchajjgjipbd": 2,
+        "p_dmdailmighhb": 1,
+        "p_kephgajchogi": 1,
+        "p_olidjepnnbno": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -36295,6 +37940,17 @@
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 20,
+        "p_ifdobplbgacb": 12,
+        "p_ghbenapallii": 7,
+        "me": 6,
+        "p_enclpbahigno": 6,
+        "p_fkioklocpgbp": 3,
+        "p_amhokpidpdnh": 2,
+        "p_jchajjgjipbd": 2,
+        "p_hpobobilhnoh": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -36454,6 +38110,14 @@
         "p_hpobobilhnoh": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 28,
+        "p_hpobobilhnoh": 8,
+        "p_nfihmngofcke": 7,
+        "p_bfhopadigiif": 1,
+        "p_fkioklocpgbp": 1,
+        "p_fobjhenjdpgl": 1
+      },
       "mentions": [
         {
           "from": "p_bfhopadigiif",
@@ -36600,6 +38264,13 @@
         "p_kephgajchogi": 1,
         "p_mnmcbpgmjcja": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_eoipeaaocofh": 7,
+        "p_fobjhenjdpgl": 5,
+        "me": 3,
+        "p_akenceifeeeh": 2,
+        "p_ghbenapallii": 1
       },
       "mentions": [
         {
@@ -36768,6 +38439,20 @@
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 9,
+        "p_ghbenapallii": 7,
+        "p_jnkhheofddbe": 6,
+        "p_fkioklocpgbp": 4,
+        "p_gdmnohpphadm": 4,
+        "p_fobjhenjdpgl": 3,
+        "p_ifdobplbgacb": 3,
+        "p_dmdailmighhb": 2,
+        "p_olidjepnnbno": 2,
+        "me": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jchajjgjipbd": 1
       },
       "mentions": [
         {
@@ -36979,6 +38664,19 @@
         "p_hpobobilhnoh": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 14,
+        "me": 12,
+        "p_blfhjomohklb": 12,
+        "p_hpobobilhnoh": 11,
+        "p_akenceifeeeh": 8,
+        "p_ghbenapallii": 8,
+        "p_mnmcbpgmjcja": 8,
+        "p_enclpbahigno": 3,
+        "p_fkioklocpgbp": 2,
+        "p_jchajjgjipbd": 2,
+        "p_jnkhheofddbe": 2
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -37171,6 +38869,11 @@
         "p_hpobobilhnoh": 1,
         "p_jnkhheofddbe": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 13,
+        "me": 6,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
@@ -37323,6 +39026,19 @@
         "p_kephgajchogi": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 14,
+        "p_ifdobplbgacb": 7,
+        "p_hpobobilhnoh": 3,
+        "p_amhokpidpdnh": 2,
+        "p_enclpbahigno": 2,
+        "p_gdmnohpphadm": 2,
+        "p_nfihmngofcke": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_fkioklocpgbp": 1,
+        "p_ghbenapallii": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_hpobobilhnoh",
@@ -37467,6 +39183,12 @@
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 6,
+        "p_enclpbahigno": 3,
+        "p_dmdailmighhb": 2,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -37558,6 +39280,11 @@
         "p_blfhjomohklb": 1,
         "p_ghbenapallii": 1,
         "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 7,
+        "p_jchajjgjipbd": 2,
+        "p_kephgajchogi": 1
       },
       "mentions": [
         {
@@ -37652,6 +39379,11 @@
         "p_jchajjgjipbd": 1,
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 6,
+        "p_ghbenapallii": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -37763,6 +39495,13 @@
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_dljmmncicnlf": 11,
+        "p_kephgajchogi": 7,
+        "me": 5,
+        "p_ifdobplbgacb": 4,
+        "p_akenceifeeeh": 1
       },
       "mentions": [
         {
@@ -37886,6 +39625,15 @@
         "p_blfhjomohklb": 1,
         "p_dmdailmighhb": 1,
         "p_fkioklocpgbp": 1,
+        "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "p_olidjepnnbno": 12,
+        "me": 10,
+        "p_ghbenapallii": 7,
+        "p_fkioklocpgbp": 6,
+        "p_amhokpidpdnh": 1,
+        "p_dljmmncicnlf": 1,
         "p_jchajjgjipbd": 1
       },
       "mentions": [
@@ -38069,6 +39817,19 @@
         "p_gdmnohpphadm": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 18,
+        "p_olidjepnnbno": 12,
+        "p_fkioklocpgbp": 7,
+        "p_jnkhheofddbe": 3,
+        "p_kephgajchogi": 3,
+        "p_akenceifeeeh": 2,
+        "p_mnmcbpgmjcja": 2,
+        "p_amhokpidpdnh": 1,
+        "p_blfhjomohklb": 1,
+        "p_enclpbahigno": 1,
+        "p_ghbenapallii": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -38249,6 +40010,18 @@
         "p_gdmnohpphadm": 1,
         "p_jchajjgjipbd": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 13,
+        "p_eoipeaaocofh": 10,
+        "p_olidjepnnbno": 6,
+        "p_akenceifeeeh": 2,
+        "p_amhokpidpdnh": 2,
+        "p_dljmmncicnlf": 2,
+        "me": 1,
+        "p_blfhjomohklb": 1,
+        "p_gdmnohpphadm": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -38409,6 +40182,15 @@
         "p_gdmnohpphadm": 1,
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 15,
+        "p_enclpbahigno": 5,
+        "p_akenceifeeeh": 4,
+        "p_fkioklocpgbp": 4,
+        "p_jnkhheofddbe": 3,
+        "p_gdmnohpphadm": 2,
+        "p_olidjepnnbno": 1
       },
       "mentions": [
         {
@@ -38580,6 +40362,17 @@
         "p_mnmcbpgmjcja": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 12,
+        "p_olidjepnnbno": 7,
+        "p_jdgogekapdln": 4,
+        "p_nfihmngofcke": 4,
+        "p_enclpbahigno": 3,
+        "p_jnkhheofddbe": 3,
+        "p_blfhjomohklb": 2,
+        "p_fkioklocpgbp": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "me",
@@ -38734,6 +40527,13 @@
         "p_jdgogekapdln": 1,
         "p_olidjepnnbno": 1
       },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 5,
+        "p_jchajjgjipbd": 4,
+        "p_blfhjomohklb": 2,
+        "p_jnkhheofddbe": 2,
+        "p_jdgogekapdln": 1
+      },
       "mentions": [
         {
           "from": "p_dljmmncicnlf",
@@ -38835,6 +40635,9 @@
       "vibesBySender": {},
       "reactionBySender": {
         "p_kephgajchogi": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 1
       },
       "mentions": [
         {
@@ -38938,6 +40741,13 @@
         "p_ghbenapallii": 1,
         "p_jdgogekapdln": 1,
         "p_jnkhheofddbe": 1
+      },
+      "reactionByAuthor": {
+        "p_bfhopadigiif": 6,
+        "p_ifdobplbgacb": 2,
+        "p_akenceifeeeh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_fobjhenjdpgl": 1
       },
       "mentions": [],
       "slurBySender": {},
@@ -39144,6 +40954,29 @@
         "p_hpobobilhnoh": 2,
         "p_olidjepnnbno": 2,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 20,
+        "me": 16,
+        "p_fkioklocpgbp": 13,
+        "p_akenceifeeeh": 11,
+        "p_enclpbahigno": 9,
+        "p_hpobobilhnoh": 9,
+        "p_ifdobplbgacb": 9,
+        "p_blfhjomohklb": 8,
+        "p_dmdailmighhb": 6,
+        "p_jchajjgjipbd": 6,
+        "p_kephgajchogi": 4,
+        "p_mnmcbpgmjcja": 4,
+        "p_amhokpidpdnh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_dljmmncicnlf": 1,
+        "p_eoipeaaocofh": 1,
+        "p_jdgogekapdln": 1,
+        "p_jnkhheofddbe": 1,
+        "p_nfihmngofcke": 1,
+        "p_olidjepnnbno": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -39459,6 +41292,18 @@
         "p_enclpbahigno": 1,
         "p_eoipeaaocofh": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 15,
+        "p_ghbenapallii": 8,
+        "p_jchajjgjipbd": 7,
+        "p_kephgajchogi": 7,
+        "p_enclpbahigno": 4,
+        "p_hpobobilhnoh": 4,
+        "me": 3,
+        "p_nfihmngofcke": 3,
+        "p_dmdailmighhb": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_enclpbahigno",
@@ -39600,6 +41445,15 @@
         "me": 1,
         "p_dmdailmighhb": 1,
         "p_hpobobilhnoh": 1,
+        "p_ifdobplbgacb": 1
+      },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 20,
+        "p_eoipeaaocofh": 12,
+        "me": 9,
+        "p_fkioklocpgbp": 8,
+        "p_jdgogekapdln": 2,
+        "p_akenceifeeeh": 1,
         "p_ifdobplbgacb": 1
       },
       "mentions": [
@@ -39756,6 +41610,16 @@
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "me": 16,
+        "p_akenceifeeeh": 7,
+        "p_jchajjgjipbd": 5,
+        "p_blfhjomohklb": 1,
+        "p_enclpbahigno": 1,
+        "p_ghbenapallii": 1,
+        "p_hpobobilhnoh": 1,
+        "p_ifdobplbgacb": 1
       },
       "mentions": [
         {
@@ -39952,6 +41816,21 @@
         "p_hpobobilhnoh": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "me": 24,
+        "p_ifdobplbgacb": 13,
+        "p_gdmnohpphadm": 12,
+        "p_fobjhenjdpgl": 10,
+        "p_akenceifeeeh": 8,
+        "p_ghbenapallii": 6,
+        "p_kephgajchogi": 6,
+        "p_dljmmncicnlf": 4,
+        "p_enclpbahigno": 3,
+        "p_amhokpidpdnh": 2,
+        "p_jchajjgjipbd": 2,
+        "p_hpobobilhnoh": 1,
+        "p_olidjepnnbno": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -40138,6 +42017,22 @@
         "p_gdmnohpphadm": 4,
         "p_hpobobilhnoh": 3,
         "p_enclpbahigno": 2
+      },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 27,
+        "p_akenceifeeeh": 22,
+        "p_fkioklocpgbp": 17,
+        "p_ifdobplbgacb": 16,
+        "p_hpobobilhnoh": 15,
+        "p_blfhjomohklb": 14,
+        "p_jchajjgjipbd": 11,
+        "p_ghbenapallii": 10,
+        "me": 8,
+        "p_bcbnmadlfjoe": 2,
+        "p_jnkhheofddbe": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_kephgajchogi": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {
@@ -40440,6 +42335,15 @@
         "p_omghgdhhmpfj": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 15,
+        "p_jchajjgjipbd": 6,
+        "p_nfihmngofcke": 5,
+        "p_akenceifeeeh": 4,
+        "me": 2,
+        "p_ifdobplbgacb": 2,
+        "p_ghbenapallii": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -40581,6 +42485,18 @@
         "p_mnmcbpgmjcja": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_nfihmngofcke": 5,
+        "p_ifdobplbgacb": 4,
+        "me": 1,
+        "p_bfhopadigiif": 1,
+        "p_dmdailmighhb": 1,
+        "p_enclpbahigno": 1,
+        "p_fkioklocpgbp": 1,
+        "p_ghbenapallii": 1,
+        "p_hpobobilhnoh": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -40719,6 +42635,13 @@
         "p_hpobobilhnoh": 1,
         "p_jchajjgjipbd": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 15,
+        "p_akenceifeeeh": 3,
+        "p_blfhjomohklb": 1,
+        "p_eoipeaaocofh": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -40841,6 +42764,12 @@
         "p_ghbenapallii": 1,
         "p_nfihmngofcke": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 8,
+        "p_mnmcbpgmjcja": 8,
+        "p_fkioklocpgbp": 7,
+        "me": 1
       },
       "mentions": [
         {
@@ -41045,6 +42974,24 @@
         "p_mnmcbpgmjcja": 2,
         "p_hpobobilhnoh": 1,
         "p_pececoiicgih": 1
+      },
+      "reactionByAuthor": {
+        "p_amhokpidpdnh": 30,
+        "p_ifdobplbgacb": 27,
+        "me": 17,
+        "p_akenceifeeeh": 17,
+        "p_dljmmncicnlf": 13,
+        "p_jnkhheofddbe": 13,
+        "p_jchajjgjipbd": 10,
+        "p_blfhjomohklb": 7,
+        "p_eoipeaaocofh": 7,
+        "p_fobjhenjdpgl": 7,
+        "p_ghbenapallii": 6,
+        "p_fkioklocpgbp": 5,
+        "p_bfhopadigiif": 4,
+        "p_hpobobilhnoh": 4,
+        "p_kephgajchogi": 2,
+        "p_nfihmngofcke": 2
       },
       "mentions": [
         {
@@ -41317,6 +43264,19 @@
         "p_hpobobilhnoh": 1,
         "p_mnmcbpgmjcja": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 20,
+        "p_ifdobplbgacb": 20,
+        "p_ghbenapallii": 9,
+        "p_jchajjgjipbd": 8,
+        "me": 4,
+        "p_akenceifeeeh": 3,
+        "p_amhokpidpdnh": 3,
+        "p_jnkhheofddbe": 3,
+        "p_eoipeaaocofh": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_ifdobplbgacb",
@@ -41523,6 +43483,21 @@
         "p_blfhjomohklb": 1,
         "p_dljmmncicnlf": 1,
         "p_nfihmngofcke": 1
+      },
+      "reactionByAuthor": {
+        "p_amhokpidpdnh": 19,
+        "p_akenceifeeeh": 12,
+        "p_ifdobplbgacb": 12,
+        "p_enclpbahigno": 10,
+        "p_hpobobilhnoh": 10,
+        "p_jchajjgjipbd": 10,
+        "p_ghbenapallii": 7,
+        "p_kephgajchogi": 6,
+        "p_dmdailmighhb": 5,
+        "me": 4,
+        "p_jnkhheofddbe": 4,
+        "p_fkioklocpgbp": 2,
+        "p_bcbnmadlfjoe": 1
       },
       "mentions": [
         {
@@ -41825,6 +43800,27 @@
         "p_fkioklocpgbp": 3,
         "p_omghgdhhmpfj": 3,
         "p_olidjepnnbno": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 43,
+        "p_ifdobplbgacb": 17,
+        "p_akenceifeeeh": 15,
+        "p_jnkhheofddbe": 13,
+        "p_nfihmngofcke": 12,
+        "me": 9,
+        "p_bcbnmadlfjoe": 8,
+        "p_ghbenapallii": 7,
+        "p_jchajjgjipbd": 7,
+        "p_kephgajchogi": 7,
+        "p_bfhopadigiif": 6,
+        "p_enclpbahigno": 5,
+        "p_dljmmncicnlf": 4,
+        "p_gdmnohpphadm": 4,
+        "p_amhokpidpdnh": 2,
+        "p_fkioklocpgbp": 1,
+        "p_jdgogekapdln": 1,
+        "p_olidjepnnbno": 1,
+        "p_pececoiicgih": 1
       },
       "mentions": [
         {
@@ -42249,6 +44245,23 @@
         "p_ghbenapallii": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 10,
+        "p_ifdobplbgacb": 7,
+        "p_jnkhheofddbe": 6,
+        "me": 2,
+        "p_amhokpidpdnh": 2,
+        "p_bfhopadigiif": 2,
+        "p_jchajjgjipbd": 2,
+        "p_blfhjomohklb": 1,
+        "p_enclpbahigno": 1,
+        "p_eoipeaaocofh": 1,
+        "p_gdmnohpphadm": 1,
+        "p_ghbenapallii": 1,
+        "p_hpobobilhnoh": 1,
+        "p_mnmcbpgmjcja": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_bfhopadigiif",
@@ -42422,6 +44435,15 @@
         "p_fobjhenjdpgl": 1,
         "p_ifdobplbgacb": 1,
         "p_jchajjgjipbd": 1
+      },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 9,
+        "me": 6,
+        "p_hpobobilhnoh": 3,
+        "p_ghbenapallii": 2,
+        "p_ifdobplbgacb": 2,
+        "p_jchajjgjipbd": 2,
+        "p_bfhopadigiif": 1
       },
       "mentions": [
         {
@@ -42607,6 +44629,24 @@
         "p_omghgdhhmpfj": 2,
         "p_fobjhenjdpgl": 1,
         "p_hpobobilhnoh": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 15,
+        "p_amhokpidpdnh": 10,
+        "p_enclpbahigno": 10,
+        "p_fkioklocpgbp": 10,
+        "p_ghbenapallii": 10,
+        "p_akenceifeeeh": 8,
+        "me": 7,
+        "p_jnkhheofddbe": 7,
+        "p_ifdobplbgacb": 6,
+        "p_bfhopadigiif": 5,
+        "p_hpobobilhnoh": 5,
+        "p_kephgajchogi": 4,
+        "p_blfhjomohklb": 3,
+        "p_nfihmngofcke": 2,
+        "p_eoipeaaocofh": 1,
+        "p_olidjepnnbno": 1
       },
       "mentions": [
         {
@@ -42814,6 +44854,14 @@
         "p_jnkhheofddbe": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 4,
+        "p_blfhjomohklb": 4,
+        "p_enclpbahigno": 2,
+        "p_fkioklocpgbp": 1,
+        "p_ghbenapallii": 1,
+        "p_jchajjgjipbd": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -43016,6 +45064,24 @@
         "p_ifdobplbgacb": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 12,
+        "p_akenceifeeeh": 6,
+        "p_ifdobplbgacb": 6,
+        "p_nfihmngofcke": 6,
+        "p_bfhopadigiif": 5,
+        "p_jchajjgjipbd": 5,
+        "p_amhokpidpdnh": 4,
+        "p_fkioklocpgbp": 3,
+        "p_fobjhenjdpgl": 3,
+        "p_hpobobilhnoh": 3,
+        "p_enclpbahigno": 2,
+        "p_ghbenapallii": 2,
+        "me": 1,
+        "p_blfhjomohklb": 1,
+        "p_eoipeaaocofh": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_bfhopadigiif",
@@ -43196,6 +45262,20 @@
         "p_bfhopadigiif": 1,
         "p_enclpbahigno": 1,
         "p_hpobobilhnoh": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 17,
+        "p_ifdobplbgacb": 12,
+        "p_bfhopadigiif": 6,
+        "me": 3,
+        "p_dmdailmighhb": 3,
+        "p_fkioklocpgbp": 3,
+        "p_ghbenapallii": 3,
+        "p_jchajjgjipbd": 3,
+        "p_kephgajchogi": 3,
+        "p_amhokpidpdnh": 2,
+        "p_enclpbahigno": 1,
+        "p_gdmnohpphadm": 1
       },
       "mentions": [
         {
@@ -43416,6 +45496,22 @@
         "p_mnmcbpgmjcja": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_nfihmngofcke": 10,
+        "p_hpobobilhnoh": 8,
+        "me": 5,
+        "p_jdgogekapdln": 5,
+        "p_ifdobplbgacb": 4,
+        "p_bfhopadigiif": 2,
+        "p_ghbenapallii": 2,
+        "p_jchajjgjipbd": 2,
+        "p_jnkhheofddbe": 2,
+        "p_akenceifeeeh": 1,
+        "p_blfhjomohklb": 1,
+        "p_fkioklocpgbp": 1,
+        "p_gdmnohpphadm": 1,
+        "p_kephgajchogi": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -43612,6 +45708,9 @@
       "reactionBySender": {
         "p_dljmmncicnlf": 1
       },
+      "reactionByAuthor": {
+        "p_kephgajchogi": 1
+      },
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {}
@@ -43788,6 +45887,25 @@
         "p_bcbnmadlfjoe": 1,
         "p_enclpbahigno": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 42,
+        "p_jnkhheofddbe": 26,
+        "p_jchajjgjipbd": 23,
+        "me": 18,
+        "p_bfhopadigiif": 13,
+        "p_ghbenapallii": 11,
+        "p_ifdobplbgacb": 11,
+        "p_amhokpidpdnh": 10,
+        "p_gdmnohpphadm": 8,
+        "p_eoipeaaocofh": 7,
+        "p_blfhjomohklb": 5,
+        "p_fobjhenjdpgl": 5,
+        "p_enclpbahigno": 4,
+        "p_fkioklocpgbp": 4,
+        "p_kephgajchogi": 4,
+        "p_omghgdhhmpfj": 3,
+        "p_dljmmncicnlf": 2
       },
       "mentions": [
         {
@@ -44105,6 +46223,22 @@
         "p_fobjhenjdpgl": 2,
         "p_hpobobilhnoh": 1
       },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 16,
+        "p_nfihmngofcke": 16,
+        "p_dmdailmighhb": 10,
+        "p_fkioklocpgbp": 10,
+        "p_ghbenapallii": 10,
+        "p_bfhopadigiif": 7,
+        "p_jnkhheofddbe": 7,
+        "p_akenceifeeeh": 6,
+        "me": 4,
+        "p_blfhjomohklb": 2,
+        "p_jchajjgjipbd": 2,
+        "p_omghgdhhmpfj": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_jdgogekapdln": 1
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -44350,6 +46484,24 @@
         "p_enclpbahigno": 1,
         "p_jdgogekapdln": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 28,
+        "p_amhokpidpdnh": 18,
+        "me": 12,
+        "p_kephgajchogi": 12,
+        "p_ifdobplbgacb": 10,
+        "p_jnkhheofddbe": 10,
+        "p_jchajjgjipbd": 9,
+        "p_fkioklocpgbp": 8,
+        "p_ghbenapallii": 8,
+        "p_olidjepnnbno": 7,
+        "p_bfhopadigiif": 4,
+        "p_enclpbahigno": 4,
+        "p_eoipeaaocofh": 3,
+        "p_dljmmncicnlf": 2,
+        "p_hpobobilhnoh": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "me",
@@ -44565,6 +46717,16 @@
         "p_fobjhenjdpgl": 1,
         "p_jchajjgjipbd": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 12,
+        "p_ghbenapallii": 9,
+        "p_hpobobilhnoh": 6,
+        "p_ifdobplbgacb": 6,
+        "p_jchajjgjipbd": 5,
+        "me": 2,
+        "p_blfhjomohklb": 2,
+        "p_kephgajchogi": 1
       },
       "mentions": [
         {
@@ -44817,6 +46979,24 @@
         "p_dljmmncicnlf": 1,
         "p_ghbenapallii": 1,
         "p_hpobobilhnoh": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 21,
+        "me": 17,
+        "p_amhokpidpdnh": 17,
+        "p_jchajjgjipbd": 17,
+        "p_ifdobplbgacb": 15,
+        "p_jnkhheofddbe": 14,
+        "p_kephgajchogi": 13,
+        "p_fobjhenjdpgl": 11,
+        "p_blfhjomohklb": 8,
+        "p_eoipeaaocofh": 8,
+        "p_fkioklocpgbp": 8,
+        "p_hpobobilhnoh": 8,
+        "p_omghgdhhmpfj": 3,
+        "p_enclpbahigno": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_dljmmncicnlf": 1
       },
       "mentions": [
         {
@@ -45134,6 +47314,26 @@
         "p_eoipeaaocofh": 1,
         "p_jdgogekapdln": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_ifdobplbgacb": 22,
+        "me": 20,
+        "p_amhokpidpdnh": 20,
+        "p_fkioklocpgbp": 19,
+        "p_dmdailmighhb": 18,
+        "p_ghbenapallii": 16,
+        "p_jnkhheofddbe": 16,
+        "p_nfihmngofcke": 15,
+        "p_jchajjgjipbd": 14,
+        "p_fobjhenjdpgl": 7,
+        "p_kephgajchogi": 6,
+        "p_bfhopadigiif": 5,
+        "p_blfhjomohklb": 5,
+        "p_akenceifeeeh": 4,
+        "p_gdmnohpphadm": 3,
+        "p_hpobobilhnoh": 2,
+        "p_eoipeaaocofh": 1,
+        "p_mnmcbpgmjcja": 1
       },
       "mentions": [
         {
@@ -45571,6 +47771,19 @@
         "p_dljmmncicnlf": 1,
         "p_ghbenapallii": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 11,
+        "p_bfhopadigiif": 7,
+        "p_dmdailmighhb": 5,
+        "p_enclpbahigno": 5,
+        "p_jnkhheofddbe": 3,
+        "me": 2,
+        "p_fkioklocpgbp": 2,
+        "p_ifdobplbgacb": 2,
+        "p_dljmmncicnlf": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_jchajjgjipbd": 1
+      },
       "mentions": [
         {
           "from": "me",
@@ -45748,6 +47961,14 @@
         "p_jchajjgjipbd": 1,
         "p_jnkhheofddbe": 1,
         "p_omghgdhhmpfj": 1
+      },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 6,
+        "p_ifdobplbgacb": 5,
+        "p_ghbenapallii": 2,
+        "p_hpobobilhnoh": 2,
+        "p_nfihmngofcke": 2,
+        "p_jnkhheofddbe": 1
       },
       "mentions": [
         {
@@ -45997,6 +48218,21 @@
         "p_enclpbahigno": 1,
         "p_gdmnohpphadm": 1,
         "p_ifdobplbgacb": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 18,
+        "p_fkioklocpgbp": 9,
+        "p_bfhopadigiif": 8,
+        "me": 4,
+        "p_enclpbahigno": 2,
+        "p_ifdobplbgacb": 2,
+        "p_jchajjgjipbd": 2,
+        "p_jnkhheofddbe": 2,
+        "p_nfihmngofcke": 2,
+        "p_akenceifeeeh": 1,
+        "p_blfhjomohklb": 1,
+        "p_dmdailmighhb": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -46300,6 +48536,21 @@
         "p_gdmnohpphadm": 1,
         "p_jdgogekapdln": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 27,
+        "p_jchajjgjipbd": 20,
+        "p_ifdobplbgacb": 16,
+        "p_ghbenapallii": 11,
+        "p_jnkhheofddbe": 10,
+        "p_nfihmngofcke": 9,
+        "me": 7,
+        "p_hpobobilhnoh": 7,
+        "p_bfhopadigiif": 6,
+        "p_blfhjomohklb": 5,
+        "p_akenceifeeeh": 3,
+        "p_dmdailmighhb": 2,
+        "p_gdmnohpphadm": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -46553,6 +48804,15 @@
         "p_jdgogekapdln": 2,
         "p_kephgajchogi": 2
       },
+      "reactionByAuthor": {
+        "p_enclpbahigno": 8,
+        "p_fkioklocpgbp": 6,
+        "p_gdmnohpphadm": 6,
+        "p_ghbenapallii": 5,
+        "p_akenceifeeeh": 3,
+        "me": 2,
+        "p_amhokpidpdnh": 1
+      },
       "mentions": [
         {
           "from": "p_fkioklocpgbp",
@@ -46688,6 +48948,10 @@
         "p_fobjhenjdpgl": 1,
         "p_gdmnohpphadm": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 4,
+        "me": 1
       },
       "mentions": [
         {
@@ -46841,6 +49105,21 @@
         "p_kephgajchogi": 2,
         "p_dmdailmighhb": 1,
         "p_enclpbahigno": 1,
+        "p_hpobobilhnoh": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 14,
+        "p_bcbnmadlfjoe": 11,
+        "p_enclpbahigno": 10,
+        "me": 8,
+        "p_ifdobplbgacb": 6,
+        "p_kephgajchogi": 6,
+        "p_ghbenapallii": 3,
+        "p_amhokpidpdnh": 2,
+        "p_fkioklocpgbp": 2,
+        "p_fobjhenjdpgl": 2,
+        "p_jchajjgjipbd": 2,
+        "p_dljmmncicnlf": 1,
         "p_hpobobilhnoh": 1
       },
       "mentions": [
@@ -47038,6 +49317,24 @@
         "p_eoipeaaocofh": 1,
         "p_olidjepnnbno": 1,
         "p_pececoiicgih": 1
+      },
+      "reactionByAuthor": {
+        "me": 43,
+        "p_ifdobplbgacb": 36,
+        "p_nfihmngofcke": 25,
+        "p_hpobobilhnoh": 18,
+        "p_gdmnohpphadm": 13,
+        "p_akenceifeeeh": 11,
+        "p_fkioklocpgbp": 10,
+        "p_enclpbahigno": 8,
+        "p_bfhopadigiif": 7,
+        "p_dmdailmighhb": 4,
+        "p_jchajjgjipbd": 4,
+        "p_jnkhheofddbe": 2,
+        "p_amhokpidpdnh": 1,
+        "p_bcbnmadlfjoe": 1,
+        "p_jdgogekapdln": 1,
+        "p_kephgajchogi": 1
       },
       "mentions": [
         {
@@ -47320,6 +49617,17 @@
         "p_hpobobilhnoh": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 7,
+        "p_akenceifeeeh": 3,
+        "me": 2,
+        "p_ghbenapallii": 2,
+        "p_kephgajchogi": 2,
+        "p_dmdailmighhb": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jchajjgjipbd": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -47557,6 +49865,25 @@
         "p_eoipeaaocofh": 1,
         "p_hpobobilhnoh": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 33,
+        "p_ghbenapallii": 30,
+        "p_ifdobplbgacb": 22,
+        "p_fkioklocpgbp": 19,
+        "me": 12,
+        "p_jchajjgjipbd": 12,
+        "p_jnkhheofddbe": 12,
+        "p_bfhopadigiif": 8,
+        "p_omghgdhhmpfj": 5,
+        "p_nfihmngofcke": 4,
+        "p_amhokpidpdnh": 3,
+        "p_dmdailmighhb": 3,
+        "p_enclpbahigno": 3,
+        "p_jdgogekapdln": 2,
+        "p_kephgajchogi": 2,
+        "p_eoipeaaocofh": 1,
+        "p_fobjhenjdpgl": 1
       },
       "mentions": [
         {
@@ -47975,6 +50302,17 @@
         "p_gdmnohpphadm": 1,
         "p_kephgajchogi": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 10,
+        "p_ifdobplbgacb": 6,
+        "p_fkioklocpgbp": 5,
+        "p_jnkhheofddbe": 3,
+        "p_dmdailmighhb": 2,
+        "me": 1,
+        "p_akenceifeeeh": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_nfihmngofcke": 1
+      },
       "mentions": [
         {
           "from": "p_jchajjgjipbd",
@@ -48246,6 +50584,22 @@
         "p_fkioklocpgbp": 1,
         "p_ifdobplbgacb": 1
       },
+      "reactionByAuthor": {
+        "p_fobjhenjdpgl": 11,
+        "p_ifdobplbgacb": 11,
+        "p_fkioklocpgbp": 9,
+        "p_jchajjgjipbd": 5,
+        "p_akenceifeeeh": 4,
+        "p_hpobobilhnoh": 4,
+        "p_jnkhheofddbe": 4,
+        "me": 3,
+        "p_amhokpidpdnh": 3,
+        "p_blfhjomohklb": 2,
+        "p_kephgajchogi": 2,
+        "p_omghgdhhmpfj": 2,
+        "p_dmdailmighhb": 1,
+        "p_ghbenapallii": 1
+      },
       "mentions": [
         {
           "from": "me",
@@ -48506,6 +50860,21 @@
         "p_fkioklocpgbp": 1,
         "p_fobjhenjdpgl": 1,
         "p_gdmnohpphadm": 1
+      },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 11,
+        "p_ghbenapallii": 7,
+        "p_jchajjgjipbd": 7,
+        "p_fkioklocpgbp": 4,
+        "p_nfihmngofcke": 3,
+        "p_amhokpidpdnh": 2,
+        "p_ifdobplbgacb": 2,
+        "p_dljmmncicnlf": 1,
+        "p_eoipeaaocofh": 1,
+        "p_hpobobilhnoh": 1,
+        "p_jnkhheofddbe": 1,
+        "p_kephgajchogi": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -48799,6 +51168,27 @@
         "p_omghgdhhmpfj": 3,
         "p_amhokpidpdnh": 2,
         "p_enclpbahigno": 2
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 25,
+        "p_ifdobplbgacb": 16,
+        "p_ghbenapallii": 13,
+        "p_hpobobilhnoh": 13,
+        "p_jchajjgjipbd": 13,
+        "p_nfihmngofcke": 11,
+        "me": 10,
+        "p_kephgajchogi": 9,
+        "p_fobjhenjdpgl": 8,
+        "p_olidjepnnbno": 7,
+        "p_fkioklocpgbp": 6,
+        "p_amhokpidpdnh": 5,
+        "p_dmdailmighhb": 4,
+        "p_akenceifeeeh": 3,
+        "p_bfhopadigiif": 2,
+        "p_blfhjomohklb": 2,
+        "p_enclpbahigno": 2,
+        "p_gdmnohpphadm": 1,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -49242,6 +51632,18 @@
         "p_gdmnohpphadm": 1,
         "p_jdgogekapdln": 1
       },
+      "reactionByAuthor": {
+        "p_dmdailmighhb": 10,
+        "p_nfihmngofcke": 9,
+        "p_bfhopadigiif": 6,
+        "p_fkioklocpgbp": 3,
+        "p_jchajjgjipbd": 3,
+        "me": 1,
+        "p_akenceifeeeh": 1,
+        "p_enclpbahigno": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_jchajjgjipbd",
@@ -49556,6 +51958,24 @@
         "p_blfhjomohklb": 1,
         "p_hpobobilhnoh": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 16,
+        "p_gdmnohpphadm": 10,
+        "p_ifdobplbgacb": 10,
+        "p_eoipeaaocofh": 9,
+        "p_fkioklocpgbp": 9,
+        "p_dljmmncicnlf": 6,
+        "p_fobjhenjdpgl": 6,
+        "me": 5,
+        "p_dmdailmighhb": 4,
+        "p_jchajjgjipbd": 4,
+        "p_jnkhheofddbe": 4,
+        "p_ghbenapallii": 3,
+        "p_hpobobilhnoh": 3,
+        "p_amhokpidpdnh": 2,
+        "p_nfihmngofcke": 2,
+        "p_omghgdhhmpfj": 1
       },
       "mentions": [
         {
@@ -49873,6 +52293,25 @@
         "p_blfhjomohklb": 2,
         "p_bcbnmadlfjoe": 1,
         "p_dmdailmighhb": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 32,
+        "p_jchajjgjipbd": 16,
+        "p_hpobobilhnoh": 13,
+        "p_enclpbahigno": 12,
+        "p_ghbenapallii": 11,
+        "p_kephgajchogi": 10,
+        "p_gdmnohpphadm": 8,
+        "p_nfihmngofcke": 8,
+        "p_dmdailmighhb": 7,
+        "me": 5,
+        "p_ifdobplbgacb": 5,
+        "p_jnkhheofddbe": 5,
+        "p_omghgdhhmpfj": 5,
+        "p_akenceifeeeh": 3,
+        "p_mnmcbpgmjcja": 3,
+        "p_dljmmncicnlf": 2,
+        "p_amhokpidpdnh": 1
       },
       "mentions": [
         {
@@ -50350,6 +52789,29 @@
         "p_dmdailmighhb": 1,
         "p_eoipeaaocofh": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 43,
+        "p_ifdobplbgacb": 38,
+        "p_jchajjgjipbd": 36,
+        "p_kephgajchogi": 25,
+        "p_ghbenapallii": 20,
+        "p_amhokpidpdnh": 19,
+        "p_bfhopadigiif": 17,
+        "p_hpobobilhnoh": 14,
+        "p_gdmnohpphadm": 10,
+        "p_mnmcbpgmjcja": 8,
+        "me": 7,
+        "p_akenceifeeeh": 6,
+        "p_jnkhheofddbe": 6,
+        "p_omghgdhhmpfj": 6,
+        "p_enclpbahigno": 4,
+        "p_nfihmngofcke": 4,
+        "p_fobjhenjdpgl": 3,
+        "p_dljmmncicnlf": 2,
+        "p_jdgogekapdln": 2,
+        "p_blfhjomohklb": 1,
+        "p_dmdailmighhb": 1
       },
       "mentions": [
         {
@@ -50925,6 +53387,24 @@
         "p_mnmcbpgmjcja": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 27,
+        "p_jchajjgjipbd": 15,
+        "p_jnkhheofddbe": 12,
+        "p_nfihmngofcke": 8,
+        "me": 7,
+        "p_fkioklocpgbp": 6,
+        "p_gdmnohpphadm": 6,
+        "p_omghgdhhmpfj": 6,
+        "p_amhokpidpdnh": 5,
+        "p_fobjhenjdpgl": 5,
+        "p_kephgajchogi": 5,
+        "p_akenceifeeeh": 4,
+        "p_dmdailmighhb": 3,
+        "p_ghbenapallii": 3,
+        "p_ifdobplbgacb": 3,
+        "p_enclpbahigno": 2
+      },
       "mentions": [
         {
           "from": "p_akenceifeeeh",
@@ -51270,6 +53750,12 @@
         "p_jdgogekapdln": 1,
         "p_nfihmngofcke": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 10,
+        "p_jchajjgjipbd": 2,
+        "p_ghbenapallii": 1,
+        "p_hpobobilhnoh": 1
+      },
       "mentions": [
         {
           "from": "p_dljmmncicnlf",
@@ -51493,6 +53979,22 @@
         "p_dmdailmighhb": 1,
         "p_enclpbahigno": 1,
         "p_pececoiicgih": 1
+      },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 24,
+        "p_jchajjgjipbd": 16,
+        "p_ifdobplbgacb": 15,
+        "p_gdmnohpphadm": 13,
+        "p_akenceifeeeh": 11,
+        "p_nfihmngofcke": 9,
+        "p_hpobobilhnoh": 5,
+        "p_jnkhheofddbe": 5,
+        "p_omghgdhhmpfj": 4,
+        "p_blfhjomohklb": 3,
+        "p_dmdailmighhb": 3,
+        "p_pececoiicgih": 3,
+        "p_fobjhenjdpgl": 2,
+        "p_ghbenapallii": 2
       },
       "mentions": [
         {
@@ -51759,6 +54261,22 @@
         "p_bcbnmadlfjoe": 1,
         "p_hpobobilhnoh": 1,
         "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_hpobobilhnoh": 20,
+        "p_akenceifeeeh": 18,
+        "p_fkioklocpgbp": 17,
+        "p_ifdobplbgacb": 14,
+        "p_jnkhheofddbe": 13,
+        "p_dmdailmighhb": 12,
+        "me": 8,
+        "p_ghbenapallii": 8,
+        "p_jchajjgjipbd": 6,
+        "p_mnmcbpgmjcja": 5,
+        "p_fobjhenjdpgl": 4,
+        "p_nfihmngofcke": 3,
+        "p_omghgdhhmpfj": 2,
+        "p_kephgajchogi": 1
       },
       "mentions": [
         {
@@ -52217,6 +54735,27 @@
         "p_jdgogekapdln": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_akenceifeeeh": 21,
+        "p_fkioklocpgbp": 18,
+        "p_enclpbahigno": 17,
+        "p_nfihmngofcke": 16,
+        "p_jnkhheofddbe": 14,
+        "me": 13,
+        "p_kephgajchogi": 13,
+        "p_hpobobilhnoh": 10,
+        "p_dmdailmighhb": 8,
+        "p_ghbenapallii": 8,
+        "p_gdmnohpphadm": 6,
+        "p_omghgdhhmpfj": 6,
+        "p_ifdobplbgacb": 5,
+        "p_jchajjgjipbd": 5,
+        "p_amhokpidpdnh": 2,
+        "p_dljmmncicnlf": 2,
+        "p_eoipeaaocofh": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_blfhjomohklb": 1
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -52629,6 +55168,22 @@
         "p_bcbnmadlfjoe": 1,
         "p_pececoiicgih": 1
       },
+      "reactionByAuthor": {
+        "p_jchajjgjipbd": 19,
+        "p_dmdailmighhb": 16,
+        "me": 13,
+        "p_ghbenapallii": 13,
+        "p_nfihmngofcke": 13,
+        "p_gdmnohpphadm": 10,
+        "p_fkioklocpgbp": 8,
+        "p_akenceifeeeh": 6,
+        "p_kephgajchogi": 6,
+        "p_ifdobplbgacb": 5,
+        "p_mnmcbpgmjcja": 3,
+        "p_olidjepnnbno": 2,
+        "p_enclpbahigno": 1,
+        "p_omghgdhhmpfj": 1
+      },
       "mentions": [
         {
           "from": "p_nfihmngofcke",
@@ -52948,6 +55503,25 @@
         "p_mnmcbpgmjcja": 1,
         "p_omghgdhhmpfj": 1
       },
+      "reactionByAuthor": {
+        "p_fkioklocpgbp": 16,
+        "p_jchajjgjipbd": 14,
+        "p_kephgajchogi": 13,
+        "p_akenceifeeeh": 7,
+        "me": 6,
+        "p_ghbenapallii": 6,
+        "p_nfihmngofcke": 6,
+        "p_dmdailmighhb": 5,
+        "p_amhokpidpdnh": 3,
+        "p_jnkhheofddbe": 3,
+        "p_bfhopadigiif": 2,
+        "p_mnmcbpgmjcja": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_gdmnohpphadm": 1,
+        "p_hpobobilhnoh": 1,
+        "p_ifdobplbgacb": 1
+      },
       "mentions": [
         {
           "from": "p_kephgajchogi",
@@ -53257,6 +55831,28 @@
         "p_eoipeaaocofh": 2,
         "p_dmdailmighhb": 1,
         "p_jdgogekapdln": 1
+      },
+      "reactionByAuthor": {
+        "me": 33,
+        "p_ifdobplbgacb": 33,
+        "p_akenceifeeeh": 26,
+        "p_enclpbahigno": 20,
+        "p_fkioklocpgbp": 20,
+        "p_gdmnohpphadm": 17,
+        "p_ghbenapallii": 17,
+        "p_kephgajchogi": 17,
+        "p_hpobobilhnoh": 14,
+        "p_amhokpidpdnh": 11,
+        "p_blfhjomohklb": 11,
+        "p_dmdailmighhb": 8,
+        "p_jnkhheofddbe": 8,
+        "p_nfihmngofcke": 5,
+        "p_omghgdhhmpfj": 4,
+        "p_jchajjgjipbd": 3,
+        "p_pececoiicgih": 2,
+        "p_bcbnmadlfjoe": 1,
+        "p_fobjhenjdpgl": 1,
+        "p_olidjepnnbno": 1
       },
       "mentions": [
         {
@@ -53600,20 +56196,20 @@
     },
     {
       "date": "2026-06-14",
-      "count": 236,
-      "turnCount": 181,
-      "attachmentMessages": 17,
-      "attachmentTurns": 16,
-      "textLengthSum": 5971,
-      "textMessageCount": 228,
+      "count": 241,
+      "turnCount": 186,
+      "attachmentMessages": 19,
+      "attachmentTurns": 18,
+      "textLengthSum": 6014,
+      "textMessageCount": 233,
       "bySender": {
         "p_akenceifeeeh": 42,
         "me": 39,
         "p_ifdobplbgacb": 31,
-        "p_ghbenapallii": 20,
-        "p_kephgajchogi": 20,
+        "p_kephgajchogi": 22,
+        "p_ghbenapallii": 21,
         "p_nfihmngofcke": 18,
-        "p_fkioklocpgbp": 15,
+        "p_fkioklocpgbp": 17,
         "p_jchajjgjipbd": 14,
         "p_dmdailmighhb": 10,
         "p_omghgdhhmpfj": 10,
@@ -53626,10 +56222,10 @@
         "me": 27,
         "p_ifdobplbgacb": 26,
         "p_akenceifeeeh": 22,
-        "p_ghbenapallii": 18,
-        "p_kephgajchogi": 16,
+        "p_ghbenapallii": 19,
+        "p_kephgajchogi": 18,
+        "p_fkioklocpgbp": 16,
         "p_nfihmngofcke": 16,
-        "p_fkioklocpgbp": 14,
         "p_jchajjgjipbd": 13,
         "p_dmdailmighhb": 9,
         "p_omghgdhhmpfj": 8,
@@ -53657,7 +56253,7 @@
         0,
         2,
         59,
-        9,
+        14,
         0,
         0,
         0,
@@ -53683,7 +56279,7 @@
         0,
         2,
         50,
-        5,
+        10,
         0,
         0,
         0,
@@ -53746,7 +56342,7 @@
         }
       },
       "reactionBySender": {
-        "p_nfihmngofcke": 16,
+        "p_nfihmngofcke": 17,
         "p_fobjhenjdpgl": 12,
         "p_kephgajchogi": 10,
         "p_ghbenapallii": 9,
@@ -53757,6 +56353,19 @@
         "p_ifdobplbgacb": 3,
         "me": 1,
         "p_blfhjomohklb": 1
+      },
+      "reactionByAuthor": {
+        "p_ghbenapallii": 18,
+        "p_fkioklocpgbp": 15,
+        "p_akenceifeeeh": 11,
+        "p_kephgajchogi": 8,
+        "p_ifdobplbgacb": 7,
+        "p_blfhjomohklb": 5,
+        "p_hpobobilhnoh": 5,
+        "p_jchajjgjipbd": 3,
+        "me": 2,
+        "p_fobjhenjdpgl": 1,
+        "p_nfihmngofcke": 1
       },
       "mentions": [
         {

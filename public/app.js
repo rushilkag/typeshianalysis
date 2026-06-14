@@ -53,6 +53,7 @@ function buildWindowSummary() {
   const rawSenderCounts = new Map();
   const vibeBySender = new Map();
   const reactionBySender = new Map();
+  const reactionByAuthor = new Map();
   const slurBySender = new Map();
   const slurByCategory = new Map();
   const mentionEdges = new Map();
@@ -95,6 +96,10 @@ function buildWindowSummary() {
 
     Object.entries(day.reactionBySender || {}).forEach(([senderId, count]) => {
       reactionBySender.set(senderId, (reactionBySender.get(senderId) || 0) + count);
+    });
+
+    Object.entries(day.reactionByAuthor || {}).forEach(([senderId, count]) => {
+      reactionByAuthor.set(senderId, (reactionByAuthor.get(senderId) || 0) + count);
     });
 
     Object.entries(day.slurBySender || {}).forEach(([senderId, scores]) => {
@@ -158,6 +163,14 @@ function buildWindowSummary() {
     reactionCount,
   }));
 
+  const reactionReceivedRows = Array.from(reactionByAuthor.entries()).map(([senderId, reactionCount]) => ({
+    ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
+    messageCount: rawSenderCounts.get(senderId) || senderCounts.get(senderId) || 0,
+    turnCount: senderCounts.get(senderId) || 0,
+    reactionCount,
+    rate: percent(reactionCount, senderCounts.get(senderId) || rawSenderCounts.get(senderId) || 0),
+  }));
+
   const slurRows = Array.from(slurBySender.entries()).map(([senderId, scores]) => ({
     ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
     scores,
@@ -196,6 +209,7 @@ function buildWindowSummary() {
     hourly: hourlyCounts.map((count, hour) => ({ hour, count })),
     vibeRows,
     reactionRows,
+    reactionReceivedRows,
     mentions,
     reactionMessages: reactions,
     slurRows,
@@ -409,6 +423,59 @@ function renderMentions(windowSummary) {
     .join("");
 }
 
+function renderReactionRanks(windowSummary) {
+  const sentRoot = $("reactionDemon");
+  const receivedRoot = $("mostLiked");
+
+  if (sentRoot) {
+    const sentRows = [...windowSummary.reactionRows]
+      .sort((a, b) => b.reactionCount - a.reactionCount || a.label.localeCompare(b.label))
+      .slice(0, 10);
+    sentRoot.innerHTML = renderRankRows(sentRows, {
+      empty: "No reactions sent in this window.",
+      valueLabel: "sent",
+    });
+  }
+
+  if (receivedRoot) {
+    const receivedRows = [...windowSummary.reactionReceivedRows]
+      .sort((a, b) => b.reactionCount - a.reactionCount || b.rate - a.rate || a.label.localeCompare(b.label))
+      .slice(0, 10);
+    receivedRoot.innerHTML = renderRankRows(receivedRows, {
+      empty: "No reactions received in this window.",
+      valueLabel: "received",
+      detail: (row) => `${fmt.format(row.reactionCount)} reactions / ${fmt.format(row.turnCount || 0)} turns`,
+    });
+  }
+}
+
+function renderRankRows(rows, options) {
+  if (!rows.length) {
+    return `<div class="empty">${escapeHtml(options.empty)}</div>`;
+  }
+
+  const max = Math.max(...rows.map((row) => row.reactionCount), 1);
+  return rows
+    .map((row, index) => {
+      const width = Math.max((row.reactionCount / max) * 100, 3).toFixed(2);
+      const detail = options.detail
+        ? options.detail(row)
+        : `${fmt.format(row.reactionCount)} reactions ${options.valueLabel}`;
+      return `
+        <div class="reaction-rank-row">
+          <span>${index + 1}</span>
+          <div>
+            <strong>${escapeHtml(row.label)}</strong>
+            <em>${escapeHtml(detail)}</em>
+            <i style="--w: ${width}%"></i>
+          </div>
+          <b>${fmt.format(row.reactionCount)}</b>
+        </div>
+      `;
+    })
+    .join("");
+}
+
 function reactionBreakdown(reactionTypes = {}) {
   return Object.entries(reactionTypes)
     .map(([type, count]) => `${escapeHtml(type)} ${fmt.format(count)}`)
@@ -484,6 +551,7 @@ function render() {
   renderHourly(windowSummary);
   renderVibes(windowSummary);
   renderMentions(windowSummary);
+  renderReactionRanks(windowSummary);
   renderReactions(windowSummary);
   renderSlurs(windowSummary);
 }

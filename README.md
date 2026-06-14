@@ -4,6 +4,8 @@ Local dashboard for aggregate Messages stats. The generator reads your macOS Mes
 
 Message totals are normalized into conversation turns by default. Consecutive same-sender message bubbles within 30 seconds count as one turn, so rapid-fire split thoughts do not dominate the leaderboard. Raw bubble counts are still included as context.
 
+Tapback stats are structured data from Messages, not AI classifications. `Reaction demon` ranks who sent the most reactions in the selected window. `Most liked` ranks whose messages received the most reactions in the selected window.
+
 ## Refresh data
 
 ```bash

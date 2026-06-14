@@ -575,7 +575,7 @@ def fetch_reaction_messages(
     share_safe: bool,
     include_message_previews: bool,
     reaction_limit: int,
-) -> tuple[list[dict], dict[str, Counter]]:
+) -> tuple[list[dict], dict[str, Counter], dict[str, Counter]]:
     params = {"group_name": normalize_name(group_name), "cutoff_ns": cutoff_ns}
     target_rows = conn.execute(
         """
@@ -662,6 +662,7 @@ def fetch_reaction_messages(
     ).fetchall()
 
     reaction_daily_by_sender: dict[str, Counter] = defaultdict(Counter)
+    reaction_daily_by_author: dict[str, Counter] = defaultdict(Counter)
     for row in reaction_rows:
         sender_id, _, _ = sender_identity(bool(row["is_from_me"]), row["handle"], contacts)
         day_key = datetime_from_apple_ns(row["date"]).astimezone().date().isoformat()
@@ -672,6 +673,8 @@ def fetch_reaction_messages(
             continue
 
         target = targets[target_guid]
+        author_day_key = datetime_from_apple_ns(target["date"]).astimezone().date().isoformat()
+        reaction_daily_by_author[author_day_key][target["authorId"]] += 1
         reaction_name = REACTION_TYPES.get(row["associated_message_type"], "other")
         target["reactionCount"] += 1
         target["reactionTypes"][reaction_name] += 1
@@ -688,6 +691,7 @@ def fetch_reaction_messages(
     return (
         sorted(reactions, key=lambda item: (-item["reactionCount"], item["timestamp"]))[:reaction_limit],
         reaction_daily_by_sender,
+        reaction_daily_by_author,
     )
 
 
@@ -721,6 +725,7 @@ def empty_day_bucket() -> dict:
         "turnsByHour": Counter(),
         "vibesBySender": defaultdict(Counter),
         "reactionBySender": Counter(),
+        "reactionByAuthor": Counter(),
         "mentions": Counter(),
         "slurBySender": defaultdict(Counter),
         "slurByCategory": Counter(),
@@ -745,6 +750,7 @@ def build_summary(
     chat_rows: Iterable[sqlite3.Row],
     reaction_messages: list[dict],
     reaction_daily_by_sender: dict[str, Counter],
+    reaction_daily_by_author: dict[str, Counter],
     slur_lexicon: dict[str, list[str]],
     slur_lexicon_configured: bool,
     generated_at: datetime,
@@ -848,6 +854,8 @@ def build_summary(
         bucket = daily_buckets[day]
         for sender_id, count in reaction_daily_by_sender.get(day, {}).items():
             bucket["reactionBySender"][sender_id] += count
+        for sender_id, count in reaction_daily_by_author.get(day, {}).items():
+            bucket["reactionByAuthor"][sender_id] += count
         daily.append(
             {
                 "date": day,
@@ -876,6 +884,9 @@ def build_summary(
                 "vibesBySender": serialize_nested_counters(bucket["vibesBySender"]),
                 "reactionBySender": dict(
                     sorted(bucket["reactionBySender"].items(), key=lambda item: (-item[1], item[0]))
+                ),
+                "reactionByAuthor": dict(
+                    sorted(bucket["reactionByAuthor"].items(), key=lambda item: (-item[1], item[0]))
                 ),
                 "mentions": [
                     {"from": edge.split(">", 1)[0], "to": edge.split(">", 1)[1], "count": count}
@@ -1015,7 +1026,7 @@ def main() -> None:
             raise SystemExit(f"No Messages chats matched group name {args.group!r}.")
 
         messages = fetch_messages(conn, args.group, cutoff_ns, contacts)
-        reaction_messages, reaction_daily_by_sender = fetch_reaction_messages(
+        reaction_messages, reaction_daily_by_sender, reaction_daily_by_author = fetch_reaction_messages(
             conn,
             args.group,
             cutoff_ns,
@@ -1038,6 +1049,7 @@ def main() -> None:
         chat_rows,
         reaction_messages,
         reaction_daily_by_sender,
+        reaction_daily_by_author,
         slur_lexicon,
         slur_lexicon_configured,
         generated_at,

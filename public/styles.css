@@ -475,6 +475,7 @@ h2 {
 
 .award-stack,
 .edge-list,
+.reaction-rank-list,
 .reaction-list {
   display: grid;
   gap: 8px;
@@ -544,10 +545,57 @@ h2 {
 }
 
 .edge-row b,
+.reaction-rank-row b,
 .reaction-row > b {
   font-family: "DIN Condensed", "Avenir Next Condensed", sans-serif;
   font-size: 28px;
   line-height: 0.9;
+}
+
+.reaction-rank-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 11px 0;
+  border-top: 1px solid rgba(17, 21, 15, 0.12);
+}
+
+.reaction-rank-row span {
+  color: var(--muted);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.reaction-rank-row div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.reaction-rank-row strong,
+.reaction-rank-row em {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reaction-rank-row em {
+  color: var(--muted);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.reaction-rank-row i {
+  display: block;
+  width: var(--w);
+  height: 5px;
+  border-radius: 999px;
+  background: var(--ink);
 }
 
 .reaction-row {
