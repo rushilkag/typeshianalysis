@@ -9,3 +9,4 @@ __pycache__/
 *.db-wal
 chat.db*
 AddressBook*.abcddb
+config/slur_terms.local.json

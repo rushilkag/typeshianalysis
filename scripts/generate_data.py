@@ -21,6 +21,77 @@ from typing import Iterable
 
 
 APPLE_EPOCH = datetime(2001, 1, 1, tzinfo=timezone.utc)
+REACTION_TYPES = {
+    2000: "love",
+    2001: "like",
+    2002: "dislike",
+    2003: "laugh",
+    2004: "emphasize",
+    2005: "question",
+    2006: "emoji",
+}
+VIBE_LEXICON = {
+    "glazer": [
+        "ate",
+        "beautiful",
+        "best",
+        "big w",
+        "congrats",
+        "elite",
+        "fire",
+        "goat",
+        "goated",
+        "good shit",
+        "great",
+        "him",
+        "insane",
+        "king",
+        "legend",
+        "love",
+        "nice",
+        "proud",
+        "queen",
+        "real",
+        "valid",
+        "w",
+    ],
+    "hater": [
+        "annoying",
+        "awful",
+        "bad",
+        "bum",
+        "clown",
+        "corny",
+        "cringe",
+        "dumb",
+        "fraud",
+        "hate",
+        "l",
+        "mid",
+        "sold",
+        "stupid",
+        "terrible",
+        "trash",
+        "washed",
+        "weird",
+    ],
+    "pickMe": [
+        "am i the only",
+        "i am different",
+        "i guess i am just",
+        "im different",
+        "nobody understands",
+        "not like other",
+        "only one who",
+        "pick me",
+    ],
+    "laugh": [
+        "haha",
+        "lmao",
+        "lmfao",
+        "lol",
+    ],
+}
 
 
 def normalize_name(value: str | None) -> str:
@@ -72,7 +143,84 @@ def mask_identifier(value: str | None) -> str:
 
 
 def stable_id(value: str | None) -> str:
-    return hashlib.sha256((value or "unknown").encode("utf-8")).hexdigest()[:12]
+    digest = hashlib.sha256((value or "unknown").encode("utf-8")).hexdigest()[:12]
+    return "p_" + "".join(chr(ord("a") + int(char, 16)) for char in digest)
+
+
+def normalize_text(value: str | None) -> str:
+    text = (value or "").lower()
+    text = re.sub(r"[^a-z0-9']+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def term_count(normalized_text: str, normalized_term: str) -> int:
+    if not normalized_text or not normalized_term:
+        return 0
+    return len(re.findall(rf"(?<![a-z0-9]){re.escape(normalized_term)}(?![a-z0-9])", normalized_text))
+
+
+def score_terms(text: str | None, terms: Iterable[str]) -> int:
+    normalized = normalize_text(text)
+    score = sum(term_count(normalized, normalize_text(term)) for term in terms)
+    if text:
+        score += text.count("💀")
+        score += text.count("😭")
+    return score
+
+
+def analyze_vibes(text: str | None) -> dict[str, int]:
+    return {bucket: score_terms(text, terms) for bucket, terms in VIBE_LEXICON.items()}
+
+
+def load_slur_lexicon(path: Path | None) -> tuple[dict[str, list[str]], bool]:
+    if not path:
+        return {}, False
+    if not path.exists():
+        return {}, False
+
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(data, list):
+        data = {"configured": data}
+    if not isinstance(data, dict):
+        raise ValueError("Slur lexicon must be a JSON object of category -> terms.")
+
+    lexicon: dict[str, list[str]] = {}
+    for category, terms in data.items():
+        if not isinstance(category, str) or not isinstance(terms, list):
+            continue
+        normalized_terms = sorted({normalize_text(str(term)) for term in terms if normalize_text(str(term))})
+        if normalized_terms:
+            lexicon[category] = normalized_terms
+    return lexicon, bool(lexicon)
+
+
+def analyze_slurs(text: str | None, lexicon: dict[str, list[str]]) -> Counter[str]:
+    normalized = normalize_text(text)
+    counts: Counter[str] = Counter()
+    for category, terms in lexicon.items():
+        count = sum(term_count(normalized, term) for term in terms)
+        if count:
+            counts[category] += count
+    return counts
+
+
+def associated_target_guid(value: str | None) -> str | None:
+    if not value:
+        return None
+    if "/" in value:
+        return value.rsplit("/", 1)[-1]
+    if ":" in value:
+        return value.rsplit(":", 1)[-1]
+    return value
+
+
+def safe_preview(text: str | None, limit: int = 120) -> str | None:
+    cleaned = re.sub(r"\s+", " ", text or "").strip()
+    if not cleaned:
+        return None
+    if len(cleaned) <= limit:
+        return cleaned
+    return cleaned[: limit - 1].rstrip() + "…"
 
 
 def apple_ns_from_datetime(value: datetime) -> int:
@@ -166,13 +314,23 @@ def resolve_contact(handle: str | None, contacts: dict[str, str]) -> tuple[str, 
     return mask_identifier(handle), mask_identifier(handle)
 
 
+def sender_identity(is_from_me: bool, handle: str | None, contacts: dict[str, str]) -> tuple[str, str, str]:
+    if is_from_me:
+        return "me", "Rushil", "This Mac"
+
+    label, detail = resolve_contact(handle, contacts)
+    return stable_id(handle), label, detail
+
+
 @dataclass(frozen=True)
 class MessageRow:
     rowid: int
+    guid: str
     sender_key: str
     sender_label: str
     sender_detail: str
     date: datetime
+    text: str
     text_length: int
     has_attachment: bool
     is_from_me: bool
@@ -220,9 +378,11 @@ def fetch_messages(
         distinct_messages as (
           select distinct
             m.ROWID,
+            m.guid,
             m.is_from_me,
             m.handle_id,
             m.date,
+            coalesce(m.text, '') as text,
             length(coalesce(m.text, '')) as text_length,
             m.cache_has_attachments
           from matching_chats c
@@ -231,6 +391,7 @@ def fetch_messages(
           where m.date >= :cutoff_ns
             and m.item_type = 0
             and m.is_system_message = 0
+            and coalesce(m.associated_message_type, 0) = 0
         )
         select dm.*, h.id as handle
         from distinct_messages dm
@@ -244,22 +405,17 @@ def fetch_messages(
     for row in rows:
         is_from_me = bool(row["is_from_me"])
         handle = row["handle"]
-
-        if is_from_me:
-            sender_label = "Rushil"
-            sender_detail = "This Mac"
-            sender_key = "me"
-        else:
-            sender_label, sender_detail = resolve_contact(handle, contacts)
-            sender_key = stable_id(handle)
+        sender_key, sender_label, sender_detail = sender_identity(is_from_me, handle, contacts)
 
         messages.append(
             MessageRow(
                 rowid=row["ROWID"],
+                guid=row["guid"],
                 sender_key=sender_key,
                 sender_label=sender_label,
                 sender_detail=sender_detail,
                 date=datetime_from_apple_ns(row["date"]),
+                text=row["text"] or "",
                 text_length=row["text_length"] or 0,
                 has_attachment=bool(row["cache_has_attachments"]),
                 is_from_me=is_from_me,
@@ -267,6 +423,156 @@ def fetch_messages(
         )
 
     return messages
+
+
+def build_mention_aliases(senders: Iterable[dict]) -> list[tuple[str, str]]:
+    candidates: dict[str, set[str]] = defaultdict(set)
+    for sender in senders:
+        label = sender["label"]
+        if label.startswith("Participant ") or label in {"Unknown", "participant"}:
+            continue
+
+        full = normalize_text(label)
+        tokens = full.split()
+        aliases = set()
+        if len(full) >= 3:
+            aliases.add(full)
+        if tokens and len(tokens[0]) >= 3:
+            aliases.add(tokens[0])
+
+        for alias in aliases:
+            candidates[alias].add(sender["id"])
+
+    aliases: list[tuple[str, str]] = []
+    for alias, sender_ids in candidates.items():
+        if len(sender_ids) == 1:
+            aliases.append((alias, next(iter(sender_ids))))
+
+    return sorted(aliases, key=lambda item: (-len(item[0]), item[0]))
+
+
+def analyze_mentions(text: str | None, sender_id: str, aliases: Iterable[tuple[str, str]]) -> Counter[str]:
+    normalized = normalize_text(text)
+    counts: Counter[str] = Counter()
+    for alias, target_id in aliases:
+        if target_id == sender_id:
+            continue
+        count = term_count(normalized, alias)
+        if count:
+            counts[target_id] = max(counts[target_id], count)
+    return counts
+
+
+def fetch_reaction_messages(
+    conn: sqlite3.Connection,
+    group_name: str,
+    cutoff_ns: int,
+    contacts: dict[str, str],
+    share_safe: bool,
+    include_message_previews: bool,
+    reaction_limit: int,
+) -> list[dict]:
+    params = {"group_name": normalize_name(group_name), "cutoff_ns": cutoff_ns}
+    target_rows = conn.execute(
+        """
+        with matching_chats as (
+          select distinct c.ROWID
+          from chat c
+          where norm_name(c.display_name) = :group_name
+             or c.ROWID in (
+               select distinct cmj.chat_id
+               from chat_message_join cmj
+               join message title_message on title_message.ROWID = cmj.message_id
+               where norm_name(title_message.group_title) = :group_name
+             )
+        )
+        select distinct
+          m.guid,
+          m.is_from_me,
+          m.handle_id,
+          m.date,
+          coalesce(m.text, '') as text,
+          h.id as handle
+        from matching_chats c
+        join chat_message_join cmj on cmj.chat_id = c.ROWID
+        join message m on m.ROWID = cmj.message_id
+        left join handle h on h.ROWID = m.handle_id
+        where m.date >= :cutoff_ns
+          and m.item_type = 0
+          and m.is_system_message = 0
+          and coalesce(m.associated_message_type, 0) = 0
+        """,
+        params,
+    ).fetchall()
+
+    targets: dict[str, dict] = {}
+    for row in target_rows:
+        sender_id, label, detail = sender_identity(bool(row["is_from_me"]), row["handle"], contacts)
+
+        if share_safe:
+            if re.fullmatch(r"\*{3}-\d{4}", label):
+                label = "Participant"
+            detail = "Rushil" if sender_id == "me" else "participant"
+
+        targets[row["guid"]] = {
+            "id": stable_id(row["guid"]),
+            "authorId": sender_id,
+            "authorLabel": label,
+            "authorDetail": detail,
+            "date": row["date"],
+            "timestamp": iso_local(datetime_from_apple_ns(row["date"])),
+            "preview": safe_preview(row["text"]) if include_message_previews else None,
+            "reactionCount": 0,
+            "reactionTypes": Counter(),
+        }
+
+    reaction_rows = conn.execute(
+        """
+        with matching_chats as (
+          select distinct c.ROWID
+          from chat c
+          where norm_name(c.display_name) = :group_name
+             or c.ROWID in (
+               select distinct cmj.chat_id
+               from chat_message_join cmj
+               join message title_message on title_message.ROWID = cmj.message_id
+               where norm_name(title_message.group_title) = :group_name
+             )
+        )
+        select distinct
+          m.ROWID,
+          m.associated_message_type,
+          m.associated_message_guid
+        from matching_chats c
+        join chat_message_join cmj on cmj.chat_id = c.ROWID
+        join message m on m.ROWID = cmj.message_id
+        where m.date >= :cutoff_ns
+          and m.associated_message_type in (2000, 2001, 2002, 2003, 2004, 2005, 2006)
+          and m.associated_message_guid is not null
+        """,
+        params,
+    ).fetchall()
+
+    for row in reaction_rows:
+        target_guid = associated_target_guid(row["associated_message_guid"])
+        if not target_guid or target_guid not in targets:
+            continue
+
+        target = targets[target_guid]
+        reaction_name = REACTION_TYPES.get(row["associated_message_type"], "other")
+        target["reactionCount"] += 1
+        target["reactionTypes"][reaction_name] += 1
+
+    reactions = [target for target in targets.values() if target["reactionCount"]]
+    for reaction in reactions:
+        reaction["date"] = datetime_from_apple_ns(reaction["date"]).astimezone().date().isoformat()
+        reaction["reactionTypes"] = dict(
+            sorted(reaction["reactionTypes"].items(), key=lambda item: (-item[1], item[0]))
+        )
+        if reaction["preview"] is None:
+            reaction.pop("preview")
+
+    return sorted(reactions, key=lambda item: (-item["reactionCount"], item["timestamp"]))[:reaction_limit]
 
 
 def iso_local(value: datetime) -> str:
@@ -285,47 +591,50 @@ def sender_initials(label: str) -> str:
     return (words[0][0] + words[-1][0]).upper()
 
 
+def empty_day_bucket() -> dict:
+    return {
+        "count": 0,
+        "attachmentMessages": 0,
+        "textLengthSum": 0,
+        "textMessageCount": 0,
+        "bySender": Counter(),
+        "byHour": Counter(),
+        "vibesBySender": defaultdict(Counter),
+        "mentions": Counter(),
+        "slurBySender": defaultdict(Counter),
+        "slurByCategory": Counter(),
+    }
+
+
+def serialize_nested_counters(value: dict[str, Counter]) -> dict:
+    return {
+        key: {inner_key: inner_value for inner_key, inner_value in sorted(counter.items()) if inner_value}
+        for key, counter in sorted(value.items())
+        if sum(counter.values())
+    }
+
+
 def build_summary(
     group_name: str,
     days: int,
     default_window_days: int,
     messages: list[MessageRow],
     chat_rows: Iterable[sqlite3.Row],
+    reaction_messages: list[dict],
+    slur_lexicon: dict[str, list[str]],
+    slur_lexicon_configured: bool,
     generated_at: datetime,
     window_start: datetime,
     share_safe: bool,
 ) -> dict:
     sender_profiles: dict[str, dict] = {}
     sender_totals: Counter[str] = Counter()
-    daily_buckets: dict[str, dict] = defaultdict(
-        lambda: {
-            "count": 0,
-            "attachmentMessages": 0,
-            "textLengthSum": 0,
-            "textMessageCount": 0,
-            "bySender": Counter(),
-            "byHour": Counter(),
-        }
-    )
+    daily_buckets: dict[str, dict] = defaultdict(empty_day_bucket)
     attachment_count = 0
     text_length_sum = 0
     text_message_count = 0
 
     for message in messages:
-        local_dt = message.date.astimezone()
-        day_key = local_dt.date().isoformat()
-        bucket = daily_buckets[day_key]
-        bucket["count"] += 1
-        bucket["bySender"][message.sender_key] += 1
-        bucket["byHour"][local_dt.hour] += 1
-        attachment_count += int(message.has_attachment)
-        bucket["attachmentMessages"] += int(message.has_attachment)
-        if message.text_length:
-            text_length_sum += message.text_length
-            text_message_count += 1
-            bucket["textLengthSum"] += message.text_length
-            bucket["textMessageCount"] += 1
-
         sender = sender_profiles.setdefault(
             message.sender_key,
             {
@@ -356,6 +665,35 @@ def build_summary(
                 sender["initials"] = sender_initials(sender["label"])
             sender["detail"] = "Rushil" if sender["id"] == "me" else "participant"
 
+    mention_aliases = build_mention_aliases(senders)
+
+    for message in messages:
+        local_dt = message.date.astimezone()
+        day_key = local_dt.date().isoformat()
+        bucket = daily_buckets[day_key]
+        bucket["count"] += 1
+        bucket["bySender"][message.sender_key] += 1
+        bucket["byHour"][local_dt.hour] += 1
+        attachment_count += int(message.has_attachment)
+        bucket["attachmentMessages"] += int(message.has_attachment)
+        if message.text_length:
+            text_length_sum += message.text_length
+            text_message_count += 1
+            bucket["textLengthSum"] += message.text_length
+            bucket["textMessageCount"] += 1
+
+        for vibe, score in analyze_vibes(message.text).items():
+            if score:
+                bucket["vibesBySender"][message.sender_key][vibe] += score
+
+        for target_id, count in analyze_mentions(message.text, message.sender_key, mention_aliases).items():
+            bucket["mentions"][f"{message.sender_key}>{target_id}"] += count
+
+        slur_counts = analyze_slurs(message.text, slur_lexicon)
+        for category, count in slur_counts.items():
+            bucket["slurBySender"][message.sender_key][category] += count
+            bucket["slurByCategory"][category] += count
+
     daily = []
     day_cursor = window_start.astimezone().date()
     last_day = generated_at.astimezone().date()
@@ -377,6 +715,13 @@ def build_summary(
                     )
                 },
                 "byHour": [bucket["byHour"][hour] for hour in range(24)],
+                "vibesBySender": serialize_nested_counters(bucket["vibesBySender"]),
+                "mentions": [
+                    {"from": edge.split(">", 1)[0], "to": edge.split(">", 1)[1], "count": count}
+                    for edge, count in sorted(bucket["mentions"].items(), key=lambda item: (-item[1], item[0]))
+                ],
+                "slurBySender": serialize_nested_counters(bucket["slurBySender"]),
+                "slurByCategory": dict(sorted(bucket["slurByCategory"].items())),
             }
         )
         day_cursor += timedelta(days=1)
@@ -410,6 +755,14 @@ def build_summary(
         ],
         "senders": senders,
         "daily": daily,
+        "reactionMessages": reaction_messages,
+        "analysis": {
+            "method": "deterministic lexicon and name matching",
+            "previewsPublished": any("preview" in item for item in reaction_messages),
+            "slurLexiconConfigured": slur_lexicon_configured,
+            "slurCategories": sorted(slur_lexicon),
+            "vibeBuckets": sorted(VIBE_LEXICON),
+        },
     }
 
 
@@ -446,6 +799,23 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Remove phone-tail details and chat row metadata from the generated JSON.",
     )
+    parser.add_argument(
+        "--slur-lexicon",
+        type=Path,
+        default=None,
+        help="Optional local JSON file of category -> terms. Terms are counted locally and never published.",
+    )
+    parser.add_argument(
+        "--include-message-previews",
+        action="store_true",
+        help="Include short previews for highest-reaction messages. Off by default for hosted builds.",
+    )
+    parser.add_argument(
+        "--reaction-limit",
+        type=int,
+        default=500,
+        help="Maximum reacted-message summaries to write to JSON.",
+    )
     return parser.parse_args()
 
 
@@ -455,12 +825,15 @@ def main() -> None:
         raise SystemExit("--days must be at least 1.")
     if args.default_window_days < 1:
         raise SystemExit("--default-window-days must be at least 1.")
+    if args.reaction_limit < 1:
+        raise SystemExit("--reaction-limit must be at least 1.")
 
     generated_at = datetime.now().astimezone()
     start_date = generated_at.date() - timedelta(days=args.days - 1)
     window_start = datetime.combine(start_date, time.min).astimezone()
     cutoff_ns = apple_ns_from_datetime(window_start)
 
+    slur_lexicon, slur_lexicon_configured = load_slur_lexicon(args.slur_lexicon)
     contacts = load_contacts(args.address_book_dir)
     conn = connect_readonly(args.messages_db)
     try:
@@ -469,6 +842,15 @@ def main() -> None:
             raise SystemExit(f"No Messages chats matched group name {args.group!r}.")
 
         messages = fetch_messages(conn, args.group, cutoff_ns, contacts)
+        reaction_messages = fetch_reaction_messages(
+            conn,
+            args.group,
+            cutoff_ns,
+            contacts,
+            args.share_safe,
+            args.include_message_previews,
+            args.reaction_limit,
+        )
     finally:
         conn.close()
 
@@ -478,6 +860,9 @@ def main() -> None:
         args.default_window_days,
         messages,
         chat_rows,
+        reaction_messages,
+        slur_lexicon,
+        slur_lexicon_configured,
         generated_at,
         window_start,
         args.share_safe,

@@ -462,8 +462,154 @@ h2 {
   transform-origin: center;
 }
 
-.next-panel h2 {
-  margin-bottom: 14px;
+.analysis-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.35fr 0.7fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.analysis-panel {
+  padding: 18px;
+}
+
+.award-stack,
+.edge-list,
+.reaction-list {
+  display: grid;
+  gap: 8px;
+}
+
+.award-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 10px;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid rgba(17, 21, 15, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.award-card span,
+.edge-row span,
+.reaction-row span,
+.note {
+  color: var(--muted);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.award-card strong {
+  overflow: hidden;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.award-card b {
+  grid-row: 1 / 3;
+  grid-column: 2;
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: white;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 11px;
+}
+
+.edge-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid rgba(17, 21, 15, 0.12);
+}
+
+.edge-row strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.edge-row b,
+.reaction-row > b {
+  font-family: "DIN Condensed", "Avenir Next Condensed", sans-serif;
+  font-size: 28px;
+  line-height: 0.9;
+}
+
+.reaction-row {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(17, 21, 15, 0.13);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.54);
+}
+
+.reaction-row strong,
+.reaction-row p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reaction-row p {
+  margin: 3px 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.slur-total {
+  padding: 16px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: var(--acid);
+}
+
+.slur-total span {
+  display: block;
+  color: var(--muted);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.slur-total strong {
+  display: block;
+  margin-top: 8px;
+  font-family: "DIN Condensed", "Avenir Next Condensed", sans-serif;
+  font-size: 56px;
+  line-height: 0.85;
+}
+
+.note {
+  margin: 12px 0 0;
+  line-height: 1.4;
+  text-transform: none;
+}
+
+.category-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.category-pills span {
+  padding: 6px 8px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: white;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 11px;
 }
 
 .detector-row {
@@ -501,7 +647,8 @@ h2 {
 
   .metric-grid,
   .control-strip,
-  .workspace {
+  .workspace,
+  .analysis-grid {
     grid-template-columns: 1fr;
   }
 

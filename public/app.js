@@ -49,6 +49,10 @@ function buildWindowSummary() {
   const lastOverallDay = summary.daily[summary.daily.length - 1]?.date;
   const participantById = new Map(summary.senders.map((sender) => [sender.id, sender]));
   const senderCounts = new Map();
+  const vibeBySender = new Map();
+  const slurBySender = new Map();
+  const slurByCategory = new Map();
+  const mentionEdges = new Map();
   const hourlyCounts = Array.from({ length: 24 }, () => 0);
 
   let totalMessages = 0;
@@ -68,6 +72,31 @@ function buildWindowSummary() {
 
     (day.byHour || []).forEach((count, hour) => {
       hourlyCounts[hour] += count || 0;
+    });
+
+    Object.entries(day.vibesBySender || {}).forEach(([senderId, scores]) => {
+      const target = vibeBySender.get(senderId) || {};
+      Object.entries(scores).forEach(([bucket, score]) => {
+        target[bucket] = (target[bucket] || 0) + score;
+      });
+      vibeBySender.set(senderId, target);
+    });
+
+    Object.entries(day.slurBySender || {}).forEach(([senderId, scores]) => {
+      const target = slurBySender.get(senderId) || {};
+      Object.entries(scores).forEach(([category, count]) => {
+        target[category] = (target[category] || 0) + count;
+      });
+      slurBySender.set(senderId, target);
+    });
+
+    Object.entries(day.slurByCategory || {}).forEach(([category, count]) => {
+      slurByCategory.set(category, (slurByCategory.get(category) || 0) + count);
+    });
+
+    (day.mentions || []).forEach((edge) => {
+      const key = `${edge.from}>${edge.to}`;
+      mentionEdges.set(key, (mentionEdges.get(key) || 0) + edge.count);
     });
   });
 
@@ -92,6 +121,38 @@ function buildWindowSummary() {
     sender.rank = index + 1;
   });
 
+  const startDate = selectedDaily[0]?.date || summary.daily[0]?.date;
+  const endDate = selectedDaily[selectedDaily.length - 1]?.date || lastOverallDay;
+  const reactions = (summary.reactionMessages || [])
+    .filter((message) => message.date >= startDate && message.date <= endDate)
+    .sort((a, b) => b.reactionCount - a.reactionCount || a.timestamp.localeCompare(b.timestamp))
+    .slice(0, 12);
+
+  const vibeRows = Array.from(vibeBySender.entries()).map(([senderId, scores]) => ({
+    ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
+    scores,
+  }));
+
+  const slurRows = Array.from(slurBySender.entries()).map(([senderId, scores]) => ({
+    ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
+    scores,
+    total: Object.values(scores).reduce((sum, count) => sum + count, 0),
+  }));
+
+  const mentions = Array.from(mentionEdges.entries())
+    .map(([edge, count]) => {
+      const [from, to] = edge.split(">");
+      return {
+        from,
+        to,
+        fromLabel: participantById.get(from)?.label || "Participant",
+        toLabel: participantById.get(to)?.label || "Participant",
+        count,
+      };
+    })
+    .sort((a, b) => b.count - a.count || a.fromLabel.localeCompare(b.fromLabel))
+    .slice(0, 12);
+
   return {
     days,
     actualDays: selectedDaily.length,
@@ -100,11 +161,17 @@ function buildWindowSummary() {
     attachmentMessages,
     averagePerDay: selectedDaily.length ? roundOne(totalMessages / selectedDaily.length) : totalMessages,
     averageTextLength: textMessageCount ? roundOne(textLengthSum / textMessageCount) : 0,
-    windowStartDate: selectedDaily[0]?.date || summary.daily[0]?.date,
-    windowEndDate: selectedDaily[selectedDaily.length - 1]?.date || lastOverallDay,
+    windowStartDate: startDate,
+    windowEndDate: endDate,
     senders,
     daily: selectedDaily,
     hourly: hourlyCounts.map((count, hour) => ({ hour, count })),
+    vibeRows,
+    mentions,
+    reactionMessages: reactions,
+    slurRows,
+    slurByCategory: Array.from(slurByCategory.entries()).map(([category, count]) => ({ category, count })),
+    slurTotal: Array.from(slurByCategory.values()).reduce((sum, count) => sum + count, 0),
   };
 }
 
@@ -223,6 +290,124 @@ function renderHourly(windowSummary) {
     .join("");
 }
 
+function topVibe(windowSummary, bucket) {
+  return windowSummary.vibeRows
+    .map((row) => ({ label: row.label, score: row.scores[bucket] || 0 }))
+    .sort((a, b) => b.score - a.score || a.label.localeCompare(b.label))[0];
+}
+
+function renderVibes(windowSummary) {
+  const root = $("vibeAwards");
+  if (!root) return;
+
+  const awards = [
+    ["Biggest hater", topVibe(windowSummary, "hater"), "hater"],
+    ["Biggest glazer", topVibe(windowSummary, "glazer"), "glazer"],
+    ["Pick-me radar", topVibe(windowSummary, "pickMe"), "pick-me"],
+    ["Laugh merchant", topVibe(windowSummary, "laugh"), "laugh"],
+  ];
+
+  root.innerHTML = awards
+    .map(([title, winner, flavor]) => {
+      const label = winner?.score ? winner.label : "No signal";
+      const score = winner?.score || 0;
+      return `
+        <div class="award-card ${flavor}">
+          <span>${escapeHtml(title)}</span>
+          <strong>${escapeHtml(label)}</strong>
+          <b>${fmt.format(score)} hits</b>
+        </div>
+      `;
+    })
+    .join("");
+}
+
+function renderMentions(windowSummary) {
+  const root = $("mentionEdges");
+  if (!root) return;
+
+  if (!windowSummary.mentions.length) {
+    root.innerHTML = `<div class="empty">No name mentions detected in this window.</div>`;
+    return;
+  }
+
+  root.innerHTML = windowSummary.mentions
+    .map((edge, index) => `
+      <div class="edge-row">
+        <span>${index + 1}</span>
+        <strong>${escapeHtml(edge.fromLabel)} → ${escapeHtml(edge.toLabel)}</strong>
+        <b>${fmt.format(edge.count)}</b>
+      </div>
+    `)
+    .join("");
+}
+
+function reactionBreakdown(reactionTypes = {}) {
+  return Object.entries(reactionTypes)
+    .map(([type, count]) => `${escapeHtml(type)} ${fmt.format(count)}`)
+    .join(" / ");
+}
+
+function renderReactions(windowSummary) {
+  const root = $("reactionMessages");
+  if (!root) return;
+
+  if (!windowSummary.reactionMessages.length) {
+    root.innerHTML = `<div class="empty">No reacted messages found in this window.</div>`;
+    return;
+  }
+
+  root.innerHTML = windowSummary.reactionMessages
+    .map((message, index) => {
+      const date = shortDate.format(dateFromKey(message.date));
+      const preview = message.preview ? escapeHtml(message.preview) : "Message preview hidden in share-safe build";
+      return `
+        <div class="reaction-row">
+          <div class="rank">${index + 1}</div>
+          <div>
+            <strong>${escapeHtml(message.authorLabel)} · ${date}</strong>
+            <p>${preview}</p>
+            <span>${reactionBreakdown(message.reactionTypes)}</span>
+          </div>
+          <b>${fmt.format(message.reactionCount)}</b>
+        </div>
+      `;
+    })
+    .join("");
+}
+
+function renderSlurs(windowSummary) {
+  const root = $("slurStats");
+  if (!root) return;
+
+  const configured = Boolean(state.summary.analysis?.slurLexiconConfigured);
+  if (!configured) {
+    root.innerHTML = `
+      <div class="slur-total">
+        <span>Not configured</span>
+        <strong>0</strong>
+      </div>
+      <p class="note">Add <code>config/slur_terms.local.json</code> locally and regenerate to enable category counts.</p>
+    `;
+    return;
+  }
+
+  const topSender = [...windowSummary.slurRows].sort((a, b) => b.total - a.total)[0];
+  const categories = windowSummary.slurByCategory
+    .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category))
+    .map((item) => `<span>${escapeHtml(item.category)} <b>${fmt.format(item.count)}</b></span>`)
+    .join("");
+
+  root.innerHTML = `
+    <div class="slur-total">
+      <span>Total detected</span>
+      <strong>${fmt.format(windowSummary.slurTotal)}</strong>
+    </div>
+    <p class="note">Top sender: ${escapeHtml(topSender?.label || "None")}</p>
+    <div class="category-pills">${categories || "<span>No hits</span>"}</div>
+  `;
+}
+
 function render() {
   const windowSummary = buildWindowSummary();
   renderWindowControls();
@@ -230,6 +415,10 @@ function render() {
   renderSenders(windowSummary);
   renderDaily(windowSummary);
   renderHourly(windowSummary);
+  renderVibes(windowSummary);
+  renderMentions(windowSummary);
+  renderReactions(windowSummary);
+  renderSlurs(windowSummary);
 }
 
 async function loadSummary() {

@@ -22,6 +22,17 @@ Use a different group or window:
 python3 scripts/generate_data.py --group "type shi" --days 365 --default-window-days 30 --share-safe
 ```
 
+## Optional local detectors
+
+Slur counts are supported through a local-only lexicon that is ignored by git:
+
+```bash
+cp config/slur_terms.example.json config/slur_terms.local.json
+python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe --slur-lexicon config/slur_terms.local.json
+```
+
+The public JSON publishes category counts only, not the lexicon terms or message text. Highest-reaction message previews are also off by default; add `--include-message-previews` only for a private/local build.
+
 ## Run the site
 
 ```bash
