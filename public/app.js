@@ -4,6 +4,7 @@ const state = {
   windowDays: 14,
 };
 
+const AWARD_MIN_MESSAGES = 25;
 const fmt = new Intl.NumberFormat();
 const shortDate = new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" });
 
@@ -50,6 +51,7 @@ function buildWindowSummary() {
   const participantById = new Map(summary.senders.map((sender) => [sender.id, sender]));
   const senderCounts = new Map();
   const vibeBySender = new Map();
+  const reactionBySender = new Map();
   const slurBySender = new Map();
   const slurByCategory = new Map();
   const mentionEdges = new Map();
@@ -80,6 +82,10 @@ function buildWindowSummary() {
         target[bucket] = (target[bucket] || 0) + score;
       });
       vibeBySender.set(senderId, target);
+    });
+
+    Object.entries(day.reactionBySender || {}).forEach(([senderId, count]) => {
+      reactionBySender.set(senderId, (reactionBySender.get(senderId) || 0) + count);
     });
 
     Object.entries(day.slurBySender || {}).forEach(([senderId, scores]) => {
@@ -130,7 +136,14 @@ function buildWindowSummary() {
 
   const vibeRows = Array.from(vibeBySender.entries()).map(([senderId, scores]) => ({
     ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
+    messageCount: senderCounts.get(senderId) || 0,
     scores,
+  }));
+
+  const reactionRows = Array.from(reactionBySender.entries()).map(([senderId, reactionCount]) => ({
+    ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
+    messageCount: senderCounts.get(senderId) || 0,
+    reactionCount,
   }));
 
   const slurRows = Array.from(slurBySender.entries()).map(([senderId, scores]) => ({
@@ -167,6 +180,7 @@ function buildWindowSummary() {
     daily: selectedDaily,
     hourly: hourlyCounts.map((count, hour) => ({ hour, count })),
     vibeRows,
+    reactionRows,
     mentions,
     reactionMessages: reactions,
     slurRows,
@@ -290,10 +304,37 @@ function renderHourly(windowSummary) {
     .join("");
 }
 
+function percent(numerator, denominator) {
+  return denominator ? roundOne((numerator / denominator) * 100) : 0;
+}
+
 function topVibe(windowSummary, bucket) {
   return windowSummary.vibeRows
-    .map((row) => ({ label: row.label, score: row.scores[bucket] || 0 }))
-    .sort((a, b) => b.score - a.score || a.label.localeCompare(b.label))[0];
+    .map((row) => {
+      const count = row.scores[bucket] || 0;
+      return {
+        label: row.label,
+        count,
+        denominator: row.messageCount || 0,
+        rate: percent(count, row.messageCount || 0),
+        basis: "messages",
+      };
+    })
+    .filter((row) => row.denominator >= AWARD_MIN_MESSAGES)
+    .sort((a, b) => b.rate - a.rate || b.count - a.count || a.label.localeCompare(b.label))[0];
+}
+
+function topReactionWarrior(windowSummary) {
+  return windowSummary.reactionRows
+    .map((row) => ({
+      label: row.label,
+      count: row.reactionCount || 0,
+      denominator: row.messageCount || 0,
+      rate: percent(row.reactionCount || 0, row.messageCount || 0),
+      basis: "reactions / messages",
+    }))
+    .filter((row) => row.denominator >= AWARD_MIN_MESSAGES)
+    .sort((a, b) => b.rate - a.rate || b.count - a.count || a.label.localeCompare(b.label))[0];
 }
 
 function renderVibes(windowSummary) {
@@ -304,18 +345,24 @@ function renderVibes(windowSummary) {
     ["Biggest hater", topVibe(windowSummary, "hater"), "hater"],
     ["Biggest glazer", topVibe(windowSummary, "glazer"), "glazer"],
     ["Pick-me radar", topVibe(windowSummary, "pickMe"), "pick-me"],
+    ["Self-insert king", topVibe(windowSummary, "selfInsert"), "self-insert"],
     ["Laugh merchant", topVibe(windowSummary, "laugh"), "laugh"],
+    ["Reaction warrior", topReactionWarrior(windowSummary), "reaction-warrior"],
   ];
 
   root.innerHTML = awards
     .map(([title, winner, flavor]) => {
-      const label = winner?.score ? winner.label : "No signal";
-      const score = winner?.score || 0;
+      const hasSignal = winner?.count > 0;
+      const label = hasSignal ? winner.label : "No signal";
+      const rate = winner?.rate || 0;
+      const count = winner?.count || 0;
+      const denominator = winner?.denominator || 0;
       return `
         <div class="award-card ${flavor}">
           <span>${escapeHtml(title)}</span>
           <strong>${escapeHtml(label)}</strong>
-          <b>${fmt.format(score)} hits</b>
+          <em>${fmt.format(count)} / ${fmt.format(denominator)} ${escapeHtml(winner?.basis || "messages")} · min ${AWARD_MIN_MESSAGES} msgs</em>
+          <b>${fmt.format(rate)}%</b>
         </div>
       `;
     })

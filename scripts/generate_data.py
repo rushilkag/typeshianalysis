@@ -77,13 +77,47 @@ VIBE_LEXICON = {
     ],
     "pickMe": [
         "am i the only",
+        "am i cooked",
         "i am different",
+        "i always",
+        "i fear",
+        "i fear i",
         "i guess i am just",
+        "i might be cooked",
         "im different",
+        "im cooked",
+        "im just",
+        "i'm cooked",
+        "i'm different",
+        "i'm just",
+        "it is always me",
+        "its always me",
+        "literally me",
+        "me when",
         "nobody understands",
+        "no one cares",
         "not like other",
+        "not me",
         "only one who",
         "pick me",
+        "this is so me",
+        "why am i",
+    ],
+    "selfInsert": [
+        "as a",
+        "for me",
+        "i can",
+        "i could",
+        "i feel",
+        "i feel like",
+        "i think",
+        "i would",
+        "literally me",
+        "me personally",
+        "me when",
+        "my take",
+        "personally",
+        "this is me",
     ],
     "laugh": [
         "haha",
@@ -471,7 +505,7 @@ def fetch_reaction_messages(
     share_safe: bool,
     include_message_previews: bool,
     reaction_limit: int,
-) -> list[dict]:
+) -> tuple[list[dict], dict[str, Counter]]:
     params = {"group_name": normalize_name(group_name), "cutoff_ns": cutoff_ns}
     target_rows = conn.execute(
         """
@@ -542,10 +576,14 @@ def fetch_reaction_messages(
         select distinct
           m.ROWID,
           m.associated_message_type,
-          m.associated_message_guid
+          m.associated_message_guid,
+          m.is_from_me,
+          m.date,
+          h.id as handle
         from matching_chats c
         join chat_message_join cmj on cmj.chat_id = c.ROWID
         join message m on m.ROWID = cmj.message_id
+        left join handle h on h.ROWID = m.handle_id
         where m.date >= :cutoff_ns
           and m.associated_message_type in (2000, 2001, 2002, 2003, 2004, 2005, 2006)
           and m.associated_message_guid is not null
@@ -553,7 +591,12 @@ def fetch_reaction_messages(
         params,
     ).fetchall()
 
+    reaction_daily_by_sender: dict[str, Counter] = defaultdict(Counter)
     for row in reaction_rows:
+        sender_id, _, _ = sender_identity(bool(row["is_from_me"]), row["handle"], contacts)
+        day_key = datetime_from_apple_ns(row["date"]).astimezone().date().isoformat()
+        reaction_daily_by_sender[day_key][sender_id] += 1
+
         target_guid = associated_target_guid(row["associated_message_guid"])
         if not target_guid or target_guid not in targets:
             continue
@@ -572,7 +615,10 @@ def fetch_reaction_messages(
         if reaction["preview"] is None:
             reaction.pop("preview")
 
-    return sorted(reactions, key=lambda item: (-item["reactionCount"], item["timestamp"]))[:reaction_limit]
+    return (
+        sorted(reactions, key=lambda item: (-item["reactionCount"], item["timestamp"]))[:reaction_limit],
+        reaction_daily_by_sender,
+    )
 
 
 def iso_local(value: datetime) -> str:
@@ -600,6 +646,7 @@ def empty_day_bucket() -> dict:
         "bySender": Counter(),
         "byHour": Counter(),
         "vibesBySender": defaultdict(Counter),
+        "reactionBySender": Counter(),
         "mentions": Counter(),
         "slurBySender": defaultdict(Counter),
         "slurByCategory": Counter(),
@@ -621,6 +668,7 @@ def build_summary(
     messages: list[MessageRow],
     chat_rows: Iterable[sqlite3.Row],
     reaction_messages: list[dict],
+    reaction_daily_by_sender: dict[str, Counter],
     slur_lexicon: dict[str, list[str]],
     slur_lexicon_configured: bool,
     generated_at: datetime,
@@ -684,7 +732,7 @@ def build_summary(
 
         for vibe, score in analyze_vibes(message.text).items():
             if score:
-                bucket["vibesBySender"][message.sender_key][vibe] += score
+                bucket["vibesBySender"][message.sender_key][vibe] += 1
 
         for target_id, count in analyze_mentions(message.text, message.sender_key, mention_aliases).items():
             bucket["mentions"][f"{message.sender_key}>{target_id}"] += count
@@ -700,6 +748,8 @@ def build_summary(
     while day_cursor <= last_day:
         day = day_cursor.isoformat()
         bucket = daily_buckets[day]
+        for sender_id, count in reaction_daily_by_sender.get(day, {}).items():
+            bucket["reactionBySender"][sender_id] += count
         daily.append(
             {
                 "date": day,
@@ -716,6 +766,9 @@ def build_summary(
                 },
                 "byHour": [bucket["byHour"][hour] for hour in range(24)],
                 "vibesBySender": serialize_nested_counters(bucket["vibesBySender"]),
+                "reactionBySender": dict(
+                    sorted(bucket["reactionBySender"].items(), key=lambda item: (-item[1], item[0]))
+                ),
                 "mentions": [
                     {"from": edge.split(">", 1)[0], "to": edge.split(">", 1)[1], "count": count}
                     for edge, count in sorted(bucket["mentions"].items(), key=lambda item: (-item[1], item[0]))
@@ -757,7 +810,7 @@ def build_summary(
         "daily": daily,
         "reactionMessages": reaction_messages,
         "analysis": {
-            "method": "deterministic lexicon and name matching",
+            "method": "deterministic lexicon and name matching; awards use signal-message percentage per sender",
             "previewsPublished": any("preview" in item for item in reaction_messages),
             "slurLexiconConfigured": slur_lexicon_configured,
             "slurCategories": sorted(slur_lexicon),
@@ -842,7 +895,7 @@ def main() -> None:
             raise SystemExit(f"No Messages chats matched group name {args.group!r}.")
 
         messages = fetch_messages(conn, args.group, cutoff_ns, contacts)
-        reaction_messages = fetch_reaction_messages(
+        reaction_messages, reaction_daily_by_sender = fetch_reaction_messages(
             conn,
             args.group,
             cutoff_ns,
@@ -861,6 +914,7 @@ def main() -> None:
         messages,
         chat_rows,
         reaction_messages,
+        reaction_daily_by_sender,
         slur_lexicon,
         slur_lexicon_configured,
         generated_at,

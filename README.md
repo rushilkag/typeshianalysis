@@ -24,6 +24,14 @@ python3 scripts/generate_data.py --group "type shi" --days 365 --default-window-
 
 ## Optional local detectors
 
+Vibe awards are scored as a percentage of that person's own sent messages in the selected window. For example, `Pick-me radar` is:
+
+```text
+messages from that person containing a pick-me signal / messages sent by that person
+```
+
+Awards require at least 25 sent messages in the selected window. `Reaction warrior` uses reactions sent divided by messages sent, so it reads as reactions per 100 messages.
+
 Slur counts are supported through a local-only lexicon that is ignored by git:
 
 ```bash
