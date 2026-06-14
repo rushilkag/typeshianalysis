@@ -4,7 +4,6 @@ const state = {
   windowDays: 14,
 };
 
-const AWARD_MIN_MESSAGES = 25;
 const fmt = new Intl.NumberFormat();
 const shortDate = new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" });
 
@@ -342,67 +341,6 @@ function percent(numerator, denominator) {
   return denominator ? roundOne((numerator / denominator) * 100) : 0;
 }
 
-function topVibe(windowSummary, bucket) {
-  return windowSummary.vibeRows
-    .map((row) => {
-      const count = row.scores[bucket] || 0;
-      return {
-        label: row.label,
-        count,
-        denominator: row.messageCount || 0,
-        rate: percent(count, row.messageCount || 0),
-        basis: "messages",
-      };
-    })
-    .filter((row) => row.denominator >= AWARD_MIN_MESSAGES)
-    .sort((a, b) => b.rate - a.rate || b.count - a.count || a.label.localeCompare(b.label))[0];
-}
-
-function topReactionWarrior(windowSummary) {
-  return windowSummary.reactionRows
-    .map((row) => ({
-      label: row.label,
-      count: row.reactionCount || 0,
-      denominator: row.turnCount || row.messageCount || 0,
-      rate: percent(row.reactionCount || 0, row.turnCount || row.messageCount || 0),
-      basis: "reactions / turns",
-    }))
-    .filter((row) => row.denominator >= AWARD_MIN_MESSAGES)
-    .sort((a, b) => b.rate - a.rate || b.count - a.count || a.label.localeCompare(b.label))[0];
-}
-
-function renderVibes(windowSummary) {
-  const root = $("vibeAwards");
-  if (!root) return;
-
-  const awards = [
-    ["Biggest hater", topVibe(windowSummary, "hater"), "hater"],
-    ["Biggest glazer", topVibe(windowSummary, "glazer"), "glazer"],
-    ["Pick-me radar", topVibe(windowSummary, "pickMe"), "pick-me"],
-    ["Self-insert king", topVibe(windowSummary, "selfInsert"), "self-insert"],
-    ["Laugh merchant", topVibe(windowSummary, "laugh"), "laugh"],
-    ["Reaction warrior", topReactionWarrior(windowSummary), "reaction-warrior"],
-  ];
-
-  root.innerHTML = awards
-    .map(([title, winner, flavor]) => {
-      const hasSignal = winner?.count > 0;
-      const label = hasSignal ? winner.label : "No signal";
-      const rate = winner?.rate || 0;
-      const count = winner?.count || 0;
-      const denominator = winner?.denominator || 0;
-      return `
-        <div class="award-card ${flavor}">
-          <span>${escapeHtml(title)}</span>
-          <strong>${escapeHtml(label)}</strong>
-          <em>${fmt.format(count)} / ${fmt.format(denominator)} ${escapeHtml(winner?.basis || "messages")} · min ${AWARD_MIN_MESSAGES} msgs</em>
-          <b>${fmt.format(rate)}%</b>
-        </div>
-      `;
-    })
-    .join("");
-}
-
 function renderMentions(windowSummary) {
   const root = $("mentionEdges");
   if (!root) return;
@@ -549,7 +487,6 @@ function render() {
   renderSenders(windowSummary);
   renderDaily(windowSummary);
   renderHourly(windowSummary);
-  renderVibes(windowSummary);
   renderMentions(windowSummary);
   renderReactionRanks(windowSummary);
   renderReactions(windowSummary);
