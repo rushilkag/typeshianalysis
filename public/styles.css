@@ -253,6 +253,17 @@ h2 {
   margin-bottom: 14px;
 }
 
+.coming-soon {
+  display: inline-block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
 .filter {
   display: grid;
   gap: 7px;
