@@ -139,7 +139,18 @@ def call_openai(api_key: str, model: str, batch: list[dict], retries: int = 4) -
             content = data["choices"][0]["message"]["content"]
             parsed = json.loads(content)
             return parsed.get("items", [])
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, KeyError, json.JSONDecodeError) as exc:
+        except urllib.error.HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            if exc.code in {401, 403}:
+                raise RuntimeError(
+                    f"OpenAI authentication failed ({exc.code}). "
+                    "Check that OPENAI_API_KEY is your real key, not the placeholder text. "
+                    f"Response: {body[:500]}"
+                ) from exc
+            if attempt == retries - 1:
+                raise RuntimeError(f"OpenAI classification failed after {retries} attempts: {exc} {body[:500]}") from exc
+            time.sleep(2**attempt)
+        except (urllib.error.URLError, TimeoutError, KeyError, json.JSONDecodeError) as exc:
             if attempt == retries - 1:
                 raise RuntimeError(f"OpenAI classification failed after {retries} attempts: {exc}") from exc
             time.sleep(2**attempt)
@@ -295,6 +306,8 @@ def main() -> None:
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         raise SystemExit("Set OPENAI_API_KEY in your shell before running this script.")
+    if api_key.strip().lower() in {"your_key", "your-key", "sk-your-key"} or not api_key.startswith("sk-"):
+        raise SystemExit('OPENAI_API_KEY must be your actual OpenAI key, not "your_key".')
 
     turns, sender_profiles = build_turns(args)
     cache = load_cache(args.cache)
