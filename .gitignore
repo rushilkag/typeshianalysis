@@ -11,3 +11,4 @@ chat.db*
 AddressBook*.abcddb
 config/slur_terms.local.json
 public/data/summary.internal.json
+public/data/sentiment-cache.local.json

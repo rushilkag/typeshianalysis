@@ -43,6 +43,15 @@ That writes `public/data/summary.internal.json`, which is ignored by git and sho
 
 ## Optional local detectors
 
+AI sentiment rankings are generated separately from the normal dashboard data:
+
+```bash
+export OPENAI_API_KEY="..."
+npm run classify
+```
+
+This writes `public/data/sentiments.json` with aggregate percentages and short example quotes for `Most racist`, `Most pick me`, `Most self insert`, `Biggest brainrot`, `Most vulnerable`, and `Biggest glazer`. The local cache is written to `public/data/sentiment-cache.local.json` and ignored by git.
+
 Slur counts are supported through a local-only lexicon that is ignored by git:
 
 ```bash

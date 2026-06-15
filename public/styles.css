@@ -491,9 +491,71 @@ h2 {
 .award-stack,
 .edge-list,
 .reaction-rank-list,
-.reaction-list {
+.reaction-list,
+.sentiment-stack {
   display: grid;
   gap: 8px;
+}
+
+.sentiment-card {
+  position: relative;
+  display: grid;
+  gap: 5px;
+  padding: 12px;
+  border: 1px solid rgba(17, 21, 15, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.sentiment-card span,
+.sentiment-card em,
+.sentiment-card cite {
+  color: var(--muted);
+  font-family: Menlo, Consolas, monospace;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.sentiment-card strong {
+  padding-right: 54px;
+  overflow: hidden;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sentiment-card > b {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: white;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 11px;
+}
+
+.sentiment-quotes {
+  display: grid;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.sentiment-quotes blockquote {
+  margin: 0;
+  padding-left: 8px;
+  color: var(--muted);
+  border-left: 2px solid var(--acid);
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.sentiment-quotes cite {
+  display: block;
+  margin-top: 3px;
 }
 
 .award-card {

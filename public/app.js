@@ -1,5 +1,6 @@
 const state = {
   summary: null,
+  sentiments: null,
   filter: "",
   windowDays: 14,
 };
@@ -621,6 +622,57 @@ function renderSwears(windowSummary) {
   `;
 }
 
+function renderSentiments() {
+  const root = $("sentimentAwards");
+  if (!root) return;
+
+  const sentiments = state.sentiments;
+  if (!sentiments?.rankings?.length) {
+    root.innerHTML = `
+      <span class="coming-soon">Coming soon</span>
+      <p class="note">Run <code>npm run classify</code> with <code>OPENAI_API_KEY</code> to publish AI scores.</p>
+    `;
+    return;
+  }
+
+  root.innerHTML = sentiments.rankings
+    .map((category) => {
+      const winner = category.rows?.[0];
+      if (!winner) {
+        return `
+          <div class="sentiment-card">
+            <span>${escapeHtml(category.label)}</span>
+            <strong>No signal</strong>
+            <em>Minimum ${fmt.format(sentiments.minimumTurnsForRanking || 25)} turns</em>
+          </div>
+        `;
+      }
+
+      const examples = (winner.examples || [])
+        .slice(0, 2)
+        .map(
+          (example) => `
+            <blockquote>
+              “${escapeHtml(example.quote)}”
+              <cite>${escapeHtml(example.date)}</cite>
+            </blockquote>
+          `
+        )
+        .join("");
+
+      return `
+        <div class="sentiment-card">
+          <span>${escapeHtml(category.label)}</span>
+          <strong>${escapeHtml(winner.label)}</strong>
+          <em>${fmt.format(winner.count)} / ${fmt.format(winner.turns)} turns · ${fmt.format(winner.rate)}%</em>
+          <b>${fmt.format(winner.rate)}%</b>
+          <div class="sentiment-quotes">${examples || "<blockquote>No quote kept</blockquote>"}</div>
+        </div>
+      `;
+    })
+    .join("");
+}
+
 function render() {
   const windowSummary = buildWindowSummary();
   renderWindowControls();
@@ -633,6 +685,7 @@ function render() {
   renderReactions(windowSummary);
   renderWordWatch(windowSummary);
   renderSwears(windowSummary);
+  renderSentiments();
 }
 
 async function loadSummary() {
@@ -643,10 +696,18 @@ async function loadSummary() {
   return response.json();
 }
 
+async function loadOptionalJson(path) {
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) return null;
+  return response.json();
+}
+
 async function init() {
   try {
     const summary = await loadSummary();
+    const sentiments = await loadOptionalJson("./data/sentiments.json");
     state.summary = summary;
+    state.sentiments = sentiments;
     state.windowDays = clampWindowDays(summary.defaultWindowDays || 14);
     render();
   } catch (error) {
