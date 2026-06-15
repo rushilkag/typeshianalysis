@@ -637,6 +637,21 @@ h2 {
   line-height: 1.25;
 }
 
+.reaction-media {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.reaction-media img {
+  width: min(100%, 360px);
+  max-height: 260px;
+  border: 1px solid rgba(17, 21, 15, 0.18);
+  border-radius: 8px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.72);
+}
+
 .slur-total {
   padding: 16px;
   border: 2px solid var(--ink);

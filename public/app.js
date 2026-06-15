@@ -433,6 +433,23 @@ function reactionEvidence(message) {
   return "No text body";
 }
 
+function reactionMedia(message) {
+  const media = message.media || [];
+  if (!media.length) return "";
+
+  return `
+    <div class="reaction-media">
+      ${media
+        .map(
+          (item) => `
+            <img src="${escapeHtml(item.src)}" alt="Reacted message attachment" loading="lazy" />
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
 function renderReactions(windowSummary) {
   const root = $("reactionMessages");
   if (!root) return;
@@ -452,6 +469,7 @@ function renderReactions(windowSummary) {
           <div>
             <strong>${escapeHtml(message.authorLabel)} · ${date}</strong>
             <p>${preview}</p>
+            ${reactionMedia(message)}
             <span>${reactionBreakdown(message.reactionTypes)}</span>
           </div>
           <b>${fmt.format(message.reactionCount)}</b>

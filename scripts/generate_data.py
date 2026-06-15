@@ -12,7 +12,9 @@ import argparse
 import hashlib
 import json
 import re
+import shutil
 import sqlite3
+import subprocess
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import datetime, time, timedelta, timezone
@@ -30,6 +32,7 @@ REACTION_TYPES = {
     2005: "question",
     2006: "emoji",
 }
+IMAGE_EXTENSIONS = {".avif", ".gif", ".heic", ".heif", ".jpeg", ".jpg", ".png", ".webp"}
 VIBE_LEXICON = {
     "glazer": [
         "ate",
@@ -255,6 +258,48 @@ def safe_preview(text: str | None, limit: int = 120) -> str | None:
     if len(cleaned) <= limit:
         return cleaned
     return cleaned[: limit - 1].rstrip() + "…"
+
+
+def attachment_source_path(filename: str | None) -> Path | None:
+    if not filename:
+        return None
+
+    path = Path(filename).expanduser()
+    if not path.is_absolute():
+        path = Path.home() / "Library/Messages" / path
+    return path if path.exists() else None
+
+
+def media_extension(path: Path, mime_type: str | None, uti: str | None) -> str | None:
+    suffix = path.suffix.lower()
+    if suffix in IMAGE_EXTENSIONS:
+        return suffix
+
+    value = f"{mime_type or ''} {uti or ''}".lower()
+    if "png" in value:
+        return ".png"
+    if "gif" in value:
+        return ".gif"
+    if "webp" in value:
+        return ".webp"
+    if "heic" in value or "heif" in value:
+        return ".heic"
+    if "jpeg" in value or "jpg" in value or "image/" in value:
+        return ".jpg"
+    return None
+
+
+def write_web_image(source_path: Path, target_path: Path) -> bool:
+    try:
+        subprocess.run(
+            ["sips", "-s", "format", "jpeg", "-Z", "900", str(source_path), "--out", str(target_path)],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+        return target_path.exists()
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        return False
 
 
 def apple_ns_from_datetime(value: datetime) -> int:
@@ -596,6 +641,8 @@ def fetch_reaction_messages(
     share_safe: bool,
     include_message_previews: bool,
     include_contact_identifiers: bool,
+    include_media_files: bool,
+    media_output_dir: Path,
     reaction_limit: int,
 ) -> tuple[list[dict], dict[str, Counter], dict[str, Counter]]:
     params = {"group_name": normalize_name(group_name), "cutoff_ns": cutoff_ns}
@@ -613,6 +660,7 @@ def fetch_reaction_messages(
              )
         )
         select distinct
+          m.ROWID,
           m.guid,
           m.is_from_me,
           m.handle_id,
@@ -654,6 +702,7 @@ def fetch_reaction_messages(
             detail = "Rushil" if sender_id == "me" else "participant"
 
         targets[row["guid"]] = {
+            "messageRowId": row["ROWID"],
             "id": stable_id(row["guid"]),
             "authorId": sender_id,
             "authorLabel": label,
@@ -718,12 +767,63 @@ def fetch_reaction_messages(
         target["reactionCount"] += 1
         target["reactionTypes"][reaction_name] += 1
 
-    reactions = [target for target in targets.values() if target["reactionCount"]]
+    reactions = sorted(
+        [target for target in targets.values() if target["reactionCount"]],
+        key=lambda item: (-item["reactionCount"], item["timestamp"]),
+    )[:reaction_limit]
+
+    if include_media_files and reactions:
+        row_id_to_reaction = {reaction["messageRowId"]: reaction for reaction in reactions}
+        placeholders = ",".join("?" for _ in row_id_to_reaction)
+        attach_rows = conn.execute(
+            f"""
+            select
+              maj.message_id,
+              a.ROWID as attachment_id,
+              a.filename,
+              a.mime_type,
+              a.uti
+            from message_attachment_join maj
+            join attachment a on a.ROWID = maj.attachment_id
+            where maj.message_id in ({placeholders})
+            order by maj.message_id, a.ROWID
+            """,
+            list(row_id_to_reaction),
+        ).fetchall()
+        if media_output_dir.exists():
+            shutil.rmtree(media_output_dir)
+        media_output_dir.mkdir(parents=True, exist_ok=True)
+        for row in attach_rows:
+            source_path = attachment_source_path(row["filename"])
+            if not source_path:
+                continue
+            extension = media_extension(source_path, row["mime_type"], row["uti"])
+            if not extension:
+                continue
+
+            digest = hashlib.sha1(f"{row['message_id']}:{row['attachment_id']}".encode()).hexdigest()[:12]
+            target_name = f"reaction-{digest}.jpg"
+            target_path = media_output_dir / target_name
+            if not target_path.exists():
+                if not write_web_image(source_path, target_path):
+                    target_name = f"reaction-{digest}{extension}"
+                    target_path = media_output_dir / target_name
+                    shutil.copy2(source_path, target_path)
+
+            reaction = row_id_to_reaction[row["message_id"]]
+            reaction.setdefault("media", []).append(
+                {
+                    "src": f"./data/reaction-media/{target_name}",
+                    "type": row["mime_type"] or row["uti"] or "image",
+                }
+            )
+
     for reaction in reactions:
         reaction["date"] = datetime_from_apple_ns(reaction["date"]).astimezone().date().isoformat()
         reaction["reactionTypes"] = dict(
             sorted(reaction["reactionTypes"].items(), key=lambda item: (-item[1], item[0]))
         )
+        reaction.pop("messageRowId")
         if reaction["preview"] is None:
             reaction.pop("preview")
         if not reaction["attachmentCount"]:
@@ -732,7 +832,7 @@ def fetch_reaction_messages(
             reaction.pop("attachmentTypes")
 
     return (
-        sorted(reactions, key=lambda item: (-item["reactionCount"], item["timestamp"]))[:reaction_limit],
+        reactions,
         reaction_daily_by_sender,
         reaction_daily_by_author,
     )
@@ -1030,6 +1130,17 @@ def parse_args() -> argparse.Namespace:
         help="Include short previews for highest-reaction messages. Off by default for hosted builds.",
     )
     parser.add_argument(
+        "--include-media-files",
+        action="store_true",
+        help="Copy image attachments for highest-reaction messages into the public output tree.",
+    )
+    parser.add_argument(
+        "--media-output-dir",
+        type=Path,
+        default=Path(__file__).resolve().parents[1] / "public/data/reaction-media",
+        help="Output directory for copied reaction media files.",
+    )
+    parser.add_argument(
         "--include-contact-identifiers",
         action="store_true",
         help="Unsafe local-only mode: include raw contact handles/phone numbers in sender details.",
@@ -1084,6 +1195,8 @@ def main() -> None:
             args.share_safe,
             args.include_message_previews,
             args.include_contact_identifiers,
+            args.include_media_files,
+            args.media_output_dir,
             args.reaction_limit,
         )
     finally:
