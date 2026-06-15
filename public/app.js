@@ -55,6 +55,10 @@ function buildWindowSummary() {
   const reactionByAuthor = new Map();
   const slurBySender = new Map();
   const slurByCategory = new Map();
+  const wordWatchBySender = new Map();
+  const wordWatchByTerm = new Map();
+  const swearBySender = new Map();
+  const swearByTerm = new Map();
   const mentionEdges = new Map();
   const hourlyCounts = Array.from({ length: 24 }, () => 0);
 
@@ -111,6 +115,30 @@ function buildWindowSummary() {
 
     Object.entries(day.slurByCategory || {}).forEach(([category, count]) => {
       slurByCategory.set(category, (slurByCategory.get(category) || 0) + count);
+    });
+
+    Object.entries(day.wordWatchBySender || {}).forEach(([senderId, scores]) => {
+      const target = wordWatchBySender.get(senderId) || {};
+      Object.entries(scores).forEach(([category, count]) => {
+        target[category] = (target[category] || 0) + count;
+      });
+      wordWatchBySender.set(senderId, target);
+    });
+
+    Object.entries(day.wordWatchByTerm || {}).forEach(([category, count]) => {
+      wordWatchByTerm.set(category, (wordWatchByTerm.get(category) || 0) + count);
+    });
+
+    Object.entries(day.swearBySender || {}).forEach(([senderId, scores]) => {
+      const target = swearBySender.get(senderId) || {};
+      Object.entries(scores).forEach(([category, count]) => {
+        target[category] = (target[category] || 0) + count;
+      });
+      swearBySender.set(senderId, target);
+    });
+
+    Object.entries(day.swearByTerm || {}).forEach(([category, count]) => {
+      swearByTerm.set(category, (swearByTerm.get(category) || 0) + count);
     });
 
     (day.mentions || []).forEach((edge) => {
@@ -176,6 +204,22 @@ function buildWindowSummary() {
     total: Object.values(scores).reduce((sum, count) => sum + count, 0),
   }));
 
+  const wordWatchRows = Array.from(wordWatchBySender.entries()).map(([senderId, scores]) => ({
+    ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
+    messageCount: rawSenderCounts.get(senderId) || senderCounts.get(senderId) || 0,
+    turnCount: senderCounts.get(senderId) || 0,
+    scores,
+    total: Object.values(scores).reduce((sum, count) => sum + count, 0),
+  }));
+
+  const swearRows = Array.from(swearBySender.entries()).map(([senderId, scores]) => ({
+    ...(participantById.get(senderId) || { id: senderId, label: "Participant" }),
+    messageCount: rawSenderCounts.get(senderId) || senderCounts.get(senderId) || 0,
+    turnCount: senderCounts.get(senderId) || 0,
+    scores,
+    total: Object.values(scores).reduce((sum, count) => sum + count, 0),
+  }));
+
   const mentions = Array.from(mentionEdges.entries())
     .map(([edge, count]) => {
       const [from, to] = edge.split(">");
@@ -214,6 +258,12 @@ function buildWindowSummary() {
     slurRows,
     slurByCategory: Array.from(slurByCategory.entries()).map(([category, count]) => ({ category, count })),
     slurTotal: Array.from(slurByCategory.values()).reduce((sum, count) => sum + count, 0),
+    wordWatchRows,
+    wordWatchByTerm: Array.from(wordWatchByTerm.entries()).map(([category, count]) => ({ category, count })),
+    wordWatchTotal: Array.from(wordWatchByTerm.values()).reduce((sum, count) => sum + count, 0),
+    swearRows,
+    swearByTerm: Array.from(swearByTerm.entries()).map(([category, count]) => ({ category, count })),
+    swearTotal: Array.from(swearByTerm.values()).reduce((sum, count) => sum + count, 0),
   };
 }
 
@@ -479,35 +529,95 @@ function renderReactions(windowSummary) {
     .join("");
 }
 
-function renderSlurs(windowSummary) {
-  const root = $("slurStats");
+function renderWordWatch(windowSummary) {
+  const root = $("wordWatchStats");
   if (!root) return;
 
-  const configured = Boolean(state.summary.analysis?.slurLexiconConfigured);
-  if (!configured) {
-    root.innerHTML = `
-      <div class="slur-total">
-        <span>Not configured</span>
-        <strong>0</strong>
-      </div>
-      <p class="note">Add <code>config/slur_terms.local.json</code> locally and regenerate to enable category counts.</p>
-    `;
+  const rows = [...windowSummary.wordWatchRows]
+    .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label))
+    .slice(0, 10);
+
+  if (!rows.length) {
+    root.innerHTML = `<div class="empty">No requested term hits in this window.</div>`;
     return;
   }
 
-  const topSender = [...windowSummary.slurRows].sort((a, b) => b.total - a.total)[0];
-  const categories = windowSummary.slurByCategory
+  const topSender = rows[0];
+  const terms = windowSummary.wordWatchByTerm
     .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category))
     .map((item) => `<span>${escapeHtml(item.category)} <b>${fmt.format(item.count)}</b></span>`)
     .join("");
 
   root.innerHTML = `
     <div class="slur-total">
-      <span>Total detected</span>
-      <strong>${fmt.format(windowSummary.slurTotal)}</strong>
+      <span>Term hits</span>
+      <strong>${fmt.format(windowSummary.wordWatchTotal)}</strong>
     </div>
-    <p class="note">Top sender: ${escapeHtml(topSender?.label || "None")}</p>
-    <div class="category-pills">${categories || "<span>No hits</span>"}</div>
+    <p class="note">Joke label only. Top sender by exact requested-term count: ${escapeHtml(topSender.label)}.</p>
+    <div class="category-pills">${terms}</div>
+    <div class="word-watch-list">
+      ${rows
+        .map((row, index) => {
+          const breakdown = Object.entries(row.scores)
+            .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+            .map(([category, count]) => `${category} ${fmt.format(count)}`)
+            .join(" / ");
+          return `
+            <div class="detector-row">
+              <span>${index + 1}. ${escapeHtml(row.label)} <em>${escapeHtml(breakdown)}</em></span>
+              <b>${fmt.format(row.total)}</b>
+            </div>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
+function renderSwears(windowSummary) {
+  const root = $("swearStats");
+  if (!root) return;
+
+  const rows = [...windowSummary.swearRows]
+    .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label))
+    .slice(0, 10);
+
+  if (!rows.length) {
+    root.innerHTML = `<div class="empty">No swear hits in this window.</div>`;
+    return;
+  }
+
+  const topSender = rows[0];
+  const terms = windowSummary.swearByTerm
+    .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category))
+    .slice(0, 8)
+    .map((item) => `<span>${escapeHtml(item.category)} <b>${fmt.format(item.count)}</b></span>`)
+    .join("");
+
+  root.innerHTML = `
+    <div class="slur-total">
+      <span>Swear hits</span>
+      <strong>${fmt.format(windowSummary.swearTotal)}</strong>
+    </div>
+    <p class="note">Top sender by exact swear-word count: ${escapeHtml(topSender.label)}.</p>
+    <div class="category-pills">${terms}</div>
+    <div class="word-watch-list">
+      ${rows
+        .map((row, index) => {
+          const breakdown = Object.entries(row.scores)
+            .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+            .slice(0, 4)
+            .map(([category, count]) => `${category} ${fmt.format(count)}`)
+            .join(" / ");
+          return `
+            <div class="detector-row">
+              <span>${index + 1}. ${escapeHtml(row.label)} <em>${escapeHtml(breakdown)}</em></span>
+              <b>${fmt.format(row.total)}</b>
+            </div>
+          `;
+        })
+        .join("")}
+    </div>
   `;
 }
 
@@ -521,7 +631,8 @@ function render() {
   renderMentions(windowSummary);
   renderReactionRanks(windowSummary);
   renderReactions(windowSummary);
-  renderSlurs(windowSummary);
+  renderWordWatch(windowSummary);
+  renderSwears(windowSummary);
 }
 
 async function loadSummary() {

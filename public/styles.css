@@ -716,6 +716,18 @@ h2 {
   text-transform: uppercase;
 }
 
+.detector-row em {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
+}
+
+.word-watch-list {
+  margin-top: 12px;
+}
+
 .empty {
   padding: 34px;
   color: var(--muted);

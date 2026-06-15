@@ -1,8 +1,8 @@
 {
   "groupName": "type shi",
-  "generatedAt": "2026-06-14T19:13:41-05:00",
+  "generatedAt": "2026-06-14T19:22:52-05:00",
   "windowStart": "2025-06-15T00:00:00-05:00",
-  "windowEnd": "2026-06-14T19:13:41-05:00",
+  "windowEnd": "2026-06-14T19:22:52-05:00",
   "days": 365,
   "maxWindowDays": 365,
   "defaultWindowDays": 14,
@@ -14,14 +14,14 @@
     180,
     365
   ],
-  "totalMessages": 24014,
-  "totalTurns": 18558,
+  "totalMessages": 24021,
+  "totalTurns": 18564,
   "turnGapSeconds": 30,
   "burstReductionPercent": 22.7,
   "participantCount": 29,
-  "attachmentMessages": 2642,
-  "attachmentTurns": 2537,
-  "averagePerDay": 50.8,
+  "attachmentMessages": 2643,
+  "attachmentTurns": 2538,
+  "averagePerDay": 50.9,
   "averageTextLength": 25.6,
   "matchedChats": [],
   "senders": [
@@ -46,9 +46,9 @@
       "initials": "AK",
       "count": 0,
       "firstMessageAt": "2025-08-27T17:15:55-05:00",
-      "lastMessageAt": "2026-06-14T19:12:10-05:00",
-      "totalCount": 2216,
-      "turnCount": 1662,
+      "lastMessageAt": "2026-06-14T19:17:20-05:00",
+      "totalCount": 2217,
+      "turnCount": 1663,
       "burstReductionPercent": 25.0,
       "rank": 2,
       "share": 9.0
@@ -79,7 +79,7 @@
       "turnCount": 1587,
       "burstReductionPercent": 19.2,
       "rank": 4,
-      "share": 8.6
+      "share": 8.5
     },
     {
       "id": "p_fkioklocpgbp",
@@ -88,12 +88,12 @@
       "initials": "RO",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:30-05:00",
-      "lastMessageAt": "2026-06-14T19:13:02-05:00",
-      "totalCount": 1566,
-      "turnCount": 1271,
+      "lastMessageAt": "2026-06-14T19:14:55-05:00",
+      "totalCount": 1567,
+      "turnCount": 1272,
       "burstReductionPercent": 18.8,
       "rank": 5,
-      "share": 6.8
+      "share": 6.9
     },
     {
       "id": "p_jnkhheofddbe",
@@ -158,9 +158,9 @@
       "initials": "VA",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:24-05:00",
-      "lastMessageAt": "2026-06-14T19:08:03-05:00",
-      "totalCount": 1075,
-      "turnCount": 879,
+      "lastMessageAt": "2026-06-14T19:17:02-05:00",
+      "totalCount": 1077,
+      "turnCount": 881,
       "burstReductionPercent": 18.2,
       "rank": 10,
       "share": 4.7
@@ -194,6 +194,20 @@
       "share": 3.6
     },
     {
+      "id": "p_dmdailmighhb",
+      "label": "Wentai",
+      "detail": "participant",
+      "initials": "WE",
+      "count": 0,
+      "firstMessageAt": "2025-08-29T19:56:04-05:00",
+      "lastMessageAt": "2026-06-14T19:15:30-05:00",
+      "totalCount": 714,
+      "turnCount": 574,
+      "burstReductionPercent": 19.6,
+      "rank": 13,
+      "share": 3.1
+    },
+    {
       "id": "p_blfhjomohklb",
       "label": "Arnav Bhaskar",
       "detail": "participant",
@@ -204,20 +218,6 @@
       "totalCount": 666,
       "turnCount": 574,
       "burstReductionPercent": 13.8,
-      "rank": 13,
-      "share": 3.1
-    },
-    {
-      "id": "p_dmdailmighhb",
-      "label": "Wentai",
-      "detail": "participant",
-      "initials": "WE",
-      "count": 0,
-      "firstMessageAt": "2025-08-29T19:56:04-05:00",
-      "lastMessageAt": "2026-06-14T19:07:04-05:00",
-      "totalCount": 713,
-      "turnCount": 573,
-      "burstReductionPercent": 19.6,
       "rank": 14,
       "share": 3.1
     },
@@ -312,10 +312,10 @@
       "initials": "JD",
       "count": 0,
       "firstMessageAt": "2025-08-27T19:59:06-05:00",
-      "lastMessageAt": "2026-06-13T21:31:43-05:00",
-      "totalCount": 220,
-      "turnCount": 190,
-      "burstReductionPercent": 13.6,
+      "lastMessageAt": "2026-06-14T19:16:48-05:00",
+      "totalCount": 222,
+      "turnCount": 191,
+      "burstReductionPercent": 14.0,
       "rank": 21,
       "share": 1.0
     },
@@ -500,7 +500,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-16",
@@ -569,7 +573,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-17",
@@ -638,7 +646,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-18",
@@ -707,7 +719,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-19",
@@ -776,7 +792,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-20",
@@ -845,7 +865,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-21",
@@ -914,7 +938,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-22",
@@ -983,7 +1011,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-23",
@@ -1052,7 +1084,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-24",
@@ -1121,7 +1157,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-25",
@@ -1190,7 +1230,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-26",
@@ -1259,7 +1303,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-27",
@@ -1328,7 +1376,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-28",
@@ -1397,7 +1449,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-29",
@@ -1466,7 +1522,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-06-30",
@@ -1535,7 +1595,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-01",
@@ -1604,7 +1668,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-02",
@@ -1673,7 +1741,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-03",
@@ -1742,7 +1814,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-04",
@@ -1811,7 +1887,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-05",
@@ -1880,7 +1960,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-06",
@@ -1949,7 +2033,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-07",
@@ -2018,7 +2106,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-08",
@@ -2087,7 +2179,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-09",
@@ -2156,7 +2252,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-10",
@@ -2225,7 +2325,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-11",
@@ -2294,7 +2398,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-12",
@@ -2363,7 +2471,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-13",
@@ -2432,7 +2544,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-14",
@@ -2501,7 +2617,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-15",
@@ -2570,7 +2690,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-16",
@@ -2639,7 +2763,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-17",
@@ -2708,7 +2836,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-18",
@@ -2777,7 +2909,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-19",
@@ -2846,7 +2982,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-20",
@@ -2915,7 +3055,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-21",
@@ -2984,7 +3128,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-22",
@@ -3053,7 +3201,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-23",
@@ -3122,7 +3274,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-24",
@@ -3191,7 +3347,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-25",
@@ -3260,7 +3420,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-26",
@@ -3329,7 +3493,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-27",
@@ -3398,7 +3566,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-28",
@@ -3467,7 +3639,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-29",
@@ -3536,7 +3712,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-30",
@@ -3605,7 +3785,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-07-31",
@@ -3674,7 +3858,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-01",
@@ -3743,7 +3931,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-02",
@@ -3812,7 +4004,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-03",
@@ -3881,7 +4077,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-04",
@@ -3950,7 +4150,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-05",
@@ -4019,7 +4223,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-06",
@@ -4088,7 +4296,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-07",
@@ -4157,7 +4369,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-08",
@@ -4226,7 +4442,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-09",
@@ -4295,7 +4515,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-10",
@@ -4364,7 +4588,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-11",
@@ -4433,7 +4661,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-12",
@@ -4502,7 +4734,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-13",
@@ -4571,7 +4807,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-14",
@@ -4640,7 +4880,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-15",
@@ -4709,7 +4953,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-16",
@@ -4778,7 +5026,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-17",
@@ -4847,7 +5099,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-18",
@@ -4916,7 +5172,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-19",
@@ -4985,7 +5245,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-20",
@@ -5054,7 +5318,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-21",
@@ -5123,7 +5391,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-22",
@@ -5192,7 +5464,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-23",
@@ -5261,7 +5537,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-24",
@@ -5330,7 +5610,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-25",
@@ -5399,7 +5683,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-26",
@@ -5468,7 +5756,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-08-27",
@@ -5620,7 +5912,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-08-28",
@@ -5797,7 +6099,33 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_akenceifeeeh": {
+          "damn": 1
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "fuck": 3,
+        "shit": 1
+      }
     },
     {
       "date": "2025-08-29",
@@ -5970,7 +6298,33 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "damn": 1
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 2,
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "shit": 1
+        },
+        "p_pigpbogjgabl": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "damn": 1,
+        "fuck": 1,
+        "shit": 2
+      }
     },
     {
       "date": "2025-08-30",
@@ -6078,7 +6432,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_kephgajchogi": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-08-31",
@@ -6192,7 +6556,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-01",
@@ -6263,7 +6631,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-02",
@@ -6396,7 +6768,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2025-09-03",
@@ -6762,7 +7144,34 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "damn": 1
+        },
+        "p_bfhopadigiif": {
+          "damn": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 2,
+        "fuck": 1,
+        "shit": 3
+      }
     },
     {
       "date": "2025-09-04",
@@ -7051,7 +7460,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "fuck": 1
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2025-09-05",
@@ -7176,7 +7599,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2025-09-06",
@@ -7418,7 +7851,34 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_gdmnohpphadm": {
+          "damn": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1
+        },
+        "p_jnkhheofddbe": {
+          "ass": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_olidjepnnbno": {
+          "fuck": 1,
+          "shit": 3
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 2,
+        "fuck": 2,
+        "shit": 4
+      }
     },
     {
       "date": "2025-09-07",
@@ -7519,7 +7979,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-08",
@@ -7633,7 +8097,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-09",
@@ -7758,7 +8226,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2025-09-10",
@@ -7915,7 +8397,39 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "damn": 1,
+          "shit": 1
+        },
+        "p_dmdailmighhb": {
+          "damn": 1,
+          "fuck": 1
+        },
+        "p_eoipeaaocofh": {
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_pigpbogjgabl": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 3,
+        "fuck": 3,
+        "shit": 3
+      }
     },
     {
       "date": "2025-09-11",
@@ -8015,7 +8529,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-12",
@@ -8175,7 +8693,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-13",
@@ -8277,7 +8799,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-14",
@@ -8346,7 +8872,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-15",
@@ -8493,7 +9023,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-16",
@@ -8572,7 +9106,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-17",
@@ -8718,7 +9256,25 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "damn": 1
+        },
+        "p_ghbenapallii": {
+          "hell": 1
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1,
+        "hell": 1
+      }
     },
     {
       "date": "2025-09-18",
@@ -8856,7 +9412,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-09-19",
@@ -8951,7 +9517,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-20",
@@ -9026,7 +9596,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-21",
@@ -9095,7 +9669,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-22",
@@ -9259,7 +9837,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "fuck": 2
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 2
+        },
+        "p_ghbenapallii": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 5
+      }
     },
     {
       "date": "2025-09-23",
@@ -9371,7 +9965,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-24",
@@ -9554,7 +10152,39 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "pussy": 1
+        },
+        "p_bfhopadigiif": {
+          "fuck": 1
+        },
+        "p_dmdailmighhb": {
+          "ass": 1
+        },
+        "p_hkfgpjfalkgj": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1
+        },
+        "p_jnkhheofddbe": {
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "fuck": 2,
+        "pussy": 1,
+        "shit": 2
+      }
     },
     {
       "date": "2025-09-25",
@@ -9656,7 +10286,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-09-26",
@@ -9797,7 +10437,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-09-27",
@@ -9937,7 +10581,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-09-28",
@@ -10220,7 +10874,41 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "shit": 1
+        },
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "shit": 1
+        },
+        "p_olidjepnnbno": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 4,
+        "shit": 6
+      }
     },
     {
       "date": "2025-09-29",
@@ -10352,7 +11040,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_amhokpidpdnh": {
+          "damn": 1
+        },
+        "p_bcbnmadlfjoe": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1
+      }
     },
     {
       "date": "2025-09-30",
@@ -10627,7 +11329,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_mnmcbpgmjcja": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 1,
+        "hell": 1
+      }
     },
     {
       "date": "2025-10-01",
@@ -10840,7 +11558,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_bcbnmadlfjoe": {
+          "ass": 1
+        },
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 2,
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-02",
@@ -11099,7 +11838,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_amhokpidpdnh": {
+          "damn": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 2
+        },
+        "p_fobjhenjdpgl": {
+          "hell": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 2,
+        "fuck": 2,
+        "hell": 1
+      }
     },
     {
       "date": "2025-10-03",
@@ -11317,7 +12077,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "damn": 1,
+          "fuck": 1
+        },
+        "p_enclpbahigno": {
+          "ass": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-04",
@@ -11508,7 +12288,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-05",
@@ -11672,7 +12456,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-06",
@@ -11825,7 +12619,29 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_enclpbahigno": {
+          "dick": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "dick": 1,
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-07",
@@ -11958,7 +12774,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-08",
@@ -12129,7 +12949,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_bcbnmadlfjoe": {
+          "fuck": 1
+        },
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "shit": 3
+      }
     },
     {
       "date": "2025-10-09",
@@ -12247,7 +13088,20 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "damn": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 2
+      }
     },
     {
       "date": "2025-10-10",
@@ -12345,7 +13199,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-11",
@@ -12426,7 +13284,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-12",
@@ -12495,7 +13357,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-13",
@@ -12696,7 +13562,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-14",
@@ -12873,7 +13743,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_ifdobplbgacb": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-10-15",
@@ -13001,7 +13887,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-16",
@@ -13206,7 +14102,33 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_bfhopadigiif": {
+          "shit": 1
+        },
+        "p_enclpbahigno": {
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "shit": 4
+      }
     },
     {
       "date": "2025-10-17",
@@ -13413,7 +14335,25 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "dick": 1
+        },
+        "p_jnkhheofddbe": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "dick": 1,
+        "hell": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-18",
@@ -13501,7 +14441,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-19",
@@ -13589,7 +14533,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_mnmcbpgmjcja": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-20",
@@ -13686,7 +14640,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-10-21",
@@ -13953,7 +14917,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_amhokpidpdnh": {
+          "ass": 1
+        },
+        "p_hpobobilhnoh": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "bastard": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "bastard": 1,
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-22",
@@ -14204,7 +15188,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-10-23",
@@ -14360,7 +15354,29 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 3,
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-24",
@@ -14530,7 +15546,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_mnmcbpgmjcja": {
+          "black": 2
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 2
+      },
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1
+        },
+        "p_mnmcbpgmjcja": {
+          "ass": 1,
+          "bitch": 2
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "bitch": 2
+      }
     },
     {
       "date": "2025-10-25",
@@ -14669,7 +15706,24 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_bcbnmadlfjoe": {
+          "ass": 2
+        },
+        "p_enclpbahigno": {
+          "ass": 1
+        },
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-26",
@@ -14785,7 +15839,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-27",
@@ -15027,7 +16085,30 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_bcbnmadlfjoe": {
+          "fuck": 1
+        },
+        "p_eoipeaaocofh": {
+          "hell": 1,
+          "shit": 2
+        },
+        "p_hpobobilhnoh": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 2
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "hell": 1,
+        "shit": 5
+      }
     },
     {
       "date": "2025-10-28",
@@ -15252,7 +16333,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-29",
@@ -15356,7 +16447,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-10-30",
@@ -15441,7 +16542,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-10-31",
@@ -15551,7 +16656,22 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "fuck": 2,
+          "pussy": 1
+        },
+        "p_ghbenapallii": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 3,
+        "pussy": 1
+      }
     },
     {
       "date": "2025-11-01",
@@ -15672,7 +16792,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-02",
@@ -15766,7 +16890,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-03",
@@ -15839,7 +16967,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-04",
@@ -15918,7 +17050,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-05",
@@ -15999,7 +17135,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-06",
@@ -16155,7 +17295,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1
+      }
     },
     {
       "date": "2025-11-07",
@@ -16224,7 +17378,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-08",
@@ -16326,7 +17484,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-09",
@@ -16395,7 +17557,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-10",
@@ -16505,7 +17671,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 1
+      }
     },
     {
       "date": "2025-11-11",
@@ -16574,7 +17754,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-12",
@@ -16790,7 +17974,32 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_akenceifeeeh": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_hpobobilhnoh": {
+          "damn": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1,
+        "shit": 2
+      }
     },
     {
       "date": "2025-11-13",
@@ -16903,7 +18112,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-11-14",
@@ -17053,7 +18272,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-11-15",
@@ -17140,7 +18369,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-16",
@@ -17243,7 +18476,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2025-11-17",
@@ -17388,7 +18631,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "shit": 2
+        }
+      },
+      "swearByTerm": {
+        "shit": 2
+      }
     },
     {
       "date": "2025-11-18",
@@ -17513,7 +18766,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-19",
@@ -17635,7 +18892,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-20",
@@ -17720,7 +18981,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-21",
@@ -17850,7 +19115,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-22",
@@ -18001,7 +19270,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "bitch": 1
+        },
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_olidjepnnbno": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "shit": 3
+      }
     },
     {
       "date": "2025-11-23",
@@ -18070,7 +19359,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-24",
@@ -18147,7 +19440,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-25",
@@ -18391,7 +19688,39 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_jchajjgjipbd": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_bcbnmadlfjoe": {
+          "fuck": 1
+        },
+        "p_dmdailmighhb": {
+          "fuck": 1
+        },
+        "p_eoipeaaocofh": {
+          "ass": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 4,
+        "shit": 2
+      }
     },
     {
       "date": "2025-11-26",
@@ -18612,7 +19941,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-11-27",
@@ -18829,7 +20168,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-28",
@@ -18922,7 +20265,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-11-29",
@@ -19053,7 +20400,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-11-30",
@@ -19162,7 +20519,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-01",
@@ -19436,7 +20797,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2025-12-02",
@@ -19559,7 +20930,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-03",
@@ -19660,7 +21035,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-04",
@@ -19794,7 +21173,20 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 2
+      }
     },
     {
       "date": "2025-12-05",
@@ -19904,7 +21296,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-12-06",
@@ -20034,7 +21436,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-07",
@@ -20199,7 +21605,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-08",
@@ -20311,7 +21721,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1
+      }
     },
     {
       "date": "2025-12-09",
@@ -20453,7 +21873,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-10",
@@ -20552,7 +21976,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jchajjgjipbd": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2025-12-11",
@@ -20930,7 +22364,67 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_amggoddlmlck": {
+          "n-word": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "n-word": 1
+      },
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "damn": 1,
+          "shit": 1
+        },
+        "p_amggoddlmlck": {
+          "ass": 1,
+          "damn": 1,
+          "shit": 2
+        },
+        "p_dmdailmighhb": {
+          "cunt": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_hpobobilhnoh": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1,
+          "fuck": 3,
+          "shit": 3
+        },
+        "p_jchajjgjipbd": {
+          "shit": 2
+        },
+        "p_jnkhheofddbe": {
+          "shit": 2
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_pececoiicgih": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "cunt": 1,
+        "damn": 2,
+        "fuck": 7,
+        "hell": 1,
+        "shit": 13
+      }
     },
     {
       "date": "2025-12-12",
@@ -21295,7 +22789,32 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_dljmmncicnlf": {
+          "hell": 1,
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "ass": 2,
+          "fuck": 1,
+          "shit": 3
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "fuck": 2,
+        "hell": 1,
+        "shit": 5
+      }
     },
     {
       "date": "2025-12-13",
@@ -21396,7 +22915,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-14",
@@ -21483,7 +23006,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2025-12-15",
@@ -21706,7 +23239,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "dick": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1,
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "dick": 1,
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2025-12-16",
@@ -21956,7 +23509,38 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "dick": 1
+        },
+        "p_dljmmncicnlf": {
+          "dick": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_jchajjgjipbd": {
+          "dick": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        },
+        "p_omghgdhhmpfj": {
+          "dick": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "dick": 4,
+        "fuck": 2,
+        "shit": 3
+      }
     },
     {
       "date": "2025-12-17",
@@ -22163,7 +23747,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 3
+        }
+      },
+      "swearByTerm": {
+        "fuck": 3,
+        "shit": 1
+      }
     },
     {
       "date": "2025-12-18",
@@ -22258,7 +23856,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-19",
@@ -22459,7 +24061,34 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "piss": 1,
+          "shit": 2
+        },
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "damn": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 2,
+        "piss": 1,
+        "shit": 4
+      }
     },
     {
       "date": "2025-12-20",
@@ -22559,7 +24188,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-21",
@@ -22628,7 +24261,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-22",
@@ -22712,7 +24349,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-23",
@@ -22843,7 +24484,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2025-12-24",
@@ -22943,7 +24594,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-25",
@@ -23021,7 +24676,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-26",
@@ -23153,7 +24812,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_akenceifeeeh": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-27",
@@ -23231,7 +24900,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-28",
@@ -23318,7 +24991,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2025-12-29",
@@ -23464,7 +25141,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_enclpbahigno": {
+          "piss": 1
+        },
+        "p_hpobobilhnoh": {
+          "piss": 1
+        },
+        "p_nfihmngofcke": {
+          "piss": 1
+        }
+      },
+      "swearByTerm": {
+        "piss": 3
+      }
     },
     {
       "date": "2025-12-30",
@@ -23654,7 +25347,20 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_enclpbahigno": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 2
+      }
     },
     {
       "date": "2025-12-31",
@@ -23804,7 +25510,24 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-01",
@@ -23978,7 +25701,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_bfhopadigiif": {
+          "fuck": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 3,
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-02",
@@ -24094,7 +25837,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1
+        },
+        "p_blfhjomohklb": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "hell": 1
+      }
     },
     {
       "date": "2026-01-03",
@@ -24335,7 +26092,50 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_nfihmngofcke": {
+          "black": 1
+        },
+        "p_olidjepnnbno": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 2
+      },
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 2
+        },
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "ass": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2
+        },
+        "p_olidjepnnbno": {
+          "bitch": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_pececoiicgih": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "bitch": 1,
+        "fuck": 4,
+        "shit": 4
+      }
     },
     {
       "date": "2026-01-04",
@@ -24444,7 +26244,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-05",
@@ -24562,7 +26366,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jchajjgjipbd": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2026-01-06",
@@ -24744,7 +26558,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_akenceifeeeh": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 2
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-07",
@@ -24847,7 +26681,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-08",
@@ -24995,7 +26833,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-09",
@@ -25137,7 +26979,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_jchajjgjipbd": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_olidjepnnbno": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-10",
@@ -25227,7 +27089,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-11",
@@ -25370,7 +27236,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-12",
@@ -25745,7 +27615,39 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_bfhopadigiif": {
+          "piss": 1
+        },
+        "p_fobjhenjdpgl": {
+          "bitch": 1
+        },
+        "p_jchajjgjipbd": {
+          "shit": 1
+        },
+        "p_jdgogekapdln": {
+          "damn": 1
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "piss": 1
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "damn": 1,
+        "fuck": 1,
+        "piss": 2,
+        "shit": 2
+      }
     },
     {
       "date": "2026-01-13",
@@ -25972,7 +27874,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-14",
@@ -26287,7 +28203,32 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_bfhopadigiif": {
+          "shit": 2
+        },
+        "p_blfhjomohklb": {
+          "dick": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "dick": 1,
+        "fuck": 1,
+        "shit": 5
+      }
     },
     {
       "date": "2026-01-15",
@@ -26501,7 +28442,31 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_bfhopadigiif": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "bitch": 1,
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1,
+          "bitch": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "bitch": 2,
+        "fuck": 2,
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-16",
@@ -26666,7 +28631,24 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "hell": 1
+      }
     },
     {
       "date": "2026-01-17",
@@ -26749,7 +28731,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-18",
@@ -26838,7 +28824,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-19",
@@ -27052,7 +29042,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-20",
@@ -27174,7 +29168,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-21",
@@ -27278,7 +29276,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-22",
@@ -27518,7 +29520,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "damn": 3
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 3
+      }
     },
     {
       "date": "2026-01-23",
@@ -27723,7 +29739,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-24",
@@ -27816,7 +29846,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-25",
@@ -27986,7 +30026,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-26",
@@ -28130,7 +30174,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jchajjgjipbd": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-27",
@@ -28314,7 +30368,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jchajjgjipbd": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2026-01-28",
@@ -28451,7 +30515,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-29",
@@ -28520,7 +30588,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-01-30",
@@ -28627,7 +30699,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_nfihmngofcke": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-01-31",
@@ -28712,7 +30794,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-01",
@@ -28803,7 +30889,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jchajjgjipbd": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2026-02-02",
@@ -29022,7 +31118,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_nfihmngofcke": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-02-03",
@@ -29181,7 +31287,35 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1,
+          "fuck": 2
+        },
+        "p_amhokpidpdnh": {
+          "ass": 1
+        },
+        "p_blfhjomohklb": {
+          "ass": 1,
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 4,
+        "fuck": 4,
+        "shit": 3
+      }
     },
     {
       "date": "2026-02-04",
@@ -29492,7 +31626,32 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "ass": 1
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "shit": 1
+        },
+        "p_olidjepnnbno": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "fuck": 1,
+        "shit": 3
+      }
     },
     {
       "date": "2026-02-05",
@@ -29665,7 +31824,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-02-06",
@@ -29776,7 +31949,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-07",
@@ -29983,7 +32160,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_mnmcbpgmjcja": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-02-08",
@@ -30146,7 +32337,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "damn": 1
+        },
+        "p_jnkhheofddbe": {
+          "ass": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-02-09",
@@ -30292,7 +32499,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "fuck": 2
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2
+      }
     },
     {
       "date": "2026-02-10",
@@ -30401,7 +32618,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-11",
@@ -30610,7 +32831,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-02-12",
@@ -30906,7 +33137,35 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 5,
+          "shit": 2
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "shit": 1
+        },
+        "p_olidjepnnbno": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 7,
+        "shit": 4
+      }
     },
     {
       "date": "2026-02-13",
@@ -30992,7 +33251,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-14",
@@ -31135,7 +33398,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-15",
@@ -31364,7 +33631,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2026-02-16",
@@ -31482,7 +33759,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-17",
@@ -31691,7 +33972,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "ass": 1,
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "fuck": 1
+      }
     },
     {
       "date": "2026-02-18",
@@ -31766,7 +34063,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-19",
@@ -31843,7 +34144,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-20",
@@ -31982,7 +34287,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-02-21",
@@ -32131,7 +34450,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1
+      }
     },
     {
       "date": "2026-02-22",
@@ -32211,7 +34544,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2026-02-23",
@@ -32293,7 +34636,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-24",
@@ -32388,7 +34735,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-25",
@@ -32477,7 +34828,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2026-02-26",
@@ -32618,7 +34979,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "me": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-27",
@@ -32699,7 +35070,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-02-28",
@@ -32768,7 +35143,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-01",
@@ -32841,7 +35220,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-02",
@@ -32992,7 +35375,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-03-03",
@@ -33074,7 +35467,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-04",
@@ -33177,7 +35574,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-05",
@@ -33246,7 +35647,11 @@
       "reactionByAuthor": {},
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-06",
@@ -33338,7 +35743,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-07",
@@ -33442,7 +35851,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-08",
@@ -33537,7 +35950,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-09",
@@ -33729,7 +36146,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_bfhopadigiif": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1,
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1,
+        "hell": 1
+      }
     },
     {
       "date": "2026-03-10",
@@ -33859,7 +36292,26 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_amhokpidpdnh": {
+          "ass": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 3,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 4,
+        "shit": 1
+      }
     },
     {
       "date": "2026-03-11",
@@ -33940,7 +36392,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-12",
@@ -34075,7 +36531,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2026-03-13",
@@ -34341,7 +36807,24 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_dmdailmighhb": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 2
+      }
     },
     {
       "date": "2026-03-14",
@@ -34540,7 +37023,19 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "bitch": 1,
+          "fuck": 3
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "fuck": 3
+      }
     },
     {
       "date": "2026-03-15",
@@ -34641,7 +37136,22 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "bitch": 1,
+          "fuck": 1
+        },
+        "p_dmdailmighhb": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "fuck": 2
+      }
     },
     {
       "date": "2026-03-16",
@@ -34745,7 +37255,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-03-17",
@@ -34929,7 +37453,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-18",
@@ -35170,7 +37698,25 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "fuck": 1
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 3,
+        "shit": 2
+      }
     },
     {
       "date": "2026-03-19",
@@ -35336,7 +37882,25 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "ass": 1
+        },
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-03-20",
@@ -35481,7 +38045,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_jnkhheofddbe": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-21",
@@ -35720,7 +38294,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-22",
@@ -35916,7 +38494,19 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "ass": 1,
+          "fuck": 2
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 2
+      }
     },
     {
       "date": "2026-03-23",
@@ -36115,7 +38705,19 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-03-24",
@@ -36365,7 +38967,26 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "bitch": 1,
+          "fuck": 1
+        },
+        "p_eoipeaaocofh": {
+          "damn": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 2
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "damn": 1,
+        "fuck": 3
+      }
     },
     {
       "date": "2026-03-25",
@@ -36533,7 +39154,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_enclpbahigno": {
+          "dick": 1
+        }
+      },
+      "swearByTerm": {
+        "dick": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-03-26",
@@ -36759,7 +39394,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_jnkhheofddbe": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1
+      }
     },
     {
       "date": "2026-03-27",
@@ -36890,7 +39535,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ghbenapallii": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-03-28",
@@ -37029,7 +39684,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-03-29",
@@ -37144,7 +39803,21 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1
+      }
     },
     {
       "date": "2026-03-30",
@@ -37444,7 +40117,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2026-03-31",
@@ -37562,7 +40245,20 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 2
+      }
     },
     {
       "date": "2026-04-01",
@@ -37805,7 +40501,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_enclpbahigno": {
+          "damn": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 2,
+        "fuck": 2
+      }
     },
     {
       "date": "2026-04-02",
@@ -37989,7 +40705,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_ghbenapallii": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "fuck": 2,
+        "shit": 2
+      }
     },
     {
       "date": "2026-04-03",
@@ -38141,7 +40877,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-04-04",
@@ -38285,7 +41025,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "ass": 1,
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "fuck": 1,
+        "shit": 2
+      }
     },
     {
       "date": "2026-04-05",
@@ -38517,7 +41278,24 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_bfhopadigiif": {
+          "damn": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 2
+        },
+        "p_ghbenapallii": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 2,
+        "fuck": 2
+      }
     },
     {
       "date": "2026-04-06",
@@ -38760,7 +41538,33 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_hpobobilhnoh": {
+          "fuck": 1
+        },
+        "p_jchajjgjipbd": {
+          "dick": 1
+        },
+        "p_mnmcbpgmjcja": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "dick": 1,
+        "fuck": 3
+      }
     },
     {
       "date": "2026-04-07",
@@ -38887,7 +41691,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2026-04-08",
@@ -39082,7 +41896,25 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1
+        },
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "hell": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-09",
@@ -39191,7 +42023,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_eoipeaaocofh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-10",
@@ -39294,7 +42136,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-04-11",
@@ -39393,7 +42239,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-04-12",
@@ -39511,7 +42361,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-04-13",
@@ -39659,7 +42513,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-14",
@@ -39873,7 +42737,27 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 3,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1,
+          "pussy": 2
+        },
+        "p_olidjepnnbno": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 4,
+        "pussy": 2,
+        "shit": 2
+      }
     },
     {
       "date": "2026-04-15",
@@ -40075,7 +42959,35 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_dmdailmighhb": {
+          "fuck": 1
+        },
+        "p_eoipeaaocofh": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 2
+        },
+        "p_jchajjgjipbd": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "damn": 1
+        },
+        "p_olidjepnnbno": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 2,
+        "fuck": 3,
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-16",
@@ -40215,7 +43127,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1
+      }
     },
     {
       "date": "2026-04-17",
@@ -40421,7 +43343,42 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_nfihmngofcke": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1,
+          "piss": 1,
+          "shit": 3
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "dick": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "dick": 1,
+        "fuck": 3,
+        "piss": 1,
+        "shit": 4
+      }
     },
     {
       "date": "2026-04-18",
@@ -40562,7 +43519,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "ass": 1
+        },
+        "p_jchajjgjipbd": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-19",
@@ -40647,7 +43618,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-04-20",
@@ -40751,7 +43726,17 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1
+      }
     },
     {
       "date": "2026-04-21",
@@ -41161,7 +44146,41 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 2
+        },
+        "p_enclpbahigno": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "dick": 1
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1,
+          "damn": 2,
+          "fuck": 1
+        },
+        "p_omghgdhhmpfj": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 2,
+        "dick": 1,
+        "fuck": 6,
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-22",
@@ -41327,7 +44346,19 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_nfihmngofcke": {
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-23",
@@ -41479,7 +44510,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-04-24",
@@ -41659,7 +44694,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1,
+          "shit": 2
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "shit": 4
+      }
     },
     {
       "date": "2026-04-25",
@@ -41869,7 +44925,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_amhokpidpdnh": {
+          "fuck": 1
+        },
+        "p_jchajjgjipbd": {
+          "damn": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-26",
@@ -42202,7 +45274,44 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1,
+          "dick": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "hell": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "hell": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 2,
+        "dick": 1,
+        "fuck": 3,
+        "hell": 2,
+        "shit": 3
+      }
     },
     {
       "date": "2026-04-27",
@@ -42367,7 +45476,36 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_amhokpidpdnh": {
+          "ass": 1
+        },
+        "p_dljmmncicnlf": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1,
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "damn": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "damn": 1,
+        "fuck": 2,
+        "shit": 3
+      }
     },
     {
       "date": "2026-04-28",
@@ -42525,7 +45663,29 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_jchajjgjipbd": {
+          "damn": 1
+        },
+        "p_mnmcbpgmjcja": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 2,
+        "shit": 2
+      }
     },
     {
       "date": "2026-04-29",
@@ -42665,7 +45825,17 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-04-30",
@@ -42804,7 +45974,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-05-01",
@@ -43121,7 +46295,66 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "dick": 1,
+          "fuck": 1
+        },
+        "p_akenceifeeeh": {
+          "dick": 1,
+          "fuck": 1
+        },
+        "p_amhokpidpdnh": {
+          "ass": 1,
+          "damn": 1,
+          "fuck": 1,
+          "shit": 3
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 2
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_ghbenapallii": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 2,
+          "dick": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 2
+        },
+        "p_jnkhheofddbe": {
+          "ass": 1,
+          "fuck": 2
+        },
+        "p_kephgajchogi": {
+          "fuck": 1,
+          "pussy": 1
+        },
+        "p_nfihmngofcke": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "damn": 3,
+        "dick": 3,
+        "fuck": 14,
+        "pussy": 1,
+        "shit": 5
+      }
     },
     {
       "date": "2026-05-02",
@@ -43325,7 +46558,32 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "ass": 1,
+          "dick": 1,
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "ass": 1,
+          "damn": 1
+        },
+        "p_kephgajchogi": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "damn": 1,
+        "dick": 1,
+        "shit": 2
+      }
     },
     {
       "date": "2026-05-03",
@@ -43642,7 +46900,45 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "damn": 1,
+          "hell": 1
+        },
+        "p_akenceifeeeh": {
+          "fuck": 2
+        },
+        "p_amhokpidpdnh": {
+          "fuck": 1
+        },
+        "p_bcbnmadlfjoe": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "damn": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "ass": 1,
+          "damn": 2
+        },
+        "p_kephgajchogi": {
+          "damn": 1,
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 5,
+        "fuck": 4,
+        "hell": 1,
+        "shit": 2
+      }
     },
     {
       "date": "2026-05-04",
@@ -44110,7 +47406,42 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_nfihmngofcke": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_enclpbahigno": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "damn": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "bitch": 1,
+          "damn": 1,
+          "fuck": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "damn": 3,
+        "fuck": 3,
+        "shit": 2
+      }
     },
     {
       "date": "2026-05-05",
@@ -44325,7 +47656,25 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_ifdobplbgacb": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 1,
+        "hell": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-05-06",
@@ -44453,7 +47802,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-05-07",
@@ -44736,7 +48089,49 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 2
+        },
+        "p_amhokpidpdnh": {
+          "ass": 1,
+          "damn": 1
+        },
+        "p_bfhopadigiif": {
+          "ass": 1,
+          "damn": 3,
+          "shit": 1
+        },
+        "p_enclpbahigno": {
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "damn": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 3,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "damn": 1,
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "damn": 6,
+        "fuck": 8,
+        "shit": 3
+      }
     },
     {
       "date": "2026-05-08",
@@ -44900,7 +48295,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_enclpbahigno": {
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "dick": 1
+        }
+      },
+      "swearByTerm": {
+        "dick": 1,
+        "fuck": 2,
+        "shit": 1
+      }
     },
     {
       "date": "2026-05-09",
@@ -45115,7 +48531,50 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "shit": 2
+        },
+        "p_ghbenapallii": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 3
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1,
+          "bitch": 1,
+          "dick": 1,
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1,
+          "hell": 1,
+          "shit": 2
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "bitch": 1,
+        "damn": 3,
+        "dick": 1,
+        "fuck": 6,
+        "hell": 1,
+        "shit": 5
+      }
     },
     {
       "date": "2026-05-10",
@@ -45340,7 +48799,33 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "bitch": 1,
+          "fuck": 5
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "fuck": 3
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "damn": 2,
+        "fuck": 10
+      }
     },
     {
       "date": "2026-05-11",
@@ -45630,7 +49115,32 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "bastard": 1
+        },
+        "p_fkioklocpgbp": {
+          "shit": 3
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2
+        }
+      },
+      "swearByTerm": {
+        "bastard": 1,
+        "fuck": 4,
+        "shit": 4
+      }
     },
     {
       "date": "2026-05-12",
@@ -45713,7 +49223,11 @@
       },
       "mentions": [],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-05-13",
@@ -46055,7 +49569,74 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "bitch": 1,
+          "damn": 1,
+          "fuck": 1
+        },
+        "p_akenceifeeeh": {
+          "bitch": 1,
+          "fuck": 11,
+          "shit": 4
+        },
+        "p_amhokpidpdnh": {
+          "fuck": 1
+        },
+        "p_bfhopadigiif": {
+          "damn": 2,
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 3
+        },
+        "p_enclpbahigno": {
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 2,
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 2
+        },
+        "p_ghbenapallii": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 2,
+          "pussy": 1
+        },
+        "p_jchajjgjipbd": {
+          "ass": 4,
+          "damn": 2,
+          "dick": 3,
+          "fuck": 7,
+          "shit": 3
+        },
+        "p_jnkhheofddbe": {
+          "ass": 1,
+          "fuck": 5
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_omghgdhhmpfj": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 5,
+        "bitch": 2,
+        "damn": 5,
+        "dick": 3,
+        "fuck": 38,
+        "pussy": 1,
+        "shit": 9
+      }
     },
     {
       "date": "2026-05-14",
@@ -46292,7 +49873,46 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "piss": 1
+        },
+        "p_bcbnmadlfjoe": {
+          "damn": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_hpobobilhnoh": {
+          "ass": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1
+        },
+        "p_jchajjgjipbd": {
+          "hell": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2,
+          "shit": 2
+        },
+        "p_omghgdhhmpfj": {
+          "damn": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "damn": 2,
+        "fuck": 3,
+        "hell": 1,
+        "piss": 1,
+        "shit": 5
+      }
     },
     {
       "date": "2026-05-15",
@@ -46595,7 +50215,80 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "ass": 1,
+          "damn": 1,
+          "fuck": 8,
+          "hell": 1
+        },
+        "p_akenceifeeeh": {
+          "damn": 1,
+          "fuck": 5,
+          "shit": 6
+        },
+        "p_amhokpidpdnh": {
+          "ass": 3,
+          "damn": 1,
+          "fuck": 9,
+          "hell": 1
+        },
+        "p_dljmmncicnlf": {
+          "piss": 1
+        },
+        "p_enclpbahigno": {
+          "ass": 1,
+          "damn": 1
+        },
+        "p_eoipeaaocofh": {
+          "damn": 1,
+          "fuck": 2,
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1
+        },
+        "p_ghbenapallii": {
+          "ass": 1,
+          "damn": 1,
+          "fuck": 2
+        },
+        "p_ifdobplbgacb": {
+          "dick": 1,
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "bitch": 1,
+          "fuck": 2
+        },
+        "p_jnkhheofddbe": {
+          "ass": 1,
+          "bitch": 1,
+          "damn": 2,
+          "fuck": 7,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 1,
+          "fuck": 2
+        },
+        "p_nfihmngofcke": {
+          "shit": 2
+        }
+      },
+      "swearByTerm": {
+        "ass": 8,
+        "bitch": 2,
+        "damn": 9,
+        "dick": 1,
+        "fuck": 37,
+        "hell": 2,
+        "piss": 1,
+        "shit": 11
+      }
     },
     {
       "date": "2026-05-16",
@@ -46791,7 +50484,24 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 2,
+        "shit": 1
+      }
     },
     {
       "date": "2026-05-17",
@@ -47116,7 +50826,61 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1,
+          "hell": 1,
+          "shit": 1
+        },
+        "p_akenceifeeeh": {
+          "ass": 2,
+          "fuck": 7,
+          "shit": 6
+        },
+        "p_amhokpidpdnh": {
+          "damn": 2,
+          "fuck": 4,
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 4,
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1,
+          "dick": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 2,
+          "hell": 1
+        },
+        "p_jchajjgjipbd": {
+          "dick": 2,
+          "fuck": 6
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1,
+          "fuck": 5
+        },
+        "p_kephgajchogi": {
+          "damn": 1
+        },
+        "p_omghgdhhmpfj": {
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "damn": 4,
+        "dick": 3,
+        "fuck": 30,
+        "hell": 2,
+        "shit": 10
+      }
     },
     {
       "date": "2026-05-18",
@@ -47638,7 +51402,60 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "damn": 1,
+          "shit": 1
+        },
+        "p_blfhjomohklb": {
+          "ass": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "damn": 1,
+          "fuck": 3
+        },
+        "p_fobjhenjdpgl": {
+          "damn": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "ass": 2
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1,
+          "fuck": 2,
+          "hell": 1,
+          "shit": 2
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1,
+          "hell": 1,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 3,
+          "shit": 8
+        }
+      },
+      "swearByTerm": {
+        "ass": 4,
+        "damn": 3,
+        "fuck": 12,
+        "hell": 2,
+        "shit": 15
+      }
     },
     {
       "date": "2026-05-19",
@@ -47852,7 +51669,28 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_blfhjomohklb": {
+          "hell": 1
+        },
+        "p_dljmmncicnlf": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 4
+        },
+        "p_jnkhheofddbe": {
+          "fuck": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 5,
+        "hell": 1,
+        "shit": 1
+      }
     },
     {
       "date": "2026-05-20",
@@ -48038,7 +51876,20 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 2
+      }
     },
     {
       "date": "2026-05-21",
@@ -48377,7 +52228,41 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_nfihmngofcke": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_amhokpidpdnh": {
+          "damn": 1
+        },
+        "p_fkioklocpgbp": {
+          "ass": 1
+        },
+        "p_ghbenapallii": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_omghgdhhmpfj": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "damn": 1,
+        "fuck": 2,
+        "hell": 1,
+        "shit": 2
+      }
     },
     {
       "date": "2026-05-22",
@@ -48699,7 +52584,37 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1,
+          "hell": 1,
+          "shit": 1
+        },
+        "p_blfhjomohklb": {
+          "piss": 1,
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "ass": 1,
+          "damn": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 2,
+        "fuck": 2,
+        "hell": 1,
+        "piss": 1,
+        "shit": 3
+      }
     },
     {
       "date": "2026-05-23",
@@ -48846,7 +52761,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_nfihmngofcke": {
+          "bastard": 1
+        }
+      },
+      "swearByTerm": {
+        "bastard": 1,
+        "fuck": 1
+      }
     },
     {
       "date": "2026-05-24",
@@ -48971,7 +52900,11 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {},
+      "swearByTerm": {}
     },
     {
       "date": "2026-05-25",
@@ -49150,7 +53083,23 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_fkioklocpgbp": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "p_ghbenapallii": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 1
+      }
     },
     {
       "date": "2026-05-26",
@@ -49509,7 +53458,42 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "dick": 1
+        },
+        "p_bfhopadigiif": {
+          "ass": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 2,
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "dick": 1,
+          "fuck": 1
+        },
+        "p_hpobobilhnoh": {
+          "dick": 2
+        },
+        "p_ifdobplbgacb": {
+          "ass": 1,
+          "dick": 2
+        },
+        "p_nfihmngofcke": {
+          "dick": 1,
+          "shit": 2
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "dick": 7,
+        "fuck": 3,
+        "shit": 3
+      }
     },
     {
       "date": "2026-05-27",
@@ -49676,7 +53660,24 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1,
+          "fuck": 2,
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "ass": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "fuck": 2,
+        "shit": 1
+      }
     },
     {
       "date": "2026-05-28",
@@ -50178,7 +54179,48 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "ass": 1,
+          "shit": 1
+        },
+        "p_bfhopadigiif": {
+          "damn": 1
+        },
+        "p_dljmmncicnlf": {
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1
+        },
+        "p_mnmcbpgmjcja": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2,
+          "shit": 2
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "damn": 2,
+        "fuck": 4,
+        "shit": 7
+      }
     },
     {
       "date": "2026-05-29",
@@ -50406,7 +54448,30 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_dmdailmighhb": {
+          "fuck": 3
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 2
+        }
+      },
+      "swearByTerm": {
+        "fuck": 7,
+        "shit": 1
+      }
     },
     {
       "date": "2026-05-30",
@@ -50703,7 +54768,35 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "ass": 1,
+          "bitch": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "bitch": 1,
+        "damn": 1,
+        "fuck": 2,
+        "shit": 2
+      }
     },
     {
       "date": "2026-05-31",
@@ -50964,7 +55057,42 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_amhokpidpdnh": {
+          "damn": 1
+        },
+        "p_blfhjomohklb": {
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "ass": 1,
+          "damn": 1,
+          "fuck": 1
+        },
+        "p_ghbenapallii": {
+          "damn": 1,
+          "fuck": 1
+        },
+        "p_jchajjgjipbd": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "ass": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "damn": 4,
+        "fuck": 3,
+        "shit": 2
+      }
     },
     {
       "date": "2026-06-01",
@@ -51483,7 +55611,48 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 3
+        },
+        "p_akenceifeeeh": {
+          "fuck": 2,
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "ass": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_gdmnohpphadm": {
+          "damn": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 2,
+          "dick": 1,
+          "fuck": 4,
+          "pussy": 1
+        },
+        "p_nfihmngofcke": {
+          "ass": 1,
+          "fuck": 5,
+          "shit": 3
+        }
+      },
+      "swearByTerm": {
+        "ass": 4,
+        "damn": 1,
+        "dick": 1,
+        "fuck": 15,
+        "pussy": 1,
+        "shit": 6
+      }
     },
     {
       "date": "2026-06-02",
@@ -51762,7 +55931,32 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_bcbnmadlfjoe": {
+          "shit": 1
+        },
+        "p_enclpbahigno": {
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 4
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 6,
+        "shit": 4
+      }
     },
     {
       "date": "2026-06-03",
@@ -52095,7 +56289,56 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "ass": 1,
+          "damn": 1,
+          "fuck": 2
+        },
+        "p_akenceifeeeh": {
+          "ass": 1,
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_dljmmncicnlf": {
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "damn": 1,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 2
+        },
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 2,
+          "fuck": 2,
+          "hell": 1
+        },
+        "p_jnkhheofddbe": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "hell": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "damn": 4,
+        "fuck": 8,
+        "hell": 2,
+        "shit": 7
+      }
     },
     {
       "date": "2026-06-04",
@@ -52561,7 +56804,56 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "me": {
+          "black": 1
+        },
+        "p_hpobobilhnoh": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 2
+      },
+      "swearBySender": {
+        "p_bcbnmadlfjoe": {
+          "fuck": 1
+        },
+        "p_enclpbahigno": {
+          "damn": 1,
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 3,
+          "shit": 4
+        },
+        "p_ghbenapallii": {
+          "damn": 2,
+          "shit": 2
+        },
+        "p_hpobobilhnoh": {
+          "ass": 1,
+          "shit": 2
+        },
+        "p_ifdobplbgacb": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "damn": 1,
+          "shit": 2
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 4,
+        "fuck": 5,
+        "shit": 13
+      }
     },
     {
       "date": "2026-06-05",
@@ -53186,7 +57478,82 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "bitch": 1,
+          "fuck": 3,
+          "shit": 1
+        },
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_amhokpidpdnh": {
+          "ass": 1,
+          "fuck": 1
+        },
+        "p_bfhopadigiif": {
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_enclpbahigno": {
+          "damn": 1,
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 2
+        },
+        "p_fobjhenjdpgl": {
+          "shit": 2
+        },
+        "p_ghbenapallii": {
+          "ass": 1
+        },
+        "p_hpobobilhnoh": {
+          "damn": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "fuck": 3,
+          "shit": 2
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1,
+          "dick": 1,
+          "fuck": 3,
+          "shit": 4
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 2,
+          "shit": 1
+        },
+        "p_mnmcbpgmjcja": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 1
+        },
+        "p_omghgdhhmpfj": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "bitch": 1,
+        "damn": 6,
+        "dick": 1,
+        "fuck": 15,
+        "shit": 17
+      }
     },
     {
       "date": "2026-06-06",
@@ -53638,7 +58005,45 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_akenceifeeeh": {
+          "bastard": 1,
+          "damn": 1,
+          "fuck": 3
+        },
+        "p_dmdailmighhb": {
+          "shit": 1
+        },
+        "p_hpobobilhnoh": {
+          "ass": 2,
+          "fuck": 3,
+          "shit": 3
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 4,
+          "shit": 5
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "bastard": 1,
+        "damn": 2,
+        "fuck": 12,
+        "shit": 10
+      }
     },
     {
       "date": "2026-06-07",
@@ -53804,7 +58209,21 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "p_fkioklocpgbp": {
+          "fuck": 3
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "fuck": 3,
+        "shit": 1
+      }
     },
     {
       "date": "2026-06-08",
@@ -54094,7 +58513,48 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_fkioklocpgbp": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "me": {
+          "ass": 2
+        },
+        "p_akenceifeeeh": {
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "shit": 2
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 1
+        },
+        "p_ghbenapallii": {
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "ass": 1,
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 3,
+          "shit": 6
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "fuck": 6,
+        "shit": 10
+      }
     },
     {
       "date": "2026-06-09",
@@ -54526,7 +58986,48 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "ass": 1
+        },
+        "p_dmdailmighhb": {
+          "shit": 2
+        },
+        "p_fkioklocpgbp": {
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 1
+        },
+        "p_ghbenapallii": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "fuck": 2,
+          "hell": 1,
+          "piss": 1,
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 1,
+        "damn": 1,
+        "fuck": 6,
+        "hell": 1,
+        "piss": 1,
+        "shit": 6
+      }
     },
     {
       "date": "2026-06-10",
@@ -54994,7 +59495,79 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "ass": 2,
+          "damn": 1,
+          "fuck": 8,
+          "shit": 2
+        },
+        "p_akenceifeeeh": {
+          "ass": 1,
+          "fuck": 3
+        },
+        "p_blfhjomohklb": {
+          "ass": 2,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_dmdailmighhb": {
+          "damn": 1
+        },
+        "p_enclpbahigno": {
+          "ass": 1,
+          "shit": 1
+        },
+        "p_eoipeaaocofh": {
+          "fuck": 2
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1
+        },
+        "p_fobjhenjdpgl": {
+          "shit": 1
+        },
+        "p_gdmnohpphadm": {
+          "damn": 1
+        },
+        "p_ghbenapallii": {
+          "fuck": 3
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "dick": 1,
+          "fuck": 4
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 1
+        },
+        "p_nfihmngofcke": {
+          "ass": 1,
+          "damn": 2,
+          "fuck": 2,
+          "shit": 7
+        },
+        "p_omghgdhhmpfj": {
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 7,
+        "damn": 8,
+        "dick": 1,
+        "fuck": 26,
+        "shit": 13
+      }
     },
     {
       "date": "2026-06-11",
@@ -55347,7 +59920,45 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_dmdailmighhb": {
+          "bitch": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1
+        },
+        "p_jchajjgjipbd": {
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_kephgajchogi": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2,
+          "shit": 8
+        }
+      },
+      "swearByTerm": {
+        "bitch": 1,
+        "damn": 1,
+        "fuck": 5,
+        "shit": 15
+      }
     },
     {
       "date": "2026-06-12",
@@ -55615,7 +60226,40 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 2
+        },
+        "p_bcbnmadlfjoe": {
+          "shit": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "ass": 1
+        },
+        "p_mnmcbpgmjcja": {
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "ass": 1,
+          "fuck": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 2,
+        "fuck": 4,
+        "shit": 5
+      }
     },
     {
       "date": "2026-06-13",
@@ -56192,49 +60836,124 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "ass": 1,
+          "bitch": 1,
+          "dick": 1,
+          "fuck": 7
+        },
+        "p_akenceifeeeh": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_amhokpidpdnh": {
+          "fuck": 1
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_dljmmncicnlf": {
+          "shit": 1
+        },
+        "p_enclpbahigno": {
+          "fuck": 1
+        },
+        "p_fkioklocpgbp": {
+          "fuck": 2,
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "fuck": 2,
+          "shit": 1
+        },
+        "p_ghbenapallii": {
+          "shit": 2
+        },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "ass": 2,
+          "dick": 2,
+          "fuck": 1,
+          "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "damn": 1
+        },
+        "p_jnkhheofddbe": {
+          "damn": 2,
+          "shit": 1
+        },
+        "p_kephgajchogi": {
+          "damn": 1,
+          "shit": 1
+        },
+        "p_nfihmngofcke": {
+          "fuck": 2,
+          "shit": 2
+        },
+        "p_olidjepnnbno": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "ass": 3,
+        "bitch": 1,
+        "damn": 4,
+        "dick": 3,
+        "fuck": 18,
+        "shit": 14
+      }
     },
     {
       "date": "2026-06-14",
-      "count": 293,
-      "turnCount": 227,
-      "attachmentMessages": 24,
-      "attachmentTurns": 23,
-      "textLengthSum": 6727,
-      "textMessageCount": 265,
+      "count": 300,
+      "turnCount": 233,
+      "attachmentMessages": 25,
+      "attachmentTurns": 24,
+      "textLengthSum": 6973,
+      "textMessageCount": 272,
       "bySender": {
         "me": 59,
         "p_akenceifeeeh": 42,
-        "p_ifdobplbgacb": 35,
-        "p_kephgajchogi": 26,
-        "p_fkioklocpgbp": 24,
+        "p_ifdobplbgacb": 36,
+        "p_kephgajchogi": 28,
+        "p_fkioklocpgbp": 25,
         "p_ghbenapallii": 24,
         "p_nfihmngofcke": 20,
         "p_jchajjgjipbd": 16,
-        "p_dmdailmighhb": 12,
+        "p_dmdailmighhb": 13,
         "p_omghgdhhmpfj": 10,
         "p_blfhjomohklb": 9,
         "p_hpobobilhnoh": 7,
         "p_amhokpidpdnh": 3,
         "p_fobjhenjdpgl": 3,
-        "p_jnkhheofddbe": 3
+        "p_jnkhheofddbe": 3,
+        "p_dljmmncicnlf": 2
       },
       "turnsBySender": {
         "me": 39,
-        "p_ifdobplbgacb": 28,
-        "p_fkioklocpgbp": 23,
+        "p_ifdobplbgacb": 29,
+        "p_fkioklocpgbp": 24,
+        "p_kephgajchogi": 24,
         "p_akenceifeeeh": 22,
         "p_ghbenapallii": 22,
-        "p_kephgajchogi": 22,
         "p_nfihmngofcke": 18,
         "p_jchajjgjipbd": 15,
-        "p_dmdailmighhb": 11,
+        "p_dmdailmighhb": 12,
         "p_omghgdhhmpfj": 8,
         "p_blfhjomohklb": 7,
         "p_hpobobilhnoh": 4,
         "p_amhokpidpdnh": 3,
         "p_fobjhenjdpgl": 3,
-        "p_jnkhheofddbe": 2
+        "p_jnkhheofddbe": 2,
+        "p_dljmmncicnlf": 1
       },
       "byHour": [
         2,
@@ -56256,7 +60975,7 @@
         2,
         59,
         37,
-        29,
+        36,
         0,
         0,
         0,
@@ -56282,7 +61001,7 @@
         2,
         50,
         28,
-        23,
+        29,
         0,
         0,
         0,
@@ -56306,6 +61025,13 @@
           "laugh": 2,
           "pickMe": 2,
           "selfInsert": 2
+        },
+        "p_dljmmncicnlf": {
+          "glazer": 1,
+          "hater": 1,
+          "laugh": 1,
+          "pickMe": 1,
+          "selfInsert": 1
         },
         "p_dmdailmighhb": {
           "hater": 1,
@@ -56351,7 +61077,7 @@
       },
       "reactionBySender": {
         "p_nfihmngofcke": 19,
-        "p_kephgajchogi": 15,
+        "p_kephgajchogi": 16,
         "p_fobjhenjdpgl": 12,
         "p_ghbenapallii": 10,
         "p_fkioklocpgbp": 8,
@@ -56360,11 +61086,12 @@
         "me": 5,
         "p_dmdailmighhb": 5,
         "p_ifdobplbgacb": 4,
-        "p_blfhjomohklb": 1
+        "p_blfhjomohklb": 1,
+        "p_jnkhheofddbe": 1
       },
       "reactionByAuthor": {
+        "p_fkioklocpgbp": 19,
         "p_ghbenapallii": 19,
-        "p_fkioklocpgbp": 18,
         "p_akenceifeeeh": 11,
         "p_kephgajchogi": 9,
         "p_ifdobplbgacb": 7,
@@ -56373,6 +61100,7 @@
         "p_blfhjomohklb": 5,
         "p_hpobobilhnoh": 5,
         "p_amhokpidpdnh": 2,
+        "p_dljmmncicnlf": 1,
         "p_dmdailmighhb": 1,
         "p_fobjhenjdpgl": 1,
         "p_jnkhheofddbe": 1,
@@ -56390,6 +61118,11 @@
           "count": 2
         },
         {
+          "from": "p_kephgajchogi",
+          "to": "p_fkioklocpgbp",
+          "count": 2
+        },
+        {
           "from": "p_nfihmngofcke",
           "to": "p_hpobobilhnoh",
           "count": 2
@@ -56402,6 +61135,11 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_fkioklocpgbp",
+          "to": "p_kephgajchogi",
           "count": 1
         },
         {
@@ -56422,6 +61160,11 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_ifdobplbgacb",
+          "to": "p_fkioklocpgbp",
           "count": 1
         },
         {
@@ -56447,11 +61190,6 @@
         {
           "from": "p_jchajjgjipbd",
           "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_fkioklocpgbp",
           "count": 1
         },
         {
@@ -56486,7 +61224,55 @@
         }
       ],
       "slurBySender": {},
-      "slurByCategory": {}
+      "slurByCategory": {},
+      "wordWatchBySender": {
+        "p_ghbenapallii": {
+          "black": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "black": 1
+      },
+      "swearBySender": {
+        "me": {
+          "damn": 2,
+          "dick": 1,
+          "fuck": 1
+        },
+        "p_akenceifeeeh": {
+          "dick": 1,
+          "fuck": 4
+        },
+        "p_blfhjomohklb": {
+          "fuck": 1
+        },
+        "p_dmdailmighhb": {
+          "shit": 2
+        },
+        "p_hpobobilhnoh": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1,
+          "dick": 1,
+          "hell": 1
+        },
+        "p_kephgajchogi": {
+          "fuck": 1,
+          "shit": 2
+        },
+        "p_nfihmngofcke": {
+          "damn": 1,
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 4,
+        "dick": 3,
+        "fuck": 8,
+        "hell": 1,
+        "shit": 5
+      }
     }
   ],
   "reactionMessages": [
@@ -65082,6 +69868,25 @@
     "previewsPublished": true,
     "slurLexiconConfigured": false,
     "slurCategories": [],
+    "wordWatchTerms": [
+      "black",
+      "n-word"
+    ],
+    "swearTerms": [
+      "ass",
+      "bastard",
+      "bitch",
+      "cunt",
+      "damn",
+      "dick",
+      "fuck",
+      "hell",
+      "piss",
+      "pussy",
+      "shit",
+      "slut",
+      "whore"
+    ],
     "vibeBuckets": [
       "glazer",
       "hater",

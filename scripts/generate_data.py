@@ -129,6 +129,25 @@ VIBE_LEXICON = {
         "lol",
     ],
 }
+WORD_WATCH_TERMS = {
+    "n-word": ["nigga"],
+    "black": ["black"],
+}
+SWEAR_TERMS = {
+    "ass": ["ass", "asshole"],
+    "bastard": ["bastard"],
+    "bitch": ["bitch", "bitches"],
+    "cunt": ["cunt"],
+    "damn": ["damn", "dammit"],
+    "dick": ["dick", "dicks"],
+    "fuck": ["fuck", "fucked", "fucker", "fuckers", "fucking", "fucks"],
+    "hell": ["hell"],
+    "piss": ["piss", "pissed"],
+    "pussy": ["pussy"],
+    "shit": ["shit", "shits", "shitty"],
+    "slut": ["slut", "sluts"],
+    "whore": ["whore", "whores"],
+}
 
 
 def normalize_name(value: str | None) -> str:
@@ -236,6 +255,26 @@ def analyze_slurs(text: str | None, lexicon: dict[str, list[str]]) -> Counter[st
     counts: Counter[str] = Counter()
     for category, terms in lexicon.items():
         count = sum(term_count(normalized, term) for term in terms)
+        if count:
+            counts[category] += count
+    return counts
+
+
+def analyze_word_watch(text: str | None) -> Counter[str]:
+    normalized = normalize_text(text)
+    counts: Counter[str] = Counter()
+    for category, terms in WORD_WATCH_TERMS.items():
+        count = sum(term_count(normalized, normalize_text(term)) for term in terms)
+        if count:
+            counts[category] += count
+    return counts
+
+
+def analyze_swears(text: str | None) -> Counter[str]:
+    normalized = normalize_text(text)
+    counts: Counter[str] = Counter()
+    for category, terms in SWEAR_TERMS.items():
+        count = sum(term_count(normalized, normalize_text(term)) for term in terms)
         if count:
             counts[category] += count
     return counts
@@ -889,6 +928,10 @@ def empty_day_bucket() -> dict:
         "mentions": Counter(),
         "slurBySender": defaultdict(Counter),
         "slurByCategory": Counter(),
+        "wordWatchBySender": defaultdict(Counter),
+        "wordWatchByTerm": Counter(),
+        "swearBySender": defaultdict(Counter),
+        "swearByTerm": Counter(),
     }
 
 
@@ -996,6 +1039,16 @@ def build_summary(
             bucket["slurBySender"][message.sender_key][category] += count
             bucket["slurByCategory"][category] += count
 
+        word_watch_counts = analyze_word_watch(message.text)
+        for category, count in word_watch_counts.items():
+            bucket["wordWatchBySender"][message.sender_key][category] += count
+            bucket["wordWatchByTerm"][category] += count
+
+        swear_counts = analyze_swears(message.text)
+        for category, count in swear_counts.items():
+            bucket["swearBySender"][message.sender_key][category] += count
+            bucket["swearByTerm"][category] += count
+
     for turn in turns:
         local_dt = turn.date.astimezone()
         day_key = local_dt.date().isoformat()
@@ -1054,6 +1107,10 @@ def build_summary(
                 ],
                 "slurBySender": serialize_nested_counters(bucket["slurBySender"]),
                 "slurByCategory": dict(sorted(bucket["slurByCategory"].items())),
+                "wordWatchBySender": serialize_nested_counters(bucket["wordWatchBySender"]),
+                "wordWatchByTerm": dict(sorted(bucket["wordWatchByTerm"].items())),
+                "swearBySender": serialize_nested_counters(bucket["swearBySender"]),
+                "swearByTerm": dict(sorted(bucket["swearByTerm"].items())),
             }
         )
         day_cursor += timedelta(days=1)
@@ -1097,6 +1154,8 @@ def build_summary(
             "previewsPublished": any("preview" in item for item in reaction_messages),
             "slurLexiconConfigured": slur_lexicon_configured,
             "slurCategories": sorted(slur_lexicon),
+            "wordWatchTerms": sorted(WORD_WATCH_TERMS),
+            "swearTerms": sorted(SWEAR_TERMS),
             "vibeBuckets": sorted(VIBE_LEXICON),
         },
     }
