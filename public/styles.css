@@ -624,8 +624,7 @@ h2 {
   background: rgba(255, 255, 255, 0.54);
 }
 
-.reaction-row strong,
-.reaction-row p {
+.reaction-row strong {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -635,6 +634,7 @@ h2 {
   margin: 3px 0;
   color: var(--muted);
   font-size: 13px;
+  line-height: 1.25;
 }
 
 .slur-total {

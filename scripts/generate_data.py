@@ -332,9 +332,22 @@ def load_contacts(address_book_dir: Path) -> dict[str, str]:
     return contacts
 
 
-def resolve_contact(handle: str | None, contacts: dict[str, str]) -> tuple[str, str]:
+def resolve_contact(
+    handle: str | None,
+    contacts: dict[str, str],
+    include_contact_identifiers: bool = False,
+) -> tuple[str, str]:
     if not handle:
         return "Unknown", "Unknown"
+
+    if include_contact_identifiers:
+        if "@" in handle:
+            return contacts.get(handle.lower()) or handle, handle
+        for key in normalize_phone(handle):
+            name = contacts.get(key)
+            if name:
+                return name, handle
+        return handle, handle
 
     if "@" in handle:
         name = contacts.get(handle.lower())
@@ -348,11 +361,16 @@ def resolve_contact(handle: str | None, contacts: dict[str, str]) -> tuple[str, 
     return mask_identifier(handle), mask_identifier(handle)
 
 
-def sender_identity(is_from_me: bool, handle: str | None, contacts: dict[str, str]) -> tuple[str, str, str]:
+def sender_identity(
+    is_from_me: bool,
+    handle: str | None,
+    contacts: dict[str, str],
+    include_contact_identifiers: bool = False,
+) -> tuple[str, str, str]:
     if is_from_me:
         return "me", "Rushil", "This Mac"
 
-    label, detail = resolve_contact(handle, contacts)
+    label, detail = resolve_contact(handle, contacts, include_contact_identifiers)
     return stable_id(handle), label, detail
 
 
@@ -405,6 +423,7 @@ def fetch_messages(
     group_name: str,
     cutoff_ns: int,
     contacts: dict[str, str],
+    include_contact_identifiers: bool,
 ) -> list[MessageRow]:
     rows = conn.execute(
         """
@@ -449,7 +468,9 @@ def fetch_messages(
     for row in rows:
         is_from_me = bool(row["is_from_me"])
         handle = row["handle"]
-        sender_key, sender_label, sender_detail = sender_identity(is_from_me, handle, contacts)
+        sender_key, sender_label, sender_detail = sender_identity(
+            is_from_me, handle, contacts, include_contact_identifiers
+        )
 
         messages.append(
             MessageRow(
@@ -574,6 +595,7 @@ def fetch_reaction_messages(
     contacts: dict[str, str],
     share_safe: bool,
     include_message_previews: bool,
+    include_contact_identifiers: bool,
     reaction_limit: int,
 ) -> tuple[list[dict], dict[str, Counter], dict[str, Counter]]:
     params = {"group_name": normalize_name(group_name), "cutoff_ns": cutoff_ns}
@@ -596,6 +618,17 @@ def fetch_reaction_messages(
           m.handle_id,
           m.date,
           coalesce(m.text, '') as text,
+          (
+            select count(*)
+            from message_attachment_join maj
+            where maj.message_id = m.ROWID
+          ) as attachment_count,
+          (
+            select group_concat(distinct coalesce(a.mime_type, a.uti, 'attachment'))
+            from message_attachment_join maj
+            join attachment a on a.ROWID = maj.attachment_id
+            where maj.message_id = m.ROWID
+          ) as attachment_types,
           h.id as handle
         from matching_chats c
         join chat_message_join cmj on cmj.chat_id = c.ROWID
@@ -611,7 +644,9 @@ def fetch_reaction_messages(
 
     targets: dict[str, dict] = {}
     for row in target_rows:
-        sender_id, label, detail = sender_identity(bool(row["is_from_me"]), row["handle"], contacts)
+        sender_id, label, detail = sender_identity(
+            bool(row["is_from_me"]), row["handle"], contacts, include_contact_identifiers
+        )
 
         if share_safe:
             if re.fullmatch(r"\*{3}-\d{4}", label):
@@ -626,6 +661,10 @@ def fetch_reaction_messages(
             "date": row["date"],
             "timestamp": iso_local(datetime_from_apple_ns(row["date"])),
             "preview": safe_preview(row["text"]) if include_message_previews else None,
+            "attachmentCount": row["attachment_count"] or 0,
+            "attachmentTypes": sorted(
+                {item.strip() for item in (row["attachment_types"] or "").split(",") if item.strip()}
+            ),
             "reactionCount": 0,
             "reactionTypes": Counter(),
         }
@@ -664,7 +703,7 @@ def fetch_reaction_messages(
     reaction_daily_by_sender: dict[str, Counter] = defaultdict(Counter)
     reaction_daily_by_author: dict[str, Counter] = defaultdict(Counter)
     for row in reaction_rows:
-        sender_id, _, _ = sender_identity(bool(row["is_from_me"]), row["handle"], contacts)
+        sender_id, _, _ = sender_identity(bool(row["is_from_me"]), row["handle"], contacts, include_contact_identifiers)
         day_key = datetime_from_apple_ns(row["date"]).astimezone().date().isoformat()
         reaction_daily_by_sender[day_key][sender_id] += 1
 
@@ -687,6 +726,10 @@ def fetch_reaction_messages(
         )
         if reaction["preview"] is None:
             reaction.pop("preview")
+        if not reaction["attachmentCount"]:
+            reaction.pop("attachmentCount")
+        if not reaction["attachmentTypes"]:
+            reaction.pop("attachmentTypes")
 
     return (
         sorted(reactions, key=lambda item: (-item["reactionCount"], item["timestamp"]))[:reaction_limit],
@@ -987,6 +1030,11 @@ def parse_args() -> argparse.Namespace:
         help="Include short previews for highest-reaction messages. Off by default for hosted builds.",
     )
     parser.add_argument(
+        "--include-contact-identifiers",
+        action="store_true",
+        help="Unsafe local-only mode: include raw contact handles/phone numbers in sender details.",
+    )
+    parser.add_argument(
         "--reaction-limit",
         type=int,
         default=500,
@@ -1011,6 +1059,8 @@ def main() -> None:
         raise SystemExit("--reaction-limit must be at least 1.")
     if args.turn_gap_seconds < 0:
         raise SystemExit("--turn-gap-seconds must be zero or greater.")
+    if args.include_contact_identifiers and args.output.name == "summary.json":
+        raise SystemExit("--include-contact-identifiers must write to a non-public output path.")
 
     generated_at = datetime.now().astimezone()
     start_date = generated_at.date() - timedelta(days=args.days - 1)
@@ -1025,7 +1075,7 @@ def main() -> None:
         if not chat_rows:
             raise SystemExit(f"No Messages chats matched group name {args.group!r}.")
 
-        messages = fetch_messages(conn, args.group, cutoff_ns, contacts)
+        messages = fetch_messages(conn, args.group, cutoff_ns, contacts, args.include_contact_identifiers)
         reaction_messages, reaction_daily_by_sender, reaction_daily_by_author = fetch_reaction_messages(
             conn,
             args.group,
@@ -1033,6 +1083,7 @@ def main() -> None:
             contacts,
             args.share_safe,
             args.include_message_previews,
+            args.include_contact_identifiers,
             args.reaction_limit,
         )
     finally:

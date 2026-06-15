@@ -9,7 +9,7 @@ Tapback stats are structured data from Messages, not AI classifications. `Reacti
 ## Refresh data
 
 ```bash
-python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe
+python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe --include-message-previews
 ```
 
 Defaults:
@@ -19,12 +19,12 @@ Defaults:
 - default dashboard window: trailing 14 days
 - normalization: consecutive same-sender bubbles within 30 seconds count as one conversation turn
 - output: `public/data/summary.json`
-- hosted data: share-safe mode removes phone-tail details and chat row metadata
+- hosted data: share-safe mode removes phone-tail details and chat row metadata, while highest-reaction message cards include short text previews or media-type evidence
 
 Use a different group or window:
 
 ```bash
-python3 scripts/generate_data.py --group "type shi" --days 365 --default-window-days 30 --share-safe
+python3 scripts/generate_data.py --group "type shi" --days 365 --default-window-days 30 --share-safe --include-message-previews
 ```
 
 Change the normalization gap:
@@ -33,24 +33,24 @@ Change the normalization gap:
 python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe --turn-gap-seconds 45
 ```
 
-## Optional local detectors
+Generate an internal-only file with raw contact identifiers:
 
-Vibe awards are scored as a percentage of that person's own sent messages in the selected window. For example, `Pick-me radar` is:
-
-```text
-messages from that person containing a pick-me signal / messages sent by that person
+```bash
+npm run generate:internal
 ```
 
-Awards require at least 25 sent messages in the selected window. `Reaction warrior` uses reactions sent divided by normalized turns, so it reads as reactions per 100 turns.
+That writes `public/data/summary.internal.json`, which is ignored by git and should not be deployed.
+
+## Optional local detectors
 
 Slur counts are supported through a local-only lexicon that is ignored by git:
 
 ```bash
 cp config/slur_terms.example.json config/slur_terms.local.json
-python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe --slur-lexicon config/slur_terms.local.json
+python3 scripts/generate_data.py --days 365 --default-window-days 14 --share-safe --include-message-previews --slur-lexicon config/slur_terms.local.json
 ```
 
-The public JSON publishes category counts only, not the lexicon terms or message text. Highest-reaction message previews are also off by default; add `--include-message-previews` only for a private/local build.
+The public JSON publishes category counts only, not the lexicon terms.
 
 ## Run the site
 
@@ -62,4 +62,4 @@ Then open `http://localhost:4173`.
 
 ## Privacy
 
-The generated JSON does not include message text or raw phone numbers. In share-safe mode it includes aggregate counts, timestamps, and contact names when available.
+The hosted `summary.json` includes short highest-reaction message previews but does not include raw phone numbers or raw contact handles. Use the internal-only command for local debugging with raw contact identifiers.

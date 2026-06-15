@@ -10,3 +10,4 @@ __pycache__/
 chat.db*
 AddressBook*.abcddb
 config/slur_terms.local.json
+public/data/summary.internal.json

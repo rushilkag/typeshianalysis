@@ -420,6 +420,19 @@ function reactionBreakdown(reactionTypes = {}) {
     .join(" / ");
 }
 
+function reactionEvidence(message) {
+  if (message.preview) {
+    return escapeHtml(message.preview);
+  }
+
+  if (message.attachmentCount) {
+    const types = (message.attachmentTypes || []).join(", ") || "attachment";
+    return `${fmt.format(message.attachmentCount)} media attachment${message.attachmentCount === 1 ? "" : "s"} · ${escapeHtml(types)}`;
+  }
+
+  return "No text body";
+}
+
 function renderReactions(windowSummary) {
   const root = $("reactionMessages");
   if (!root) return;
@@ -432,7 +445,7 @@ function renderReactions(windowSummary) {
   root.innerHTML = windowSummary.reactionMessages
     .map((message, index) => {
       const date = shortDate.format(dateFromKey(message.date));
-      const preview = message.preview ? escapeHtml(message.preview) : "Message preview hidden in share-safe build";
+      const preview = reactionEvidence(message);
       return `
         <div class="reaction-row">
           <div class="rank">${index + 1}</div>

@@ -1,8 +1,8 @@
 {
   "groupName": "type shi",
-  "generatedAt": "2026-06-14T18:53:22-05:00",
+  "generatedAt": "2026-06-14T19:03:36-05:00",
   "windowStart": "2025-06-15T00:00:00-05:00",
-  "windowEnd": "2026-06-14T18:53:22-05:00",
+  "windowEnd": "2026-06-14T19:03:36-05:00",
   "days": 365,
   "maxWindowDays": 365,
   "defaultWindowDays": 14,
@@ -14,14 +14,14 @@
     180,
     365
   ],
-  "totalMessages": 23962,
-  "totalTurns": 18517,
+  "totalMessages": 23996,
+  "totalTurns": 18544,
   "turnGapSeconds": 30,
   "burstReductionPercent": 22.7,
   "participantCount": 29,
-  "attachmentMessages": 2637,
-  "attachmentTurns": 2532,
-  "averagePerDay": 50.7,
+  "attachmentMessages": 2642,
+  "attachmentTurns": 2537,
+  "averagePerDay": 50.8,
   "averageTextLength": 25.6,
   "matchedChats": [],
   "senders": [
@@ -46,10 +46,10 @@
       "initials": "AK",
       "count": 0,
       "firstMessageAt": "2025-08-27T17:15:55-05:00",
-      "lastMessageAt": "2026-06-14T17:16:43-05:00",
-      "totalCount": 2212,
-      "turnCount": 1660,
-      "burstReductionPercent": 25.0,
+      "lastMessageAt": "2026-06-14T19:01:25-05:00",
+      "totalCount": 2213,
+      "turnCount": 1661,
+      "burstReductionPercent": 24.9,
       "rank": 2,
       "share": 9.0
     },
@@ -74,10 +74,10 @@
       "initials": "RU",
       "count": 0,
       "firstMessageAt": "2025-08-27T12:37:53-05:00",
-      "lastMessageAt": "2026-06-14T18:31:06-05:00",
-      "totalCount": 1944,
-      "turnCount": 1575,
-      "burstReductionPercent": 19.0,
+      "lastMessageAt": "2026-06-14T19:03:36-05:00",
+      "totalCount": 1959,
+      "turnCount": 1584,
+      "burstReductionPercent": 19.1,
       "rank": 4,
       "share": 8.5
     },
@@ -88,10 +88,10 @@
       "initials": "AK",
       "count": 0,
       "firstMessageAt": "2025-08-28T12:04:47-05:00",
-      "lastMessageAt": "2026-06-13T21:57:43-05:00",
-      "totalCount": 1625,
-      "turnCount": 1267,
-      "burstReductionPercent": 22.0,
+      "lastMessageAt": "2026-06-14T18:56:48-05:00",
+      "totalCount": 1628,
+      "turnCount": 1269,
+      "burstReductionPercent": 22.1,
       "rank": 5,
       "share": 6.8
     },
@@ -102,9 +102,9 @@
       "initials": "RO",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:30-05:00",
-      "lastMessageAt": "2026-06-14T18:50:33-05:00",
-      "totalCount": 1559,
-      "turnCount": 1264,
+      "lastMessageAt": "2026-06-14T19:03:27-05:00",
+      "totalCount": 1564,
+      "turnCount": 1269,
       "burstReductionPercent": 18.9,
       "rank": 6,
       "share": 6.8
@@ -116,10 +116,10 @@
       "initials": "AC",
       "count": 0,
       "firstMessageAt": "2025-08-28T12:05:14-05:00",
-      "lastMessageAt": "2026-06-14T17:17:24-05:00",
-      "totalCount": 1462,
-      "turnCount": 1214,
-      "burstReductionPercent": 17.0,
+      "lastMessageAt": "2026-06-14T19:00:06-05:00",
+      "totalCount": 1464,
+      "turnCount": 1216,
+      "burstReductionPercent": 16.9,
       "rank": 7,
       "share": 6.6
     },
@@ -158,9 +158,9 @@
       "initials": "VA",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:24-05:00",
-      "lastMessageAt": "2026-06-14T18:51:01-05:00",
-      "totalCount": 1071,
-      "turnCount": 875,
+      "lastMessageAt": "2026-06-14T19:01:10-05:00",
+      "totalCount": 1073,
+      "turnCount": 877,
       "burstReductionPercent": 18.3,
       "rank": 10,
       "share": 4.7
@@ -172,9 +172,9 @@
       "initials": "SO",
       "count": 0,
       "firstMessageAt": "2025-08-27T18:14:52-05:00",
-      "lastMessageAt": "2026-06-14T18:45:27-05:00",
-      "totalCount": 1045,
-      "turnCount": 867,
+      "lastMessageAt": "2026-06-14T19:03:33-05:00",
+      "totalCount": 1047,
+      "turnCount": 869,
       "burstReductionPercent": 17.0,
       "rank": 11,
       "share": 4.7
@@ -194,30 +194,30 @@
       "share": 3.6
     },
     {
-      "id": "p_dmdailmighhb",
-      "label": "Wentai",
-      "detail": "participant",
-      "initials": "WE",
-      "count": 0,
-      "firstMessageAt": "2025-08-29T19:56:04-05:00",
-      "lastMessageAt": "2026-06-14T17:18:49-05:00",
-      "totalCount": 711,
-      "turnCount": 571,
-      "burstReductionPercent": 19.7,
-      "rank": 13,
-      "share": 3.1
-    },
-    {
       "id": "p_blfhjomohklb",
       "label": "Arnav Bhaskar",
       "detail": "participant",
       "initials": "AB",
       "count": 0,
       "firstMessageAt": "2025-08-27T20:01:09-05:00",
-      "lastMessageAt": "2026-06-14T11:43:45-05:00",
-      "totalCount": 663,
-      "turnCount": 571,
-      "burstReductionPercent": 13.9,
+      "lastMessageAt": "2026-06-14T18:59:34-05:00",
+      "totalCount": 666,
+      "turnCount": 574,
+      "burstReductionPercent": 13.8,
+      "rank": 13,
+      "share": 3.1
+    },
+    {
+      "id": "p_dmdailmighhb",
+      "label": "Wentai",
+      "detail": "participant",
+      "initials": "WE",
+      "count": 0,
+      "firstMessageAt": "2025-08-29T19:56:04-05:00",
+      "lastMessageAt": "2026-06-14T19:01:11-05:00",
+      "totalCount": 712,
+      "turnCount": 572,
+      "burstReductionPercent": 19.7,
       "rank": 14,
       "share": 3.1
     },
@@ -233,7 +233,7 @@
       "turnCount": 417,
       "burstReductionPercent": 7.3,
       "rank": 15,
-      "share": 2.3
+      "share": 2.2
     },
     {
       "id": "p_eoipeaaocofh",
@@ -56196,42 +56196,44 @@
     },
     {
       "date": "2026-06-14",
-      "count": 241,
-      "turnCount": 186,
-      "attachmentMessages": 19,
-      "attachmentTurns": 18,
-      "textLengthSum": 6014,
-      "textMessageCount": 233,
+      "count": 275,
+      "turnCount": 213,
+      "attachmentMessages": 24,
+      "attachmentTurns": 23,
+      "textLengthSum": 6453,
+      "textMessageCount": 252,
       "bySender": {
+        "me": 54,
         "p_akenceifeeeh": 42,
-        "me": 39,
-        "p_ifdobplbgacb": 31,
-        "p_kephgajchogi": 22,
-        "p_ghbenapallii": 21,
+        "p_ifdobplbgacb": 32,
+        "p_kephgajchogi": 24,
+        "p_ghbenapallii": 23,
+        "p_fkioklocpgbp": 22,
         "p_nfihmngofcke": 18,
-        "p_fkioklocpgbp": 17,
-        "p_jchajjgjipbd": 14,
-        "p_dmdailmighhb": 10,
+        "p_jchajjgjipbd": 16,
+        "p_dmdailmighhb": 11,
         "p_omghgdhhmpfj": 10,
+        "p_blfhjomohklb": 9,
         "p_hpobobilhnoh": 7,
-        "p_blfhjomohklb": 6,
         "p_fobjhenjdpgl": 3,
+        "p_jnkhheofddbe": 3,
         "p_amhokpidpdnh": 1
       },
       "turnsBySender": {
-        "me": 27,
-        "p_ifdobplbgacb": 26,
+        "me": 36,
+        "p_ifdobplbgacb": 27,
         "p_akenceifeeeh": 22,
-        "p_ghbenapallii": 19,
-        "p_kephgajchogi": 18,
-        "p_fkioklocpgbp": 16,
+        "p_fkioklocpgbp": 21,
+        "p_ghbenapallii": 21,
+        "p_kephgajchogi": 20,
         "p_nfihmngofcke": 16,
-        "p_jchajjgjipbd": 13,
-        "p_dmdailmighhb": 9,
+        "p_jchajjgjipbd": 15,
+        "p_dmdailmighhb": 10,
         "p_omghgdhhmpfj": 8,
-        "p_blfhjomohklb": 4,
+        "p_blfhjomohklb": 7,
         "p_hpobobilhnoh": 4,
         "p_fobjhenjdpgl": 3,
+        "p_jnkhheofddbe": 2,
         "p_amhokpidpdnh": 1
       },
       "byHour": [
@@ -56253,8 +56255,8 @@
         0,
         2,
         59,
-        14,
-        0,
+        37,
+        11,
         0,
         0,
         0,
@@ -56279,8 +56281,8 @@
         0,
         2,
         50,
-        10,
-        0,
+        28,
+        9,
         0,
         0,
         0,
@@ -56299,11 +56301,11 @@
           "selfInsert": 1
         },
         "p_blfhjomohklb": {
-          "glazer": 1,
-          "hater": 1,
-          "laugh": 1,
-          "pickMe": 1,
-          "selfInsert": 1
+          "glazer": 2,
+          "hater": 2,
+          "laugh": 2,
+          "pickMe": 2,
+          "selfInsert": 2
         },
         "p_dmdailmighhb": {
           "hater": 1,
@@ -56322,6 +56324,12 @@
           "laugh": 1,
           "pickMe": 1,
           "selfInsert": 1
+        },
+        "p_jchajjgjipbd": {
+          "laugh": 1
+        },
+        "p_jnkhheofddbe": {
+          "glazer": 1
         },
         "p_kephgajchogi": {
           "glazer": 3,
@@ -56342,16 +56350,16 @@
         }
       },
       "reactionBySender": {
-        "p_nfihmngofcke": 17,
+        "p_nfihmngofcke": 18,
         "p_fobjhenjdpgl": 12,
-        "p_kephgajchogi": 10,
+        "p_kephgajchogi": 12,
         "p_ghbenapallii": 9,
-        "p_fkioklocpgbp": 7,
+        "p_fkioklocpgbp": 8,
         "p_omghgdhhmpfj": 7,
         "p_jchajjgjipbd": 6,
         "p_dmdailmighhb": 5,
+        "me": 3,
         "p_ifdobplbgacb": 3,
-        "me": 1,
         "p_blfhjomohklb": 1
       },
       "reactionByAuthor": {
@@ -56360,11 +56368,12 @@
         "p_akenceifeeeh": 11,
         "p_kephgajchogi": 8,
         "p_ifdobplbgacb": 7,
+        "p_jchajjgjipbd": 6,
         "p_blfhjomohklb": 5,
         "p_hpobobilhnoh": 5,
-        "p_jchajjgjipbd": 3,
-        "me": 2,
+        "me": 4,
         "p_fobjhenjdpgl": 1,
+        "p_jnkhheofddbe": 1,
         "p_nfihmngofcke": 1
       },
       "mentions": [
@@ -56411,6 +56420,11 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_nfihmngofcke",
+          "count": 1
+        },
+        {
+          "from": "p_jchajjgjipbd",
+          "to": "p_bcbnmadlfjoe",
           "count": 1
         },
         {
@@ -56466,6 +56480,11 @@
       "authorDetail": "participant",
       "date": "2025-10-27",
       "timestamp": "2025-10-27T19:53:32-05:00",
+      "preview": "like this if saad should wear shorts over his shark costume like king shark\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 16,
       "reactionTypes": {
         "love": 16
@@ -56478,6 +56497,11 @@
       "authorDetail": "participant",
       "date": "2026-01-30",
       "timestamp": "2026-01-30T12:28:51-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 16,
       "reactionTypes": {
         "love": 15,
@@ -56491,6 +56515,11 @@
       "authorDetail": "participant",
       "date": "2025-10-06",
       "timestamp": "2025-10-06T08:35:32-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 15,
       "reactionTypes": {
         "love": 15
@@ -56503,6 +56532,11 @@
       "authorDetail": "participant",
       "date": "2026-01-12",
       "timestamp": "2026-01-12T16:45:56-06:00",
+      "preview": "\ufffcthis was him this morning so i\u2019ll let you guess",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 15,
       "reactionTypes": {
         "love": 14,
@@ -56516,6 +56550,11 @@
       "authorDetail": "participant",
       "date": "2025-09-27",
       "timestamp": "2025-09-27T20:51:25-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 14,
       "reactionTypes": {
         "love": 13,
@@ -56529,6 +56568,11 @@
       "authorDetail": "participant",
       "date": "2025-10-02",
       "timestamp": "2025-10-02T13:47:08-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 14,
       "reactionTypes": {
         "love": 14
@@ -56541,6 +56585,11 @@
       "authorDetail": "participant",
       "date": "2025-10-16",
       "timestamp": "2025-10-16T22:15:45-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 14,
       "reactionTypes": {
         "love": 14
@@ -56553,6 +56602,11 @@
       "authorDetail": "participant",
       "date": "2025-12-29",
       "timestamp": "2025-12-29T15:09:38-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 14,
       "reactionTypes": {
         "love": 13,
@@ -56566,6 +56620,7 @@
       "authorDetail": "participant",
       "date": "2025-12-02",
       "timestamp": "2025-12-02T13:58:25-06:00",
+      "preview": "ask her if she got plans tn",
       "reactionCount": 13,
       "reactionTypes": {
         "love": 11,
@@ -56580,6 +56635,7 @@
       "authorDetail": "participant",
       "date": "2025-12-17",
       "timestamp": "2025-12-17T06:03:00-06:00",
+      "preview": "Good luck on 482 and 489 everyone!",
       "reactionCount": 13,
       "reactionTypes": {
         "love": 13
@@ -56592,6 +56648,11 @@
       "authorDetail": "participant",
       "date": "2026-01-22",
       "timestamp": "2026-01-22T16:33:06-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 13,
       "reactionTypes": {
         "love": 6,
@@ -56606,6 +56667,11 @@
       "authorDetail": "participant",
       "date": "2026-02-17",
       "timestamp": "2026-02-17T14:07:53-06:00",
+      "preview": "\ufffcJust wanna make sure everyone sees sunny with the perfect basketball shooting form here",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 13,
       "reactionTypes": {
         "love": 13
@@ -56618,6 +56684,11 @@
       "authorDetail": "participant",
       "date": "2026-03-14",
       "timestamp": "2026-03-14T12:53:02-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 13,
       "reactionTypes": {
         "love": 13
@@ -56630,6 +56701,7 @@
       "authorDetail": "participant",
       "date": "2026-03-18",
       "timestamp": "2026-03-18T15:54:06-05:00",
+      "preview": "Calling all jits Pregame at 6-man, 10 pm, March 21st for my bday + Skeeps/Ricks/Charley\u2019s push after",
       "reactionCount": 13,
       "reactionTypes": {
         "love": 13
@@ -56642,6 +56714,7 @@
       "authorDetail": "participant",
       "date": "2026-04-22",
       "timestamp": "2026-04-22T17:29:40-05:00",
+      "preview": "Dudes turned location off too like its a sneaky link",
       "reactionCount": 13,
       "reactionTypes": {
         "laugh": 10,
@@ -56656,6 +56729,11 @@
       "authorDetail": "participant",
       "date": "2025-10-21",
       "timestamp": "2025-10-21T20:55:25-05:00",
+      "preview": "\ufffc10/21/2025 good time Charlie\u2019s bingo winner",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 11,
@@ -56669,6 +56747,7 @@
       "authorDetail": "participant",
       "date": "2025-11-27",
       "timestamp": "2025-11-27T11:35:35-06:00",
+      "preview": "Happy thanksgiving guys! Grateful to have yall in my life",
       "reactionCount": 12,
       "reactionTypes": {
         "love": 12
@@ -56681,6 +56760,11 @@
       "authorDetail": "participant",
       "date": "2025-12-26",
       "timestamp": "2025-12-26T03:35:41-06:00",
+      "preview": "\ufffcAvg soham conversation",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "laugh": 9,
@@ -56695,6 +56779,7 @@
       "authorDetail": "participant",
       "date": "2026-02-05",
       "timestamp": "2026-02-05T16:25:44-06:00",
+      "preview": "Nah but deadass what time bc I got plans tn type shit",
       "reactionCount": 12,
       "reactionTypes": {
         "emphasize": 11,
@@ -56708,6 +56793,11 @@
       "authorDetail": "participant",
       "date": "2026-02-09",
       "timestamp": "2026-02-09T20:02:31-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 10,
@@ -56721,6 +56811,11 @@
       "authorDetail": "participant",
       "date": "2026-03-12",
       "timestamp": "2026-03-12T22:07:17-05:00",
+      "preview": "\ufffcHappy return offer to akash!",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 12
@@ -56733,6 +56828,7 @@
       "authorDetail": "participant",
       "date": "2026-03-18",
       "timestamp": "2026-03-18T17:11:08-05:00",
+      "preview": "Hey everybody! Akul really wants to celebrate his birthday tn at 6 man at 10 pm! Be there or be square!",
       "reactionCount": 12,
       "reactionTypes": {
         "love": 9,
@@ -56748,6 +56844,11 @@
       "authorDetail": "participant",
       "date": "2026-03-27",
       "timestamp": "2026-03-27T11:48:25-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 12
@@ -56760,6 +56861,7 @@
       "authorDetail": "participant",
       "date": "2026-03-28",
       "timestamp": "2026-03-28T12:03:19-05:00",
+      "preview": "Any jits taking either eecs 477 or 470 next sem?",
       "reactionCount": 12,
       "reactionTypes": {
         "emoji": 12
@@ -56772,6 +56874,11 @@
       "authorDetail": "participant",
       "date": "2026-04-08",
       "timestamp": "2026-04-08T15:59:35-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 12
@@ -56784,6 +56891,11 @@
       "authorDetail": "participant",
       "date": "2026-04-13",
       "timestamp": "2026-04-13T12:29:51-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 12
@@ -56796,6 +56908,11 @@
       "authorDetail": "participant",
       "date": "2026-04-25",
       "timestamp": "2026-04-25T19:18:48-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 12
@@ -56808,6 +56925,11 @@
       "authorDetail": "participant",
       "date": "2026-06-01",
       "timestamp": "2026-06-01T22:49:10-05:00",
+      "preview": "\ufffcCutie with his \u201cfirst beer\u201d",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 12,
       "reactionTypes": {
         "love": 10,
@@ -56821,6 +56943,11 @@
       "authorDetail": "participant",
       "date": "2025-09-12",
       "timestamp": "2025-09-12T13:10:00-05:00",
+      "preview": "\ufffcFastest ro in history",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56833,6 +56960,11 @@
       "authorDetail": "participant",
       "date": "2025-11-12",
       "timestamp": "2025-11-12T13:14:36-06:00",
+      "preview": "\ufffcIs this a valid crashout moment",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "laugh": 11
@@ -56845,6 +56977,11 @@
       "authorDetail": "participant",
       "date": "2025-11-25",
       "timestamp": "2025-11-25T16:14:32-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "laugh": 9,
@@ -56858,6 +56995,7 @@
       "authorDetail": "participant",
       "date": "2025-12-16",
       "timestamp": "2025-12-16T17:32:36-06:00",
+      "preview": "CURRENT HAND FOOT MOUTH RANKINGS: 1. Sri bendi 2. Vaibhav 3. Anish S \ud83d\udea8\ud83d\udea8Stay away from these people \ud83d\udea8\ud83d\udea8",
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56870,6 +57008,7 @@
       "authorDetail": "participant",
       "date": "2025-12-23",
       "timestamp": "2025-12-23T13:36:35-06:00",
+      "preview": "Hello Jits. Spring break this year is gonna be in Europe, specifically Italy and Spain, for 7-9 days from Feb 28, to Ma\u2026",
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56882,6 +57021,7 @@
       "authorDetail": "participant",
       "date": "2025-12-29",
       "timestamp": "2025-12-29T21:31:56-06:00",
+      "preview": "Mf couldn\u2019t spell fish properly",
       "reactionCount": 11,
       "reactionTypes": {
         "emoji": 9,
@@ -56896,6 +57036,11 @@
       "authorDetail": "participant",
       "date": "2026-01-23",
       "timestamp": "2026-01-23T17:48:41-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 9,
@@ -56910,6 +57055,11 @@
       "authorDetail": "participant",
       "date": "2026-01-27",
       "timestamp": "2026-01-27T16:20:39-06:00",
+      "preview": "\ufffcVishnu hinge picture",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56922,6 +57072,11 @@
       "authorDetail": "participant",
       "date": "2026-02-02",
       "timestamp": "2026-02-02T09:54:31-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56934,6 +57089,11 @@
       "authorDetail": "participant",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T19:11:27-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56946,6 +57106,7 @@
       "authorDetail": "participant",
       "date": "2026-02-16",
       "timestamp": "2026-02-16T18:34:21-06:00",
+      "preview": "If anyone wants an IMC referral for new grad hmu",
       "reactionCount": 11,
       "reactionTypes": {
         "like": 11
@@ -56958,6 +57119,11 @@
       "authorDetail": "participant",
       "date": "2026-03-08",
       "timestamp": "2026-03-08T23:09:07-05:00",
+      "preview": "\ufffc\u201cTHE DON\u201d",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56970,6 +57136,11 @@
       "authorDetail": "participant",
       "date": "2026-03-09",
       "timestamp": "2026-03-09T03:43:22-05:00",
+      "preview": "\ufffcWelcome back party!",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56982,6 +57153,11 @@
       "authorDetail": "participant",
       "date": "2026-03-15",
       "timestamp": "2026-03-15T19:16:53-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -56994,6 +57170,7 @@
       "authorDetail": "participant",
       "date": "2026-03-20",
       "timestamp": "2026-03-20T15:06:03-05:00",
+      "preview": "Unfortunately due to hella people going home/trips this weekend, Aadit Jain\u2019s 21st birthday bash will no longer be tmr.\u2026",
       "reactionCount": 11,
       "reactionTypes": {
         "emoji": 9,
@@ -57008,6 +57185,7 @@
       "authorDetail": "participant",
       "date": "2026-03-22",
       "timestamp": "2026-03-22T15:19:42-05:00",
+      "preview": "Traveling from the left side of the couch to the right?",
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -57020,6 +57198,11 @@
       "authorDetail": "participant",
       "date": "2026-04-03",
       "timestamp": "2026-04-03T15:28:20-05:00",
+      "preview": "\ufffcakash bro i know the picture\u2019s good but you dont have to set it as your linkedin photo that quickly",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "emoji": 7,
@@ -57033,6 +57216,11 @@
       "authorDetail": "Rushil",
       "date": "2026-04-06",
       "timestamp": "2026-04-06T13:21:35-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 9,
@@ -57047,6 +57235,7 @@
       "authorDetail": "participant",
       "date": "2026-04-07",
       "timestamp": "2026-04-07T15:13:14-05:00",
+      "preview": "Great work table 2!",
       "reactionCount": 11,
       "reactionTypes": {
         "love": 10,
@@ -57060,6 +57249,11 @@
       "authorDetail": "participant",
       "date": "2026-04-12",
       "timestamp": "2026-04-12T19:09:53-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "laugh": 5,
@@ -57074,6 +57268,7 @@
       "authorDetail": "participant",
       "date": "2026-04-15",
       "timestamp": "2026-04-15T16:56:03-05:00",
+      "preview": "5XX Chase Ln, Bloomfield Hills, MI 48304",
       "reactionCount": 11,
       "reactionTypes": {
         "love": 8,
@@ -57088,6 +57283,11 @@
       "authorDetail": "participant",
       "date": "2026-04-23",
       "timestamp": "2026-04-23T16:45:09-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -57100,6 +57300,7 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:16:30-05:00",
+      "preview": "Situation so bad dev came back from the dead",
       "reactionCount": 11,
       "reactionTypes": {
         "laugh": 5,
@@ -57114,6 +57315,11 @@
       "authorDetail": "participant",
       "date": "2026-04-27",
       "timestamp": "2026-04-27T19:43:35-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -57126,6 +57332,11 @@
       "authorDetail": "participant",
       "date": "2026-04-29",
       "timestamp": "2026-04-29T14:32:49-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 10,
@@ -57139,6 +57350,7 @@
       "authorDetail": "participant",
       "date": "2026-05-04",
       "timestamp": "2026-05-04T13:51:21-05:00",
+      "preview": "Hey everybody! Please pull up to 4922 Somerton Dr Friday night for fun, drinking, and bonding at BHacks! This will be a\u2026",
       "reactionCount": 11,
       "reactionTypes": {
         "like": 7,
@@ -57152,6 +57364,11 @@
       "authorDetail": "participant",
       "date": "2026-05-14",
       "timestamp": "2026-05-14T18:22:21-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -57164,6 +57381,11 @@
       "authorDetail": "participant",
       "date": "2026-05-25",
       "timestamp": "2026-05-25T14:39:14-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
@@ -57176,6 +57398,11 @@
       "authorDetail": "participant",
       "date": "2025-08-29",
       "timestamp": "2025-08-29T20:17:55-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57188,6 +57415,11 @@
       "authorDetail": "participant",
       "date": "2025-09-06",
       "timestamp": "2025-09-06T18:24:32-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57200,6 +57432,7 @@
       "authorDetail": "participant",
       "date": "2025-09-23",
       "timestamp": "2025-09-23T15:14:57-05:00",
+      "preview": "I heard Sunny\u2019s mom ate hella Tylenol when she was pregnant w him",
       "reactionCount": 10,
       "reactionTypes": {
         "love": 8,
@@ -57214,6 +57447,7 @@
       "authorDetail": "participant",
       "date": "2025-10-01",
       "timestamp": "2025-10-01T14:20:02-05:00",
+      "preview": "Mfs get Jane street and spread their elbows into your urethra",
       "reactionCount": 10,
       "reactionTypes": {
         "question": 5,
@@ -57228,6 +57462,11 @@
       "authorDetail": "participant",
       "date": "2025-10-23",
       "timestamp": "2025-10-23T12:05:11-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57240,6 +57479,11 @@
       "authorDetail": "participant",
       "date": "2025-10-27",
       "timestamp": "2025-10-27T21:38:03-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "laugh": 10
@@ -57252,6 +57496,11 @@
       "authorDetail": "participant",
       "date": "2025-11-18",
       "timestamp": "2025-11-18T22:03:06-06:00",
+      "preview": "\ufffc2025 Charley\u2019s bingo winner",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57264,6 +57513,11 @@
       "authorDetail": "participant",
       "date": "2025-12-15",
       "timestamp": "2025-12-15T13:11:47-06:00",
+      "preview": "\ufffcTs so tuff \ud83d\udc94",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57276,6 +57530,7 @@
       "authorDetail": "participant",
       "date": "2025-12-17",
       "timestamp": "2025-12-17T16:56:05-06:00",
+      "preview": "love you niggass",
       "reactionCount": 10,
       "reactionTypes": {
         "love": 8,
@@ -57289,6 +57544,11 @@
       "authorDetail": "participant",
       "date": "2025-12-17",
       "timestamp": "2025-12-17T20:46:58-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57301,6 +57561,7 @@
       "authorDetail": "participant",
       "date": "2026-01-08",
       "timestamp": "2026-01-08T11:54:47-06:00",
+      "preview": "Like for 6",
       "reactionCount": 10,
       "reactionTypes": {
         "like": 10
@@ -57313,6 +57574,11 @@
       "authorDetail": "participant",
       "date": "2026-03-02",
       "timestamp": "2026-03-02T12:49:57-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57325,6 +57591,11 @@
       "authorDetail": "participant",
       "date": "2026-03-02",
       "timestamp": "2026-03-02T17:45:36-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 6,
@@ -57338,6 +57609,7 @@
       "authorDetail": "participant",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T21:44:02-05:00",
+      "preview": "\u201cAkash r.a.o. Bolneni\u201d - Return Amazon Offer",
       "reactionCount": 10,
       "reactionTypes": {
         "love": 9,
@@ -57351,6 +57623,11 @@
       "authorDetail": "participant",
       "date": "2026-03-20",
       "timestamp": "2026-03-20T16:50:34-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57363,6 +57640,11 @@
       "authorDetail": "participant",
       "date": "2026-03-23",
       "timestamp": "2026-03-23T14:41:56-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 7,
@@ -57376,6 +57658,7 @@
       "authorDetail": "participant",
       "date": "2026-03-25",
       "timestamp": "2026-03-25T13:04:43-05:00",
+      "preview": "Who wants to come to Project Hail Mary tn IMAX at 10",
       "reactionCount": 10,
       "reactionTypes": {
         "like": 10
@@ -57388,6 +57671,11 @@
       "authorDetail": "participant",
       "date": "2026-04-01",
       "timestamp": "2026-04-01T00:20:09-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 9,
@@ -57401,6 +57689,7 @@
       "authorDetail": "participant",
       "date": "2026-04-14",
       "timestamp": "2026-04-14T10:58:30-05:00",
+      "preview": "Ben and Jerry\u2019s has free ice cream cone day today",
       "reactionCount": 10,
       "reactionTypes": {
         "emoji": 10
@@ -57413,6 +57702,7 @@
       "authorDetail": "participant",
       "date": "2026-04-15",
       "timestamp": "2026-04-15T00:33:49-05:00",
+      "preview": "Sunny from Jane street stop this noise",
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57425,6 +57715,11 @@
       "authorDetail": "Rushil",
       "date": "2026-04-24",
       "timestamp": "2026-04-24T20:37:05-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57437,6 +57732,11 @@
       "authorDetail": "participant",
       "date": "2026-05-14",
       "timestamp": "2026-05-14T23:47:23-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57449,6 +57749,11 @@
       "authorDetail": "participant",
       "date": "2026-05-25",
       "timestamp": "2026-05-25T15:55:44-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57461,6 +57766,11 @@
       "authorDetail": "participant",
       "date": "2026-05-26",
       "timestamp": "2026-05-26T15:23:29-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "laugh": 10
@@ -57473,6 +57783,11 @@
       "authorDetail": "participant",
       "date": "2026-06-03",
       "timestamp": "2026-06-03T15:26:20-05:00",
+      "preview": "\ufffc\u201cWhy do I always get clowned on\u201d",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 5,
@@ -57487,6 +57802,11 @@
       "authorDetail": "participant",
       "date": "2026-06-03",
       "timestamp": "2026-06-03T18:51:26-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
@@ -57499,6 +57819,11 @@
       "authorDetail": "participant",
       "date": "2026-06-08",
       "timestamp": "2026-06-08T12:53:39-05:00",
+      "preview": "\ufffcAkash bro get ur boy dawg fuck is he saying",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 10,
       "reactionTypes": {
         "laugh": 8,
@@ -57512,6 +57837,7 @@
       "authorDetail": "participant",
       "date": "2026-06-12",
       "timestamp": "2026-06-12T17:29:55-05:00",
+      "preview": "The least believable part abt that is Chandra not eating after 830",
       "reactionCount": 10,
       "reactionTypes": {
         "love": 6,
@@ -57526,6 +57852,7 @@
       "authorDetail": "participant",
       "date": "2025-09-24",
       "timestamp": "2025-09-24T14:32:23-05:00",
+      "preview": "Poker tn?",
       "reactionCount": 9,
       "reactionTypes": {
         "love": 8,
@@ -57539,6 +57866,11 @@
       "authorDetail": "participant",
       "date": "2025-09-30",
       "timestamp": "2025-09-30T17:56:35-05:00",
+      "preview": "\ufffcDis the same alpha",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57551,6 +57883,11 @@
       "authorDetail": "participant",
       "date": "2025-10-02",
       "timestamp": "2025-10-02T18:44:57-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57563,6 +57900,11 @@
       "authorDetail": "participant",
       "date": "2025-10-14",
       "timestamp": "2025-10-14T23:51:19-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "like": 9
@@ -57575,6 +57917,7 @@
       "authorDetail": "participant",
       "date": "2025-10-17",
       "timestamp": "2025-10-17T10:41:54-05:00",
+      "preview": "Like this message if you\u2019d be interested in a ski trip sometime this winter. Something like a couple days up north with\u2026",
       "reactionCount": 9,
       "reactionTypes": {
         "like": 9
@@ -57587,6 +57930,7 @@
       "authorDetail": "participant",
       "date": "2025-10-30",
       "timestamp": "2025-10-30T19:15:28-05:00",
+      "preview": "Yo drink in an hour?",
       "reactionCount": 9,
       "reactionTypes": {
         "like": 9
@@ -57599,6 +57943,11 @@
       "authorDetail": "Rushil",
       "date": "2025-11-05",
       "timestamp": "2025-11-05T15:53:56-06:00",
+      "preview": "\ufffc\ufffc",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 8,
@@ -57612,6 +57961,11 @@
       "authorDetail": "participant",
       "date": "2025-11-14",
       "timestamp": "2025-11-14T21:27:16-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57624,6 +57978,7 @@
       "authorDetail": "participant",
       "date": "2025-11-16",
       "timestamp": "2025-11-16T15:39:10-06:00",
+      "preview": "Congrats Rohan",
       "reactionCount": 9,
       "reactionTypes": {
         "question": 8,
@@ -57637,6 +57992,11 @@
       "authorDetail": "participant",
       "date": "2025-11-19",
       "timestamp": "2025-11-19T16:58:01-06:00",
+      "preview": "\ufffcNo way Sol",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57649,6 +58009,7 @@
       "authorDetail": "participant",
       "date": "2025-12-11",
       "timestamp": "2025-12-11T18:40:10-06:00",
+      "preview": "akash laughing but he's staying home on the couch",
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57661,6 +58022,7 @@
       "authorDetail": "participant",
       "date": "2026-01-13",
       "timestamp": "2026-01-13T14:17:59-06:00",
+      "preview": "Hey everybody! So there is a bar called Good Time Charley\u2019s where u can get hella discounted beer and alcohol on weekda\u2026",
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57673,6 +58035,7 @@
       "authorDetail": "participant",
       "date": "2026-02-07",
       "timestamp": "2026-02-07T13:47:39-06:00",
+      "preview": "Alr I\u2019m down for the full tray chicken biryani from Akul\u2019s mom. I\u2019m sure it tastes better than anything we get in Ann A\u2026",
       "reactionCount": 9,
       "reactionTypes": {
         "love": 7,
@@ -57687,6 +58050,11 @@
       "authorDetail": "participant",
       "date": "2026-02-08",
       "timestamp": "2026-02-08T00:50:03-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "laugh": 9
@@ -57699,6 +58067,11 @@
       "authorDetail": "participant",
       "date": "2026-03-04",
       "timestamp": "2026-03-04T03:43:42-06:00",
+      "preview": "\ufffcRotmaxxing",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57711,6 +58084,11 @@
       "authorDetail": "participant",
       "date": "2026-03-11",
       "timestamp": "2026-03-11T20:37:09-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 7,
@@ -57725,6 +58103,11 @@
       "authorDetail": "participant",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T23:42:08-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57737,6 +58120,11 @@
       "authorDetail": "participant",
       "date": "2026-03-21",
       "timestamp": "2026-03-21T17:39:02-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 8,
@@ -57750,6 +58138,11 @@
       "authorDetail": "participant",
       "date": "2026-03-23",
       "timestamp": "2026-03-23T19:30:54-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 8,
@@ -57763,6 +58156,11 @@
       "authorDetail": "participant",
       "date": "2026-03-24",
       "timestamp": "2026-03-24T12:35:10-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 8,
@@ -57776,6 +58174,7 @@
       "authorDetail": "participant",
       "date": "2026-04-01",
       "timestamp": "2026-04-01T14:20:03-05:00",
+      "preview": "One attention to aryan everyone",
       "reactionCount": 9,
       "reactionTypes": {
         "laugh": 4,
@@ -57791,6 +58190,7 @@
       "authorDetail": "participant",
       "date": "2026-04-03",
       "timestamp": "2026-04-03T15:06:07-05:00",
+      "preview": "is anyone walking for commencement this year?",
       "reactionCount": 9,
       "reactionTypes": {
         "emoji": 5,
@@ -57805,6 +58205,11 @@
       "authorDetail": "participant",
       "date": "2026-04-16",
       "timestamp": "2026-04-16T22:16:24-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57817,6 +58222,11 @@
       "authorDetail": "participant",
       "date": "2026-04-23",
       "timestamp": "2026-04-23T00:06:45-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57829,6 +58239,11 @@
       "authorDetail": "Rushil",
       "date": "2026-04-23",
       "timestamp": "2026-04-23T21:01:09-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57841,6 +58256,10 @@
       "authorDetail": "Rushil",
       "date": "2026-04-25",
       "timestamp": "2026-04-25T14:07:46-05:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57853,6 +58272,11 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:12:09-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "laugh": 6,
@@ -57866,6 +58290,7 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:32:43-05:00",
+      "preview": "Dudes make out one time with preetams girl",
       "reactionCount": 9,
       "reactionTypes": {
         "laugh": 5,
@@ -57881,6 +58306,7 @@
       "authorDetail": "participant",
       "date": "2026-05-01",
       "timestamp": "2026-05-01T20:13:13-05:00",
+      "preview": "I\u2019ll drink if we win",
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57893,6 +58319,7 @@
       "authorDetail": "Rushil",
       "date": "2026-05-01",
       "timestamp": "2026-05-01T22:24:33-05:00",
+      "preview": "i love everyone",
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57905,6 +58332,11 @@
       "authorDetail": "participant",
       "date": "2026-05-06",
       "timestamp": "2026-05-06T17:30:12-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57917,6 +58349,11 @@
       "authorDetail": "participant",
       "date": "2026-05-13",
       "timestamp": "2026-05-13T18:56:42-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57929,6 +58366,11 @@
       "authorDetail": "participant",
       "date": "2026-05-14",
       "timestamp": "2026-05-14T20:54:32-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57941,6 +58383,11 @@
       "authorDetail": "participant",
       "date": "2026-05-18",
       "timestamp": "2026-05-18T11:55:39-05:00",
+      "preview": "\ufffcNice cut chandra",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "emoji": 6,
@@ -57954,6 +58401,11 @@
       "authorDetail": "participant",
       "date": "2026-05-22",
       "timestamp": "2026-05-22T19:55:23-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 7,
@@ -57967,6 +58419,7 @@
       "authorDetail": "participant",
       "date": "2026-05-26",
       "timestamp": "2026-05-26T12:45:36-05:00",
+      "preview": "Ur bullshit is literally a message above",
       "reactionCount": 9,
       "reactionTypes": {
         "emoji": 9
@@ -57979,6 +58432,11 @@
       "authorDetail": "participant",
       "date": "2026-05-31",
       "timestamp": "2026-05-31T14:51:19-05:00",
+      "preview": "\ufffcIs this a sign",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -57991,6 +58449,11 @@
       "authorDetail": "participant",
       "date": "2026-06-03",
       "timestamp": "2026-06-03T22:44:13-05:00",
+      "preview": "\ufffcMfs just gotta remain mysterious",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
@@ -58003,6 +58466,7 @@
       "authorDetail": "participant",
       "date": "2026-06-13",
       "timestamp": "2026-06-13T01:49:04-05:00",
+      "preview": "Dudes go across the country to just make 6 man again",
       "reactionCount": 9,
       "reactionTypes": {
         "love": 7,
@@ -58016,6 +58480,11 @@
       "authorDetail": "participant",
       "date": "2025-08-31",
       "timestamp": "2025-08-31T07:43:07-05:00",
+      "preview": "\ufffc\ufffc\ufffc",
+      "attachmentCount": 3,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58028,6 +58497,11 @@
       "authorDetail": "participant",
       "date": "2025-09-07",
       "timestamp": "2025-09-07T17:54:36-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58040,6 +58514,11 @@
       "authorDetail": "participant",
       "date": "2025-09-25",
       "timestamp": "2025-09-25T21:09:37-05:00",
+      "preview": "\ufffcPrajwal",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58052,6 +58531,11 @@
       "authorDetail": "participant",
       "date": "2025-09-27",
       "timestamp": "2025-09-27T23:44:21-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58064,6 +58548,7 @@
       "authorDetail": "participant",
       "date": "2025-10-05",
       "timestamp": "2025-10-05T21:15:48-05:00",
+      "preview": "Diddy only talks in this chatwhen its abt leetcode",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58076,6 +58561,7 @@
       "authorDetail": "participant",
       "date": "2025-10-07",
       "timestamp": "2025-10-07T19:03:58-05:00",
+      "preview": "DiddyNotRecruitingConvo++;",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58088,6 +58574,11 @@
       "authorDetail": "participant",
       "date": "2025-10-15",
       "timestamp": "2025-10-15T22:31:44-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58100,6 +58591,11 @@
       "authorDetail": "participant",
       "date": "2025-10-16",
       "timestamp": "2025-10-16T18:45:18-05:00",
+      "preview": "\ufffcNig comes to school sauced once",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58112,6 +58608,11 @@
       "authorDetail": "participant",
       "date": "2025-10-29",
       "timestamp": "2025-10-29T18:49:18-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58124,6 +58625,7 @@
       "authorDetail": "participant",
       "date": "2025-11-18",
       "timestamp": "2025-11-18T16:16:35-06:00",
+      "preview": "Dec 17",
       "reactionCount": 8,
       "reactionTypes": {
         "like": 8
@@ -58136,6 +58638,7 @@
       "authorDetail": "participant",
       "date": "2025-11-25",
       "timestamp": "2025-11-25T16:46:29-06:00",
+      "preview": "Sunny bro",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58149,6 +58652,7 @@
       "authorDetail": "participant",
       "date": "2025-11-25",
       "timestamp": "2025-11-25T16:49:19-06:00",
+      "preview": "jane street to racist pipeline is wild",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58162,6 +58666,11 @@
       "authorDetail": "participant",
       "date": "2025-11-25",
       "timestamp": "2025-11-25T16:52:34-06:00",
+      "preview": "https://youtu.be/66twqwc916w",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58175,6 +58684,7 @@
       "authorDetail": "participant",
       "date": "2025-12-24",
       "timestamp": "2025-12-24T23:05:35-06:00",
+      "preview": "Merry Christmas bros",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 5,
@@ -58188,6 +58698,7 @@
       "authorDetail": "participant",
       "date": "2026-01-14",
       "timestamp": "2026-01-14T18:32:44-06:00",
+      "preview": "Like this message if you down to go to Charley\u2019s tn",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 6,
@@ -58201,6 +58712,7 @@
       "authorDetail": "participant",
       "date": "2026-01-23",
       "timestamp": "2026-01-23T15:10:22-06:00",
+      "preview": "Akul can no longer be a pick me",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 5,
@@ -58216,6 +58728,11 @@
       "authorDetail": "participant",
       "date": "2026-01-30",
       "timestamp": "2026-01-30T12:30:02-06:00",
+      "preview": "https://www.oreateai.com/blog/the-prehibernation-feast-why-animals-pack-on-the-pounds-before-their-long-winter-nap/f9d0\u2026",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58228,6 +58745,7 @@
       "authorDetail": "participant",
       "date": "2026-02-02",
       "timestamp": "2026-02-02T12:57:51-06:00",
+      "preview": "Congrats Rushil!!",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58241,6 +58759,11 @@
       "authorDetail": "participant",
       "date": "2026-02-05",
       "timestamp": "2026-02-05T11:59:28-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58253,6 +58776,11 @@
       "authorDetail": "participant",
       "date": "2026-02-07",
       "timestamp": "2026-02-07T14:05:22-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58265,6 +58793,11 @@
       "authorDetail": "participant",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T18:32:40-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58277,6 +58810,7 @@
       "authorDetail": "participant",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T19:12:20-06:00",
+      "preview": "Devs monthly token was well spent",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58290,6 +58824,11 @@
       "authorDetail": "participant",
       "date": "2026-03-09",
       "timestamp": "2026-03-09T12:42:48-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58303,6 +58842,10 @@
       "authorDetail": "Rushil",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T21:28:09-05:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58316,6 +58859,7 @@
       "authorDetail": "Rushil",
       "date": "2026-03-14",
       "timestamp": "2026-03-14T17:33:27-05:00",
+      "preview": "good evening team, our plan for rest of day is going to bed for 2 hours. At 9 pm we will hop on and drink tonight! -VC",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 6,
@@ -58329,6 +58873,7 @@
       "authorDetail": "participant",
       "date": "2026-03-14",
       "timestamp": "2026-03-14T21:51:01-05:00",
+      "preview": "This is his girlfriend",
       "reactionCount": 8,
       "reactionTypes": {
         "emoji": 8
@@ -58341,6 +58886,7 @@
       "authorDetail": "participant",
       "date": "2026-03-18",
       "timestamp": "2026-03-18T21:29:30-05:00",
+      "preview": "Anyoen got a better",
       "reactionCount": 8,
       "reactionTypes": {
         "question": 8
@@ -58353,6 +58899,11 @@
       "authorDetail": "participant",
       "date": "2026-03-21",
       "timestamp": "2026-03-21T12:31:23-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58365,6 +58916,11 @@
       "authorDetail": "participant",
       "date": "2026-03-25",
       "timestamp": "2026-03-25T22:52:26-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 6,
@@ -58378,6 +58934,11 @@
       "authorDetail": "participant",
       "date": "2026-03-29",
       "timestamp": "2026-03-29T02:07:49-05:00",
+      "preview": "https://www.instagram.com/stories/indraloka.chud/3863354879553740219?utm_source=ig_story_item_share&igsh=NnJyMm42czB1eX\u2026",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58390,6 +58951,11 @@
       "authorDetail": "participant",
       "date": "2026-04-01",
       "timestamp": "2026-04-01T15:13:50-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58402,6 +58968,11 @@
       "authorDetail": "participant",
       "date": "2026-04-03",
       "timestamp": "2026-04-03T13:19:06-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 5,
@@ -58415,6 +58986,7 @@
       "authorDetail": "participant",
       "date": "2026-04-06",
       "timestamp": "2026-04-06T15:20:39-05:00",
+      "preview": "Poker after \ud83e\udd7a",
       "reactionCount": 8,
       "reactionTypes": {
         "emoji": 8
@@ -58427,6 +58999,7 @@
       "authorDetail": "participant",
       "date": "2026-04-14",
       "timestamp": "2026-04-14T22:24:52-05:00",
+      "preview": "Some girl wants to fuck shanbhag in Chicago and shanbhag is slightly scared but super stoked at the same time!",
       "reactionCount": 8,
       "reactionTypes": {
         "emoji": 4,
@@ -58440,6 +59013,7 @@
       "authorDetail": "Rushil",
       "date": "2026-04-21",
       "timestamp": "2026-04-21T13:10:53-05:00",
+      "preview": "i\u2019m gonna roofy vishnu",
       "reactionCount": 8,
       "reactionTypes": {
         "question": 7,
@@ -58453,6 +59027,11 @@
       "authorDetail": "participant",
       "date": "2026-04-22",
       "timestamp": "2026-04-22T23:32:49-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "laugh": 4,
@@ -58466,6 +59045,11 @@
       "authorDetail": "participant",
       "date": "2026-04-23",
       "timestamp": "2026-04-23T19:56:54-05:00",
+      "preview": "\ufffcThe king of 484 pondering on his exam",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58478,6 +59062,11 @@
       "authorDetail": "participant",
       "date": "2026-04-25",
       "timestamp": "2026-04-25T14:00:48-05:00",
+      "preview": "Its alr this guys boutta sub in \ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58490,6 +59079,11 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:19:29-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58502,6 +59096,7 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:31:34-05:00",
+      "preview": "Guys let\u2019s think abt females",
       "reactionCount": 8,
       "reactionTypes": {
         "question": 8
@@ -58514,6 +59109,7 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:31:57-05:00",
+      "preview": "Ack",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58526,6 +59122,7 @@
       "authorDetail": "participant",
       "date": "2026-04-30",
       "timestamp": "2026-04-30T23:20:35-05:00",
+      "preview": "Anish chandra certified baddie - signed Saad Akash Jon Sunny Prajwal",
       "reactionCount": 8,
       "reactionTypes": {
         "like": 8
@@ -58538,6 +59135,11 @@
       "authorDetail": "participant",
       "date": "2026-05-02",
       "timestamp": "2026-05-02T07:25:26-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58550,6 +59152,11 @@
       "authorDetail": "participant",
       "date": "2026-05-02",
       "timestamp": "2026-05-02T14:26:40-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58562,6 +59169,7 @@
       "authorDetail": "participant",
       "date": "2026-05-13",
       "timestamp": "2026-05-13T21:28:23-05:00",
+      "preview": "Duren can pu to watch the game at mine",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 5,
@@ -58575,6 +59183,11 @@
       "authorDetail": "participant",
       "date": "2026-05-17",
       "timestamp": "2026-05-17T08:50:36-05:00",
+      "preview": "\ufffcDitty this is all because you never taught me to dance and you hate me and exiled me to turkey so I embarrassed myself\u2026",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58587,6 +59200,11 @@
       "authorDetail": "Rushil",
       "date": "2026-05-17",
       "timestamp": "2026-05-17T18:45:43-05:00",
+      "preview": "\ufffcfuck ohio",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 7,
@@ -58600,6 +59218,7 @@
       "authorDetail": "participant",
       "date": "2026-05-26",
       "timestamp": "2026-05-26T12:30:25-05:00",
+      "preview": "Rushil can I get a congrats on my first hr of my first day",
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58626,6 +59245,11 @@
       "authorDetail": "participant",
       "date": "2026-06-13",
       "timestamp": "2026-06-13T00:26:01-05:00",
+      "preview": "\ufffcWell well well",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
@@ -58638,6 +59262,7 @@
       "authorDetail": "participant",
       "date": "2025-09-03",
       "timestamp": "2025-09-03T17:43:56-05:00",
+      "preview": "Taste of India at 7:30",
       "reactionCount": 7,
       "reactionTypes": {
         "dislike": 3,
@@ -58652,6 +59277,11 @@
       "authorDetail": "participant",
       "date": "2025-09-10",
       "timestamp": "2025-09-10T18:14:24-05:00",
+      "preview": "\ufffcYeah u get him soham",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58664,6 +59294,7 @@
       "authorDetail": "participant",
       "date": "2025-09-12",
       "timestamp": "2025-09-12T14:27:41-05:00",
+      "preview": "Who wants to watch demon slayer next week",
       "reactionCount": 7,
       "reactionTypes": {
         "like": 7
@@ -58676,6 +59307,11 @@
       "authorDetail": "participant",
       "date": "2025-09-26",
       "timestamp": "2025-09-26T16:25:00-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58688,6 +59324,12 @@
       "authorDetail": "participant",
       "date": "2025-10-02",
       "timestamp": "2025-10-02T13:41:20-05:00",
+      "preview": "\ufffc\ufffc",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "image/jpeg",
+        "image/png"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58700,6 +59342,11 @@
       "authorDetail": "participant",
       "date": "2025-10-02",
       "timestamp": "2025-10-02T19:02:04-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -58713,6 +59360,7 @@
       "authorDetail": "participant",
       "date": "2025-10-08",
       "timestamp": "2025-10-08T20:59:37-05:00",
+      "preview": "yeah no big thing i get hundred on real analysis test number one school people study long time i just do little bit jan\u2026",
       "reactionCount": 7,
       "reactionTypes": {
         "like": 4,
@@ -58728,6 +59376,7 @@
       "authorDetail": "Rushil",
       "date": "2025-10-17",
       "timestamp": "2025-10-17T11:54:10-05:00",
+      "preview": "who is going to msu next week for the game",
       "reactionCount": 7,
       "reactionTypes": {
         "like": 7
@@ -58740,6 +59389,7 @@
       "authorDetail": "participant",
       "date": "2025-10-20",
       "timestamp": "2025-10-20T20:49:08-05:00",
+      "preview": "Jits will say anything but won\u2019t fix aws",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58752,6 +59402,7 @@
       "authorDetail": "participant",
       "date": "2025-10-21",
       "timestamp": "2025-10-21T16:20:51-05:00",
+      "preview": "Waits who\u2019s coming",
       "reactionCount": 7,
       "reactionTypes": {
         "like": 7
@@ -58764,6 +59415,7 @@
       "authorDetail": "participant",
       "date": "2025-10-21",
       "timestamp": "2025-10-21T16:26:42-05:00",
+      "preview": "Sri I\u2019m gonna touch you and pull out all 5 strands of hair left on your head if you don\u2019t make an appearance",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58776,6 +59428,7 @@
       "authorDetail": "participant",
       "date": "2025-10-23",
       "timestamp": "2025-10-23T14:11:22-05:00",
+      "preview": "\u201cI\u2019d rather call them bad than call them charismatic\u201d \u2014 @Srivatsav when asked about middle school cheerleaders",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 3,
@@ -58792,6 +59445,11 @@
       "authorDetail": "participant",
       "date": "2025-11-01",
       "timestamp": "2025-11-01T22:55:16-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58804,6 +59462,11 @@
       "authorDetail": "participant",
       "date": "2025-11-06",
       "timestamp": "2025-11-06T14:13:50-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58816,6 +59479,11 @@
       "authorDetail": "participant",
       "date": "2025-11-14",
       "timestamp": "2025-11-14T21:30:08-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58828,6 +59496,11 @@
       "authorDetail": "participant",
       "date": "2025-11-17",
       "timestamp": "2025-11-17T15:46:30-06:00",
+      "preview": "\ufffcWhere\u2019s soham challenge",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58840,6 +59513,11 @@
       "authorDetail": "participant",
       "date": "2025-11-22",
       "timestamp": "2025-11-22T18:43:18-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58852,6 +59530,7 @@
       "authorDetail": "participant",
       "date": "2025-12-15",
       "timestamp": "2025-12-15T23:10:16-06:00",
+      "preview": "Sunny is genuinely good looking",
       "reactionCount": 7,
       "reactionTypes": {
         "emphasize": 5,
@@ -58866,6 +59545,11 @@
       "authorDetail": "participant",
       "date": "2025-12-16",
       "timestamp": "2025-12-16T15:00:16-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "like": 7
@@ -58878,6 +59562,7 @@
       "authorDetail": "participant",
       "date": "2026-01-01",
       "timestamp": "2026-01-01T17:12:46-06:00",
+      "preview": "Ya shanbhag you\u2019re bowling the golf balls at the shooting range",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58890,6 +59575,11 @@
       "authorDetail": "participant",
       "date": "2026-01-12",
       "timestamp": "2026-01-12T12:27:11-06:00",
+      "preview": "\ufffcvishnu",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 5,
@@ -58904,6 +59594,7 @@
       "authorDetail": "participant",
       "date": "2026-01-12",
       "timestamp": "2026-01-12T16:42:27-06:00",
+      "preview": "Are you not allowed to piss later in the day",
       "reactionCount": 7,
       "reactionTypes": {
         "emoji": 5,
@@ -58918,6 +59609,7 @@
       "authorDetail": "participant",
       "date": "2026-01-12",
       "timestamp": "2026-01-12T16:49:40-06:00",
+      "preview": "Sanjit, as akul\u2019s roommate, it\u2019s your turn to believe in him",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -58931,6 +59623,7 @@
       "authorDetail": "participant",
       "date": "2026-01-12",
       "timestamp": "2026-01-12T21:05:56-06:00",
+      "preview": "Yo Akul wants to fix the date for the 2 v 2 so he can write plans each day on his whiteboard to prepare",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -58944,6 +59637,11 @@
       "authorDetail": "participant",
       "date": "2026-01-14",
       "timestamp": "2026-01-14T13:19:02-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58956,6 +59654,11 @@
       "authorDetail": "participant",
       "date": "2026-01-19",
       "timestamp": "2026-01-19T12:35:34-06:00",
+      "preview": "https://www.dailyuw.com/article/the-nonchalance-epidemic-why-we-re-so-afraid-of-caring-20250213",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58968,6 +59671,7 @@
       "authorDetail": "participant",
       "date": "2026-01-21",
       "timestamp": "2026-01-21T19:14:35-06:00",
+      "preview": "\u201cShanbhag im tweaking hella abt my interview i gotta lock in\u201d",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -58981,6 +59685,11 @@
       "authorDetail": "participant",
       "date": "2026-01-31",
       "timestamp": "2026-01-31T19:37:08-06:00",
+      "preview": "https://x.com/tacobelldoll/status/2017714647646842906?s=46",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -58993,6 +59702,11 @@
       "authorDetail": "Rushil",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T18:00:14-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59006,6 +59720,7 @@
       "authorDetail": "participant",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T19:08:13-06:00",
+      "preview": "yeah maybe on league of legends",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 5,
@@ -59019,6 +59734,11 @@
       "authorDetail": "participant",
       "date": "2026-02-26",
       "timestamp": "2026-02-26T19:24:20-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59031,6 +59751,11 @@
       "authorDetail": "participant",
       "date": "2026-03-06",
       "timestamp": "2026-03-06T07:32:18-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59044,6 +59769,11 @@
       "authorDetail": "participant",
       "date": "2026-03-09",
       "timestamp": "2026-03-09T16:10:08-05:00",
+      "preview": "\ufffcAll is forgiven",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59057,6 +59787,11 @@
       "authorDetail": "participant",
       "date": "2026-03-14",
       "timestamp": "2026-03-14T22:40:52-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59070,6 +59805,11 @@
       "authorDetail": "participant",
       "date": "2026-03-17",
       "timestamp": "2026-03-17T11:58:54-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59082,6 +59822,11 @@
       "authorDetail": "participant",
       "date": "2026-03-18",
       "timestamp": "2026-03-18T16:01:36-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59094,6 +59839,7 @@
       "authorDetail": "participant",
       "date": "2026-03-19",
       "timestamp": "2026-03-19T19:33:46-05:00",
+      "preview": "Poker?",
       "reactionCount": 7,
       "reactionTypes": {
         "dislike": 6,
@@ -59107,6 +59853,7 @@
       "authorDetail": "participant",
       "date": "2026-03-30",
       "timestamp": "2026-03-30T10:37:20-05:00",
+      "preview": "No way this fatass is getting chipotle at 10am",
       "reactionCount": 7,
       "reactionTypes": {
         "laugh": 6,
@@ -59132,6 +59879,7 @@
       "authorDetail": "participant",
       "date": "2026-04-05",
       "timestamp": "2026-04-05T11:38:25-05:00",
+      "preview": "Dudes larping kalshi bets \ud83e\udd23",
       "reactionCount": 7,
       "reactionTypes": {
         "laugh": 5,
@@ -59146,6 +59894,7 @@
       "authorDetail": "participant",
       "date": "2026-04-06",
       "timestamp": "2026-04-06T20:31:12-05:00",
+      "preview": "Rushil and diddy r chuds",
       "reactionCount": 7,
       "reactionTypes": {
         "emphasize": 5,
@@ -59160,6 +59909,7 @@
       "authorDetail": "participant",
       "date": "2026-04-08",
       "timestamp": "2026-04-08T16:13:30-05:00",
+      "preview": "Nig look at ur room",
       "reactionCount": 7,
       "reactionTypes": {
         "dislike": 7
@@ -59172,6 +59922,11 @@
       "authorDetail": "participant",
       "date": "2026-04-13",
       "timestamp": "2026-04-13T11:15:30-05:00",
+      "preview": "https://x.com/buschbeer/status/2043675574447854064?s=46",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59197,6 +59952,11 @@
       "authorDetail": "participant",
       "date": "2026-04-21",
       "timestamp": "2026-04-21T15:04:01-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59210,6 +59970,7 @@
       "authorDetail": "participant",
       "date": "2026-04-22",
       "timestamp": "2026-04-22T13:06:11-05:00",
+      "preview": "Football at 330?",
       "reactionCount": 7,
       "reactionTypes": {
         "dislike": 3,
@@ -59224,6 +59985,11 @@
       "authorDetail": "participant",
       "date": "2026-04-22",
       "timestamp": "2026-04-22T17:52:11-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59236,6 +60002,11 @@
       "authorDetail": "participant",
       "date": "2026-04-23",
       "timestamp": "2026-04-23T16:48:18-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "emoji": 6,
@@ -59249,6 +60020,11 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:28:30-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "emoji": 4,
@@ -59262,6 +60038,11 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:30:24-05:00",
+      "preview": "\ufffcDawg I responded",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 5,
@@ -59276,6 +60057,11 @@
       "authorDetail": "participant",
       "date": "2026-05-01",
       "timestamp": "2026-05-01T20:38:25-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59288,6 +60074,7 @@
       "authorDetail": "Rushil",
       "date": "2026-05-13",
       "timestamp": "2026-05-13T21:35:11-05:00",
+      "preview": "yep yep percy jackson",
       "reactionCount": 7,
       "reactionTypes": {
         "laugh": 3,
@@ -59302,6 +60089,7 @@
       "authorDetail": "participant",
       "date": "2026-05-13",
       "timestamp": "2026-05-13T21:40:23-05:00",
+      "preview": "Brk it\u2019s so embarrassing I had a straight tits out porn ad while I\u2019m sitting next to this dude on the bus",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 5,
@@ -59315,6 +60103,11 @@
       "authorDetail": "participant",
       "date": "2026-05-13",
       "timestamp": "2026-05-13T22:17:14-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59327,6 +60120,7 @@
       "authorDetail": "participant",
       "date": "2026-05-17",
       "timestamp": "2026-05-17T19:23:48-05:00",
+      "preview": "Sacrifice prajawal for the pistons win",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59340,6 +60134,7 @@
       "authorDetail": "participant",
       "date": "2026-05-25",
       "timestamp": "2026-05-25T12:10:18-05:00",
+      "preview": "I\u2019d rather say that than say guys I saw a baddie at IASA practice",
       "reactionCount": 7,
       "reactionTypes": {
         "laugh": 7
@@ -59352,6 +60147,11 @@
       "authorDetail": "participant",
       "date": "2026-05-26",
       "timestamp": "2026-05-26T00:38:40-05:00",
+      "preview": "\ufffc\ud83e\udd79\ud83e\udd79\ud83e\udd79",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59364,6 +60164,11 @@
       "authorDetail": "participant",
       "date": "2026-05-30",
       "timestamp": "2026-05-30T18:18:47-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59377,6 +60182,7 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T17:00:05-05:00",
+      "preview": "Bro you\u2019re talking to aditya not your sister",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59389,6 +60195,7 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T17:26:30-05:00",
+      "preview": "Italian on italian crime",
       "reactionCount": 7,
       "reactionTypes": {
         "emoji": 6,
@@ -59402,6 +60209,7 @@
       "authorDetail": "participant",
       "date": "2026-06-08",
       "timestamp": "2026-06-08T19:16:59-05:00",
+      "preview": "Hinge profile time!!!",
       "reactionCount": 7,
       "reactionTypes": {
         "love": 6,
@@ -59415,6 +60223,7 @@
       "authorDetail": "participant",
       "date": "2026-06-11",
       "timestamp": "2026-06-11T10:48:20-05:00",
+      "preview": "who has bought season pass already",
       "reactionCount": 7,
       "reactionTypes": {
         "like": 7
@@ -59427,6 +60236,11 @@
       "authorDetail": "participant",
       "date": "2026-06-12",
       "timestamp": "2026-06-12T14:27:06-05:00",
+      "preview": "First behavioral interview any tips? \ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
@@ -59439,6 +60253,7 @@
       "authorDetail": "participant",
       "date": "2025-08-27",
       "timestamp": "2025-08-27T20:01:09-05:00",
+      "preview": "R yall pushing New Mexico game?",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59451,6 +60266,11 @@
       "authorDetail": "participant",
       "date": "2025-09-02",
       "timestamp": "2025-09-02T17:35:03-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -59464,6 +60284,11 @@
       "authorDetail": "participant",
       "date": "2025-09-03",
       "timestamp": "2025-09-03T17:39:16-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 3,
@@ -59478,6 +60303,7 @@
       "authorDetail": "participant",
       "date": "2025-09-05",
       "timestamp": "2025-09-05T15:11:40-05:00",
+      "preview": "Mhacks application is reopened",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59490,6 +60316,11 @@
       "authorDetail": "participant",
       "date": "2025-09-17",
       "timestamp": "2025-09-17T13:02:05-05:00",
+      "preview": "https://hyltoncasting.com/twerkers/",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -59503,6 +60334,11 @@
       "authorDetail": "participant",
       "date": "2025-09-27",
       "timestamp": "2025-09-27T22:04:35-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59515,6 +60351,11 @@
       "authorDetail": "participant",
       "date": "2025-09-28",
       "timestamp": "2025-09-28T00:12:06-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59527,6 +60368,7 @@
       "authorDetail": "participant",
       "date": "2025-09-30",
       "timestamp": "2025-09-30T10:56:42-05:00",
+      "preview": "Aryan shah is soo tuff",
       "reactionCount": 6,
       "reactionTypes": {
         "dislike": 3,
@@ -59541,6 +60383,11 @@
       "authorDetail": "participant",
       "date": "2025-09-30",
       "timestamp": "2025-09-30T15:02:20-05:00",
+      "preview": "\ufffcSaad clipped by umich insta",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -59554,6 +60401,7 @@
       "authorDetail": "participant",
       "date": "2025-09-30",
       "timestamp": "2025-09-30T17:05:15-05:00",
+      "preview": "Drinking push in Rohans name on Thursday",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 3,
@@ -59567,6 +60415,7 @@
       "authorDetail": "participant",
       "date": "2025-10-01",
       "timestamp": "2025-10-01T13:53:50-05:00",
+      "preview": "Apparently some jit went up to fake sunny and fully thought he was sunny and fake sunny didnt bother correcting them",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
@@ -59579,6 +60428,11 @@
       "authorDetail": "participant",
       "date": "2025-10-02",
       "timestamp": "2025-10-02T12:12:56-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59591,6 +60445,11 @@
       "authorDetail": "Rushil",
       "date": "2025-10-02",
       "timestamp": "2025-10-02T18:41:00-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59603,6 +60462,11 @@
       "authorDetail": "participant",
       "date": "2025-10-06",
       "timestamp": "2025-10-06T19:14:11-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59615,6 +60479,7 @@
       "authorDetail": "participant",
       "date": "2025-10-17",
       "timestamp": "2025-10-17T10:48:14-05:00",
+      "preview": "I\u2019d be down but I lowk gotta learn more",
       "reactionCount": 6,
       "reactionTypes": {
         "emphasize": 3,
@@ -59628,6 +60493,11 @@
       "authorDetail": "participant",
       "date": "2025-10-22",
       "timestamp": "2025-10-22T12:16:05-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59640,6 +60510,7 @@
       "authorDetail": "participant",
       "date": "2025-10-27",
       "timestamp": "2025-10-27T10:38:01-05:00",
+      "preview": "Hoop tmrw at noon?",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59652,6 +60523,11 @@
       "authorDetail": "participant",
       "date": "2025-11-02",
       "timestamp": "2025-11-02T14:24:04-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59664,6 +60540,11 @@
       "authorDetail": "participant",
       "date": "2025-11-14",
       "timestamp": "2025-11-14T21:28:33-06:00",
+      "preview": "\ufffcSunny make dis face at hot girl, he feeling something something in his downstairs part",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -59677,6 +60558,7 @@
       "authorDetail": "participant",
       "date": "2025-11-26",
       "timestamp": "2025-11-26T15:20:23-06:00",
+      "preview": "Who\u2019s down to warmup the drinking Friday night?",
       "reactionCount": 6,
       "reactionTypes": {
         "like": 6
@@ -59689,6 +60571,7 @@
       "authorDetail": "participant",
       "date": "2025-12-01",
       "timestamp": "2025-12-01T19:27:18-06:00",
+      "preview": "Clap it up for Shanbhagster",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 3,
@@ -59702,6 +60585,7 @@
       "authorDetail": "participant",
       "date": "2025-12-01",
       "timestamp": "2025-12-01T20:12:19-06:00",
+      "preview": "her dad is THE male pediatrician in novi",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59714,6 +60598,11 @@
       "authorDetail": "participant",
       "date": "2025-12-07",
       "timestamp": "2025-12-07T02:42:12-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -59727,6 +60616,11 @@
       "authorDetail": "participant",
       "date": "2025-12-08",
       "timestamp": "2025-12-08T14:12:23-06:00",
+      "preview": "\ufffcCongrats ditty",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59739,6 +60633,11 @@
       "authorDetail": "participant",
       "date": "2025-12-11",
       "timestamp": "2025-12-11T18:41:33-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 4,
@@ -59752,6 +60651,7 @@
       "authorDetail": "participant",
       "date": "2025-12-11",
       "timestamp": "2025-12-11T19:33:59-06:00",
+      "preview": "Like this message if ur down to drink guys!",
       "reactionCount": 6,
       "reactionTypes": {
         "like": 6
@@ -59764,6 +60664,7 @@
       "authorDetail": "participant",
       "date": "2025-12-16",
       "timestamp": "2025-12-16T18:01:45-06:00",
+      "preview": "I\u2019m sorry grand hand foot dick regent Srivatsav \u201cThragg\u201d Bendi",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 3,
@@ -59790,6 +60691,7 @@
       "authorDetail": "participant",
       "date": "2025-12-29",
       "timestamp": "2025-12-29T15:05:37-06:00",
+      "preview": "He fully thought that toilet was in UT",
       "reactionCount": 6,
       "reactionTypes": {
         "emphasize": 4,
@@ -59803,6 +60705,7 @@
       "authorDetail": "participant",
       "date": "2025-12-30",
       "timestamp": "2025-12-30T00:24:36-06:00",
+      "preview": "sri recovering from that hand foot mouth finally",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59829,6 +60732,11 @@
       "authorDetail": "participant",
       "date": "2026-01-03",
       "timestamp": "2026-01-03T16:30:45-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 3,
@@ -59844,6 +60752,7 @@
       "authorDetail": "Rushil",
       "date": "2026-01-06",
       "timestamp": "2026-01-06T12:31:46-06:00",
+      "preview": "wait who is all in 493",
       "reactionCount": 6,
       "reactionTypes": {
         "like": 4,
@@ -59858,6 +60767,11 @@
       "authorDetail": "participant",
       "date": "2026-01-11",
       "timestamp": "2026-01-11T17:27:34-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 4,
@@ -59871,6 +60785,7 @@
       "authorDetail": "participant",
       "date": "2026-01-12",
       "timestamp": "2026-01-12T16:35:20-06:00",
+      "preview": "how many pages of your book will this take up akul",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -59884,6 +60799,11 @@
       "authorDetail": "participant",
       "date": "2026-01-20",
       "timestamp": "2026-01-20T20:56:25-06:00",
+      "preview": "\ufffc\ufffc\ufffc\ufffc\ufffc\ufffc\ufffc\ufffc\ufffc",
+      "attachmentCount": 9,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59896,6 +60816,7 @@
       "authorDetail": "participant",
       "date": "2026-01-23",
       "timestamp": "2026-01-23T14:59:09-06:00",
+      "preview": "Rager at Unit 9 10:30pm",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59908,6 +60829,7 @@
       "authorDetail": "participant",
       "date": "2026-01-25",
       "timestamp": "2026-01-25T13:51:33-06:00",
+      "preview": "we need at least 10 people invested in the idea, like this message if you\u2019d want biryani",
       "reactionCount": 6,
       "reactionTypes": {
         "like": 6
@@ -59920,6 +60842,11 @@
       "authorDetail": "participant",
       "date": "2026-01-27",
       "timestamp": "2026-01-27T16:09:29-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59945,6 +60872,11 @@
       "authorDetail": "participant",
       "date": "2026-02-04",
       "timestamp": "2026-02-04T16:18:39-06:00",
+      "preview": "\ufffc\ufffc",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
@@ -59957,6 +60889,11 @@
       "authorDetail": "participant",
       "date": "2026-02-04",
       "timestamp": "2026-02-04T21:33:25-06:00",
+      "preview": "\ufffcWhat a cutie vc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -59994,6 +60931,11 @@
       "authorDetail": "participant",
       "date": "2026-02-06",
       "timestamp": "2026-02-06T16:33:29-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60006,6 +60948,7 @@
       "authorDetail": "participant",
       "date": "2026-02-07",
       "timestamp": "2026-02-07T16:45:03-06:00",
+      "preview": "bhaskey and rebant had a baby",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 4,
@@ -60019,6 +60962,7 @@
       "authorDetail": "participant",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T11:42:14-06:00",
+      "preview": "Uh oh boards beefing",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 5,
@@ -60032,6 +60976,7 @@
       "authorDetail": "participant",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T18:02:29-06:00",
+      "preview": "If you\u2019d like to be added to the Shanbhags Return planning committee pls like this message",
       "reactionCount": 6,
       "reactionTypes": {
         "like": 3,
@@ -60047,6 +60992,11 @@
       "authorDetail": "participant",
       "date": "2026-02-12",
       "timestamp": "2026-02-12T18:14:23-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60059,6 +61009,11 @@
       "authorDetail": "participant",
       "date": "2026-02-17",
       "timestamp": "2026-02-17T20:24:25-06:00",
+      "preview": "\ufffcZon engineer",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -60073,6 +61028,7 @@
       "authorDetail": "participant",
       "date": "2026-02-21",
       "timestamp": "2026-02-21T11:59:28-06:00",
+      "preview": "I\u2019m down but my suit left me out of town",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 4,
@@ -60086,6 +61042,11 @@
       "authorDetail": "participant",
       "date": "2026-02-23",
       "timestamp": "2026-02-23T17:14:14-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60098,6 +61059,11 @@
       "authorDetail": "participant",
       "date": "2026-03-09",
       "timestamp": "2026-03-09T16:08:15-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60110,6 +61076,7 @@
       "authorDetail": "participant",
       "date": "2026-03-09",
       "timestamp": "2026-03-09T16:08:46-05:00",
+      "preview": "What a stance",
       "reactionCount": 6,
       "reactionTypes": {
         "emphasize": 6
@@ -60134,6 +61101,11 @@
       "authorDetail": "participant",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T15:46:28-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60146,6 +61118,11 @@
       "authorDetail": "participant",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T18:34:46-05:00",
+      "preview": "\ufffc\ufffc",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60158,6 +61135,7 @@
       "authorDetail": "participant",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T18:46:45-05:00",
+      "preview": "We went to meijer you illiterate fuck",
       "reactionCount": 6,
       "reactionTypes": {
         "emphasize": 3,
@@ -60171,6 +61149,7 @@
       "authorDetail": "participant",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T21:40:59-05:00",
+      "preview": "Hey please delete this, speaking on behalf of anish shanbhags PR team",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 3,
@@ -60185,6 +61164,11 @@
       "authorDetail": "participant",
       "date": "2026-03-14",
       "timestamp": "2026-03-14T09:15:06-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60197,6 +61181,7 @@
       "authorDetail": "participant",
       "date": "2026-03-14",
       "timestamp": "2026-03-14T15:26:37-05:00",
+      "preview": "Suprita: \ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 3,
@@ -60211,6 +61196,11 @@
       "authorDetail": "participant",
       "date": "2026-03-18",
       "timestamp": "2026-03-18T20:33:22-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60223,6 +61213,11 @@
       "authorDetail": "participant",
       "date": "2026-03-19",
       "timestamp": "2026-03-19T08:24:36-05:00",
+      "preview": "https://x.com/ShamsCharania/status/2034619856423649708?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 5,
@@ -60236,6 +61231,11 @@
       "authorDetail": "participant",
       "date": "2026-03-22",
       "timestamp": "2026-03-22T15:37:41-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 5,
@@ -60249,6 +61249,11 @@
       "authorDetail": "participant",
       "date": "2026-03-24",
       "timestamp": "2026-03-24T20:35:16-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60261,6 +61266,7 @@
       "authorDetail": "participant",
       "date": "2026-03-30",
       "timestamp": "2026-03-30T20:10:40-05:00",
+      "preview": "Congratulations Saad and bendi \ud83e\udd73",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60273,6 +61279,7 @@
       "authorDetail": "participant",
       "date": "2026-03-31",
       "timestamp": "2026-03-31T21:41:51-05:00",
+      "preview": "\u201cWhat\u2019s Netanyahu\u2019s first name?\u201d Akash: \u201c\u2026Netan?\u201d",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60286,6 +61293,11 @@
       "authorDetail": "participant",
       "date": "2026-04-01",
       "timestamp": "2026-04-01T01:05:59-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 3,
@@ -60314,6 +61326,7 @@
       "authorDetail": "participant",
       "date": "2026-04-01",
       "timestamp": "2026-04-01T15:10:31-05:00",
+      "preview": "If I walk in to class and Rushil Kagithala is my TA I\u2019m dropping the class",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
@@ -60326,6 +61339,11 @@
       "authorDetail": "participant",
       "date": "2026-04-01",
       "timestamp": "2026-04-01T15:14:40-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -60340,6 +61358,7 @@
       "authorDetail": "participant",
       "date": "2026-04-02",
       "timestamp": "2026-04-02T13:57:02-05:00",
+      "preview": "25 attentions to aryan please",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60353,6 +61372,11 @@
       "authorDetail": "participant",
       "date": "2026-04-02",
       "timestamp": "2026-04-02T14:18:23-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 5,
@@ -60366,6 +61390,11 @@
       "authorDetail": "participant",
       "date": "2026-04-03",
       "timestamp": "2026-04-03T13:32:58-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60379,6 +61408,11 @@
       "authorDetail": "participant",
       "date": "2026-04-03",
       "timestamp": "2026-04-03T15:12:29-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60392,6 +61426,7 @@
       "authorDetail": "participant",
       "date": "2026-04-06",
       "timestamp": "2026-04-06T11:36:11-05:00",
+      "preview": "The Charleys line wrapped around till east quad rn",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
@@ -60404,6 +61439,11 @@
       "authorDetail": "Rushil",
       "date": "2026-04-07",
       "timestamp": "2026-04-07T15:18:58-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60416,6 +61456,11 @@
       "authorDetail": "participant",
       "date": "2026-04-09",
       "timestamp": "2026-04-09T21:36:05-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60428,6 +61473,7 @@
       "authorDetail": "participant",
       "date": "2026-04-10",
       "timestamp": "2026-04-10T14:42:38-05:00",
+      "preview": "If anyones still interviewing for swe pls try this and lmk how it is",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60441,6 +61487,7 @@
       "authorDetail": "participant",
       "date": "2026-04-11",
       "timestamp": "2026-04-11T21:25:52-05:00",
+      "preview": "Just a dude bro",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 4,
@@ -60455,6 +61502,7 @@
       "authorDetail": "participant",
       "date": "2026-04-12",
       "timestamp": "2026-04-12T14:58:08-05:00",
+      "preview": "Anyone wanna play football today?",
       "reactionCount": 6,
       "reactionTypes": {
         "like": 6
@@ -60467,6 +61515,7 @@
       "authorDetail": "participant",
       "date": "2026-04-13",
       "timestamp": "2026-04-13T15:11:33-05:00",
+      "preview": "Soham anish get ready for rushil TA next semester",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60479,6 +61528,11 @@
       "authorDetail": "participant",
       "date": "2026-04-14",
       "timestamp": "2026-04-14T22:23:41-05:00",
+      "preview": "\ufffcHow shanbhag boutta be this summer",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60491,6 +61545,7 @@
       "authorDetail": "participant",
       "date": "2026-04-16",
       "timestamp": "2026-04-16T11:49:06-05:00",
+      "preview": "What u see before u get slimed out by zenyattas balls",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
@@ -60503,6 +61558,7 @@
       "authorDetail": "participant",
       "date": "2026-04-17",
       "timestamp": "2026-04-17T12:26:35-05:00",
+      "preview": "Bro gave us a fun fact",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
@@ -60515,6 +61571,7 @@
       "authorDetail": "participant",
       "date": "2026-04-20",
       "timestamp": "2026-04-20T15:20:56-05:00",
+      "preview": "Happy 4 20",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60527,6 +61584,7 @@
       "authorDetail": "participant",
       "date": "2026-04-21",
       "timestamp": "2026-04-21T12:59:09-05:00",
+      "preview": "Everyone join us to celebrate Thursday 8pm",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60539,6 +61597,10 @@
       "authorDetail": "Rushil",
       "date": "2026-04-25",
       "timestamp": "2026-04-25T14:20:07-05:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60551,6 +61613,11 @@
       "authorDetail": "participant",
       "date": "2026-04-25",
       "timestamp": "2026-04-25T21:47:37-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60563,6 +61630,7 @@
       "authorDetail": "participant",
       "date": "2026-05-01",
       "timestamp": "2026-05-01T02:15:55-05:00",
+      "preview": "Writing like Greg heffely \ud83d\ude2d",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 3,
@@ -60577,6 +61645,7 @@
       "authorDetail": "participant",
       "date": "2026-05-01",
       "timestamp": "2026-05-01T20:43:38-05:00",
+      "preview": "10 to 100",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60589,6 +61658,11 @@
       "authorDetail": "participant",
       "date": "2026-05-03",
       "timestamp": "2026-05-03T16:29:04-05:00",
+      "preview": "\ufffcRushil is this why I like you",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 4,
@@ -60603,6 +61677,7 @@
       "authorDetail": "participant",
       "date": "2026-05-03",
       "timestamp": "2026-05-03T16:31:36-05:00",
+      "preview": "Love u Jenkins",
       "reactionCount": 6,
       "reactionTypes": {
         "emphasize": 6
@@ -60615,6 +61690,11 @@
       "authorDetail": "participant",
       "date": "2026-05-09",
       "timestamp": "2026-05-09T15:34:38-05:00",
+      "preview": "\ufffclast three hours in question",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -60628,6 +61708,7 @@
       "authorDetail": "participant",
       "date": "2026-05-13",
       "timestamp": "2026-05-13T20:24:10-05:00",
+      "preview": "Duren is a good rebounder like how rushil is a good overwatch player",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
@@ -60640,6 +61721,11 @@
       "authorDetail": "participant",
       "date": "2026-05-14",
       "timestamp": "2026-05-14T17:59:24-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 4,
@@ -60653,6 +61739,7 @@
       "authorDetail": "participant",
       "date": "2026-05-14",
       "timestamp": "2026-05-14T18:00:09-05:00",
+      "preview": "blackout: day 6",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -60666,6 +61753,11 @@
       "authorDetail": "participant",
       "date": "2026-05-14",
       "timestamp": "2026-05-14T23:25:50-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60679,6 +61771,7 @@
       "authorDetail": "participant",
       "date": "2026-05-15",
       "timestamp": "2026-05-15T20:38:45-05:00",
+      "preview": "20 to 300",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60691,6 +61784,7 @@
       "authorDetail": "participant",
       "date": "2026-05-16",
       "timestamp": "2026-05-16T14:04:37-05:00",
+      "preview": "Anish Don\u2019s Sperm Chandra",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -60704,6 +61798,7 @@
       "authorDetail": "participant",
       "date": "2026-05-19",
       "timestamp": "2026-05-19T21:08:42-05:00",
+      "preview": "That\u2019s why they pay him the big bucks",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
@@ -60716,6 +61811,11 @@
       "authorDetail": "participant",
       "date": "2026-05-20",
       "timestamp": "2026-05-20T19:37:47-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
@@ -60728,6 +61828,11 @@
       "authorDetail": "participant",
       "date": "2026-05-22",
       "timestamp": "2026-05-22T15:51:07-05:00",
+      "preview": "\ufffcRunaway geekbar",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
@@ -60740,6 +61845,11 @@
       "authorDetail": "participant",
       "date": "2026-05-23",
       "timestamp": "2026-05-23T13:54:18-05:00",
+      "preview": "\ufffcSmile always stands no matter the bullying thank you sanjit\u2764\ufe0f",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -60753,6 +61863,7 @@
       "authorDetail": "participant",
       "date": "2026-05-25",
       "timestamp": "2026-05-25T05:04:37-05:00",
+      "preview": "Easy 1600",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60765,6 +61876,7 @@
       "authorDetail": "participant",
       "date": "2026-05-26",
       "timestamp": "2026-05-26T15:56:16-05:00",
+      "preview": "Work from home means ur at home but still doing the work sri",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 5,
@@ -60778,6 +61890,7 @@
       "authorDetail": "participant",
       "date": "2026-05-28",
       "timestamp": "2026-05-28T15:09:27-05:00",
+      "preview": "Rumor goes that if you ask about the orange emoji aryan shah appears ragebaits akul crashes his bike into Ibrahim and l\u2026",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
@@ -60790,6 +61903,11 @@
       "authorDetail": "participant",
       "date": "2026-05-28",
       "timestamp": "2026-05-28T15:35:02-05:00",
+      "preview": "\ufffcAkul Sanjit",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 4,
@@ -60804,6 +61922,11 @@
       "authorDetail": "participant",
       "date": "2026-05-28",
       "timestamp": "2026-05-28T22:24:15-05:00",
+      "preview": "\ufffcAadit bro u gon just take this?",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60816,6 +61939,11 @@
       "authorDetail": "participant",
       "date": "2026-06-02",
       "timestamp": "2026-06-02T22:45:38-05:00",
+      "preview": "\ufffcThis mf sunny went to nyc to eat joes, fritas, and kpot \ud83d\ude2d",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60828,6 +61956,7 @@
       "authorDetail": "participant",
       "date": "2026-06-04",
       "timestamp": "2026-06-04T12:18:13-05:00",
+      "preview": "Work event and bro talking ab some \u201clet\u2019s go nipples\u201d",
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 5,
@@ -60841,6 +61970,11 @@
       "authorDetail": "participant",
       "date": "2026-06-04",
       "timestamp": "2026-06-04T22:33:37-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60854,6 +61988,7 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T16:58:21-05:00",
+      "preview": "Can we go to Troy Michigan pretty please \ud83d\ude4f\ud83d\ude4f\ud83d\ude4f",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 2,
@@ -60868,6 +62003,11 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T20:38:17-05:00",
+      "preview": "https://www.instagram.com/reel/DZJaVTmNLDP/",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60880,6 +62020,7 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T21:17:20-05:00",
+      "preview": "at least mark NSFW u obese fuck",
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 3,
@@ -60894,6 +62035,11 @@
       "authorDetail": "participant",
       "date": "2026-06-06",
       "timestamp": "2026-06-06T19:59:48-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60906,6 +62052,7 @@
       "authorDetail": "participant",
       "date": "2026-06-09",
       "timestamp": "2026-06-09T14:49:13-05:00",
+      "preview": "Soham told me he hasn\u2019t coded yet in his internship",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60918,6 +62065,11 @@
       "authorDetail": "participant",
       "date": "2026-06-09",
       "timestamp": "2026-06-09T19:37:26-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 5,
@@ -60931,6 +62083,11 @@
       "authorDetail": "participant",
       "date": "2026-06-09",
       "timestamp": "2026-06-09T19:43:07-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
@@ -60943,6 +62100,7 @@
       "authorDetail": "participant",
       "date": "2026-06-10",
       "timestamp": "2026-06-10T22:50:42-05:00",
+      "preview": "The Detroit pistons.",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60955,6 +62113,11 @@
       "authorDetail": "participant",
       "date": "2026-06-13",
       "timestamp": "2026-06-13T17:51:46-05:00",
+      "preview": "\ufffcInsane wedding spot",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60967,6 +62130,11 @@
       "authorDetail": "participant",
       "date": "2026-06-14",
       "timestamp": "2026-06-14T02:35:05-05:00",
+      "preview": "\ufffcRouan playing Both sides",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -60979,6 +62147,7 @@
       "authorDetail": "participant",
       "date": "2025-08-27",
       "timestamp": "2025-08-27T12:38:37-05:00",
+      "preview": "just react early to football plays while everyone else\u2019s streams are slightly delayed",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -60991,6 +62160,7 @@
       "authorDetail": "participant",
       "date": "2025-08-28",
       "timestamp": "2025-08-28T12:07:21-05:00",
+      "preview": "Tawseef",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61003,6 +62173,11 @@
       "authorDetail": "participant",
       "date": "2025-08-29",
       "timestamp": "2025-08-29T15:55:08-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61016,6 +62191,7 @@
       "authorDetail": "participant",
       "date": "2025-09-03",
       "timestamp": "2025-09-03T12:07:59-05:00",
+      "preview": "Yeah no conflict of interests there",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61029,6 +62205,7 @@
       "authorDetail": "participant",
       "date": "2025-09-03",
       "timestamp": "2025-09-03T12:21:36-05:00",
+      "preview": "Am I not a trustworthy source?",
       "reactionCount": 5,
       "reactionTypes": {
         "dislike": 5
@@ -61041,6 +62218,11 @@
       "authorDetail": "participant",
       "date": "2025-09-03",
       "timestamp": "2025-09-03T17:26:47-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "application/pdf"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61053,6 +62235,7 @@
       "authorDetail": "participant",
       "date": "2025-09-10",
       "timestamp": "2025-09-10T12:28:33-05:00",
+      "preview": "https://shiftcreator.space/skeeps",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61065,6 +62248,11 @@
       "authorDetail": "participant",
       "date": "2025-09-27",
       "timestamp": "2025-09-27T00:53:22-05:00",
+      "preview": "\ufffcDITTYS FIRST SKEEPS",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61077,6 +62265,11 @@
       "authorDetail": "participant",
       "date": "2025-09-28",
       "timestamp": "2025-09-28T00:50:53-05:00",
+      "preview": "\ufffcVC when he benches achane so now he has to suit up and win his fantasy match up",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61089,6 +62282,7 @@
       "authorDetail": "participant",
       "date": "2025-09-28",
       "timestamp": "2025-09-28T13:34:56-05:00",
+      "preview": "Poker tn?",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 3,
@@ -61102,6 +62296,11 @@
       "authorDetail": "participant",
       "date": "2025-09-29",
       "timestamp": "2025-09-29T20:42:16-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61114,6 +62313,11 @@
       "authorDetail": "participant",
       "date": "2025-09-30",
       "timestamp": "2025-09-30T13:36:16-05:00",
+      "preview": "\ufffcBro loves eating lunch",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 2,
@@ -61128,6 +62332,7 @@
       "authorDetail": "participant",
       "date": "2025-09-30",
       "timestamp": "2025-09-30T16:47:24-05:00",
+      "preview": "Who\u2019s all going to the game Saturday",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 3,
@@ -61141,6 +62346,7 @@
       "authorDetail": "participant",
       "date": "2025-10-01",
       "timestamp": "2025-10-01T14:13:22-05:00",
+      "preview": "Poker tn",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 2,
@@ -61155,6 +62361,11 @@
       "authorDetail": "Rushil",
       "date": "2025-10-01",
       "timestamp": "2025-10-01T14:43:27-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61167,6 +62378,11 @@
       "authorDetail": "Rushil",
       "date": "2025-10-02",
       "timestamp": "2025-10-02T13:26:45-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -61180,6 +62396,11 @@
       "authorDetail": "participant",
       "date": "2025-10-03",
       "timestamp": "2025-10-03T15:00:12-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61192,6 +62413,11 @@
       "authorDetail": "participant",
       "date": "2025-10-03",
       "timestamp": "2025-10-03T20:16:22-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61204,6 +62430,11 @@
       "authorDetail": "participant",
       "date": "2025-10-07",
       "timestamp": "2025-10-07T18:57:01-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61216,6 +62447,7 @@
       "authorDetail": "participant",
       "date": "2025-10-16",
       "timestamp": "2025-10-16T19:05:17-05:00",
+      "preview": "let\u2019s see how much work you do for p3 lil bro",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 5
@@ -61228,6 +62460,7 @@
       "authorDetail": "participant",
       "date": "2025-10-21",
       "timestamp": "2025-10-21T16:00:20-05:00",
+      "preview": "Like this message if you\u2019re pulling up",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 5
@@ -61240,6 +62473,7 @@
       "authorDetail": "participant",
       "date": "2025-10-23",
       "timestamp": "2025-10-23T12:06:03-05:00",
+      "preview": "Alvin Simon and Theodore",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61252,6 +62486,11 @@
       "authorDetail": "participant",
       "date": "2025-10-24",
       "timestamp": "2025-10-24T11:29:58-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 4,
@@ -61265,6 +62504,11 @@
       "authorDetail": "participant",
       "date": "2025-10-27",
       "timestamp": "2025-10-27T17:23:39-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61289,6 +62533,11 @@
       "authorDetail": "participant",
       "date": "2025-11-01",
       "timestamp": "2025-11-01T12:14:03-05:00",
+      "preview": "\ufffc\ufffc",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61301,6 +62550,11 @@
       "authorDetail": "participant",
       "date": "2025-11-08",
       "timestamp": "2025-11-08T15:21:54-06:00",
+      "preview": "\ufffcNew vc pfp drop \ud83d\udd25",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61313,6 +62567,11 @@
       "authorDetail": "participant",
       "date": "2025-11-12",
       "timestamp": "2025-11-12T17:14:15-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61325,6 +62584,7 @@
       "authorDetail": "participant",
       "date": "2025-11-13",
       "timestamp": "2025-11-13T17:10:03-06:00",
+      "preview": "Ball",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61337,6 +62597,11 @@
       "authorDetail": "participant",
       "date": "2025-11-17",
       "timestamp": "2025-11-17T15:43:20-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 4,
@@ -61350,6 +62615,11 @@
       "authorDetail": "participant",
       "date": "2025-11-19",
       "timestamp": "2025-11-19T17:40:16-06:00",
+      "preview": "\ufffcIt will be okay rushil",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61362,6 +62632,7 @@
       "authorDetail": "participant",
       "date": "2025-11-25",
       "timestamp": "2025-11-25T16:50:43-06:00",
+      "preview": "One attention for luke coming up",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61374,6 +62645,7 @@
       "authorDetail": "participant",
       "date": "2025-11-25",
       "timestamp": "2025-11-25T18:11:18-06:00",
+      "preview": "Wait are any of yall going to the game",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 5
@@ -61386,6 +62658,7 @@
       "authorDetail": "participant",
       "date": "2025-11-26",
       "timestamp": "2025-11-26T23:46:33-06:00",
+      "preview": "Oh yeah and 1228 is Shraddha",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 5
@@ -61398,6 +62671,7 @@
       "authorDetail": "participant",
       "date": "2025-12-01",
       "timestamp": "2025-12-01T19:23:01-06:00",
+      "preview": "Lets just say sunny needs a doctor to cure his autism",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61411,6 +62685,11 @@
       "authorDetail": "participant",
       "date": "2025-12-04",
       "timestamp": "2025-12-04T01:22:26-06:00",
+      "preview": "\ufffcHappy thanksgiving everyone",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61423,6 +62702,7 @@
       "authorDetail": "participant",
       "date": "2025-12-04",
       "timestamp": "2025-12-04T20:40:40-06:00",
+      "preview": "i js be ballin n chilln yk dat js wut I am i like nick wilde zootopia fox i js be like chill and yk js be like that nic\u2026",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61435,6 +62715,11 @@
       "authorDetail": "participant",
       "date": "2025-12-05",
       "timestamp": "2025-12-05T22:26:05-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61447,6 +62732,11 @@
       "authorDetail": "participant",
       "date": "2025-12-10",
       "timestamp": "2025-12-10T07:11:20-06:00",
+      "preview": "\ufffcWe just played headlines as the hype song for this 281 exam room",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61459,6 +62749,7 @@
       "authorDetail": "participant",
       "date": "2025-12-11",
       "timestamp": "2025-12-11T17:54:11-06:00",
+      "preview": "Average fishbowl bit",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61472,6 +62763,7 @@
       "authorDetail": "participant",
       "date": "2025-12-11",
       "timestamp": "2025-12-11T18:11:48-06:00",
+      "preview": "Turing test failed",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -61485,6 +62777,7 @@
       "authorDetail": "participant",
       "date": "2025-12-15",
       "timestamp": "2025-12-15T15:33:08-06:00",
+      "preview": "This shi is not tuff",
       "reactionCount": 5,
       "reactionTypes": {
         "dislike": 5
@@ -61497,6 +62790,7 @@
       "authorDetail": "participant",
       "date": "2025-12-15",
       "timestamp": "2025-12-15T23:11:14-06:00",
+      "preview": "Lowkirkenuinely",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61509,6 +62803,7 @@
       "authorDetail": "participant",
       "date": "2025-12-17",
       "timestamp": "2025-12-17T17:01:21-06:00",
+      "preview": "i think mig needs to hear about this",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61521,6 +62816,7 @@
       "authorDetail": "participant",
       "date": "2025-12-17",
       "timestamp": "2025-12-17T17:16:09-06:00",
+      "preview": "One time when we were struggling on p3 ditty said the n word",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61533,6 +62829,11 @@
       "authorDetail": "participant",
       "date": "2025-12-18",
       "timestamp": "2025-12-18T00:11:25-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61545,6 +62846,7 @@
       "authorDetail": "participant",
       "date": "2025-12-26",
       "timestamp": "2025-12-26T18:56:33-06:00",
+      "preview": "Krish why was that taken in a dorm \ud83d\ude2d",
       "reactionCount": 5,
       "reactionTypes": {
         "emphasize": 3,
@@ -61559,6 +62861,7 @@
       "authorDetail": "participant",
       "date": "2025-12-29",
       "timestamp": "2025-12-29T21:17:08-06:00",
+      "preview": "Tagged to make sure he heard the glaze",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 3,
@@ -61573,6 +62876,7 @@
       "authorDetail": "participant",
       "date": "2025-12-30",
       "timestamp": "2025-12-30T14:41:04-06:00",
+      "preview": "Lok at the bag",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 2,
@@ -61588,6 +62892,7 @@
       "authorDetail": "participant",
       "date": "2025-12-31",
       "timestamp": "2025-12-31T18:24:48-06:00",
+      "preview": "Aryan ur so tuff bro",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61600,6 +62905,11 @@
       "authorDetail": "participant",
       "date": "2026-01-01",
       "timestamp": "2026-01-01T17:08:39-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61612,6 +62922,11 @@
       "authorDetail": "participant",
       "date": "2026-01-08",
       "timestamp": "2026-01-08T01:15:38-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61624,6 +62939,7 @@
       "authorDetail": "participant",
       "date": "2026-01-10",
       "timestamp": "2026-01-10T00:06:17-06:00",
+      "preview": "U just a sorry ahh kabir instructor",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 3,
@@ -61637,6 +62953,11 @@
       "authorDetail": "Rushil",
       "date": "2026-01-23",
       "timestamp": "2026-01-23T10:47:29-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61650,6 +62971,7 @@
       "authorDetail": "participant",
       "date": "2026-01-28",
       "timestamp": "2026-01-28T12:28:06-06:00",
+      "preview": "Just wanted to let yall know that I asked rushil before posting that screenshot of him glazing and he told me to post i\u2026",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61662,6 +62984,7 @@
       "authorDetail": "participant",
       "date": "2026-02-02",
       "timestamp": "2026-02-02T13:33:40-06:00",
+      "preview": "Congrats rushil hope u can turn ur frown upside down \ud83d\ude43",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61674,6 +62997,7 @@
       "authorDetail": "participant",
       "date": "2026-02-07",
       "timestamp": "2026-02-07T13:24:21-06:00",
+      "preview": "We were also thinking of a potluck situation where everyone else gets some snack as well",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 5
@@ -61686,6 +63010,7 @@
       "authorDetail": "participant",
       "date": "2026-02-09",
       "timestamp": "2026-02-09T20:00:44-06:00",
+      "preview": "Goddamn this dudes a bot",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 5
@@ -61698,6 +63023,11 @@
       "authorDetail": "participant",
       "date": "2026-02-10",
       "timestamp": "2026-02-10T01:32:40-06:00",
+      "preview": "\ufffcVaibster",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61711,6 +63041,11 @@
       "authorDetail": "participant",
       "date": "2026-02-15",
       "timestamp": "2026-02-15T13:32:07-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61723,6 +63058,11 @@
       "authorDetail": "participant",
       "date": "2026-02-26",
       "timestamp": "2026-02-26T06:47:23-06:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61736,6 +63076,10 @@
       "authorDetail": "participant",
       "date": "2026-03-06",
       "timestamp": "2026-03-06T13:15:14-06:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61748,6 +63092,11 @@
       "authorDetail": "participant",
       "date": "2026-03-09",
       "timestamp": "2026-03-09T16:16:03-05:00",
+      "preview": "\ufffcHow Sunneth Buddha was moving during Opium",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -61761,6 +63110,7 @@
       "authorDetail": "participant",
       "date": "2026-03-10",
       "timestamp": "2026-03-10T21:11:07-05:00",
+      "preview": "Its true I was the ball",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61773,6 +63123,11 @@
       "authorDetail": "participant",
       "date": "2026-03-12",
       "timestamp": "2026-03-12T18:11:18-05:00",
+      "preview": "https://www.jotform.com/253566966596075",
+      "attachmentCount": 2,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61785,6 +63140,11 @@
       "authorDetail": "participant",
       "date": "2026-03-12",
       "timestamp": "2026-03-12T18:58:48-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61798,6 +63158,11 @@
       "authorDetail": "participant",
       "date": "2026-03-17",
       "timestamp": "2026-03-17T11:56:50-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61810,6 +63175,7 @@
       "authorDetail": "participant",
       "date": "2026-03-23",
       "timestamp": "2026-03-23T14:42:46-05:00",
+      "preview": "Max Ji getting some crazy head",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 3,
@@ -61824,6 +63190,11 @@
       "authorDetail": "participant",
       "date": "2026-03-23",
       "timestamp": "2026-03-23T16:09:53-05:00",
+      "preview": "\ufffcShanbhag when the minors aren\u2019t at the function",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61837,6 +63208,11 @@
       "authorDetail": "participant",
       "date": "2026-03-24",
       "timestamp": "2026-03-24T12:47:49-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61850,6 +63226,7 @@
       "authorDetail": "participant",
       "date": "2026-03-24",
       "timestamp": "2026-03-24T18:15:42-05:00",
+      "preview": "Damn he heard about aadit Ali jainzari birthday bash",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61862,6 +63239,7 @@
       "authorDetail": "participant",
       "date": "2026-03-25",
       "timestamp": "2026-03-25T13:10:51-05:00",
+      "preview": "Is this rebant or soham kind of confused?",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 4,
@@ -61875,6 +63253,7 @@
       "authorDetail": "participant",
       "date": "2026-03-26",
       "timestamp": "2026-03-26T00:17:02-05:00",
+      "preview": "Best ending of all time",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61887,6 +63266,7 @@
       "authorDetail": "participant",
       "date": "2026-04-01",
       "timestamp": "2026-04-01T14:38:12-05:00",
+      "preview": "Damn vc, luke and Srivatsav jealous",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 2,
@@ -61902,6 +63282,7 @@
       "authorDetail": "participant",
       "date": "2026-04-04",
       "timestamp": "2026-04-04T17:15:47-05:00",
+      "preview": "Bro he\u2019s safe in his mansion",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 5
@@ -61914,6 +63295,7 @@
       "authorDetail": "participant",
       "date": "2026-04-05",
       "timestamp": "2026-04-05T21:35:38-05:00",
+      "preview": "Desi Bleacher Report",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 5
@@ -61926,6 +63308,7 @@
       "authorDetail": "participant",
       "date": "2026-04-06",
       "timestamp": "2026-04-06T14:42:47-05:00",
+      "preview": "I think if you lock in you can get it by EOD",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -61952,6 +63335,11 @@
       "authorDetail": "participant",
       "date": "2026-04-14",
       "timestamp": "2026-04-14T22:26:42-05:00",
+      "preview": "\ufffcTwo ends of the spectrum",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -61964,6 +63352,11 @@
       "authorDetail": "participant",
       "date": "2026-04-16",
       "timestamp": "2026-04-16T20:20:55-05:00",
+      "preview": "\ufffcDudes playin bastion in the practice range\ud83e\udd23\ud83e\udd23",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61977,6 +63370,11 @@
       "authorDetail": "participant",
       "date": "2026-04-21",
       "timestamp": "2026-04-21T13:54:50-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -61990,6 +63388,11 @@
       "authorDetail": "participant",
       "date": "2026-04-21",
       "timestamp": "2026-04-21T19:22:16-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62002,6 +63405,7 @@
       "authorDetail": "participant",
       "date": "2026-04-24",
       "timestamp": "2026-04-24T17:27:08-05:00",
+      "preview": "Howdy yall! Please join us in celebrating Srikumars last day in Umich! There will be lots of alcohol for everyone, so d\u2026",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 5
@@ -62014,6 +63418,11 @@
       "authorDetail": "participant",
       "date": "2026-04-24",
       "timestamp": "2026-04-24T18:04:33-05:00",
+      "preview": "\ufffcAkul\u2019s reaction",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 3,
@@ -62027,6 +63436,11 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:09:43-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 3,
@@ -62040,6 +63454,7 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:26:38-05:00",
+      "preview": "couldve replaced krish if I got invited",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62052,6 +63467,7 @@
       "authorDetail": "participant",
       "date": "2026-04-26",
       "timestamp": "2026-04-26T18:29:48-05:00",
+      "preview": "Shanbhag all of this would\u2019ve been solved if you\u2019d just told bendi about the house",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -62065,6 +63481,7 @@
       "authorDetail": "participant",
       "date": "2026-04-28",
       "timestamp": "2026-04-28T16:34:07-05:00",
+      "preview": "sunny and his new friends",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62077,6 +63494,11 @@
       "authorDetail": "participant",
       "date": "2026-04-30",
       "timestamp": "2026-04-30T00:07:09-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 2,
@@ -62091,6 +63513,11 @@
       "authorDetail": "participant",
       "date": "2026-04-30",
       "timestamp": "2026-04-30T19:18:19-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "dislike": 5
@@ -62103,6 +63530,7 @@
       "authorDetail": "participant",
       "date": "2026-05-01",
       "timestamp": "2026-05-01T19:12:48-05:00",
+      "preview": "Aadit he just made ur opinion even more invalid",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 5
@@ -62115,6 +63543,7 @@
       "authorDetail": "Rushil",
       "date": "2026-05-01",
       "timestamp": "2026-05-01T22:24:43-05:00",
+      "preview": "thank you for a wonderful year",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -62128,6 +63557,11 @@
       "authorDetail": "participant",
       "date": "2026-05-03",
       "timestamp": "2026-05-03T16:22:24-05:00",
+      "preview": "\ufffcThis dude aadit not funny at all\ud83e\udd23\ud83e\udd23",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62140,6 +63574,7 @@
       "authorDetail": "participant",
       "date": "2026-05-04",
       "timestamp": "2026-05-04T15:45:11-05:00",
+      "preview": "Jon looks slightly different",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 5
@@ -62152,6 +63587,7 @@
       "authorDetail": "participant",
       "date": "2026-05-04",
       "timestamp": "2026-05-04T19:33:45-05:00",
+      "preview": "Yo pistons game tmr at my place and anyone who wants can stay after for a sleepover",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 5
@@ -62164,6 +63600,10 @@
       "authorDetail": "Rushil",
       "date": "2026-05-06",
       "timestamp": "2026-05-06T17:28:57-05:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 3,
@@ -62178,6 +63618,11 @@
       "authorDetail": "participant",
       "date": "2026-05-07",
       "timestamp": "2026-05-07T15:30:28-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 3,
@@ -62192,6 +63637,7 @@
       "authorDetail": "participant",
       "date": "2026-05-07",
       "timestamp": "2026-05-07T17:32:14-05:00",
+      "preview": "Oh wait so 962 is krish?",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 3,
@@ -62205,6 +63651,11 @@
       "authorDetail": "participant",
       "date": "2026-05-10",
       "timestamp": "2026-05-10T15:16:14-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 2,
@@ -62219,6 +63670,11 @@
       "authorDetail": "participant",
       "date": "2026-05-11",
       "timestamp": "2026-05-11T20:17:13-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62231,6 +63687,11 @@
       "authorDetail": "participant",
       "date": "2026-05-15",
       "timestamp": "2026-05-15T16:10:03-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62243,6 +63704,7 @@
       "authorDetail": "participant",
       "date": "2026-05-16",
       "timestamp": "2026-05-16T14:05:46-05:00",
+      "preview": "All this larp and no pictures",
       "reactionCount": 5,
       "reactionTypes": {
         "emphasize": 3,
@@ -62256,6 +63718,11 @@
       "authorDetail": "participant",
       "date": "2026-05-17",
       "timestamp": "2026-05-17T11:37:23-05:00",
+      "preview": "\ufffcThis mf plotting smth",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -62269,6 +63736,11 @@
       "authorDetail": "Rushil",
       "date": "2026-05-17",
       "timestamp": "2026-05-17T13:40:03-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62281,6 +63753,7 @@
       "authorDetail": "participant",
       "date": "2026-05-17",
       "timestamp": "2026-05-17T13:47:39-05:00",
+      "preview": "Anyone down for bdubs or such?",
       "reactionCount": 5,
       "reactionTypes": {
         "like": 3,
@@ -62294,6 +63767,11 @@
       "authorDetail": "participant",
       "date": "2026-05-18",
       "timestamp": "2026-05-18T11:22:10-05:00",
+      "preview": "\ufffcAnd just like that he\u2019s all grown up!",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62306,6 +63784,7 @@
       "authorDetail": "participant",
       "date": "2026-05-18",
       "timestamp": "2026-05-18T11:55:10-05:00",
+      "preview": "Bhagwan?",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 3,
@@ -62319,6 +63798,11 @@
       "authorDetail": "participant",
       "date": "2026-05-18",
       "timestamp": "2026-05-18T20:55:47-05:00",
+      "preview": "https://x.com/fuckpoasting/status/2055296480248775042?s=46",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "dyn.age81a5dzq7y066dbtf0g82peqf4hk2pdrb00n5xy"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 5
@@ -62331,6 +63815,10 @@
       "authorDetail": "participant",
       "date": "2026-05-19",
       "timestamp": "2026-05-19T20:37:45-05:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/gif"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -62344,6 +63832,7 @@
       "authorDetail": "participant",
       "date": "2026-05-19",
       "timestamp": "2026-05-19T21:07:44-05:00",
+      "preview": "Well, based on the lighting and the current time, probably not",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62356,6 +63845,7 @@
       "authorDetail": "participant",
       "date": "2026-05-20",
       "timestamp": "2026-05-20T21:57:50-05:00",
+      "preview": "I wasn\u2019t gonna pick up soham",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62368,6 +63858,7 @@
       "authorDetail": "participant",
       "date": "2026-05-21",
       "timestamp": "2026-05-21T18:19:43-05:00",
+      "preview": "I lowkey believe the fat picture to be more real than this one",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -62381,6 +63872,7 @@
       "authorDetail": "participant",
       "date": "2026-05-21",
       "timestamp": "2026-05-21T21:38:44-05:00",
+      "preview": "Short all google stock RN",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -62394,6 +63886,7 @@
       "authorDetail": "participant",
       "date": "2026-05-22",
       "timestamp": "2026-05-22T00:21:34-05:00",
+      "preview": "Aryan \u201cNeanderthal Early Human Wanderer World Traveler\u201d Shah",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -62407,6 +63900,11 @@
       "authorDetail": "participant",
       "date": "2026-05-22",
       "timestamp": "2026-05-22T00:31:21-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62419,6 +63917,7 @@
       "authorDetail": "participant",
       "date": "2026-05-22",
       "timestamp": "2026-05-22T00:36:18-05:00",
+      "preview": "Sponsored by Srivatsav \u201cPrime Video\u201d Bendi",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62431,6 +63930,10 @@
       "authorDetail": "Rushil",
       "date": "2026-05-22",
       "timestamp": "2026-05-22T16:19:54-05:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 2,
@@ -62445,6 +63948,10 @@
       "authorDetail": "participant",
       "date": "2026-05-23",
       "timestamp": "2026-05-23T13:54:07-05:00",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62457,6 +63964,7 @@
       "authorDetail": "participant",
       "date": "2026-05-25",
       "timestamp": "2026-05-25T12:06:59-05:00",
+      "preview": "Hey guys make sure to check out the new indraloka chud post, anish is famous!!!",
       "reactionCount": 5,
       "reactionTypes": {
         "emphasize": 5
@@ -62469,6 +63977,7 @@
       "authorDetail": "participant",
       "date": "2026-05-25",
       "timestamp": "2026-05-25T12:11:06-05:00",
+      "preview": "He was recording and he\u2019d be like \u201cankith ur character has to be exaggerating and teja ur character is a douche be more\u2026",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 5
@@ -62507,6 +64016,7 @@
       "authorDetail": "participant",
       "date": "2026-05-26",
       "timestamp": "2026-05-26T15:09:56-05:00",
+      "preview": "Office has free beer taps that open at 4 pm everyday lol",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62519,6 +64029,7 @@
       "authorDetail": "participant",
       "date": "2026-05-28",
       "timestamp": "2026-05-28T14:54:18-05:00",
+      "preview": "Because people want to be healthy?",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 4,
@@ -62532,6 +64043,11 @@
       "authorDetail": "participant",
       "date": "2026-05-28",
       "timestamp": "2026-05-28T15:30:27-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 4,
@@ -62545,6 +64061,7 @@
       "authorDetail": "participant",
       "date": "2026-05-28",
       "timestamp": "2026-05-28T19:50:41-05:00",
+      "preview": "DAMNNN ROHAN TOUCH HIS TITTIES BABY",
       "reactionCount": 5,
       "reactionTypes": {
         "question": 5
@@ -62557,6 +64074,7 @@
       "authorDetail": "participant",
       "date": "2026-05-29",
       "timestamp": "2026-05-29T15:01:39-05:00",
+      "preview": "On an unrelated note, how many oranges do you think could sleep on a full sized bed? (Jane street interview question)",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 3,
@@ -62570,6 +64088,11 @@
       "authorDetail": "participant",
       "date": "2026-06-01",
       "timestamp": "2026-06-01T01:04:16-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 3,
@@ -62583,6 +64106,7 @@
       "authorDetail": "participant",
       "date": "2026-06-01",
       "timestamp": "2026-06-01T14:58:09-05:00",
+      "preview": "And even then I\u2019m putting the picture through an ai scanner",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -62596,6 +64120,7 @@
       "authorDetail": "participant",
       "date": "2026-06-01",
       "timestamp": "2026-06-01T15:05:19-05:00",
+      "preview": "Oh she\u2019s a 10",
       "reactionCount": 5,
       "reactionTypes": {
         "laugh": 2,
@@ -62610,6 +64135,11 @@
       "authorDetail": "participant",
       "date": "2026-06-02",
       "timestamp": "2026-06-02T20:21:07-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62622,6 +64152,7 @@
       "authorDetail": "participant",
       "date": "2026-06-03",
       "timestamp": "2026-06-03T22:08:34-05:00",
+      "preview": "Brunson is crazyy",
       "reactionCount": 5,
       "reactionTypes": {
         "emphasize": 5
@@ -62634,6 +64165,7 @@
       "authorDetail": "participant",
       "date": "2026-06-04",
       "timestamp": "2026-06-04T13:01:25-05:00",
+      "preview": "Yeah maybe Project Beer Belly",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -62647,6 +64179,7 @@
       "authorDetail": "participant",
       "date": "2026-06-04",
       "timestamp": "2026-06-04T14:08:19-05:00",
+      "preview": "yeah and I can see ur boobs through ur white milk shirt",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 4,
@@ -62660,6 +64193,11 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T11:56:55-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62672,6 +64210,11 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T16:50:48-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62684,6 +64227,11 @@
       "authorDetail": "participant",
       "date": "2026-06-05",
       "timestamp": "2026-06-05T17:34:42-05:00",
+      "preview": "\ufffcRushil and vitto",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/heic"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 2,
@@ -62698,6 +64246,11 @@
       "authorDetail": "participant",
       "date": "2026-06-06",
       "timestamp": "2026-06-06T13:58:54-05:00",
+      "preview": "\ufffc",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/jpeg"
+      ],
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62710,6 +64263,7 @@
       "authorDetail": "participant",
       "date": "2026-06-07",
       "timestamp": "2026-06-07T00:20:35-05:00",
+      "preview": "Guys post internships lets all go home and spend time with our families!",
       "reactionCount": 5,
       "reactionTypes": {
         "dislike": 3,
@@ -62723,6 +64277,7 @@
       "authorDetail": "participant",
       "date": "2026-06-08",
       "timestamp": "2026-06-08T23:55:18-05:00",
+      "preview": "Patagonia on some lowkey shit",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 4,
@@ -62736,6 +64291,7 @@
       "authorDetail": "participant",
       "date": "2026-06-09",
       "timestamp": "2026-06-09T15:17:06-05:00",
+      "preview": "In Prague they had a special WiFi during exams that tracked if you used AI so I locally ran Qwen so I didnt have to stu\u2026",
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
@@ -62748,6 +64304,7 @@
       "authorDetail": "participant",
       "date": "2026-06-10",
       "timestamp": "2026-06-10T22:42:11-05:00",
+      "preview": "Im highkey tucked into bed rn",
       "reactionCount": 5,
       "reactionTypes": {
         "emoji": 4,
@@ -62757,7 +64314,7 @@
   ],
   "analysis": {
     "method": "30-second same-sender conversation-turn normalization; deterministic lexicon and name matching; awards use signal-message percentage per sender",
-    "previewsPublished": false,
+    "previewsPublished": true,
     "slurLexiconConfigured": false,
     "slurCategories": [],
     "vibeBuckets": [
