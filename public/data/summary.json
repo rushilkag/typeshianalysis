@@ -1,8 +1,8 @@
 {
   "groupName": "type shi",
-  "generatedAt": "2026-06-14T19:09:59-05:00",
+  "generatedAt": "2026-06-14T19:13:41-05:00",
   "windowStart": "2025-06-15T00:00:00-05:00",
-  "windowEnd": "2026-06-14T19:09:59-05:00",
+  "windowEnd": "2026-06-14T19:13:41-05:00",
   "days": 365,
   "maxWindowDays": 365,
   "defaultWindowDays": 14,
@@ -14,8 +14,8 @@
     180,
     365
   ],
-  "totalMessages": 24009,
-  "totalTurns": 18555,
+  "totalMessages": 24014,
+  "totalTurns": 18558,
   "turnGapSeconds": 30,
   "burstReductionPercent": 22.7,
   "participantCount": 29,
@@ -32,10 +32,10 @@
       "initials": "LU",
       "count": 0,
       "firstMessageAt": "2025-08-28T12:15:32-05:00",
-      "lastMessageAt": "2026-06-14T19:08:43-05:00",
-      "totalCount": 2918,
-      "turnCount": 1720,
-      "burstReductionPercent": 41.1,
+      "lastMessageAt": "2026-06-14T19:12:43-05:00",
+      "totalCount": 2919,
+      "turnCount": 1721,
+      "burstReductionPercent": 41.0,
       "rank": 1,
       "share": 9.3
     },
@@ -46,10 +46,10 @@
       "initials": "AK",
       "count": 0,
       "firstMessageAt": "2025-08-27T17:15:55-05:00",
-      "lastMessageAt": "2026-06-14T19:01:25-05:00",
-      "totalCount": 2213,
-      "turnCount": 1661,
-      "burstReductionPercent": 24.9,
+      "lastMessageAt": "2026-06-14T19:12:10-05:00",
+      "totalCount": 2216,
+      "turnCount": 1662,
+      "burstReductionPercent": 25.0,
       "rank": 2,
       "share": 9.0
     },
@@ -88,9 +88,9 @@
       "initials": "RO",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:30-05:00",
-      "lastMessageAt": "2026-06-14T19:03:54-05:00",
-      "totalCount": 1565,
-      "turnCount": 1270,
+      "lastMessageAt": "2026-06-14T19:13:02-05:00",
+      "totalCount": 1566,
+      "turnCount": 1271,
       "burstReductionPercent": 18.8,
       "rank": 5,
       "share": 6.8
@@ -56196,20 +56196,20 @@
     },
     {
       "date": "2026-06-14",
-      "count": 288,
-      "turnCount": 224,
+      "count": 293,
+      "turnCount": 227,
       "attachmentMessages": 24,
       "attachmentTurns": 23,
-      "textLengthSum": 6644,
-      "textMessageCount": 260,
+      "textLengthSum": 6727,
+      "textMessageCount": 265,
       "bySender": {
         "me": 59,
         "p_akenceifeeeh": 42,
-        "p_ifdobplbgacb": 32,
+        "p_ifdobplbgacb": 35,
         "p_kephgajchogi": 26,
+        "p_fkioklocpgbp": 24,
         "p_ghbenapallii": 24,
-        "p_fkioklocpgbp": 23,
-        "p_nfihmngofcke": 19,
+        "p_nfihmngofcke": 20,
         "p_jchajjgjipbd": 16,
         "p_dmdailmighhb": 12,
         "p_omghgdhhmpfj": 10,
@@ -56221,12 +56221,12 @@
       },
       "turnsBySender": {
         "me": 39,
-        "p_ifdobplbgacb": 27,
+        "p_ifdobplbgacb": 28,
+        "p_fkioklocpgbp": 23,
         "p_akenceifeeeh": 22,
-        "p_fkioklocpgbp": 22,
         "p_ghbenapallii": 22,
         "p_kephgajchogi": 22,
-        "p_nfihmngofcke": 17,
+        "p_nfihmngofcke": 18,
         "p_jchajjgjipbd": 15,
         "p_dmdailmighhb": 11,
         "p_omghgdhhmpfj": 8,
@@ -56256,7 +56256,7 @@
         2,
         59,
         37,
-        24,
+        29,
         0,
         0,
         0,
@@ -56282,7 +56282,7 @@
         2,
         50,
         28,
-        20,
+        23,
         0,
         0,
         0,
@@ -56405,6 +56405,11 @@
           "count": 1
         },
         {
+          "from": "p_fkioklocpgbp",
+          "to": "p_nfihmngofcke",
+          "count": 1
+        },
+        {
           "from": "p_ghbenapallii",
           "to": "me",
           "count": 1
@@ -56524,13 +56529,7 @@
       "reactionTypes": {
         "love": 15,
         "dislike": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-044976c94a18.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_bmhllhajkekm",
@@ -56565,13 +56564,7 @@
       "reactionTypes": {
         "love": 14,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-af344de886a2.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_cafmkfahgbji",
@@ -56746,13 +56739,7 @@
       "reactionCount": 13,
       "reactionTypes": {
         "love": 13
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-7372eed8ba7c.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_olpimknhjmfb",
@@ -56798,13 +56785,7 @@
       "reactionTypes": {
         "love": 11,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-b546e64d4872.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_pompfphigjed",
@@ -56836,13 +56817,7 @@
         "laugh": 9,
         "love": 2,
         "dislike": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-8b1db3a7b5b1.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_dofgkhafgfkf",
@@ -57018,13 +56993,7 @@
       "reactionTypes": {
         "love": 10,
         "emoji": 2
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d451f1b13f8e.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_mdlekfgmgbpo",
@@ -57177,13 +57146,7 @@
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-b30ab1c4619d.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_mmkoeebpeeil",
@@ -57200,13 +57163,7 @@
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-0b6efc58cc02.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_cpcbnjdnkpil",
@@ -57376,13 +57333,7 @@
         "love": 9,
         "dislike": 1,
         "laugh": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d06833bdca1a.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_bkhadcgckann",
@@ -57569,13 +57520,7 @@
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-dfb9c83f1efe.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_eebhhebgimif",
@@ -57609,13 +57554,7 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-6078ea8ec0ee.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_cobdkalnjneb",
@@ -57702,13 +57641,7 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-f0224984d08e.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_idagfchbmpmn",
@@ -57725,13 +57658,7 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-b7a9555bfca3.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_hpkmmbokijfg",
@@ -57762,13 +57689,7 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-fb79904cf3ad.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_aeinaklddbce",
@@ -57798,13 +57719,7 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-c60fd0c73658.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_cgijdbdckdfb",
@@ -57992,13 +57907,7 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-0dc04470db64.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_aecekeijidpf",
@@ -58162,13 +58071,7 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-dc0850825af3.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_lndcffcgogob",
@@ -58202,13 +58105,7 @@
       "reactionCount": 9,
       "reactionTypes": {
         "like": 9
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d1ba91d10a42.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_mdnmaefjbimi",
@@ -58252,17 +58149,7 @@
       "reactionTypes": {
         "love": 8,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-be870d805945.jpg",
-          "type": "image/heic"
-        },
-        {
-          "src": "./data/reaction-media/reaction-a030113fcacc.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_fplfideimmhg",
@@ -58279,13 +58166,7 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-8a944b0066f2.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_emlfllmnggfg",
@@ -58457,13 +58338,7 @@
       "reactionTypes": {
         "love": 8,
         "question": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-1fb9086328a8.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_mnlnknfdofaa",
@@ -58576,13 +58451,7 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-3bb003ef095c.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_cpinidpkckpp",
@@ -58733,13 +58602,7 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-7064cee858f6.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_nnblabodmoko",
@@ -58780,13 +58643,7 @@
       "reactionTypes": {
         "emoji": 6,
         "laugh": 3
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-51281362b357.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_gmnncfpndmho",
@@ -58804,13 +58661,7 @@
       "reactionTypes": {
         "love": 7,
         "emoji": 2
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-86f9b542a7be.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_anbmjeookekc",
@@ -58840,13 +58691,7 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-83b18d7fb6cc.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_kkbikphbabdi",
@@ -58900,21 +58745,7 @@
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-1be442faa5d2.jpg",
-          "type": "image/heic"
-        },
-        {
-          "src": "./data/reaction-media/reaction-8078c95dc6b0.jpg",
-          "type": "image/heic"
-        },
-        {
-          "src": "./data/reaction-media/reaction-364eff1873df.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_damlaocgagpb",
@@ -59049,13 +58880,7 @@
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-e1afa105f9c3.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_mhilfihedjbk",
@@ -59313,13 +59138,7 @@
       "reactionTypes": {
         "love": 7,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-104b2602eac5.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_hclcfkdpifmm",
@@ -59423,13 +59242,7 @@
       "reactionTypes": {
         "love": 6,
         "laugh": 2
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-bcaa95320707.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_kdomnnclloph",
@@ -59487,13 +59300,7 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 3
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-44ac2d44a55b.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_dkfncmdmdeih",
@@ -59700,13 +59507,7 @@
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-43d233d0f00b.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_cbohjkmdlddc",
@@ -59755,13 +59556,7 @@
       "reactionTypes": {
         "love": 7,
         "emphasize": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d8f2fa9f60c7.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_ocfjngeacgdd",
@@ -59805,13 +59600,7 @@
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-9768519cb60f.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_dnjnpmgblnjm",
@@ -60056,13 +59845,7 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-239b16b0300b.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_ppdhnkcihikg",
@@ -60079,13 +59862,7 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-3f7e7d4d8f32.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_becehpefpech",
@@ -60102,13 +59879,7 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-bb081a1daf45.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_djgikdjpdjee",
@@ -60201,13 +59972,7 @@
         "love": 5,
         "emoji": 1,
         "emphasize": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-c529ea0dadbe.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_nmjbdocoepok",
@@ -60339,13 +60104,7 @@
       "reactionTypes": {
         "love": 6,
         "dislike": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-43f7b1125a43.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_bmdifeombbai",
@@ -60394,13 +60153,7 @@
       "reactionTypes": {
         "love": 6,
         "dislike": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-2ab2801c86a3.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_dlebcmmbehjg",
@@ -60418,13 +60171,7 @@
       "reactionTypes": {
         "love": 6,
         "laugh": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-b81991af70ef.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_jpjnafpldgfm",
@@ -60488,13 +60235,7 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-148d7f1c8a75.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_odnljeppeddh",
@@ -60873,13 +60614,7 @@
       "reactionTypes": {
         "love": 6,
         "dislike": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-eebfd0d1909b.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_oaebfmohaoab",
@@ -60950,13 +60685,7 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-7ec229ce0fb6.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_ompgpjafnnma",
@@ -60987,13 +60716,7 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-475534e3e483.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_giljalcfagnj",
@@ -61243,13 +60966,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-8fae7cd9dc02.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_cbijfkcnhbof",
@@ -61297,13 +61014,7 @@
       "reactionTypes": {
         "love": 5,
         "dislike": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-3147970b41e9.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_lklcimkdaepa",
@@ -61361,13 +61072,7 @@
       "reactionTypes": {
         "love": 5,
         "laugh": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d631e86c8f50.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_naljclfkoogg",
@@ -61515,13 +61220,7 @@
         "laugh": 1,
         "like": 1,
         "question": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-52dc38edacc9.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_eamccpeefocp",
@@ -61666,13 +61365,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-16794ebe12d6.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_aenjghbfhelp",
@@ -61729,13 +61422,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-e1ce23a8bb20.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_fnjheeggahdb",
@@ -61838,13 +61525,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-47b7d3baa9a2.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_hophianolnbj",
@@ -61863,13 +61544,7 @@
         "love": 4,
         "dislike": 1,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-c1e4ca9f5ec5.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_hkpdilcpfbfm",
@@ -61923,13 +61598,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-01affb71da99.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_cedffhhfcgmc",
@@ -61994,17 +61663,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-fe571d719dc9.jpg",
-          "type": "image/jpeg"
-        },
-        {
-          "src": "./data/reaction-media/reaction-e173939d3e97.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_nmpdjjhcpmfg",
@@ -62088,13 +61747,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-31efe43b0ff8.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_jgfheejogdfn",
@@ -62153,13 +61806,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-2988ed6134a5.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_cciiefneikim",
@@ -62319,13 +61966,7 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-33e72eea2d16.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_jkaechkfmfea",
@@ -62402,13 +62043,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-6fcd91fc1b7e.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_caknggepbjhg",
@@ -62730,13 +62365,7 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-549ef34d6e09.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_lenblhilpjdm",
@@ -62793,13 +62422,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-dd2ccc5170ff.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_nkcdbedlbcph",
@@ -62816,13 +62439,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d0e390089905.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_lminlhfehfdh",
@@ -62945,13 +62562,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-bd66456ad0d8.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_ddefgoebeojj",
@@ -62983,13 +62594,7 @@
       "reactionTypes": {
         "love": 5,
         "like": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-c76986e7d0da.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_alpgmlhlakep",
@@ -63113,13 +62718,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-c0328c0540ba.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_bmflhlfglebb",
@@ -63149,13 +62748,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-e935d7ddd561.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_ihoefiphfomg",
@@ -63172,13 +62765,7 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d5759b0ad4bc.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_hkcijepmldek",
@@ -63296,13 +62883,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-a023e3bcd568.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_ilifikcbikha",
@@ -63356,13 +62937,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d2382aafa279.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_gfbnoemicafh",
@@ -63381,13 +62956,7 @@
         "laugh": 2,
         "love": 2,
         "question": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-2b5caa4ef466.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_ckpgmghhdchg",
@@ -63559,13 +63128,7 @@
       "reactionTypes": {
         "emoji": 4,
         "love": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-b8dea65caa69.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_mhomlhlcgmlb",
@@ -63617,17 +63180,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-d065b7974097.jpg",
-          "type": "image/heic"
-        },
-        {
-          "src": "./data/reaction-media/reaction-48d7d240ada1.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_mfjppglcpapp",
@@ -63947,13 +63500,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-c18cc2c1fe5b.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_dlnkbnegdbea",
@@ -64160,13 +63707,7 @@
       "reactionTypes": {
         "love": 4,
         "laugh": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-1d9181de4e7a.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_jpojabecnlgm",
@@ -64207,13 +63748,7 @@
       "reactionTypes": {
         "love": 4,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-ad0ca39cfef3.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_kpmolopffjap",
@@ -64229,13 +63764,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-cd1e8513bf8f.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_edbbncaaclog",
@@ -64363,13 +63892,7 @@
       "reactionTypes": {
         "love": 4,
         "laugh": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-3b7f8c3d479e.jpg",
-          "type": "image/jpeg"
-        }
-      ]
+      }
     },
     {
       "id": "p_igjodnlbjlml",
@@ -64519,13 +64042,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-28fa01fb33e1.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_nkdcfchelbdl",
@@ -64543,13 +64060,7 @@
       "reactionTypes": {
         "love": 4,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-7ab62111d394.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_flknfmnoklfp",
@@ -64567,13 +64078,7 @@
       "reactionTypes": {
         "love": 4,
         "laugh": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-54487c21f348.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_gdeomaphofji",
@@ -64590,13 +64095,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-2b003fbaa5f8.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_neicilgkbakn",
@@ -64645,13 +64144,7 @@
       "reactionTypes": {
         "love": 3,
         "emoji": 2
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-3e58e574cfbc.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_kfanbencfhmf",
@@ -64710,13 +64203,7 @@
         "laugh": 2,
         "love": 2,
         "emoji": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-095feeefe229.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_jpkajehnllie",
@@ -64733,13 +64220,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "dislike": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-f5ed1295c7b8.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_hplbhegldfni",
@@ -64920,13 +64401,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-90e27b58d1ea.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_mcjinmdbghkp",
@@ -64981,13 +64456,7 @@
       "reactionTypes": {
         "laugh": 4,
         "love": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-5c9b865f4d56.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_ahplbjdonojh",
@@ -65239,13 +64708,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-23e11178dee4.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_khocgibjcknh",
@@ -65439,13 +64902,7 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-64de152d9e69.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_kaoookpgkcmj",
@@ -65539,13 +64996,7 @@
         "emoji": 2,
         "love": 2,
         "laugh": 1
-      },
-      "media": [
-        {
-          "src": "./data/reaction-media/reaction-43ccd4e82d92.jpg",
-          "type": "image/heic"
-        }
-      ]
+      }
     },
     {
       "id": "p_hbpjkgobdepp",

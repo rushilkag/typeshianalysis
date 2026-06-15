@@ -302,6 +302,20 @@ def write_web_image(source_path: Path, target_path: Path) -> bool:
         return False
 
 
+def image_has_visible_content(path: Path) -> bool:
+    try:
+        from PIL import Image
+
+        with Image.open(path) as image:
+            image = image.convert("RGB")
+            image.thumbnail((32, 32))
+            extrema = image.getextrema()
+    except Exception:
+        return True
+
+    return any(high - low > 8 for low, high in extrema)
+
+
 def apple_ns_from_datetime(value: datetime) -> int:
     return int((value.astimezone(timezone.utc) - APPLE_EPOCH).total_seconds() * 1_000_000_000)
 
@@ -809,6 +823,9 @@ def fetch_reaction_messages(
                     target_name = f"reaction-{digest}{extension}"
                     target_path = media_output_dir / target_name
                     shutil.copy2(source_path, target_path)
+            if not image_has_visible_content(target_path):
+                target_path.unlink(missing_ok=True)
+                continue
 
             reaction = row_id_to_reaction[row["message_id"]]
             reaction.setdefault("media", []).append(
