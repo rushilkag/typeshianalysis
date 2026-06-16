@@ -1,8 +1,8 @@
 {
   "groupName": "type shi",
-  "generatedAt": "2026-06-15T20:20:49-05:00",
+  "generatedAt": "2026-06-15T20:39:28-05:00",
   "windowStart": "2025-06-16T00:00:00-05:00",
-  "windowEnd": "2026-06-15T20:20:49-05:00",
+  "windowEnd": "2026-06-15T20:39:28-05:00",
   "days": 365,
   "maxWindowDays": 365,
   "defaultWindowDays": 14,
@@ -14,13 +14,13 @@
     180,
     365
   ],
-  "totalMessages": 24353,
-  "totalTurns": 18796,
+  "totalMessages": 24357,
+  "totalTurns": 18800,
   "turnGapSeconds": 30,
   "burstReductionPercent": 22.8,
   "participantCount": 29,
-  "attachmentMessages": 2680,
-  "attachmentTurns": 2574,
+  "attachmentMessages": 2682,
+  "attachmentTurns": 2576,
   "averagePerDay": 51.5,
   "averageTextLength": 25.7,
   "matchedChats": [],
@@ -46,9 +46,9 @@
       "initials": "AK",
       "count": 0,
       "firstMessageAt": "2025-08-27T17:15:55-05:00",
-      "lastMessageAt": "2026-06-15T20:13:20-05:00",
-      "totalCount": 2259,
-      "turnCount": 1695,
+      "lastMessageAt": "2026-06-15T20:37:32-05:00",
+      "totalCount": 2260,
+      "turnCount": 1696,
       "burstReductionPercent": 25.0,
       "rank": 2,
       "share": 9.0
@@ -60,9 +60,9 @@
       "initials": "RU",
       "count": 0,
       "firstMessageAt": "2025-08-27T12:37:53-05:00",
-      "lastMessageAt": "2026-06-15T20:12:18-05:00",
-      "totalCount": 2027,
-      "turnCount": 1636,
+      "lastMessageAt": "2026-06-15T20:38:21-05:00",
+      "totalCount": 2030,
+      "turnCount": 1639,
       "burstReductionPercent": 19.3,
       "rank": 3,
       "share": 8.7
@@ -16261,8 +16261,14 @@
       ],
       "slurBySender": {},
       "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
+      "wordWatchBySender": {
+        "p_amhokpidpdnh": {
+          "monkey": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "monkey": 1
+      },
       "swearBySender": {
         "p_jnkhheofddbe": {
           "shit": 1
@@ -19619,10 +19625,14 @@
       "wordWatchBySender": {
         "p_jchajjgjipbd": {
           "black": 1
+        },
+        "p_nfihmngofcke": {
+          "monkey": 1
         }
       },
       "wordWatchByTerm": {
-        "black": 1
+        "black": 1,
+        "monkey": 1
       },
       "swearBySender": {
         "p_bcbnmadlfjoe": {
@@ -22300,11 +22310,11 @@
       "slurByCategory": {},
       "wordWatchBySender": {
         "p_amggoddlmlck": {
-          "n-word": 1
+          "nigga": 1
         }
       },
       "wordWatchByTerm": {
-        "n-word": 1
+        "nigga": 1
       },
       "swearBySender": {
         "p_akenceifeeeh": {
@@ -23796,8 +23806,14 @@
       ],
       "slurBySender": {},
       "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
+      "wordWatchBySender": {
+        "p_jnkhheofddbe": {
+          "monkey": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "monkey": 1
+      },
       "swearBySender": {},
       "swearByTerm": {}
     },
@@ -29220,8 +29236,14 @@
       "mentions": [],
       "slurBySender": {},
       "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
+      "wordWatchBySender": {
+        "p_dmdailmighhb": {
+          "monkey": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "monkey": 1
+      },
       "swearBySender": {},
       "swearByTerm": {}
     },
@@ -36481,8 +36503,14 @@
       ],
       "slurBySender": {},
       "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
+      "wordWatchBySender": {
+        "p_jnkhheofddbe": {
+          "monkey": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "monkey": 1
+      },
       "swearBySender": {
         "p_akenceifeeeh": {
           "damn": 1
@@ -49546,8 +49574,14 @@
       ],
       "slurBySender": {},
       "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
+      "wordWatchBySender": {
+        "p_jnkhheofddbe": {
+          "monkey": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "monkey": 1
+      },
       "swearBySender": {
         "me": {
           "bitch": 1,
@@ -51380,8 +51414,14 @@
       ],
       "slurBySender": {},
       "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
+      "wordWatchBySender": {
+        "p_jnkhheofddbe": {
+          "monkey": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "monkey": 1
+      },
       "swearBySender": {
         "me": {
           "damn": 1,
@@ -56805,10 +56845,14 @@
         },
         "p_hpobobilhnoh": {
           "black": 1
+        },
+        "p_jnkhheofddbe": {
+          "monkey": 1
         }
       },
       "wordWatchByTerm": {
-        "black": 2
+        "black": 2,
+        "monkey": 1
       },
       "swearBySender": {
         "p_bcbnmadlfjoe": {
@@ -58002,8 +58046,14 @@
       ],
       "slurBySender": {},
       "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
+      "wordWatchBySender": {
+        "p_nfihmngofcke": {
+          "monkey": 1
+        }
+      },
+      "wordWatchByTerm": {
+        "monkey": 1
+      },
       "swearBySender": {
         "me": {
           "fuck": 1,
@@ -61382,15 +61432,15 @@
     },
     {
       "date": "2026-06-15",
-      "count": 149,
-      "turnCount": 113,
-      "attachmentMessages": 22,
-      "attachmentTurns": 22,
-      "textLengthSum": 3178,
-      "textMessageCount": 137,
+      "count": 153,
+      "turnCount": 117,
+      "attachmentMessages": 24,
+      "attachmentTurns": 24,
+      "textLengthSum": 3209,
+      "textMessageCount": 138,
       "bySender": {
-        "me": 35,
-        "p_ifdobplbgacb": 16,
+        "me": 38,
+        "p_ifdobplbgacb": 17,
         "p_nfihmngofcke": 16,
         "p_fkioklocpgbp": 15,
         "p_hpobobilhnoh": 15,
@@ -61406,11 +61456,11 @@
         "p_omghgdhhmpfj": 1
       },
       "turnsBySender": {
-        "me": 25,
+        "me": 28,
         "p_fkioklocpgbp": 13,
+        "p_ifdobplbgacb": 12,
         "p_nfihmngofcke": 12,
         "p_hpobobilhnoh": 11,
-        "p_ifdobplbgacb": 11,
         "p_jnkhheofddbe": 7,
         "p_ghbenapallii": 6,
         "p_akenceifeeeh": 5,
@@ -61443,7 +61493,7 @@
         1,
         0,
         26,
-        38,
+        42,
         0,
         0,
         0
@@ -61469,7 +61519,7 @@
         1,
         0,
         20,
-        27,
+        31,
         0,
         0,
         0
@@ -61490,7 +61540,11 @@
           "selfInsert": 3
         },
         "p_ifdobplbgacb": {
-          "selfInsert": 1
+          "glazer": 1,
+          "hater": 1,
+          "laugh": 1,
+          "pickMe": 1,
+          "selfInsert": 2
         },
         "p_kephgajchogi": {
           "glazer": 1
@@ -61509,8 +61563,8 @@
         "p_ghbenapallii": 5,
         "p_hpobobilhnoh": 5,
         "me": 3,
+        "p_amhokpidpdnh": 3,
         "p_blfhjomohklb": 3,
-        "p_amhokpidpdnh": 2,
         "p_enclpbahigno": 2,
         "p_omghgdhhmpfj": 2,
         "p_akenceifeeeh": 1,
@@ -61519,8 +61573,8 @@
         "p_mnmcbpgmjcja": 1
       },
       "reactionByAuthor": {
+        "p_gdmnohpphadm": 14,
         "p_jnkhheofddbe": 14,
-        "p_gdmnohpphadm": 13,
         "me": 12,
         "p_fkioklocpgbp": 9,
         "p_ifdobplbgacb": 8,
@@ -70814,8 +70868,11 @@
     "slurLexiconConfigured": false,
     "slurCategories": [],
     "wordWatchTerms": [
+      "african",
       "black",
-      "n-word"
+      "monkey",
+      "nigga",
+      "nigger"
     ],
     "swearTerms": [
       "ass",

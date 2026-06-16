@@ -130,8 +130,11 @@ VIBE_LEXICON = {
     ],
 }
 WORD_WATCH_TERMS = {
-    "n-word": ["nigga"],
+    "nigga": ["nigga", "niggas"],
+    "nigger": ["nigger", "niggers"],
     "black": ["black"],
+    "monkey": ["monkey", "monkeys"],
+    "african": ["african", "africans"],
 }
 SWEAR_TERMS = {
     "ass": ["ass", "asses", "asshole", "assholes", "ass"],
