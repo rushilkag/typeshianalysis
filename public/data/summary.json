@@ -1,8 +1,8 @@
 {
   "groupName": "type shi",
-  "generatedAt": "2026-06-15T20:39:28-05:00",
+  "generatedAt": "2026-06-15T20:42:58-05:00",
   "windowStart": "2025-06-16T00:00:00-05:00",
-  "windowEnd": "2026-06-15T20:39:28-05:00",
+  "windowEnd": "2026-06-15T20:42:58-05:00",
   "days": 365,
   "maxWindowDays": 365,
   "defaultWindowDays": 14,
@@ -14,13 +14,13 @@
     180,
     365
   ],
-  "totalMessages": 24357,
-  "totalTurns": 18800,
+  "totalMessages": 24358,
+  "totalTurns": 18801,
   "turnGapSeconds": 30,
   "burstReductionPercent": 22.8,
   "participantCount": 29,
-  "attachmentMessages": 2682,
-  "attachmentTurns": 2576,
+  "attachmentMessages": 2683,
+  "attachmentTurns": 2577,
   "averagePerDay": 51.5,
   "averageTextLength": 25.7,
   "matchedChats": [],
@@ -60,9 +60,9 @@
       "initials": "RU",
       "count": 0,
       "firstMessageAt": "2025-08-27T12:37:53-05:00",
-      "lastMessageAt": "2026-06-15T20:38:21-05:00",
-      "totalCount": 2030,
-      "turnCount": 1639,
+      "lastMessageAt": "2026-06-15T20:42:28-05:00",
+      "totalCount": 2031,
+      "turnCount": 1640,
       "burstReductionPercent": 19.3,
       "rank": 3,
       "share": 8.7
@@ -363,9 +363,9 @@
     },
     {
       "id": "p_amggoddlmlck",
-      "label": "Participant 25",
+      "label": "luke",
       "detail": "participant",
-      "initials": "P2",
+      "initials": "LU",
       "count": 0,
       "firstMessageAt": "2025-12-11T17:53:45-06:00",
       "lastMessageAt": "2025-12-30T00:27:55-06:00",
@@ -6209,11 +6209,6 @@
           "count": 1
         },
         {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_ifdobplbgacb",
           "count": 1
@@ -6990,11 +6985,6 @@
           "count": 1
         },
         {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_hpobobilhnoh",
           "to": "p_ghbenapallii",
           "count": 1
@@ -7047,11 +7037,6 @@
         {
           "from": "p_kephgajchogi",
           "to": "p_jdgogekapdln",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -7260,11 +7245,6 @@
         "p_olidjepnnbno": 1
       },
       "mentions": [
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
         {
           "from": "p_fkioklocpgbp",
           "to": "me",
@@ -7754,11 +7734,6 @@
         {
           "from": "p_jnkhheofddbe",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_jnkhheofddbe",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -8709,11 +8684,6 @@
       },
       "reactionByAuthor": {},
       "mentions": [
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
         {
           "from": "p_jnkhheofddbe",
           "to": "p_omghgdhhmpfj",
@@ -9728,18 +9698,8 @@
       },
       "mentions": [
         {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_dmdailmighhb",
           "to": "p_eoipeaaocofh",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -9750,11 +9710,6 @@
         {
           "from": "p_fobjhenjdpgl",
           "to": "p_ghbenapallii",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -10050,11 +10005,6 @@
         {
           "from": "p_hkfgpjfalkgj",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_hkfgpjfalkgj",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -10690,11 +10640,6 @@
           "count": 2
         },
         {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "me",
           "to": "p_omghgdhhmpfj",
           "count": 1
@@ -10736,11 +10681,6 @@
         },
         {
           "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
           "to": "p_omghgdhhmpfj",
           "count": 1
         },
@@ -10752,11 +10692,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_gdmnohpphadm",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -11744,11 +11679,6 @@
           "count": 1
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_kephgajchogi",
           "to": "p_gdmnohpphadm",
           "count": 1
@@ -11970,11 +11900,6 @@
         {
           "from": "p_bcbnmadlfjoe",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -13007,11 +12932,6 @@
           "from": "p_dmdailmighhb",
           "to": "p_eoipeaaocofh",
           "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
         }
       ],
       "slurBySender": {},
@@ -13641,11 +13561,6 @@
         {
           "from": "p_blfhjomohklb",
           "to": "p_enclpbahigno",
-          "count": 1
-        },
-        {
-          "from": "p_enclpbahigno",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -15069,18 +14984,8 @@
           "count": 1
         },
         {
-          "from": "p_eoipeaaocofh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_fobjhenjdpgl",
           "to": "p_bcbnmadlfjoe",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -15091,11 +14996,6 @@
         {
           "from": "p_hpobobilhnoh",
           "to": "me",
-          "count": 1
-        },
-        {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -16003,11 +15903,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_fobjhenjdpgl",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         }
       ],
@@ -17219,11 +17114,6 @@
         {
           "from": "p_fobjhenjdpgl",
           "to": "p_bcbnmadlfjoe",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
           "count": 1
         }
       ],
@@ -19183,22 +19073,7 @@
       "mentions": [
         {
           "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
           "to": "p_olidjepnnbno",
-          "count": 1
-        },
-        {
-          "from": "p_jnkhheofddbe",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_olidjepnnbno",
-          "to": "p_nfihmngofcke",
           "count": 1
         }
       ],
@@ -19545,33 +19420,13 @@
       },
       "mentions": [
         {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_bcbnmadlfjoe",
           "to": "p_dmdailmighhb",
           "count": 1
         },
         {
-          "from": "p_bcbnmadlfjoe",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_dmdailmighhb",
           "to": "p_eoipeaaocofh",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -19582,16 +19437,6 @@
         {
           "from": "p_eoipeaaocofh",
           "to": "p_bcbnmadlfjoe",
-          "count": 1
-        },
-        {
-          "from": "p_eoipeaaocofh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -20452,11 +20297,6 @@
           "from": "p_akenceifeeeh",
           "to": "p_ghbenapallii",
           "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
         }
       ],
       "slurBySender": {},
@@ -20699,11 +20539,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -21102,11 +20937,6 @@
         "me": 1
       },
       "mentions": [
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
         {
           "from": "p_jchajjgjipbd",
           "to": "p_mnmcbpgmjcja",
@@ -21798,21 +21628,6 @@
           "from": "p_nfihmngofcke",
           "to": "p_bcbnmadlfjoe",
           "count": 2
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
-          "count": 1
         }
       ],
       "slurBySender": {},
@@ -22137,11 +21952,6 @@
         },
         {
           "from": "p_amggoddlmlck",
-          "to": "p_nfihmngofcke",
-          "count": 6
-        },
-        {
-          "from": "p_amggoddlmlck",
           "to": "p_ifdobplbgacb",
           "count": 5
         },
@@ -22201,11 +22011,6 @@
           "count": 1
         },
         {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_amggoddlmlck",
           "to": "me",
           "count": 1
@@ -22238,11 +22043,6 @@
         {
           "from": "p_dmdailmighhb",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -22283,16 +22083,6 @@
         {
           "from": "p_hpobobilhnoh",
           "to": "p_jnkhheofddbe",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -22650,11 +22440,6 @@
           "count": 1
         },
         {
-          "from": "p_amggoddlmlck",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_dljmmncicnlf",
           "to": "p_amhokpidpdnh",
           "count": 1
@@ -22697,11 +22482,6 @@
         {
           "from": "p_fobjhenjdpgl",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -22849,18 +22629,7 @@
         "p_jnkhheofddbe": 1,
         "p_ockcbdcbjmil": 1
       },
-      "mentions": [
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        }
-      ],
+      "mentions": [],
       "slurBySender": {},
       "slurByCategory": {},
       "wordWatchBySender": {},
@@ -23137,11 +22906,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_dmdailmighhb",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -23430,11 +23194,6 @@
           "count": 1
         },
         {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_jchajjgjipbd",
           "to": "p_dljmmncicnlf",
           "count": 1
@@ -23652,11 +23411,6 @@
         {
           "from": "p_dmdailmighhb",
           "to": "p_bcbnmadlfjoe",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -23975,11 +23729,6 @@
           "count": 4
         },
         {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_hpobobilhnoh",
           "to": "p_dmdailmighhb",
           "count": 2
@@ -23987,11 +23736,6 @@
         {
           "from": "p_blfhjomohklb",
           "to": "p_dmdailmighhb",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -24130,18 +23874,7 @@
         "p_bfhopadigiif": 1,
         "p_ifdobplbgacb": 1
       },
-      "mentions": [
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        }
-      ],
+      "mentions": [],
       "slurBySender": {},
       "slurByCategory": {},
       "wordWatchBySender": {},
@@ -25281,11 +25014,6 @@
           "count": 1
         },
         {
-          "from": "p_amggoddlmlck",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_hpobobilhnoh",
           "to": "me",
           "count": 1
@@ -25630,11 +25358,6 @@
           "count": 1
         },
         {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_fobjhenjdpgl",
           "to": "p_bfhopadigiif",
           "count": 1
@@ -25971,11 +25694,6 @@
           "count": 4
         },
         {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_akenceifeeeh",
           "to": "p_ifdobplbgacb",
           "count": 2
@@ -25986,11 +25704,6 @@
           "count": 2
         },
         {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_akenceifeeeh",
           "to": "p_ghbenapallii",
           "count": 1
@@ -25998,11 +25711,6 @@
         {
           "from": "p_akenceifeeeh",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -26028,11 +25736,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_olidjepnnbno",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -27179,11 +26882,6 @@
           "count": 1
         },
         {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ifdobplbgacb",
           "to": "p_jnkhheofddbe",
           "count": 1
@@ -28117,11 +27815,6 @@
         },
         {
           "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_hpobobilhnoh",
           "to": "p_olidjepnnbno",
           "count": 1
         },
@@ -28370,11 +28063,6 @@
           "count": 1
         },
         {
-          "from": "p_enclpbahigno",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_fkioklocpgbp",
           "to": "me",
           "count": 1
@@ -28561,11 +28249,6 @@
         {
           "from": "p_akenceifeeeh",
           "to": "p_dljmmncicnlf",
-          "count": 1
-        },
-        {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -28775,13 +28458,7 @@
       },
       "reactionBySender": {},
       "reactionByAuthor": {},
-      "mentions": [
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        }
-      ],
+      "mentions": [],
       "slurBySender": {},
       "slurByCategory": {},
       "wordWatchBySender": {},
@@ -29434,11 +29111,6 @@
           "count": 1
         },
         {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ifdobplbgacb",
           "to": "p_hpobobilhnoh",
           "count": 1
@@ -29471,11 +29143,6 @@
         {
           "from": "p_jnkhheofddbe",
           "to": "p_mnmcbpgmjcja",
-          "count": 1
-        },
-        {
-          "from": "p_jnkhheofddbe",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -29967,11 +29634,6 @@
         {
           "from": "p_fobjhenjdpgl",
           "to": "p_bcbnmadlfjoe",
-          "count": 1
-        },
-        {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -32111,11 +31773,6 @@
         },
         {
           "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
           "to": "p_olidjepnnbno",
           "count": 1
         },
@@ -32576,13 +32233,7 @@
         "p_dmdailmighhb": 4,
         "p_hpobobilhnoh": 2
       },
-      "mentions": [
-        {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        }
-      ],
+      "mentions": [],
       "slurBySender": {},
       "slurByCategory": {},
       "wordWatchBySender": {},
@@ -33348,11 +32999,6 @@
           "count": 1
         },
         {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ifdobplbgacb",
           "to": "p_eoipeaaocofh",
           "count": 1
@@ -33708,16 +33354,6 @@
         "p_dljmmncicnlf": 11
       },
       "mentions": [
-        {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_amhokpidpdnh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
         {
           "from": "p_nfihmngofcke",
           "to": "p_ifdobplbgacb",
@@ -34929,16 +34565,6 @@
       },
       "mentions": [
         {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_kephgajchogi",
           "to": "p_olidjepnnbno",
           "count": 1
@@ -36095,11 +35721,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_jnkhheofddbe",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -37609,11 +37230,6 @@
           "count": 5
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "me",
           "to": "p_amhokpidpdnh",
           "count": 1
@@ -37621,11 +37237,6 @@
         {
           "from": "p_akenceifeeeh",
           "to": "p_jnkhheofddbe",
-          "count": 1
-        },
-        {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -38452,11 +38063,6 @@
         {
           "from": "p_ghbenapallii",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -40465,16 +40071,6 @@
           "from": "p_jchajjgjipbd",
           "to": "p_omghgdhhmpfj",
           "count": 1
-        },
-        {
-          "from": "p_jnkhheofddbe",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
-          "count": 1
         }
       ],
       "slurBySender": {},
@@ -40654,11 +40250,6 @@
           "from": "p_enclpbahigno",
           "to": "p_ghbenapallii",
           "count": 2
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
         },
         {
           "from": "p_enclpbahigno",
@@ -43096,23 +42687,8 @@
       },
       "mentions": [
         {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_akenceifeeeh",
           "to": "p_olidjepnnbno",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         }
       ],
@@ -44651,11 +44227,6 @@
       "mentions": [
         {
           "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "me",
           "to": "p_olidjepnnbno",
           "count": 1
         },
@@ -45110,11 +44681,6 @@
           "count": 3
         },
         {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_enclpbahigno",
           "to": "p_omghgdhhmpfj",
           "count": 2
@@ -45190,11 +44756,6 @@
           "count": 1
         },
         {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_hpobobilhnoh",
           "to": "p_fobjhenjdpgl",
           "count": 1
@@ -45227,11 +44788,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -46857,11 +46413,6 @@
           "count": 1
         },
         {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_jchajjgjipbd",
           "to": "p_enclpbahigno",
           "count": 1
@@ -47120,22 +46671,12 @@
       "mentions": [
         {
           "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 11
-        },
-        {
-          "from": "p_hpobobilhnoh",
           "to": "p_bcbnmadlfjoe",
           "count": 5
         },
         {
           "from": "p_ifdobplbgacb",
           "to": "p_hpobobilhnoh",
-          "count": 4
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 4
         },
         {
@@ -47259,11 +46800,6 @@
           "count": 1
         },
         {
-          "from": "p_bcbnmadlfjoe",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_bfhopadigiif",
           "to": "p_jdgogekapdln",
           "count": 1
@@ -47281,11 +46817,6 @@
         {
           "from": "p_eoipeaaocofh",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_eoipeaaocofh",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -49857,11 +49388,6 @@
           "count": 1
         },
         {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ghbenapallii",
           "to": "p_fkioklocpgbp",
           "count": 1
@@ -51117,16 +50643,6 @@
           "count": 7
         },
         {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 6
-        },
-        {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 5
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_ifdobplbgacb",
           "count": 4
@@ -51189,11 +50705,6 @@
         {
           "from": "p_ghbenapallii",
           "to": "me",
-          "count": 2
-        },
-        {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
           "count": 2
         },
         {
@@ -51267,21 +50778,6 @@
           "count": 1
         },
         {
-          "from": "p_blfhjomohklb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_eoipeaaocofh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_fkioklocpgbp",
           "to": "me",
           "count": 1
@@ -51289,11 +50785,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_amhokpidpdnh",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -51384,11 +50875,6 @@
         {
           "from": "p_kephgajchogi",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -51642,11 +51128,6 @@
         },
         {
           "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_akenceifeeeh",
           "to": "p_olidjepnnbno",
           "count": 1
         },
@@ -51663,11 +51144,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_gdmnohpphadm",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -52122,11 +51598,6 @@
           "count": 2
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "me",
           "to": "p_olidjepnnbno",
           "count": 1
@@ -52189,11 +51660,6 @@
         {
           "from": "p_gdmnohpphadm",
           "to": "p_olidjepnnbno",
-          "count": 1
-        },
-        {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -52508,11 +51974,6 @@
           "count": 1
         },
         {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_eoipeaaocofh",
           "to": "p_bcbnmadlfjoe",
           "count": 1
@@ -52530,11 +51991,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -53393,11 +52849,6 @@
           "count": 1
         },
         {
-          "from": "p_bfhopadigiif",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_dmdailmighhb",
           "to": "p_amhokpidpdnh",
           "count": 1
@@ -53405,11 +52856,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -54000,11 +53446,6 @@
           "count": 2
         },
         {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_bfhopadigiif",
           "count": 2
@@ -54045,11 +53486,6 @@
           "count": 1
         },
         {
-          "from": "p_akenceifeeeh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_amhokpidpdnh",
           "to": "p_bfhopadigiif",
           "count": 1
@@ -54060,18 +53496,8 @@
           "count": 1
         },
         {
-          "from": "p_bcbnmadlfjoe",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_bfhopadigiif",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_bfhopadigiif",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -54105,11 +53531,6 @@
           "count": 1
         },
         {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_fobjhenjdpgl",
           "to": "p_eoipeaaocofh",
           "count": 1
@@ -54122,11 +53543,6 @@
         {
           "from": "p_ghbenapallii",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -54162,11 +53578,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_mnmcbpgmjcja",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -54766,11 +54177,6 @@
           "count": 1
         },
         {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_jchajjgjipbd",
           "to": "p_ghbenapallii",
           "count": 1
@@ -55047,11 +54453,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_kephgajchogi",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -55369,11 +54770,6 @@
           "count": 3
         },
         {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_hpobobilhnoh",
           "to": "p_omghgdhhmpfj",
           "count": 3
@@ -55530,11 +54926,6 @@
         },
         {
           "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_ghbenapallii",
           "to": "p_omghgdhhmpfj",
           "count": 1
         },
@@ -55565,22 +54956,12 @@
         },
         {
           "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
           "to": "p_olidjepnnbno",
           "count": 1
         },
         {
           "from": "p_jchajjgjipbd",
           "to": "p_jnkhheofddbe",
-          "count": 1
-        },
-        {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -55854,11 +55235,6 @@
           "count": 3
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_dmdailmighhb",
           "count": 3
@@ -55867,26 +55243,6 @@
           "from": "p_nfihmngofcke",
           "to": "p_ifdobplbgacb",
           "count": 3
-        },
-        {
-          "from": "p_amhokpidpdnh",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 1
         },
         {
           "from": "p_akenceifeeeh",
@@ -55914,11 +55270,6 @@
           "count": 1
         },
         {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ifdobplbgacb",
           "to": "me",
           "count": 1
@@ -55931,11 +55282,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_bfhopadigiif",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -56229,11 +55575,6 @@
         {
           "from": "me",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -56822,11 +56163,6 @@
           "count": 1
         },
         {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_bcbnmadlfjoe",
           "count": 1
@@ -57170,11 +56506,6 @@
           "count": 3
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_jnkhheofddbe",
           "to": "p_jdgogekapdln",
           "count": 3
@@ -57392,11 +56723,6 @@
         {
           "from": "p_hpobobilhnoh",
           "to": "p_fkioklocpgbp",
-          "count": 1
-        },
-        {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -57834,11 +57160,6 @@
           "count": 3
         },
         {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_jnkhheofddbe",
           "to": "p_jdgogekapdln",
           "count": 3
@@ -57946,11 +57267,6 @@
         {
           "from": "p_dmdailmighhb",
           "to": "p_hpobobilhnoh",
-          "count": 1
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -58473,11 +57789,6 @@
           "count": 3
         },
         {
-          "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_fkioklocpgbp",
           "to": "p_ifdobplbgacb",
           "count": 2
@@ -58485,16 +57796,6 @@
         {
           "from": "p_hpobobilhnoh",
           "to": "p_jnkhheofddbe",
-          "count": 2
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
           "count": 2
         },
         {
@@ -58796,11 +58097,6 @@
           "count": 4
         },
         {
-          "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 4
-        },
-        {
           "from": "p_akenceifeeeh",
           "to": "me",
           "count": 4
@@ -58826,11 +58122,6 @@
           "count": 3
         },
         {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_dmdailmighhb",
           "count": 3
@@ -58853,11 +58144,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_bfhopadigiif",
-          "count": 2
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
           "count": 2
         },
         {
@@ -58931,11 +58217,6 @@
           "count": 1
         },
         {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ifdobplbgacb",
           "to": "p_amhokpidpdnh",
           "count": 1
@@ -58962,11 +58243,6 @@
         },
         {
           "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
           "to": "p_omghgdhhmpfj",
           "count": 1
         },
@@ -58976,18 +58252,8 @@
           "count": 1
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_jnkhheofddbe",
           "to": "p_ghbenapallii",
-          "count": 1
-        },
-        {
-          "from": "p_jnkhheofddbe",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -59332,18 +58598,8 @@
           "count": 3
         },
         {
-          "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_dmdailmighhb",
           "to": "p_hpobobilhnoh",
-          "count": 2
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
           "count": 2
         },
         {
@@ -59417,11 +58673,6 @@
           "count": 1
         },
         {
-          "from": "p_eoipeaaocofh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_fkioklocpgbp",
           "to": "me",
           "count": 1
@@ -59429,11 +58680,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "p_dmdailmighhb",
-          "count": 1
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -59457,11 +58703,6 @@
           "count": 1
         },
         {
-          "from": "p_ghbenapallii",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_hpobobilhnoh",
           "to": "me",
           "count": 1
@@ -59482,11 +58723,6 @@
           "count": 1
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_kephgajchogi",
           "to": "p_ghbenapallii",
           "count": 1
@@ -59494,11 +58730,6 @@
         {
           "from": "p_kephgajchogi",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -59819,11 +59050,6 @@
           "count": 5
         },
         {
-          "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 5
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_gdmnohpphadm",
           "count": 3
@@ -59874,11 +59100,6 @@
           "count": 1
         },
         {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_enclpbahigno",
           "to": "p_bcbnmadlfjoe",
           "count": 1
@@ -59886,11 +59107,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "me",
-          "count": 1
-        },
-        {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -59916,11 +59132,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_fkioklocpgbp",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -60210,28 +59421,13 @@
           "count": 1
         },
         {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_fobjhenjdpgl",
           "to": "me",
           "count": 1
         },
         {
-          "from": "p_fobjhenjdpgl",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ifdobplbgacb",
           "to": "me",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -60560,11 +59756,6 @@
           "count": 5
         },
         {
-          "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 4
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_jnkhheofddbe",
           "count": 4
@@ -60577,16 +59768,6 @@
         {
           "from": "p_fkioklocpgbp",
           "to": "me",
-          "count": 3
-        },
-        {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 3
         },
         {
@@ -60630,23 +59811,8 @@
           "count": 2
         },
         {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_ifdobplbgacb",
           "to": "me",
-          "count": 2
-        },
-        {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
           "count": 2
         },
         {
@@ -60657,11 +59823,6 @@
         {
           "from": "p_kephgajchogi",
           "to": "p_ifdobplbgacb",
-          "count": 2
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
           "count": 2
         },
         {
@@ -60755,11 +59916,6 @@
           "count": 1
         },
         {
-          "from": "p_amhokpidpdnh",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_dmdailmighhb",
           "to": "p_enclpbahigno",
           "count": 1
@@ -60782,11 +59938,6 @@
         {
           "from": "p_gdmnohpphadm",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_gdmnohpphadm",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -60847,11 +59998,6 @@
         {
           "from": "p_jnkhheofddbe",
           "to": "p_ghbenapallii",
-          "count": 1
-        },
-        {
-          "from": "p_jnkhheofddbe",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -61190,11 +60336,6 @@
           "count": 3
         },
         {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
-          "count": 3
-        },
-        {
           "from": "p_nfihmngofcke",
           "to": "p_dmdailmighhb",
           "count": 3
@@ -61205,21 +60346,6 @@
           "count": 3
         },
         {
-          "from": "me",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_dmdailmighhb",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 2
-        },
-        {
           "from": "p_ghbenapallii",
           "to": "me",
           "count": 2
@@ -61227,11 +60353,6 @@
         {
           "from": "p_ghbenapallii",
           "to": "p_ifdobplbgacb",
-          "count": 2
-        },
-        {
-          "from": "p_hpobobilhnoh",
-          "to": "p_nfihmngofcke",
           "count": 2
         },
         {
@@ -61325,11 +60446,6 @@
           "count": 1
         },
         {
-          "from": "p_jchajjgjipbd",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_kephgajchogi",
           "to": "p_ghbenapallii",
           "count": 1
@@ -61337,11 +60453,6 @@
         {
           "from": "p_kephgajchogi",
           "to": "p_ifdobplbgacb",
-          "count": 1
-        },
-        {
-          "from": "p_kephgajchogi",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -61432,14 +60543,14 @@
     },
     {
       "date": "2026-06-15",
-      "count": 153,
-      "turnCount": 117,
-      "attachmentMessages": 24,
-      "attachmentTurns": 24,
+      "count": 154,
+      "turnCount": 118,
+      "attachmentMessages": 25,
+      "attachmentTurns": 25,
       "textLengthSum": 3209,
       "textMessageCount": 138,
       "bySender": {
-        "me": 38,
+        "me": 39,
         "p_ifdobplbgacb": 17,
         "p_nfihmngofcke": 16,
         "p_fkioklocpgbp": 15,
@@ -61456,7 +60567,7 @@
         "p_omghgdhhmpfj": 1
       },
       "turnsBySender": {
-        "me": 28,
+        "me": 29,
         "p_fkioklocpgbp": 13,
         "p_ifdobplbgacb": 12,
         "p_nfihmngofcke": 12,
@@ -61493,7 +60604,7 @@
         1,
         0,
         26,
-        42,
+        43,
         0,
         0,
         0
@@ -61519,7 +60630,7 @@
         1,
         0,
         20,
-        31,
+        32,
         0,
         0,
         0
@@ -61619,11 +60730,6 @@
           "count": 1
         },
         {
-          "from": "p_gdmnohpphadm",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
           "from": "p_ghbenapallii",
           "to": "me",
           "count": 1
@@ -61656,11 +60762,6 @@
         {
           "from": "p_ifdobplbgacb",
           "to": "p_gdmnohpphadm",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -63550,7 +62651,7 @@
     {
       "id": "p_dhfbohjlhnec",
       "authorId": "p_amggoddlmlck",
-      "authorLabel": "Participant",
+      "authorLabel": "luke",
       "authorDetail": "participant",
       "date": "2025-12-11",
       "timestamp": "2025-12-11T18:40:10-06:00",
@@ -66738,7 +65839,7 @@
     {
       "id": "p_fiiehomjddml",
       "authorId": "p_amggoddlmlck",
-      "authorLabel": "Participant",
+      "authorLabel": "luke",
       "authorDetail": "participant",
       "date": "2025-12-30",
       "timestamp": "2025-12-30T00:24:36-06:00",

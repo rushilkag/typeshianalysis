@@ -437,6 +437,22 @@ def load_contacts(address_book_dir: Path) -> dict[str, str]:
     return contacts
 
 
+def load_contact_overrides(path: Path | None) -> dict[str, str]:
+    if not path or not path.exists():
+        return {}
+    raw: dict = json.loads(path.read_text(encoding="utf-8"))
+    overrides: dict[str, str] = {}
+    for number, name in raw.items():
+        if not isinstance(name, str) or not name.strip():
+            continue
+        if "@" in number:
+            overrides[number.lower()] = name
+        else:
+            for key in normalize_phone(number):
+                overrides[key] = name
+    return overrides
+
+
 def resolve_contact(
     handle: str | None,
     contacts: dict[str, str],
@@ -1208,6 +1224,12 @@ def parse_args() -> argparse.Namespace:
         help="Optional local JSON file of category -> terms. Terms are counted locally and never published.",
     )
     parser.add_argument(
+        "--contact-overrides",
+        type=Path,
+        default=Path(__file__).resolve().parents[1] / "config/contacts.local.json",
+        help="Optional local JSON file mapping phone numbers or emails to display names.",
+    )
+    parser.add_argument(
         "--include-message-previews",
         action="store_true",
         help="Include short previews for highest-reaction messages. Off by default for hosted builds.",
@@ -1263,6 +1285,7 @@ def main() -> None:
 
     slur_lexicon, slur_lexicon_configured = load_slur_lexicon(args.slur_lexicon)
     contacts = load_contacts(args.address_book_dir)
+    contacts.update(load_contact_overrides(args.contact_overrides))
     conn = connect_readonly(args.messages_db)
     try:
         chat_rows = find_matching_chats(conn, args.group)
