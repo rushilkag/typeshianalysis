@@ -11,8 +11,10 @@ import argparse
 import json
 import os
 import sys
+import threading
 import time
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.request
 from collections import Counter, defaultdict
 from datetime import datetime, time as datetime_time, timedelta
@@ -282,6 +284,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--min-chars", type=int, default=3)
     parser.add_argument("--max-chars", type=int, default=900)
     parser.add_argument("--limit", type=int, default=0, help="Classify only this many uncached turns; 0 means all.")
+    parser.add_argument("--workers", type=int, default=3, help="Number of parallel API workers.")
     parser.add_argument("--messages-db", type=Path, default=Path.home() / "Library/Messages/chat.db")
     parser.add_argument(
         "--address-book-dir",
@@ -315,19 +318,31 @@ def main() -> None:
     if args.limit:
         uncached = uncached[: args.limit]
 
-    for index in range(0, len(uncached), args.batch_size):
-        batch = uncached[index : index + args.batch_size]
+    cache_lock = threading.Lock()
+    completed = 0
+
+    def process_batch(batch: list[dict]) -> int:
         api_batch = [{"id": turn["id"], "text": turn["text"]} for turn in batch]
         results = call_openai(api_key, args.model, api_batch)
         by_id = {item.get("id"): item for item in results if item.get("id")}
+        entries = {}
         for turn in batch:
             item = by_id.get(turn["id"], {})
-            cache[turn["id"]] = {
+            entries[turn["id"]] = {
                 "labels": {key: int(item.get("labels", {}).get(key, 0) or 0) for key in CATEGORIES},
                 "quotes": {key: str(item.get("quotes", {}).get(key, ""))[:220] for key in CATEGORIES},
             }
-        save_cache(args.cache, cache)
-        print(f"Classified {min(index + len(batch), len(uncached))}/{len(uncached)} uncached turns")
+        with cache_lock:
+            cache.update(entries)
+            save_cache(args.cache, cache)
+        return len(batch)
+
+    batches = [uncached[i : i + args.batch_size] for i in range(0, len(uncached), args.batch_size)]
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = {executor.submit(process_batch, batch): batch for batch in batches}
+        for future in as_completed(futures):
+            completed += future.result()
+            print(f"Classified {completed}/{len(uncached)} uncached turns")
 
     summary = summarize(turns, sender_profiles, cache, datetime.now().astimezone())
     args.output.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,1087 @@
+{
+  "generatedAt": "2026-06-15T20:12:32-05:00",
+  "method": "OpenAI chat-completions JSON classifier over 30-second normalized text turns",
+  "minimumTurnsForRanking": 25,
+  "classifiedTurns": 16290,
+  "totalTurnsConsidered": 16290,
+  "rankings": [
+    {
+      "id": "racist",
+      "label": "Most racist",
+      "description": "Race-targeted slurs, stereotypes, race-based insults, or edgy race jokes.",
+      "rows": [
+        {
+          "id": "p_ifdobplbgacb",
+          "label": "Akash",
+          "initials": "AK",
+          "count": 48,
+          "turns": 1549,
+          "rate": 3.1,
+          "examples": [
+            {
+              "quote": "Shut up faggot",
+              "date": "2025-08-28"
+            },
+            {
+              "quote": "Bro Yall retarded",
+              "date": "2025-08-29"
+            },
+            {
+              "quote": "Look at the ratings u gay ass white George Washington fucker",
+              "date": "2025-08-29"
+            }
+          ]
+        },
+        {
+          "id": "p_jchajjgjipbd",
+          "label": "anish chandra",
+          "initials": "AC",
+          "count": 31,
+          "turns": 1034,
+          "rate": 3.0,
+          "examples": [
+            {
+              "quote": "you’re done lil bro, IP. 92.28.211.234 N: 43.7462 W: 12.4893 SS Number: 6979191519182016 IPv6: fe80::5dcd::ef69::fb22::d9888%12 UPNP: Enabled DMZ: 10.112.42.15 MAC: 5A:78:3E:7E:00 ISP: Ucom Universal DNS: 8.8.8.8 ALT DNS",
+              "date": "2025-09-22"
+            },
+            {
+              "quote": "Aryan is so black ?",
+              "date": "2025-11-25"
+            },
+            {
+              "quote": "Poke said the n word already",
+              "date": "2025-12-11"
+            }
+          ]
+        },
+        {
+          "id": "p_dmdailmighhb",
+          "label": "Wentai",
+          "initials": "WE",
+          "count": 15,
+          "turns": 540,
+          "rate": 2.8,
+          "examples": [
+            {
+              "quote": "946 is a fucking tool",
+              "date": "2025-09-04"
+            },
+            {
+              "quote": "I hate drunk aryan",
+              "date": "2025-09-18"
+            },
+            {
+              "quote": "Luke you’re a cunt",
+              "date": "2025-12-11"
+            }
+          ]
+        },
+        {
+          "id": "p_nfihmngofcke",
+          "label": "luke",
+          "initials": "LU",
+          "count": 41,
+          "turns": 1573,
+          "rate": 2.6,
+          "examples": [
+            {
+              "quote": "aryan is a sleeper agent for sicko mode",
+              "date": "2025-10-18"
+            },
+            {
+              "quote": "BRO ARYAN SPIKED ME IM TIPSY",
+              "date": "2025-10-22"
+            },
+            {
+              "quote": "I LITERALLY FUCKIGN TOLD U U FUCKING ST9NKY MONKEY",
+              "date": "2025-11-25"
+            }
+          ]
+        },
+        {
+          "id": "p_akenceifeeeh",
+          "label": "anish",
+          "initials": "AN",
+          "count": 39,
+          "turns": 1494,
+          "rate": 2.6,
+          "examples": [
+            {
+              "quote": "Says the one who wants to go to wolveraas and touch minors",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Damn bro lakers need a center Why’s Aryan 6’8 in this",
+              "date": "2025-10-03"
+            },
+            {
+              "quote": "Kill yourself",
+              "date": "2025-10-28"
+            }
+          ]
+        },
+        {
+          "id": "p_pigpbogjgabl",
+          "label": "lu...@icloud.com",
+          "initials": "LC",
+          "count": 1,
+          "turns": 39,
+          "rate": 2.6,
+          "examples": [
+            {
+              "quote": "bro ur dumb asf akash i’ve had that shit it’s overpriced dave’s not as good small portions",
+              "date": "2025-08-29"
+            }
+          ]
+        },
+        {
+          "id": "p_jnkhheofddbe",
+          "label": "Akul",
+          "initials": "AK",
+          "count": 26,
+          "turns": 1098,
+          "rate": 2.4,
+          "examples": [
+            {
+              "quote": "Id get canceled if I hit a retard",
+              "date": "2025-09-06"
+            },
+            {
+              "quote": "I hate retards",
+              "date": "2025-09-28"
+            },
+            {
+              "quote": "im pretty sure i did that to him",
+              "date": "2025-12-12"
+            }
+          ]
+        },
+        {
+          "id": "p_amggoddlmlck",
+          "label": "***-1551",
+          "initials": "15",
+          "count": 2,
+          "turns": 85,
+          "rate": 2.4,
+          "examples": [
+            {
+              "quote": "N.I.G.G.A luke i'm not spelling it out for you",
+              "date": "2025-12-11"
+            },
+            {
+              "quote": "nigga",
+              "date": "2025-12-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pickMe",
+      "label": "Most pick me",
+      "description": "Approval-seeking, performative self-deprecation, or trying to be chosen/validated.",
+      "rows": [
+        {
+          "id": "p_hpobobilhnoh",
+          "label": "Aryan Shah",
+          "initials": "AS",
+          "count": 36,
+          "turns": 784,
+          "rate": 4.6,
+          "examples": [
+            {
+              "quote": "Would anyone be open to mock interviewing me",
+              "date": "2025-09-17"
+            },
+            {
+              "quote": "I’m gonna steal your phone Come for your birthday",
+              "date": "2025-10-22"
+            },
+            {
+              "quote": "I’m down but my suit left me out of town",
+              "date": "2026-02-21"
+            }
+          ]
+        },
+        {
+          "id": "p_mnmcbpgmjcja",
+          "label": "saad",
+          "initials": "SA",
+          "count": 4,
+          "turns": 103,
+          "rate": 3.9,
+          "examples": [
+            {
+              "quote": "Bro rohan I told u text me next time u go to a bar and I’ll cover ur drink",
+              "date": "2026-02-02"
+            },
+            {
+              "quote": "I’m tryna rizz",
+              "date": "2026-02-12"
+            },
+            {
+              "quote": "White Boy",
+              "date": "2026-04-17"
+            }
+          ]
+        },
+        {
+          "id": "p_nfihmngofcke",
+          "label": "luke",
+          "initials": "LU",
+          "count": 43,
+          "turns": 1573,
+          "rate": 2.7,
+          "examples": [
+            {
+              "quote": "i could use a third",
+              "date": "2025-08-28"
+            },
+            {
+              "quote": "Sunny follow me back",
+              "date": "2025-10-02"
+            },
+            {
+              "quote": "Is this hot",
+              "date": "2025-11-12"
+            }
+          ]
+        },
+        {
+          "id": "p_akenceifeeeh",
+          "label": "anish",
+          "initials": "AN",
+          "count": 39,
+          "turns": 1494,
+          "rate": 2.6,
+          "examples": [
+            {
+              "quote": "If I don’t drink consider me Soham Salunke",
+              "date": "2025-08-27"
+            },
+            {
+              "quote": "First say yes tho",
+              "date": "2025-09-06"
+            },
+            {
+              "quote": "I need someone to get me home",
+              "date": "2025-09-30"
+            }
+          ]
+        },
+        {
+          "id": "p_pigpbogjgabl",
+          "label": "lu...@icloud.com",
+          "initials": "LC",
+          "count": 1,
+          "turns": 39,
+          "rate": 2.6,
+          "examples": [
+            {
+              "quote": "can u get me one too",
+              "date": "2025-09-03"
+            }
+          ]
+        },
+        {
+          "id": "me",
+          "label": "Rushil",
+          "initials": "RU",
+          "count": 26,
+          "turns": 1053,
+          "rate": 2.5,
+          "examples": [
+            {
+              "quote": "idk if i can come",
+              "date": "2025-10-28"
+            },
+            {
+              "quote": "u talk too much poke reduce your talking setting",
+              "date": "2025-12-30"
+            },
+            {
+              "quote": "i didn’t get in",
+              "date": "2026-03-10"
+            }
+          ]
+        },
+        {
+          "id": "p_jdgogekapdln",
+          "label": "Vishnu",
+          "initials": "VI",
+          "count": 3,
+          "turns": 128,
+          "rate": 2.3,
+          "examples": [
+            {
+              "quote": "bro i’m built different",
+              "date": "2026-01-12"
+            },
+            {
+              "quote": "I can’t make it unforch😢🥺",
+              "date": "2026-01-22"
+            },
+            {
+              "quote": "i won’t get that drunk",
+              "date": "2026-04-21"
+            }
+          ]
+        },
+        {
+          "id": "p_enclpbahigno",
+          "label": "aditya bodanapu",
+          "initials": "AB",
+          "count": 8,
+          "turns": 368,
+          "rate": 2.2,
+          "examples": [
+            {
+              "quote": "Wow thank you luke",
+              "date": "2025-10-14"
+            },
+            {
+              "quote": "I lowkey don’t have this number saved",
+              "date": "2025-10-14"
+            },
+            {
+              "quote": "u might be the corniest saad",
+              "date": "2025-10-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "selfInsert",
+      "label": "Most self insert",
+      "description": "Turns an unrelated topic back to themselves or their own experience.",
+      "rows": [
+        {
+          "id": "p_hpobobilhnoh",
+          "label": "Aryan Shah",
+          "initials": "AS",
+          "count": 100,
+          "turns": 784,
+          "rate": 12.8,
+          "examples": [
+            {
+              "quote": "Wait soham what flavor are you getting",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Akul I’m increasing u for everyone",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Yo taste of India rn half off biryani",
+              "date": "2025-09-03"
+            }
+          ]
+        },
+        {
+          "id": "p_akenceifeeeh",
+          "label": "anish",
+          "initials": "AN",
+          "count": 162,
+          "turns": 1494,
+          "rate": 10.8,
+          "examples": [
+            {
+              "quote": "right when I picked Mocha Aprsons off waivers",
+              "date": "2025-08-28"
+            },
+            {
+              "quote": "my REBANT and Ankith also wanna go",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Me I mean me",
+              "date": "2025-09-04"
+            }
+          ]
+        },
+        {
+          "id": "p_nfihmngofcke",
+          "label": "luke",
+          "initials": "LU",
+          "count": 155,
+          "turns": 1573,
+          "rate": 9.9,
+          "examples": [
+            {
+              "quote": "Aryan I ragebait aadit ask him abotu the find my location incident",
+              "date": "2025-09-04"
+            },
+            {
+              "quote": "Wentai i had it first",
+              "date": "2025-09-22"
+            },
+            {
+              "quote": "sunny while writin ghat Try not to mention ur at work challenge failed",
+              "date": "2025-11-25"
+            }
+          ]
+        },
+        {
+          "id": "me",
+          "label": "Rushil",
+          "initials": "RU",
+          "count": 104,
+          "turns": 1053,
+          "rate": 9.9,
+          "examples": [
+            {
+              "quote": "i love comet!",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "IM is lowkey far from me",
+              "date": "2025-10-28"
+            },
+            {
+              "quote": "me too",
+              "date": "2025-12-31"
+            }
+          ]
+        },
+        {
+          "id": "p_bfhopadigiif",
+          "label": "Bendi",
+          "initials": "BE",
+          "count": 28,
+          "turns": 299,
+          "rate": 9.4,
+          "examples": [
+            {
+              "quote": "Diddy only talks in this chatwhen its abt leetcode",
+              "date": "2025-10-05"
+            },
+            {
+              "quote": "Fuck I was gonna say",
+              "date": "2026-01-01"
+            },
+            {
+              "quote": "It’s /w me come thru to south Lyon",
+              "date": "2026-01-04"
+            }
+          ]
+        },
+        {
+          "id": "p_fkioklocpgbp",
+          "label": "rohan",
+          "initials": "RO",
+          "count": 99,
+          "turns": 1080,
+          "rate": 9.2,
+          "examples": [
+            {
+              "quote": "Aryan is my only lead still 💔",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Wait i think he has ragebaited me tho",
+              "date": "2025-09-04"
+            },
+            {
+              "quote": "R u home Me and luke gonna be there in five",
+              "date": "2025-09-04"
+            }
+          ]
+        },
+        {
+          "id": "p_mnmcbpgmjcja",
+          "label": "saad",
+          "initials": "SA",
+          "count": 9,
+          "turns": 103,
+          "rate": 8.7,
+          "examples": [
+            {
+              "quote": "Guys, Im very frustrated with how we only rot and goon at the type shit house.",
+              "date": "2025-10-19"
+            },
+            {
+              "quote": "Sunny acting different after landing Bosch",
+              "date": "2025-10-27"
+            },
+            {
+              "quote": "I poked sunny my finger went through js now",
+              "date": "2025-10-27"
+            }
+          ]
+        },
+        {
+          "id": "p_olidjepnnbno",
+          "label": "Krish Ven",
+          "initials": "KV",
+          "count": 24,
+          "turns": 296,
+          "rate": 8.1,
+          "examples": [
+            {
+              "quote": "On Anish’s faang offer there’ll be hella juniors here",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Anish he’s learning from you are u proud",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "I think I rage bait anish quite a bit",
+              "date": "2025-09-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brainrot",
+      "label": "Biggest brainrot",
+      "description": "Chaotic, incoherent, terminally online, absurd, or aggressively unserious messages.",
+      "rows": [
+        {
+          "id": "p_amggoddlmlck",
+          "label": "***-1551",
+          "initials": "15",
+          "count": 21,
+          "turns": 85,
+          "rate": 24.7,
+          "examples": [
+            {
+              "quote": "yo hentai what's good",
+              "date": "2025-12-11"
+            },
+            {
+              "quote": "tell him at least your startup has more traction than his dating life",
+              "date": "2025-12-11"
+            },
+            {
+              "quote": "bro's on the couch all day but can't sit with the roast for 5 mins",
+              "date": "2025-12-11"
+            }
+          ]
+        },
+        {
+          "id": "p_nfihmngofcke",
+          "label": "luke",
+          "initials": "LU",
+          "count": 369,
+          "turns": 1573,
+          "rate": 23.5,
+          "examples": [
+            {
+              "quote": "LMAOOOOOO NO WAY",
+              "date": "2025-08-28"
+            },
+            {
+              "quote": "nh that shit mid Ur high Akash",
+              "date": "2025-08-29"
+            },
+            {
+              "quote": "keeps ngl",
+              "date": "2025-09-03"
+            }
+          ]
+        },
+        {
+          "id": "p_pigpbogjgabl",
+          "label": "lu...@icloud.com",
+          "initials": "LC",
+          "count": 8,
+          "turns": 39,
+          "rate": 20.5,
+          "examples": [
+            {
+              "quote": "sped up",
+              "date": "2025-08-28"
+            },
+            {
+              "quote": "wwntai skeeps sighting",
+              "date": "2025-08-31"
+            },
+            {
+              "quote": "LMAOO",
+              "date": "2025-09-02"
+            }
+          ]
+        },
+        {
+          "id": "p_eoipeaaocofh",
+          "label": "Prajwal",
+          "initials": "PR",
+          "count": 70,
+          "turns": 382,
+          "rate": 18.3,
+          "examples": [
+            {
+              "quote": "What in the fuck is going on",
+              "date": "2025-09-28"
+            },
+            {
+              "quote": "Gunk and scrum",
+              "date": "2025-10-01"
+            },
+            {
+              "quote": "Yall dont know about the sunny minion Shit my bad gunk",
+              "date": "2025-10-08"
+            }
+          ]
+        },
+        {
+          "id": "p_bcbnmadlfjoe",
+          "label": "Sunny",
+          "initials": "SU",
+          "count": 30,
+          "turns": 169,
+          "rate": 17.8,
+          "examples": [
+            {
+              "quote": "bro fuck diddy",
+              "date": "2025-09-29"
+            },
+            {
+              "quote": "stupid ass bit",
+              "date": "2025-10-01"
+            },
+            {
+              "quote": "ts can’t be real",
+              "date": "2025-10-01"
+            }
+          ]
+        },
+        {
+          "id": "p_omghgdhhmpfj",
+          "label": "Sanjit Vijay",
+          "initials": "SV",
+          "count": 43,
+          "turns": 263,
+          "rate": 16.3,
+          "examples": [
+            {
+              "quote": "effects of OS on a mf",
+              "date": "2025-10-14"
+            },
+            {
+              "quote": "anything but increasing shareholder value",
+              "date": "2025-11-25"
+            },
+            {
+              "quote": "doomscrolling got to me 🥀",
+              "date": "2025-12-07"
+            }
+          ]
+        },
+        {
+          "id": "p_blfhjomohklb",
+          "label": "Arnav Bhaskar",
+          "initials": "AB",
+          "count": 87,
+          "turns": 542,
+          "rate": 16.1,
+          "examples": [
+            {
+              "quote": "No way 😭",
+              "date": "2025-09-02"
+            },
+            {
+              "quote": "I’m tryna get my rage bait score up hold on",
+              "date": "2025-09-04"
+            },
+            {
+              "quote": "Bro krish IASA was so heated 😭",
+              "date": "2025-09-06"
+            }
+          ]
+        },
+        {
+          "id": "p_akenceifeeeh",
+          "label": "anish",
+          "initials": "AN",
+          "count": 236,
+          "turns": 1494,
+          "rate": 15.8,
+          "examples": [
+            {
+              "quote": "LMAOOOO I SAID THIS TOO",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "LMFAOOOOOO Not shayn garg",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "OH MY GODDDDDD",
+              "date": "2025-09-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vulnerable",
+      "label": "Most vulnerable",
+      "description": "Emotionally open, insecure, sad, sincere, anxious, or personally exposed messages.",
+      "rows": [
+        {
+          "id": "p_blfhjomohklb",
+          "label": "Arnav Bhaskar",
+          "initials": "AB",
+          "count": 46,
+          "turns": 542,
+          "rate": 8.5,
+          "examples": [
+            {
+              "quote": "She so happy bro 😭",
+              "date": "2025-09-02"
+            },
+            {
+              "quote": "Yo I’m crying 😭 Dev is this true?",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Can u pick me up 🥺",
+              "date": "2025-09-04"
+            }
+          ]
+        },
+        {
+          "id": "p_amggoddlmlck",
+          "label": "***-1551",
+          "initials": "15",
+          "count": 7,
+          "turns": 85,
+          "rate": 8.2,
+          "examples": [
+            {
+              "quote": "i already did luke, use ur brain",
+              "date": "2025-12-11"
+            },
+            {
+              "quote": "bro what 😭",
+              "date": "2025-12-11"
+            },
+            {
+              "quote": "stay away from everyone",
+              "date": "2025-12-11"
+            }
+          ]
+        },
+        {
+          "id": "p_akenceifeeeh",
+          "label": "anish",
+          "initials": "AN",
+          "count": 103,
+          "turns": 1494,
+          "rate": 6.9,
+          "examples": [
+            {
+              "quote": "💔💔💔",
+              "date": "2025-08-28"
+            },
+            {
+              "quote": "Damn cool new glasses Sunneth!!!",
+              "date": "2025-09-02"
+            },
+            {
+              "quote": "There goes my hopes and dreams",
+              "date": "2025-09-03"
+            }
+          ]
+        },
+        {
+          "id": "p_jdgogekapdln",
+          "label": "Vishnu",
+          "initials": "VI",
+          "count": 8,
+          "turns": 128,
+          "rate": 6.2,
+          "examples": [
+            {
+              "quote": "i’m lowk a pacifist, i have no enemies",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "thank you guys!!",
+              "date": "2025-11-27"
+            },
+            {
+              "quote": "self hate will not be tolerated",
+              "date": "2026-01-03"
+            }
+          ]
+        },
+        {
+          "id": "p_hpobobilhnoh",
+          "label": "Aryan Shah",
+          "initials": "AS",
+          "count": 48,
+          "turns": 784,
+          "rate": 6.1,
+          "examples": [
+            {
+              "quote": "How can I get involved?",
+              "date": "2025-09-04"
+            },
+            {
+              "quote": "I love all of you",
+              "date": "2025-09-18"
+            },
+            {
+              "quote": "Happy thanksgiving guys! Grateful to have yall in my life",
+              "date": "2025-11-27"
+            }
+          ]
+        },
+        {
+          "id": "p_enclpbahigno",
+          "label": "aditya bodanapu",
+          "initials": "AB",
+          "count": 22,
+          "turns": 368,
+          "rate": 6.0,
+          "examples": [
+            {
+              "quote": "I’ve been dreaming of this moment for years",
+              "date": "2025-09-26"
+            },
+            {
+              "quote": "Cried to sleep last night",
+              "date": "2025-09-28"
+            },
+            {
+              "quote": "Im sorry srivatsav.",
+              "date": "2025-10-05"
+            }
+          ]
+        },
+        {
+          "id": "p_kephgajchogi",
+          "label": "Vaibhav",
+          "initials": "VA",
+          "count": 46,
+          "turns": 830,
+          "rate": 5.5,
+          "examples": [
+            {
+              "quote": "Down for what bro 😭",
+              "date": "2025-09-04"
+            },
+            {
+              "quote": "thanks shanbhag",
+              "date": "2025-09-22"
+            },
+            {
+              "quote": "I think we’ll cancel it",
+              "date": "2025-09-24"
+            }
+          ]
+        },
+        {
+          "id": "p_gdmnohpphadm",
+          "label": "Dev Srikar Nimmala",
+          "initials": "DN",
+          "count": 7,
+          "turns": 140,
+          "rate": 5.0,
+          "examples": [
+            {
+              "quote": "Yes I watch YouTube kids in my free time 😒",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "☹️",
+              "date": "2025-09-28"
+            },
+            {
+              "quote": "I love u too poke",
+              "date": "2025-12-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glazer",
+      "label": "Biggest glazer",
+      "description": "Excessive praise, defending, hyping, or over-complimenting someone.",
+      "rows": [
+        {
+          "id": "p_mnmcbpgmjcja",
+          "label": "saad",
+          "initials": "SA",
+          "count": 23,
+          "turns": 103,
+          "rate": 22.3,
+          "examples": [
+            {
+              "quote": "Happy birthday rohaan",
+              "date": "2025-09-30"
+            },
+            {
+              "quote": "Happy bday Shish",
+              "date": "2025-10-13"
+            },
+            {
+              "quote": "Happy birthday Diddy",
+              "date": "2025-10-14"
+            }
+          ]
+        },
+        {
+          "id": "p_jdgogekapdln",
+          "label": "Vishnu",
+          "initials": "VI",
+          "count": 28,
+          "turns": 128,
+          "rate": 21.9,
+          "examples": [
+            {
+              "quote": "Happy Birthday Rohan 🍺(save me some alc)",
+              "date": "2025-09-30"
+            },
+            {
+              "quote": "happy birthday rushil",
+              "date": "2025-10-05"
+            },
+            {
+              "quote": "Happy birthday sunny ☀️ 🎉",
+              "date": "2025-10-13"
+            }
+          ]
+        },
+        {
+          "id": "p_gdmnohpphadm",
+          "label": "Dev Srikar Nimmala",
+          "initials": "DN",
+          "count": 27,
+          "turns": 140,
+          "rate": 19.3,
+          "examples": [
+            {
+              "quote": "Congrats on this amazing achievement!",
+              "date": "2025-09-06"
+            },
+            {
+              "quote": "Happy birthday Rohan Kolli 🥳🥳",
+              "date": "2025-09-30"
+            },
+            {
+              "quote": "Happy birthday rushil🎂🎂",
+              "date": "2025-10-04"
+            }
+          ]
+        },
+        {
+          "id": "p_bcbnmadlfjoe",
+          "label": "Sunny",
+          "initials": "SU",
+          "count": 26,
+          "turns": 169,
+          "rate": 15.4,
+          "examples": [
+            {
+              "quote": "diddy is sooo tuff 😍",
+              "date": "2025-09-27"
+            },
+            {
+              "quote": "happy birthday Rohan 🎂",
+              "date": "2025-09-30"
+            },
+            {
+              "quote": "congrats rushil",
+              "date": "2025-10-08"
+            }
+          ]
+        },
+        {
+          "id": "p_dljmmncicnlf",
+          "label": "Jon D",
+          "initials": "JD",
+          "count": 23,
+          "turns": 158,
+          "rate": 14.6,
+          "examples": [
+            {
+              "quote": "Don’t worry akash, I’ll be the ere",
+              "date": "2025-09-28"
+            },
+            {
+              "quote": "Happy birthday rohan",
+              "date": "2025-09-30"
+            },
+            {
+              "quote": "Happy birthday Rushil",
+              "date": "2025-10-04"
+            }
+          ]
+        },
+        {
+          "id": "p_omghgdhhmpfj",
+          "label": "Sanjit Vijay",
+          "initials": "SV",
+          "count": 30,
+          "turns": 263,
+          "rate": 11.4,
+          "examples": [
+            {
+              "quote": "good save akul",
+              "date": "2025-09-06"
+            },
+            {
+              "quote": "happy birthday Rohan",
+              "date": "2025-09-30"
+            },
+            {
+              "quote": "happy birthday rushil 🎉",
+              "date": "2025-10-05"
+            }
+          ]
+        },
+        {
+          "id": "p_hpobobilhnoh",
+          "label": "Aryan Shah",
+          "initials": "AS",
+          "count": 79,
+          "turns": 784,
+          "rate": 10.1,
+          "examples": [
+            {
+              "quote": "Congrats bhaskar! Excited to see what’s next.",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "I love comet!",
+              "date": "2025-09-03"
+            },
+            {
+              "quote": "Have a great night!",
+              "date": "2025-09-18"
+            }
+          ]
+        },
+        {
+          "id": "p_bfhopadigiif",
+          "label": "Bendi",
+          "initials": "BE",
+          "count": 30,
+          "turns": 299,
+          "rate": 10.0,
+          "examples": [
+            {
+              "quote": "Happy birthday Sunneth!",
+              "date": "2025-10-13"
+            },
+            {
+              "quote": "Cutie cutie",
+              "date": "2025-10-25"
+            },
+            {
+              "quote": "Yes they’re mine Next to the id I’ll come in a bit",
+              "date": "2025-11-02"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

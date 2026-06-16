@@ -1,8 +1,8 @@
 {
   "groupName": "type shi",
-  "generatedAt": "2026-06-14T19:22:52-05:00",
-  "windowStart": "2025-06-15T00:00:00-05:00",
-  "windowEnd": "2026-06-14T19:22:52-05:00",
+  "generatedAt": "2026-06-15T20:20:49-05:00",
+  "windowStart": "2025-06-16T00:00:00-05:00",
+  "windowEnd": "2026-06-15T20:20:49-05:00",
   "days": 365,
   "maxWindowDays": 365,
   "defaultWindowDays": 14,
@@ -14,15 +14,15 @@
     180,
     365
   ],
-  "totalMessages": 24021,
-  "totalTurns": 18564,
+  "totalMessages": 24353,
+  "totalTurns": 18796,
   "turnGapSeconds": 30,
-  "burstReductionPercent": 22.7,
+  "burstReductionPercent": 22.8,
   "participantCount": 29,
-  "attachmentMessages": 2643,
-  "attachmentTurns": 2538,
-  "averagePerDay": 50.9,
-  "averageTextLength": 25.6,
+  "attachmentMessages": 2680,
+  "attachmentTurns": 2574,
+  "averagePerDay": 51.5,
+  "averageTextLength": 25.7,
   "matchedChats": [],
   "senders": [
     {
@@ -32,12 +32,12 @@
       "initials": "LU",
       "count": 0,
       "firstMessageAt": "2025-08-28T12:15:32-05:00",
-      "lastMessageAt": "2026-06-14T19:12:43-05:00",
-      "totalCount": 2919,
-      "turnCount": 1721,
-      "burstReductionPercent": 41.0,
+      "lastMessageAt": "2026-06-15T20:05:39-05:00",
+      "totalCount": 3017,
+      "turnCount": 1771,
+      "burstReductionPercent": 41.3,
       "rank": 1,
-      "share": 9.3
+      "share": 9.4
     },
     {
       "id": "p_ifdobplbgacb",
@@ -46,26 +46,12 @@
       "initials": "AK",
       "count": 0,
       "firstMessageAt": "2025-08-27T17:15:55-05:00",
-      "lastMessageAt": "2026-06-14T19:17:20-05:00",
-      "totalCount": 2217,
-      "turnCount": 1663,
+      "lastMessageAt": "2026-06-15T20:13:20-05:00",
+      "totalCount": 2259,
+      "turnCount": 1695,
       "burstReductionPercent": 25.0,
       "rank": 2,
       "share": 9.0
-    },
-    {
-      "id": "p_akenceifeeeh",
-      "label": "anish",
-      "detail": "participant",
-      "initials": "AN",
-      "count": 0,
-      "firstMessageAt": "2025-08-27T20:01:16-05:00",
-      "lastMessageAt": "2026-06-14T17:15:17-05:00",
-      "totalCount": 2203,
-      "turnCount": 1609,
-      "burstReductionPercent": 27.0,
-      "rank": 3,
-      "share": 8.7
     },
     {
       "id": "me",
@@ -74,12 +60,26 @@
       "initials": "RU",
       "count": 0,
       "firstMessageAt": "2025-08-27T12:37:53-05:00",
-      "lastMessageAt": "2026-06-14T19:08:29-05:00",
-      "totalCount": 1964,
-      "turnCount": 1587,
-      "burstReductionPercent": 19.2,
+      "lastMessageAt": "2026-06-15T20:12:18-05:00",
+      "totalCount": 2027,
+      "turnCount": 1636,
+      "burstReductionPercent": 19.3,
+      "rank": 3,
+      "share": 8.7
+    },
+    {
+      "id": "p_akenceifeeeh",
+      "label": "anish",
+      "detail": "participant",
+      "initials": "AN",
+      "count": 0,
+      "firstMessageAt": "2025-08-27T20:01:16-05:00",
+      "lastMessageAt": "2026-06-15T20:08:05-05:00",
+      "totalCount": 2212,
+      "turnCount": 1614,
+      "burstReductionPercent": 27.0,
       "rank": 4,
-      "share": 8.5
+      "share": 8.6
     },
     {
       "id": "p_fkioklocpgbp",
@@ -88,9 +88,9 @@
       "initials": "RO",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:30-05:00",
-      "lastMessageAt": "2026-06-14T19:14:55-05:00",
-      "totalCount": 1567,
-      "turnCount": 1272,
+      "lastMessageAt": "2026-06-15T20:12:36-05:00",
+      "totalCount": 1592,
+      "turnCount": 1293,
       "burstReductionPercent": 18.8,
       "rank": 5,
       "share": 6.9
@@ -102,10 +102,10 @@
       "initials": "AK",
       "count": 0,
       "firstMessageAt": "2025-08-28T12:04:47-05:00",
-      "lastMessageAt": "2026-06-14T18:56:48-05:00",
-      "totalCount": 1628,
-      "turnCount": 1269,
-      "burstReductionPercent": 22.1,
+      "lastMessageAt": "2026-06-15T20:02:26-05:00",
+      "totalCount": 1635,
+      "turnCount": 1276,
+      "burstReductionPercent": 22.0,
       "rank": 6,
       "share": 6.8
     },
@@ -116,12 +116,12 @@
       "initials": "AC",
       "count": 0,
       "firstMessageAt": "2025-08-28T12:05:14-05:00",
-      "lastMessageAt": "2026-06-14T19:00:06-05:00",
-      "totalCount": 1464,
-      "turnCount": 1216,
-      "burstReductionPercent": 16.9,
+      "lastMessageAt": "2026-06-15T15:00:21-05:00",
+      "totalCount": 1473,
+      "turnCount": 1223,
+      "burstReductionPercent": 17.0,
       "rank": 7,
-      "share": 6.6
+      "share": 6.5
     },
     {
       "id": "p_hpobobilhnoh",
@@ -130,10 +130,10 @@
       "initials": "AS",
       "count": 0,
       "firstMessageAt": "2025-08-27T20:15:02-05:00",
-      "lastMessageAt": "2026-06-14T17:18:50-05:00",
-      "totalCount": 1294,
-      "turnCount": 981,
-      "burstReductionPercent": 24.2,
+      "lastMessageAt": "2026-06-15T20:08:53-05:00",
+      "totalCount": 1323,
+      "turnCount": 1001,
+      "burstReductionPercent": 24.3,
       "rank": 8,
       "share": 5.3
     },
@@ -144,10 +144,10 @@
       "initials": "AA",
       "count": 0,
       "firstMessageAt": "2025-09-04T15:34:45-05:00",
-      "lastMessageAt": "2026-06-14T19:08:42-05:00",
-      "totalCount": 1240,
-      "turnCount": 909,
-      "burstReductionPercent": 26.7,
+      "lastMessageAt": "2026-06-15T19:53:46-05:00",
+      "totalCount": 1250,
+      "turnCount": 918,
+      "burstReductionPercent": 26.6,
       "rank": 9,
       "share": 4.9
     },
@@ -158,10 +158,10 @@
       "initials": "VA",
       "count": 0,
       "firstMessageAt": "2025-08-27T08:39:24-05:00",
-      "lastMessageAt": "2026-06-14T19:17:02-05:00",
-      "totalCount": 1077,
-      "turnCount": 881,
-      "burstReductionPercent": 18.2,
+      "lastMessageAt": "2026-06-15T14:28:59-05:00",
+      "totalCount": 1089,
+      "turnCount": 888,
+      "burstReductionPercent": 18.5,
       "rank": 10,
       "share": 4.7
     },
@@ -172,9 +172,9 @@
       "initials": "SO",
       "count": 0,
       "firstMessageAt": "2025-08-27T18:14:52-05:00",
-      "lastMessageAt": "2026-06-14T19:08:41-05:00",
-      "totalCount": 1048,
-      "turnCount": 870,
+      "lastMessageAt": "2026-06-15T19:28:32-05:00",
+      "totalCount": 1056,
+      "turnCount": 877,
       "burstReductionPercent": 17.0,
       "rank": 11,
       "share": 4.7
@@ -200,10 +200,10 @@
       "initials": "WE",
       "count": 0,
       "firstMessageAt": "2025-08-29T19:56:04-05:00",
-      "lastMessageAt": "2026-06-14T19:15:30-05:00",
-      "totalCount": 714,
-      "turnCount": 574,
-      "burstReductionPercent": 19.6,
+      "lastMessageAt": "2026-06-15T19:11:10-05:00",
+      "totalCount": 725,
+      "turnCount": 584,
+      "burstReductionPercent": 19.4,
       "rank": 13,
       "share": 3.1
     },
@@ -228,9 +228,9 @@
       "initials": "AB",
       "count": 0,
       "firstMessageAt": "2025-09-26T22:32:31-05:00",
-      "lastMessageAt": "2026-06-13T23:00:22-05:00",
-      "totalCount": 450,
-      "turnCount": 417,
+      "lastMessageAt": "2026-06-15T20:12:41-05:00",
+      "totalCount": 453,
+      "turnCount": 420,
       "burstReductionPercent": 7.3,
       "rank": 15,
       "share": 2.2
@@ -256,10 +256,10 @@
       "initials": "BE",
       "count": 0,
       "firstMessageAt": "2025-08-28T12:08:50-05:00",
-      "lastMessageAt": "2026-06-12T17:52:00-05:00",
-      "totalCount": 443,
-      "turnCount": 352,
-      "burstReductionPercent": 20.5,
+      "lastMessageAt": "2026-06-14T20:48:10-05:00",
+      "totalCount": 445,
+      "turnCount": 353,
+      "burstReductionPercent": 20.7,
       "rank": 17,
       "share": 1.9
     },
@@ -284,9 +284,9 @@
       "initials": "SV",
       "count": 0,
       "firstMessageAt": "2025-08-29T20:25:43-05:00",
-      "lastMessageAt": "2026-06-14T17:15:51-05:00",
-      "totalCount": 310,
-      "turnCount": 278,
+      "lastMessageAt": "2026-06-15T11:29:48-05:00",
+      "totalCount": 311,
+      "turnCount": 279,
       "burstReductionPercent": 10.3,
       "rank": 19,
       "share": 1.5
@@ -326,10 +326,10 @@
       "initials": "DN",
       "count": 0,
       "firstMessageAt": "2025-09-03T12:16:55-05:00",
-      "lastMessageAt": "2026-06-13T22:32:37-05:00",
-      "totalCount": 196,
-      "turnCount": 185,
-      "burstReductionPercent": 5.6,
+      "lastMessageAt": "2026-06-15T20:13:30-05:00",
+      "totalCount": 199,
+      "turnCount": 188,
+      "burstReductionPercent": 5.5,
       "rank": 22,
       "share": 1.0
     },
@@ -433,79 +433,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2025-06-15",
-      "count": 0,
-      "turnCount": 0,
-      "attachmentMessages": 0,
-      "attachmentTurns": 0,
-      "textLengthSum": 0,
-      "textMessageCount": 0,
-      "bySender": {},
-      "turnsBySender": {},
-      "byHour": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "turnsByHour": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vibesBySender": {},
-      "reactionBySender": {},
-      "reactionByAuthor": {},
-      "mentions": [],
-      "slurBySender": {},
-      "slurByCategory": {},
-      "wordWatchBySender": {},
-      "wordWatchByTerm": {},
-      "swearBySender": {},
-      "swearByTerm": {}
-    },
     {
       "date": "2025-06-16",
       "count": 0,
@@ -6110,7 +6037,7 @@
           "damn": 1
         },
         "p_fobjhenjdpgl": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_ghbenapallii": {
@@ -6121,7 +6048,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
         "fuck": 3,
         "shit": 1
@@ -6306,10 +6233,10 @@
           "damn": 1
         },
         "p_fobjhenjdpgl": {
-          "ass": 1
+          "ass": 2
         },
         "p_ifdobplbgacb": {
-          "ass": 2,
+          "ass": 4,
           "fuck": 1
         },
         "p_nfihmngofcke": {
@@ -6320,7 +6247,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "damn": 1,
         "fuck": 1,
         "shit": 2
@@ -7862,7 +7789,7 @@
           "damn": 1
         },
         "p_jnkhheofddbe": {
-          "ass": 1
+          "ass": 2
         },
         "p_kephgajchogi": {
           "fuck": 1,
@@ -7874,7 +7801,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 2,
         "fuck": 2,
         "shit": 4
@@ -8234,11 +8161,11 @@
           "shit": 1
         },
         "p_jchajjgjipbd": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "shit": 1
       }
     },
@@ -10163,7 +10090,7 @@
           "fuck": 1
         },
         "p_dmdailmighhb": {
-          "ass": 1
+          "ass": 2
         },
         "p_hkfgpjfalkgj": {
           "fuck": 1
@@ -10179,7 +10106,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
         "fuck": 2,
         "pussy": 1,
@@ -11334,7 +11261,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_dmdailmighhb": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_mnmcbpgmjcja": {
@@ -11342,7 +11269,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 1,
         "hell": 1
       }
@@ -11566,7 +11493,7 @@
           "fuck": 1
         },
         "p_bcbnmadlfjoe": {
-          "ass": 1
+          "ass": 2
         },
         "p_dmdailmighhb": {
           "shit": 1
@@ -11576,7 +11503,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 2,
         "shit": 1
       }
@@ -12086,14 +12013,14 @@
           "fuck": 1
         },
         "p_enclpbahigno": {
-          "ass": 1
+          "ass": 2
         },
         "p_ifdobplbgacb": {
           "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
         "fuck": 1,
         "shit": 1
@@ -12633,11 +12560,11 @@
           "dick": 1
         },
         "p_ifdobplbgacb": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "dick": 1,
         "fuck": 1,
         "shit": 1
@@ -14922,7 +14849,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_amhokpidpdnh": {
-          "ass": 1
+          "ass": 2
         },
         "p_hpobobilhnoh": {
           "fuck": 1,
@@ -14933,7 +14860,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "bastard": 1,
         "fuck": 1,
         "shit": 1
@@ -15557,15 +15484,15 @@
       },
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1
+          "ass": 2
         },
         "p_mnmcbpgmjcja": {
-          "ass": 1,
+          "ass": 2,
           "bitch": 2
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "bitch": 2
       }
     },
@@ -15711,17 +15638,17 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_bcbnmadlfjoe": {
-          "ass": 2
+          "ass": 4
         },
         "p_enclpbahigno": {
-          "ass": 1
+          "ass": 2
         },
         "p_fobjhenjdpgl": {
           "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "shit": 1
       }
     },
@@ -17300,14 +17227,14 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1
+          "ass": 2
         },
         "p_kephgajchogi": {
           "damn": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1
       }
     },
@@ -17679,11 +17606,11 @@
           "fuck": 1
         },
         "p_ifdobplbgacb": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 1
       }
     },
@@ -19705,7 +19632,7 @@
           "fuck": 1
         },
         "p_eoipeaaocofh": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1,
           "shit": 1
         },
@@ -19717,7 +19644,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 4,
         "shit": 2
       }
@@ -19945,11 +19872,15 @@
       "wordWatchBySender": {},
       "wordWatchByTerm": {},
       "swearBySender": {
+        "p_akenceifeeeh": {
+          "dick": 1
+        },
         "p_nfihmngofcke": {
           "fuck": 1
         }
       },
       "swearByTerm": {
+        "dick": 1,
         "fuck": 1
       }
     },
@@ -21181,10 +21112,12 @@
           "shit": 1
         },
         "p_jchajjgjipbd": {
+          "cock": 2,
           "shit": 1
         }
       },
       "swearByTerm": {
+        "cock": 2,
         "shit": 2
       }
     },
@@ -21726,11 +21659,11 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_jnkhheofddbe": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 1
+        "ass": 2
       }
     },
     {
@@ -22379,8 +22312,9 @@
           "shit": 1
         },
         "p_amggoddlmlck": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1,
+          "nigga": 1,
           "shit": 2
         },
         "p_dmdailmighhb": {
@@ -22390,13 +22324,14 @@
           "fuck": 1
         },
         "p_fkioklocpgbp": {
+          "cock": 2,
           "fuck": 1
         },
         "p_hpobobilhnoh": {
           "fuck": 1
         },
         "p_ifdobplbgacb": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 3,
           "shit": 3
         },
@@ -22418,11 +22353,13 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
+        "cock": 2,
         "cunt": 1,
         "damn": 2,
         "fuck": 7,
         "hell": 1,
+        "nigga": 1,
         "shit": 13
       }
     },
@@ -22804,13 +22741,13 @@
           "shit": 1
         },
         "p_jnkhheofddbe": {
-          "ass": 2,
+          "ass": 4,
           "fuck": 1,
           "shit": 3
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "fuck": 2,
         "hell": 1,
         "shit": 5
@@ -23247,7 +23184,7 @@
           "dick": 1
         },
         "p_ifdobplbgacb": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         },
         "p_jchajjgjipbd": {
@@ -23255,7 +23192,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "dick": 1,
         "fuck": 1,
         "shit": 1
@@ -23526,6 +23463,7 @@
           "shit": 2
         },
         "p_jchajjgjipbd": {
+          "cock": 1,
           "dick": 1
         },
         "p_nfihmngofcke": {
@@ -23536,6 +23474,7 @@
         }
       },
       "swearByTerm": {
+        "cock": 1,
         "damn": 1,
         "dick": 4,
         "fuck": 2,
@@ -25842,14 +25781,14 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1
+          "ass": 2
         },
         "p_blfhjomohklb": {
           "hell": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "hell": 1
       }
     },
@@ -26106,13 +26045,13 @@
       },
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 2
+          "ass": 4
         },
         "p_dmdailmighhb": {
           "shit": 1
         },
         "p_hpobobilhnoh": {
-          "ass": 1
+          "ass": 2
         },
         "p_ifdobplbgacb": {
           "fuck": 1,
@@ -26131,7 +26070,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "bitch": 1,
         "fuck": 4,
         "shit": 4
@@ -26989,6 +26928,9 @@
         "black": 1
       },
       "swearBySender": {
+        "p_jchajjgjipbd": {
+          "hoe": 1
+        },
         "p_kephgajchogi": {
           "fuck": 1
         },
@@ -26998,6 +26940,7 @@
       },
       "swearByTerm": {
         "fuck": 1,
+        "hoe": 1,
         "shit": 1
       }
     },
@@ -28457,12 +28400,12 @@
           "fuck": 1
         },
         "p_ifdobplbgacb": {
-          "ass": 1,
+          "ass": 2,
           "bitch": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "bitch": 2,
         "fuck": 2,
         "shit": 1
@@ -29528,11 +29471,11 @@
           "damn": 3
         },
         "p_jchajjgjipbd": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 3
       }
     },
@@ -31292,19 +31235,20 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1,
-          "fuck": 2
+          "ass": 2,
+          "fuck": 2,
+          "shit": 1
         },
         "p_amhokpidpdnh": {
-          "ass": 1
+          "ass": 2
         },
         "p_blfhjomohklb": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1,
           "shit": 2
         },
         "p_fobjhenjdpgl": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_jnkhheofddbe": {
@@ -31312,9 +31256,9 @@
         }
       },
       "swearByTerm": {
-        "ass": 4,
+        "ass": 8,
         "fuck": 4,
-        "shit": 3
+        "shit": 4
       }
     },
     {
@@ -31631,10 +31575,10 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_blfhjomohklb": {
-          "ass": 1
+          "ass": 2
         },
         "p_fobjhenjdpgl": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_hpobobilhnoh": {
@@ -31648,7 +31592,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "fuck": 1,
         "shit": 3
       }
@@ -32345,12 +32289,12 @@
           "damn": 1
         },
         "p_jnkhheofddbe": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
         "shit": 1
       }
@@ -33980,12 +33924,12 @@
           "damn": 1
         },
         "p_nfihmngofcke": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
         "fuck": 1
       }
@@ -35380,10 +35324,12 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_fkioklocpgbp": {
+          "hoe": 1,
           "shit": 1
         }
       },
       "swearByTerm": {
+        "hoe": 1,
         "shit": 1
       }
     },
@@ -36297,7 +36243,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_amhokpidpdnh": {
-          "ass": 1
+          "ass": 2
         },
         "p_blfhjomohklb": {
           "fuck": 1
@@ -36305,12 +36251,15 @@
         "p_fobjhenjdpgl": {
           "fuck": 3,
           "shit": 1
+        },
+        "p_ifdobplbgacb": {
+          "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 4,
-        "shit": 1
+        "shit": 2
       }
     },
     {
@@ -37887,7 +37836,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "me": {
-          "ass": 1
+          "ass": 2
         },
         "p_fobjhenjdpgl": {
           "shit": 1
@@ -37897,7 +37846,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 1,
         "shit": 1
       }
@@ -38499,12 +38448,12 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_ifdobplbgacb": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 2
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 2
       }
     },
@@ -39399,11 +39348,11 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_jnkhheofddbe": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 1
+        "ass": 2
       }
     },
     {
@@ -40710,7 +40659,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1,
           "shit": 1
         },
@@ -40722,7 +40671,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "fuck": 2,
         "shit": 2
       }
@@ -41030,7 +40979,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_eoipeaaocofh": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         },
         "p_fobjhenjdpgl": {
@@ -41042,7 +40991,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
         "fuck": 1,
         "shit": 2
@@ -41286,14 +41235,18 @@
           "damn": 1
         },
         "p_fkioklocpgbp": {
+          "cock": 1,
           "fuck": 2
         },
         "p_ghbenapallii": {
-          "damn": 1
+          "damn": 1,
+          "dick": 1
         }
       },
       "swearByTerm": {
+        "cock": 1,
         "damn": 2,
+        "dick": 1,
         "fuck": 2
       }
     },
@@ -41546,7 +41499,7 @@
           "fuck": 1
         },
         "p_blfhjomohklb": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_hpobobilhnoh": {
@@ -41560,7 +41513,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
         "dick": 1,
         "fuck": 3
@@ -41901,7 +41854,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1
+          "ass": 2
         },
         "p_ghbenapallii": {
           "shit": 1
@@ -41911,7 +41864,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "hell": 1,
         "shit": 1
       }
@@ -42139,8 +42092,17 @@
       "slurByCategory": {},
       "wordWatchBySender": {},
       "wordWatchByTerm": {},
-      "swearBySender": {},
-      "swearByTerm": {}
+      "swearBySender": {
+        "p_akenceifeeeh": {
+          "shit": 1
+        },
+        "p_dmdailmighhb": {
+          "shit": 1
+        }
+      },
+      "swearByTerm": {
+        "shit": 2
+      }
     },
     {
       "date": "2026-04-11",
@@ -42979,11 +42941,11 @@
           "damn": 1
         },
         "p_olidjepnnbno": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 2,
         "fuck": 3,
         "shit": 1
@@ -43524,14 +43486,14 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_blfhjomohklb": {
-          "ass": 1
+          "ass": 2
         },
         "p_jchajjgjipbd": {
           "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "shit": 1
       }
     },
@@ -44157,6 +44119,8 @@
           "fuck": 1
         },
         "p_blfhjomohklb": {
+          "ass": 2,
+          "dick": 1,
           "fuck": 2
         },
         "p_enclpbahigno": {
@@ -44166,7 +44130,7 @@
           "dick": 1
         },
         "p_jchajjgjipbd": {
-          "ass": 1,
+          "ass": 2,
           "damn": 2,
           "fuck": 1
         },
@@ -44175,9 +44139,9 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 4,
         "damn": 2,
-        "dick": 1,
+        "dick": 2,
         "fuck": 6,
         "shit": 1
       }
@@ -45279,7 +45243,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1,
+          "ass": 2,
           "dick": 1,
           "fuck": 1,
           "shit": 1
@@ -45305,7 +45269,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 2,
         "dick": 1,
         "fuck": 3,
@@ -45485,14 +45449,14 @@
           "shit": 1
         },
         "p_amhokpidpdnh": {
-          "ass": 1
+          "ass": 2
         },
         "p_dljmmncicnlf": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_jchajjgjipbd": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         },
         "p_nfihmngofcke": {
@@ -45501,7 +45465,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "damn": 1,
         "fuck": 2,
         "shit": 3
@@ -45667,6 +45631,9 @@
       "wordWatchBySender": {},
       "wordWatchByTerm": {},
       "swearBySender": {
+        "p_enclpbahigno": {
+          "shit": 1
+        },
         "p_fkioklocpgbp": {
           "fuck": 1
         },
@@ -45684,7 +45651,7 @@
       "swearByTerm": {
         "damn": 1,
         "fuck": 2,
-        "shit": 2
+        "shit": 3
       }
     },
     {
@@ -46308,7 +46275,7 @@
           "fuck": 1
         },
         "p_amhokpidpdnh": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1,
           "fuck": 1,
           "shit": 3
@@ -46320,7 +46287,7 @@
           "fuck": 2
         },
         "p_fobjhenjdpgl": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_ghbenapallii": {
@@ -46336,7 +46303,7 @@
           "fuck": 2
         },
         "p_jnkhheofddbe": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 2
         },
         "p_kephgajchogi": {
@@ -46348,7 +46315,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "damn": 3,
         "dick": 3,
         "fuck": 14,
@@ -46562,8 +46529,11 @@
       "wordWatchBySender": {},
       "wordWatchByTerm": {},
       "swearBySender": {
+        "p_ghbenapallii": {
+          "shit": 1
+        },
         "p_ifdobplbgacb": {
-          "ass": 1,
+          "ass": 2,
           "dick": 1,
           "shit": 1
         },
@@ -46571,18 +46541,18 @@
           "shit": 1
         },
         "p_jnkhheofddbe": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1
         },
         "p_kephgajchogi": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "damn": 1,
         "dick": 1,
-        "shit": 2
+        "shit": 3
       }
     },
     {
@@ -46912,7 +46882,8 @@
           "fuck": 2
         },
         "p_amhokpidpdnh": {
-          "fuck": 1
+          "fuck": 1,
+          "shit": 1
         },
         "p_bcbnmadlfjoe": {
           "shit": 1
@@ -46924,7 +46895,7 @@
           "shit": 1
         },
         "p_jnkhheofddbe": {
-          "ass": 1,
+          "ass": 2,
           "damn": 2
         },
         "p_kephgajchogi": {
@@ -46933,11 +46904,11 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 5,
         "fuck": 4,
         "hell": 1,
-        "shit": 2
+        "shit": 3
       }
     },
     {
@@ -47425,7 +47396,7 @@
           "shit": 1
         },
         "p_ifdobplbgacb": {
-          "bitch": 1,
+          "bitch": 2,
           "damn": 1,
           "fuck": 1
         },
@@ -47433,11 +47404,13 @@
           "damn": 1
         },
         "p_nfihmngofcke": {
+          "cock": 1,
           "fuck": 1
         }
       },
       "swearByTerm": {
-        "bitch": 1,
+        "bitch": 2,
+        "cock": 1,
         "damn": 3,
         "fuck": 3,
         "shit": 2
@@ -48097,11 +48070,11 @@
           "fuck": 2
         },
         "p_amhokpidpdnh": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1
         },
         "p_bfhopadigiif": {
-          "ass": 1,
+          "ass": 2,
           "damn": 3,
           "shit": 1
         },
@@ -48127,7 +48100,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "damn": 6,
         "fuck": 8,
         "shit": 3
@@ -48555,7 +48528,7 @@
           "damn": 3
         },
         "p_jchajjgjipbd": {
-          "ass": 1,
+          "ass": 2,
           "bitch": 1,
           "dick": 1,
           "fuck": 1
@@ -48563,17 +48536,17 @@
         "p_jnkhheofddbe": {
           "fuck": 1,
           "hell": 1,
-          "shit": 2
+          "shit": 3
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "bitch": 1,
         "damn": 3,
         "dick": 1,
         "fuck": 6,
         "hell": 1,
-        "shit": 5
+        "shit": 6
       }
     },
     {
@@ -49125,6 +49098,9 @@
         "p_fkioklocpgbp": {
           "shit": 3
         },
+        "p_hpobobilhnoh": {
+          "shit": 1
+        },
         "p_ifdobplbgacb": {
           "fuck": 1,
           "shit": 1
@@ -49139,7 +49115,7 @@
       "swearByTerm": {
         "bastard": 1,
         "fuck": 4,
-        "shit": 4
+        "shit": 5
       }
     },
     {
@@ -49611,14 +49587,14 @@
           "pussy": 1
         },
         "p_jchajjgjipbd": {
-          "ass": 4,
+          "ass": 8,
           "damn": 2,
           "dick": 3,
           "fuck": 7,
           "shit": 3
         },
         "p_jnkhheofddbe": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 5
         },
         "p_kephgajchogi": {
@@ -49629,7 +49605,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 5,
+        "ass": 10,
         "bitch": 2,
         "damn": 5,
         "dick": 3,
@@ -49888,10 +49864,10 @@
           "shit": 2
         },
         "p_hpobobilhnoh": {
-          "ass": 1
+          "ass": 2
         },
         "p_ifdobplbgacb": {
-          "ass": 1
+          "ass": 2
         },
         "p_jchajjgjipbd": {
           "hell": 1
@@ -49906,7 +49882,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "damn": 2,
         "fuck": 3,
         "hell": 1,
@@ -50220,7 +50196,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "me": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1,
           "fuck": 8,
           "hell": 1
@@ -50231,16 +50207,17 @@
           "shit": 6
         },
         "p_amhokpidpdnh": {
-          "ass": 3,
+          "ass": 6,
           "damn": 1,
           "fuck": 9,
-          "hell": 1
+          "hell": 1,
+          "shit": 2
         },
         "p_dljmmncicnlf": {
           "piss": 1
         },
         "p_enclpbahigno": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1
         },
         "p_eoipeaaocofh": {
@@ -50249,23 +50226,23 @@
           "shit": 1
         },
         "p_fobjhenjdpgl": {
-          "ass": 1
+          "ass": 2
         },
         "p_ghbenapallii": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1,
           "fuck": 2
         },
         "p_ifdobplbgacb": {
           "dick": 1,
-          "shit": 1
+          "shit": 2
         },
         "p_jchajjgjipbd": {
           "bitch": 1,
           "fuck": 2
         },
         "p_jnkhheofddbe": {
-          "ass": 1,
+          "ass": 2,
           "bitch": 1,
           "damn": 2,
           "fuck": 7,
@@ -50280,14 +50257,14 @@
         }
       },
       "swearByTerm": {
-        "ass": 8,
+        "ass": 16,
         "bitch": 2,
         "damn": 9,
         "dick": 1,
         "fuck": 37,
         "hell": 2,
         "piss": 1,
-        "shit": 11
+        "shit": 14
       }
     },
     {
@@ -50836,7 +50813,7 @@
           "shit": 1
         },
         "p_akenceifeeeh": {
-          "ass": 2,
+          "ass": 4,
           "fuck": 7,
           "shit": 6
         },
@@ -50850,7 +50827,7 @@
           "shit": 1
         },
         "p_fobjhenjdpgl": {
-          "ass": 1,
+          "ass": 2,
           "dick": 1
         },
         "p_ifdobplbgacb": {
@@ -50874,7 +50851,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "damn": 4,
         "dick": 3,
         "fuck": 30,
@@ -51411,7 +51388,7 @@
           "shit": 1
         },
         "p_blfhjomohklb": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1,
           "shit": 1
         },
@@ -51425,16 +51402,17 @@
           "shit": 1
         },
         "p_ghbenapallii": {
-          "ass": 2
+          "ass": 4
         },
         "p_ifdobplbgacb": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 2,
           "hell": 1,
           "shit": 2
         },
         "p_jchajjgjipbd": {
-          "fuck": 1
+          "fuck": 1,
+          "shit": 1
         },
         "p_jnkhheofddbe": {
           "fuck": 1,
@@ -51450,11 +51428,11 @@
         }
       },
       "swearByTerm": {
-        "ass": 4,
+        "ass": 8,
         "damn": 3,
         "fuck": 12,
         "hell": 2,
-        "shit": 15
+        "shit": 16
       }
     },
     {
@@ -51680,6 +51658,7 @@
           "shit": 1
         },
         "p_ifdobplbgacb": {
+          "dick": 1,
           "fuck": 4
         },
         "p_jnkhheofddbe": {
@@ -51687,6 +51666,7 @@
         }
       },
       "swearByTerm": {
+        "dick": 1,
         "fuck": 5,
         "hell": 1,
         "shit": 1
@@ -52246,10 +52226,10 @@
           "damn": 1
         },
         "p_fkioklocpgbp": {
-          "ass": 1
+          "ass": 2
         },
         "p_ghbenapallii": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_omghgdhhmpfj": {
@@ -52257,7 +52237,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "damn": 1,
         "fuck": 2,
         "hell": 1,
@@ -52605,10 +52585,14 @@
           "damn": 1,
           "fuck": 1,
           "shit": 1
+        },
+        "p_jchajjgjipbd": {
+          "bastard": 1
         }
       },
       "swearByTerm": {
         "ass": 1,
+        "bastard": 1,
         "damn": 2,
         "fuck": 2,
         "hell": 1,
@@ -52768,13 +52752,17 @@
         "me": {
           "fuck": 1
         },
+        "p_fkioklocpgbp": {
+          "shit": 1
+        },
         "p_nfihmngofcke": {
           "bastard": 1
         }
       },
       "swearByTerm": {
         "bastard": 1,
-        "fuck": 1
+        "fuck": 1,
+        "shit": 1
       }
     },
     {
@@ -53093,12 +53081,15 @@
         "black": 1
       },
       "swearBySender": {
+        "me": {
+          "shit": 1
+        },
         "p_ghbenapallii": {
           "shit": 1
         }
       },
       "swearByTerm": {
-        "shit": 1
+        "shit": 2
       }
     },
     {
@@ -53466,7 +53457,7 @@
           "dick": 1
         },
         "p_bfhopadigiif": {
-          "ass": 1
+          "ass": 2
         },
         "p_fkioklocpgbp": {
           "fuck": 2,
@@ -53480,8 +53471,9 @@
           "dick": 2
         },
         "p_ifdobplbgacb": {
-          "ass": 1,
-          "dick": 2
+          "ass": 2,
+          "dick": 2,
+          "shit": 1
         },
         "p_nfihmngofcke": {
           "dick": 1,
@@ -53489,10 +53481,10 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "dick": 7,
         "fuck": 3,
-        "shit": 3
+        "shit": 4
       }
     },
     {
@@ -53665,16 +53657,16 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 2,
           "shit": 1
         },
         "p_ghbenapallii": {
-          "ass": 1
+          "ass": 2
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "fuck": 2,
         "shit": 1
       }
@@ -54184,7 +54176,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "p_akenceifeeeh": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         },
         "p_bfhopadigiif": {
@@ -54194,6 +54186,7 @@
           "shit": 1
         },
         "p_ghbenapallii": {
+          "dick": 1,
           "fuck": 1,
           "shit": 1
         },
@@ -54201,7 +54194,7 @@
           "damn": 1
         },
         "p_jchajjgjipbd": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         },
         "p_kephgajchogi": {
@@ -54216,8 +54209,9 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "damn": 2,
+        "dick": 1,
         "fuck": 4,
         "shit": 7
       }
@@ -54776,7 +54770,7 @@
           "fuck": 1
         },
         "p_blfhjomohklb": {
-          "ass": 1,
+          "ass": 2,
           "bitch": 1
         },
         "p_ifdobplbgacb": {
@@ -54791,7 +54785,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "bitch": 1,
         "damn": 1,
         "fuck": 2,
@@ -55083,12 +55077,12 @@
           "damn": 1
         },
         "p_nfihmngofcke": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 3,
         "damn": 4,
         "fuck": 3,
         "shit": 2
@@ -55626,7 +55620,7 @@
           "shit": 1
         },
         "p_fobjhenjdpgl": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1,
           "shit": 1
         },
@@ -55634,19 +55628,19 @@
           "damn": 1
         },
         "p_ifdobplbgacb": {
-          "ass": 2,
+          "ass": 4,
           "dick": 1,
           "fuck": 4,
           "pussy": 1
         },
         "p_nfihmngofcke": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 5,
           "shit": 3
         }
       },
       "swearByTerm": {
-        "ass": 4,
+        "ass": 8,
         "damn": 1,
         "dick": 1,
         "fuck": 15,
@@ -56294,12 +56288,12 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "me": {
-          "ass": 1,
+          "ass": 2,
           "damn": 1,
           "fuck": 2
         },
         "p_akenceifeeeh": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1,
           "shit": 2
         },
@@ -56333,7 +56327,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "damn": 4,
         "fuck": 8,
         "hell": 2,
@@ -56833,8 +56827,8 @@
           "shit": 2
         },
         "p_hpobobilhnoh": {
-          "ass": 1,
-          "shit": 2
+          "ass": 2,
+          "shit": 3
         },
         "p_ifdobplbgacb": {
           "fuck": 1,
@@ -56849,10 +56843,10 @@
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 4,
         "fuck": 5,
-        "shit": 13
+        "shit": 14
       }
     },
     {
@@ -57491,7 +57485,7 @@
           "shit": 1
         },
         "p_amhokpidpdnh": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1
         },
         "p_bfhopadigiif": {
@@ -57506,16 +57500,18 @@
           "shit": 1
         },
         "p_fkioklocpgbp": {
-          "fuck": 2
+          "fuck": 2,
+          "shit": 1
         },
         "p_fobjhenjdpgl": {
           "shit": 2
         },
         "p_ghbenapallii": {
-          "ass": 1
+          "ass": 2
         },
         "p_hpobobilhnoh": {
-          "damn": 1
+          "damn": 1,
+          "shit": 1
         },
         "p_ifdobplbgacb": {
           "damn": 1,
@@ -57523,7 +57519,7 @@
           "shit": 2
         },
         "p_jchajjgjipbd": {
-          "ass": 1,
+          "ass": 2,
           "dick": 1,
           "fuck": 3,
           "shit": 4
@@ -57547,12 +57543,12 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "bitch": 1,
         "damn": 6,
         "dick": 1,
         "fuck": 15,
-        "shit": 17
+        "shit": 19
       }
     },
     {
@@ -58022,7 +58018,7 @@
           "shit": 1
         },
         "p_hpobobilhnoh": {
-          "ass": 2,
+          "ass": 4,
           "fuck": 3,
           "shit": 3
         },
@@ -58038,7 +58034,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "bastard": 1,
         "damn": 2,
         "fuck": 12,
@@ -58524,7 +58520,7 @@
       },
       "swearBySender": {
         "me": {
-          "ass": 2
+          "ass": 4
         },
         "p_akenceifeeeh": {
           "fuck": 1
@@ -58542,7 +58538,7 @@
           "shit": 1
         },
         "p_jchajjgjipbd": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         },
         "p_nfihmngofcke": {
@@ -58551,7 +58547,7 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "fuck": 6,
         "shit": 10
       }
@@ -58991,7 +58987,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "me": {
-          "ass": 1
+          "ass": 2
         },
         "p_dmdailmighhb": {
           "shit": 2
@@ -59016,13 +59012,15 @@
           "shit": 1
         },
         "p_nfihmngofcke": {
+          "dick": 1,
           "fuck": 2,
           "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 1,
+        "ass": 2,
         "damn": 1,
+        "dick": 1,
         "fuck": 6,
         "hell": 1,
         "piss": 1,
@@ -59500,17 +59498,17 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "me": {
-          "ass": 2,
+          "ass": 4,
           "damn": 1,
           "fuck": 8,
           "shit": 2
         },
         "p_akenceifeeeh": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 3
         },
         "p_blfhjomohklb": {
-          "ass": 2,
+          "ass": 4,
           "fuck": 1,
           "shit": 1
         },
@@ -59518,13 +59516,14 @@
           "damn": 1
         },
         "p_enclpbahigno": {
-          "ass": 1,
+          "ass": 2,
           "shit": 1
         },
         "p_eoipeaaocofh": {
           "fuck": 2
         },
         "p_fkioklocpgbp": {
+          "dick": 1,
           "fuck": 1
         },
         "p_fobjhenjdpgl": {
@@ -59551,8 +59550,9 @@
           "damn": 1
         },
         "p_nfihmngofcke": {
-          "ass": 1,
+          "ass": 2,
           "damn": 2,
+          "dick": 1,
           "fuck": 2,
           "shit": 7
         },
@@ -59562,9 +59562,9 @@
         }
       },
       "swearByTerm": {
-        "ass": 7,
+        "ass": 14,
         "damn": 8,
-        "dick": 1,
+        "dick": 3,
         "fuck": 26,
         "shit": 13
       }
@@ -60244,19 +60244,19 @@
           "shit": 1
         },
         "p_kephgajchogi": {
-          "ass": 1
+          "ass": 2
         },
         "p_mnmcbpgmjcja": {
           "shit": 1
         },
         "p_nfihmngofcke": {
-          "ass": 1,
+          "ass": 2,
           "fuck": 1,
           "shit": 1
         }
       },
       "swearByTerm": {
-        "ass": 2,
+        "ass": 4,
         "fuck": 4,
         "shit": 5
       }
@@ -60841,7 +60841,7 @@
       "wordWatchByTerm": {},
       "swearBySender": {
         "me": {
-          "ass": 1,
+          "ass": 2,
           "bitch": 1,
           "dick": 1,
           "fuck": 7
@@ -60875,10 +60875,10 @@
           "shit": 2
         },
         "p_hpobobilhnoh": {
-          "shit": 1
+          "shit": 2
         },
         "p_ifdobplbgacb": {
-          "ass": 2,
+          "ass": 4,
           "dick": 2,
           "fuck": 1,
           "shit": 1
@@ -60903,56 +60903,58 @@
         }
       },
       "swearByTerm": {
-        "ass": 3,
+        "ass": 6,
         "bitch": 1,
         "damn": 4,
         "dick": 3,
         "fuck": 18,
-        "shit": 14
+        "shit": 15
       }
     },
     {
       "date": "2026-06-14",
-      "count": 300,
-      "turnCount": 233,
-      "attachmentMessages": 25,
-      "attachmentTurns": 24,
-      "textLengthSum": 6973,
-      "textMessageCount": 272,
+      "count": 483,
+      "turnCount": 352,
+      "attachmentMessages": 40,
+      "attachmentTurns": 38,
+      "textLengthSum": 12060,
+      "textMessageCount": 444,
       "bySender": {
-        "me": 59,
+        "p_nfihmngofcke": 102,
+        "me": 87,
+        "p_ifdobplbgacb": 62,
         "p_akenceifeeeh": 42,
-        "p_ifdobplbgacb": 36,
-        "p_kephgajchogi": 28,
-        "p_fkioklocpgbp": 25,
-        "p_ghbenapallii": 24,
-        "p_nfihmngofcke": 20,
-        "p_jchajjgjipbd": 16,
-        "p_dmdailmighhb": 13,
+        "p_fkioklocpgbp": 35,
+        "p_kephgajchogi": 30,
+        "p_ghbenapallii": 26,
+        "p_hpobobilhnoh": 21,
+        "p_jchajjgjipbd": 20,
+        "p_dmdailmighhb": 18,
+        "p_amhokpidpdnh": 11,
         "p_omghgdhhmpfj": 10,
         "p_blfhjomohklb": 9,
-        "p_hpobobilhnoh": 7,
-        "p_amhokpidpdnh": 3,
         "p_fobjhenjdpgl": 3,
         "p_jnkhheofddbe": 3,
+        "p_bfhopadigiif": 2,
         "p_dljmmncicnlf": 2
       },
       "turnsBySender": {
-        "me": 39,
-        "p_ifdobplbgacb": 29,
-        "p_fkioklocpgbp": 24,
-        "p_kephgajchogi": 24,
+        "me": 63,
+        "p_nfihmngofcke": 56,
+        "p_ifdobplbgacb": 50,
+        "p_fkioklocpgbp": 32,
+        "p_kephgajchogi": 26,
+        "p_ghbenapallii": 23,
         "p_akenceifeeeh": 22,
-        "p_ghbenapallii": 22,
-        "p_nfihmngofcke": 18,
-        "p_jchajjgjipbd": 15,
-        "p_dmdailmighhb": 12,
+        "p_jchajjgjipbd": 18,
+        "p_dmdailmighhb": 17,
+        "p_hpobobilhnoh": 13,
+        "p_amhokpidpdnh": 10,
         "p_omghgdhhmpfj": 8,
         "p_blfhjomohklb": 7,
-        "p_hpobobilhnoh": 4,
-        "p_amhokpidpdnh": 3,
         "p_fobjhenjdpgl": 3,
         "p_jnkhheofddbe": 2,
+        "p_bfhopadigiif": 1,
         "p_dljmmncicnlf": 1
       },
       "byHour": [
@@ -60975,11 +60977,11 @@
         2,
         59,
         37,
-        36,
-        0,
-        0,
-        0,
-        0
+        54,
+        132,
+        24,
+        5,
+        4
       ],
       "turnsByHour": [
         2,
@@ -61001,14 +61003,15 @@
         2,
         50,
         28,
-        29,
-        0,
-        0,
-        0,
-        0
+        40,
+        84,
+        17,
+        4,
+        3
       ],
       "vibesBySender": {
         "me": {
+          "glazer": 2,
           "hater": 1,
           "pickMe": 1
         },
@@ -61016,7 +61019,7 @@
           "hater": 5
         },
         "p_amhokpidpdnh": {
-          "glazer": 3,
+          "glazer": 6,
           "selfInsert": 1
         },
         "p_blfhjomohklb": {
@@ -61044,9 +61047,12 @@
           "glazer": 1,
           "hater": 2
         },
+        "p_hpobobilhnoh": {
+          "laugh": 1
+        },
         "p_ifdobplbgacb": {
-          "glazer": 2,
-          "hater": 3,
+          "glazer": 3,
+          "hater": 4,
           "laugh": 1,
           "pickMe": 1,
           "selfInsert": 1
@@ -61061,10 +61067,12 @@
           "glazer": 3,
           "hater": 2,
           "laugh": 1,
-          "selfInsert": 1
+          "selfInsert": 2
         },
         "p_nfihmngofcke": {
-          "hater": 1,
+          "glazer": 1,
+          "hater": 3,
+          "laugh": 2,
           "selfInsert": 1
         },
         "p_omghgdhhmpfj": {
@@ -61076,35 +61084,39 @@
         }
       },
       "reactionBySender": {
-        "p_nfihmngofcke": 19,
-        "p_kephgajchogi": 16,
+        "p_nfihmngofcke": 39,
+        "p_kephgajchogi": 19,
+        "p_fkioklocpgbp": 12,
         "p_fobjhenjdpgl": 12,
-        "p_ghbenapallii": 10,
-        "p_fkioklocpgbp": 8,
-        "p_jchajjgjipbd": 7,
+        "p_ghbenapallii": 12,
+        "p_ifdobplbgacb": 10,
+        "me": 8,
+        "p_jchajjgjipbd": 8,
         "p_omghgdhhmpfj": 7,
-        "me": 5,
         "p_dmdailmighhb": 5,
-        "p_ifdobplbgacb": 4,
+        "p_akenceifeeeh": 2,
+        "p_amhokpidpdnh": 2,
+        "p_hpobobilhnoh": 2,
         "p_blfhjomohklb": 1,
         "p_jnkhheofddbe": 1
       },
       "reactionByAuthor": {
-        "p_fkioklocpgbp": 19,
+        "p_fkioklocpgbp": 23,
         "p_ghbenapallii": 19,
+        "p_ifdobplbgacb": 18,
+        "p_hpobobilhnoh": 14,
+        "me": 12,
         "p_akenceifeeeh": 11,
-        "p_kephgajchogi": 9,
-        "p_ifdobplbgacb": 7,
-        "p_jchajjgjipbd": 6,
-        "me": 5,
+        "p_kephgajchogi": 10,
+        "p_jchajjgjipbd": 9,
+        "p_amhokpidpdnh": 5,
         "p_blfhjomohklb": 5,
-        "p_hpobobilhnoh": 5,
-        "p_amhokpidpdnh": 2,
-        "p_dljmmncicnlf": 1,
-        "p_dmdailmighhb": 1,
+        "p_dmdailmighhb": 4,
+        "p_nfihmngofcke": 3,
+        "p_dljmmncicnlf": 2,
+        "p_bfhopadigiif": 1,
         "p_fobjhenjdpgl": 1,
-        "p_jnkhheofddbe": 1,
-        "p_nfihmngofcke": 1
+        "p_jnkhheofddbe": 1
       },
       "mentions": [
         {
@@ -61113,8 +61125,68 @@
           "count": 6
         },
         {
+          "from": "p_nfihmngofcke",
+          "to": "p_hpobobilhnoh",
+          "count": 6
+        },
+        {
+          "from": "p_nfihmngofcke",
+          "to": "me",
+          "count": 4
+        },
+        {
+          "from": "p_ifdobplbgacb",
+          "to": "p_hpobobilhnoh",
+          "count": 3
+        },
+        {
+          "from": "p_ifdobplbgacb",
+          "to": "p_nfihmngofcke",
+          "count": 3
+        },
+        {
+          "from": "p_nfihmngofcke",
+          "to": "p_dmdailmighhb",
+          "count": 3
+        },
+        {
+          "from": "p_nfihmngofcke",
+          "to": "p_ifdobplbgacb",
+          "count": 3
+        },
+        {
+          "from": "me",
+          "to": "p_nfihmngofcke",
+          "count": 2
+        },
+        {
+          "from": "p_dmdailmighhb",
+          "to": "p_nfihmngofcke",
+          "count": 2
+        },
+        {
+          "from": "p_fkioklocpgbp",
+          "to": "p_nfihmngofcke",
+          "count": 2
+        },
+        {
+          "from": "p_ghbenapallii",
+          "to": "me",
+          "count": 2
+        },
+        {
           "from": "p_ghbenapallii",
           "to": "p_ifdobplbgacb",
+          "count": 2
+        },
+        {
+          "from": "p_hpobobilhnoh",
+          "to": "p_nfihmngofcke",
+          "count": 2
+        },
+        {
+          "from": "p_ifdobplbgacb",
+          "to": "me",
           "count": 2
         },
         {
@@ -61124,8 +61196,28 @@
         },
         {
           "from": "p_nfihmngofcke",
-          "to": "p_hpobobilhnoh",
+          "to": "p_bcbnmadlfjoe",
           "count": 2
+        },
+        {
+          "from": "p_nfihmngofcke",
+          "to": "p_fkioklocpgbp",
+          "count": 2
+        },
+        {
+          "from": "me",
+          "to": "p_amhokpidpdnh",
+          "count": 1
+        },
+        {
+          "from": "me",
+          "to": "p_dmdailmighhb",
+          "count": 1
+        },
+        {
+          "from": "me",
+          "to": "p_ifdobplbgacb",
+          "count": 1
         },
         {
           "from": "p_akenceifeeeh",
@@ -61133,8 +61225,23 @@
           "count": 1
         },
         {
+          "from": "p_amhokpidpdnh",
+          "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_amhokpidpdnh",
+          "to": "p_hpobobilhnoh",
+          "count": 1
+        },
+        {
           "from": "p_fkioklocpgbp",
           "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_fkioklocpgbp",
+          "to": "p_hpobobilhnoh",
           "count": 1
         },
         {
@@ -61143,33 +61250,13 @@
           "count": 1
         },
         {
-          "from": "p_fkioklocpgbp",
-          "to": "p_nfihmngofcke",
-          "count": 1
-        },
-        {
-          "from": "p_ghbenapallii",
-          "to": "me",
-          "count": 1
-        },
-        {
           "from": "p_ghbenapallii",
           "to": "p_hpobobilhnoh",
           "count": 1
         },
         {
           "from": "p_ifdobplbgacb",
-          "to": "me",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
           "to": "p_fkioklocpgbp",
-          "count": 1
-        },
-        {
-          "from": "p_ifdobplbgacb",
-          "to": "p_nfihmngofcke",
           "count": 1
         },
         {
@@ -61199,12 +61286,17 @@
         },
         {
           "from": "p_kephgajchogi",
+          "to": "p_ifdobplbgacb",
+          "count": 1
+        },
+        {
+          "from": "p_kephgajchogi",
           "to": "p_nfihmngofcke",
           "count": 1
         },
         {
           "from": "p_nfihmngofcke",
-          "to": "p_ifdobplbgacb",
+          "to": "p_jnkhheofddbe",
           "count": 1
         },
         {
@@ -61236,7 +61328,7 @@
       "swearBySender": {
         "me": {
           "damn": 2,
-          "dick": 1,
+          "dick": 2,
           "fuck": 1
         },
         "p_akenceifeeeh": {
@@ -61247,7 +61339,14 @@
           "fuck": 1
         },
         "p_dmdailmighhb": {
-          "shit": 2
+          "shit": 3
+        },
+        "p_fkioklocpgbp": {
+          "cock": 1,
+          "shit": 1
+        },
+        "p_fobjhenjdpgl": {
+          "hoe": 2
         },
         "p_hpobobilhnoh": {
           "fuck": 1
@@ -61255,23 +61354,302 @@
         "p_ifdobplbgacb": {
           "damn": 1,
           "dick": 1,
-          "hell": 1
+          "hell": 1,
+          "whore": 1
         },
         "p_kephgajchogi": {
           "fuck": 1,
+          "piss": 1,
           "shit": 2
         },
         "p_nfihmngofcke": {
           "damn": 1,
-          "shit": 1
+          "fuck": 1,
+          "shit": 3
         }
       },
       "swearByTerm": {
+        "cock": 1,
         "damn": 4,
-        "dick": 3,
-        "fuck": 8,
+        "dick": 4,
+        "fuck": 9,
         "hell": 1,
-        "shit": 5
+        "hoe": 2,
+        "piss": 1,
+        "shit": 9,
+        "whore": 1
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "count": 149,
+      "turnCount": 113,
+      "attachmentMessages": 22,
+      "attachmentTurns": 22,
+      "textLengthSum": 3178,
+      "textMessageCount": 137,
+      "bySender": {
+        "me": 35,
+        "p_ifdobplbgacb": 16,
+        "p_nfihmngofcke": 16,
+        "p_fkioklocpgbp": 15,
+        "p_hpobobilhnoh": 15,
+        "p_kephgajchogi": 10,
+        "p_akenceifeeeh": 9,
+        "p_jnkhheofddbe": 7,
+        "p_dmdailmighhb": 6,
+        "p_ghbenapallii": 6,
+        "p_jchajjgjipbd": 5,
+        "p_enclpbahigno": 3,
+        "p_gdmnohpphadm": 3,
+        "p_amhokpidpdnh": 2,
+        "p_omghgdhhmpfj": 1
+      },
+      "turnsBySender": {
+        "me": 25,
+        "p_fkioklocpgbp": 13,
+        "p_nfihmngofcke": 12,
+        "p_hpobobilhnoh": 11,
+        "p_ifdobplbgacb": 11,
+        "p_jnkhheofddbe": 7,
+        "p_ghbenapallii": 6,
+        "p_akenceifeeeh": 5,
+        "p_dmdailmighhb": 5,
+        "p_kephgajchogi": 5,
+        "p_jchajjgjipbd": 4,
+        "p_enclpbahigno": 3,
+        "p_gdmnohpphadm": 3,
+        "p_amhokpidpdnh": 2,
+        "p_omghgdhhmpfj": 1
+      },
+      "byHour": [
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        7,
+        44,
+        4,
+        0,
+        1,
+        0,
+        26,
+        38,
+        0,
+        0,
+        0
+      ],
+      "turnsByHour": [
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        6,
+        34,
+        3,
+        0,
+        1,
+        0,
+        20,
+        27,
+        0,
+        0,
+        0
+      ],
+      "vibesBySender": {
+        "me": {
+          "glazer": 2,
+          "hater": 1
+        },
+        "p_akenceifeeeh": {
+          "glazer": 1
+        },
+        "p_fkioklocpgbp": {
+          "selfInsert": 1
+        },
+        "p_hpobobilhnoh": {
+          "glazer": 4,
+          "selfInsert": 3
+        },
+        "p_ifdobplbgacb": {
+          "selfInsert": 1
+        },
+        "p_kephgajchogi": {
+          "glazer": 1
+        },
+        "p_nfihmngofcke": {
+          "glazer": 1
+        }
+      },
+      "reactionBySender": {
+        "p_nfihmngofcke": 13,
+        "p_jnkhheofddbe": 10,
+        "p_fkioklocpgbp": 9,
+        "p_jchajjgjipbd": 7,
+        "p_kephgajchogi": 7,
+        "p_ifdobplbgacb": 6,
+        "p_ghbenapallii": 5,
+        "p_hpobobilhnoh": 5,
+        "me": 3,
+        "p_blfhjomohklb": 3,
+        "p_amhokpidpdnh": 2,
+        "p_enclpbahigno": 2,
+        "p_omghgdhhmpfj": 2,
+        "p_akenceifeeeh": 1,
+        "p_dljmmncicnlf": 1,
+        "p_jdgogekapdln": 1,
+        "p_mnmcbpgmjcja": 1
+      },
+      "reactionByAuthor": {
+        "p_jnkhheofddbe": 14,
+        "p_gdmnohpphadm": 13,
+        "me": 12,
+        "p_fkioklocpgbp": 9,
+        "p_ifdobplbgacb": 8,
+        "p_amhokpidpdnh": 6,
+        "p_hpobobilhnoh": 4,
+        "p_nfihmngofcke": 3,
+        "p_omghgdhhmpfj": 3,
+        "p_akenceifeeeh": 2,
+        "p_ghbenapallii": 2,
+        "p_dmdailmighhb": 1,
+        "p_jchajjgjipbd": 1
+      },
+      "mentions": [
+        {
+          "from": "p_akenceifeeeh",
+          "to": "p_ghbenapallii",
+          "count": 2
+        },
+        {
+          "from": "p_hpobobilhnoh",
+          "to": "me",
+          "count": 2
+        },
+        {
+          "from": "me",
+          "to": "p_ghbenapallii",
+          "count": 1
+        },
+        {
+          "from": "me",
+          "to": "p_jnkhheofddbe",
+          "count": 1
+        },
+        {
+          "from": "p_akenceifeeeh",
+          "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_fkioklocpgbp",
+          "to": "p_hpobobilhnoh",
+          "count": 1
+        },
+        {
+          "from": "p_gdmnohpphadm",
+          "to": "p_nfihmngofcke",
+          "count": 1
+        },
+        {
+          "from": "p_ghbenapallii",
+          "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_hpobobilhnoh",
+          "to": "p_amhokpidpdnh",
+          "count": 1
+        },
+        {
+          "from": "p_hpobobilhnoh",
+          "to": "p_jnkhheofddbe",
+          "count": 1
+        },
+        {
+          "from": "p_hpobobilhnoh",
+          "to": "p_olidjepnnbno",
+          "count": 1
+        },
+        {
+          "from": "p_hpobobilhnoh",
+          "to": "p_omghgdhhmpfj",
+          "count": 1
+        },
+        {
+          "from": "p_ifdobplbgacb",
+          "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_ifdobplbgacb",
+          "to": "p_gdmnohpphadm",
+          "count": 1
+        },
+        {
+          "from": "p_ifdobplbgacb",
+          "to": "p_nfihmngofcke",
+          "count": 1
+        },
+        {
+          "from": "p_jchajjgjipbd",
+          "to": "p_bfhopadigiif",
+          "count": 1
+        },
+        {
+          "from": "p_jnkhheofddbe",
+          "to": "p_ghbenapallii",
+          "count": 1
+        },
+        {
+          "from": "p_kephgajchogi",
+          "to": "me",
+          "count": 1
+        },
+        {
+          "from": "p_kephgajchogi",
+          "to": "p_ghbenapallii",
+          "count": 1
+        },
+        {
+          "from": "p_nfihmngofcke",
+          "to": "p_amhokpidpdnh",
+          "count": 1
+        }
+      ],
+      "slurBySender": {},
+      "slurByCategory": {},
+      "wordWatchBySender": {},
+      "wordWatchByTerm": {},
+      "swearBySender": {
+        "me": {
+          "fuck": 1
+        },
+        "p_ifdobplbgacb": {
+          "damn": 1
+        }
+      },
+      "swearByTerm": {
+        "damn": 1,
+        "fuck": 1
       }
     }
   ],
@@ -61315,7 +61693,13 @@
       "reactionTypes": {
         "love": 15,
         "dislike": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-044976c94a18.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_bmhllhajkekm",
@@ -61350,7 +61734,13 @@
       "reactionTypes": {
         "love": 14,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-af344de886a2.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_cafmkfahgbji",
@@ -61525,7 +61915,13 @@
       "reactionCount": 13,
       "reactionTypes": {
         "love": 13
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-7372eed8ba7c.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_olpimknhjmfb",
@@ -61571,7 +61967,13 @@
       "reactionTypes": {
         "love": 11,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-b546e64d4872.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_pompfphigjed",
@@ -61603,7 +62005,13 @@
         "laugh": 9,
         "love": 2,
         "dislike": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-8b1db3a7b5b1.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_dofgkhafgfkf",
@@ -61779,7 +62187,13 @@
       "reactionTypes": {
         "love": 10,
         "emoji": 2
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d451f1b13f8e.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_mdlekfgmgbpo",
@@ -61932,7 +62346,13 @@
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-b30ab1c4619d.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_mmkoeebpeeil",
@@ -61949,7 +62369,13 @@
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-0b6efc58cc02.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_cpcbnjdnkpil",
@@ -62119,7 +62545,13 @@
         "love": 9,
         "dislike": 1,
         "laugh": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d06833bdca1a.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_bkhadcgckann",
@@ -62306,7 +62738,13 @@
       "reactionCount": 11,
       "reactionTypes": {
         "love": 11
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-dfb9c83f1efe.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_eebhhebgimif",
@@ -62340,7 +62778,13 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-6078ea8ec0ee.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_cobdkalnjneb",
@@ -62427,7 +62871,13 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-f0224984d08e.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_idagfchbmpmn",
@@ -62444,7 +62894,13 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-b7a9555bfca3.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_hpkmmbokijfg",
@@ -62475,7 +62931,13 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-fb79904cf3ad.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_aeinaklddbce",
@@ -62505,7 +62967,13 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-c60fd0c73658.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_cgijdbdckdfb",
@@ -62693,7 +63161,13 @@
       "reactionCount": 10,
       "reactionTypes": {
         "love": 10
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-0dc04470db64.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_aecekeijidpf",
@@ -62857,7 +63331,13 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-dc0850825af3.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_lndcffcgogob",
@@ -62891,7 +63371,13 @@
       "reactionCount": 9,
       "reactionTypes": {
         "like": 9
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d1ba91d10a42.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_mdnmaefjbimi",
@@ -62935,7 +63421,17 @@
       "reactionTypes": {
         "love": 8,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-be870d805945.jpg",
+          "type": "image/heic"
+        },
+        {
+          "src": "./data/reaction-media/reaction-a030113fcacc.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_fplfideimmhg",
@@ -62952,7 +63448,13 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-8a944b0066f2.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_emlfllmnggfg",
@@ -63124,7 +63626,13 @@
       "reactionTypes": {
         "love": 8,
         "question": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-1fb9086328a8.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_mnlnknfdofaa",
@@ -63237,7 +63745,13 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-3bb003ef095c.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_cpinidpkckpp",
@@ -63388,7 +63902,13 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-7064cee858f6.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_nnblabodmoko",
@@ -63429,7 +63949,13 @@
       "reactionTypes": {
         "emoji": 6,
         "laugh": 3
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-51281362b357.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_gmnncfpndmho",
@@ -63447,7 +63973,13 @@
       "reactionTypes": {
         "love": 7,
         "emoji": 2
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-86f9b542a7be.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_anbmjeookekc",
@@ -63477,7 +64009,13 @@
       "reactionCount": 9,
       "reactionTypes": {
         "love": 9
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-83b18d7fb6cc.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_kkbikphbabdi",
@@ -63531,7 +64069,21 @@
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-1be442faa5d2.jpg",
+          "type": "image/heic"
+        },
+        {
+          "src": "./data/reaction-media/reaction-8078c95dc6b0.jpg",
+          "type": "image/heic"
+        },
+        {
+          "src": "./data/reaction-media/reaction-364eff1873df.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_damlaocgagpb",
@@ -63666,7 +64218,13 @@
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-e1afa105f9c3.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_mhilfihedjbk",
@@ -63924,7 +64482,13 @@
       "reactionTypes": {
         "love": 7,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-104b2602eac5.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_hclcfkdpifmm",
@@ -64028,7 +64592,13 @@
       "reactionTypes": {
         "love": 6,
         "laugh": 2
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-bcaa95320707.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_kdomnnclloph",
@@ -64086,7 +64656,13 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 3
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-44ac2d44a55b.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_dkfncmdmdeih",
@@ -64293,7 +64869,13 @@
       "reactionCount": 8,
       "reactionTypes": {
         "love": 8
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-43d233d0f00b.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_cbohjkmdlddc",
@@ -64342,7 +64924,13 @@
       "reactionTypes": {
         "love": 7,
         "emphasize": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d8f2fa9f60c7.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_ocfjngeacgdd",
@@ -64382,6 +64970,29 @@
       "attachmentCount": 1,
       "attachmentTypes": [
         "image/heic"
+      ],
+      "reactionCount": 8,
+      "reactionTypes": {
+        "love": 8
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-9768519cb60f.jpg",
+          "type": "image/heic"
+        }
+      ]
+    },
+    {
+      "id": "p_connjbebmgkf",
+      "authorId": "me",
+      "authorLabel": "Rushil",
+      "authorDetail": "Rushil",
+      "date": "2026-06-15",
+      "timestamp": "2026-06-15T11:12:24-05:00",
+      "preview": "\ufffcgetting paid 60 an hour to guess nba players",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "video/quicktime"
       ],
       "reactionCount": 8,
       "reactionTypes": {
@@ -64631,7 +65242,13 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-239b16b0300b.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_ppdhnkcihikg",
@@ -64648,7 +65265,13 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-3f7e7d4d8f32.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_becehpefpech",
@@ -64665,7 +65288,13 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-bb081a1daf45.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_djgikdjpdjee",
@@ -64758,7 +65387,13 @@
         "love": 5,
         "emoji": 1,
         "emphasize": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-c529ea0dadbe.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_nmjbdocoepok",
@@ -64890,7 +65525,13 @@
       "reactionTypes": {
         "love": 6,
         "dislike": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-43f7b1125a43.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_bmdifeombbai",
@@ -64939,7 +65580,13 @@
       "reactionTypes": {
         "love": 6,
         "dislike": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-2ab2801c86a3.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_dlebcmmbehjg",
@@ -64957,7 +65604,13 @@
       "reactionTypes": {
         "love": 6,
         "laugh": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-b81991af70ef.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_jpjnafpldgfm",
@@ -65021,7 +65674,13 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-148d7f1c8a75.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_odnljeppeddh",
@@ -65400,7 +66059,13 @@
       "reactionTypes": {
         "love": 6,
         "dislike": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-eebfd0d1909b.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_oaebfmohaoab",
@@ -65471,7 +66136,38 @@
       "reactionCount": 7,
       "reactionTypes": {
         "love": 7
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-7ec229ce0fb6.jpg",
+          "type": "image/heic"
+        }
+      ]
+    },
+    {
+      "id": "p_fhbglegjdogf",
+      "authorId": "p_gdmnohpphadm",
+      "authorLabel": "Dev Srikar Nimmala",
+      "authorDetail": "participant",
+      "date": "2026-06-15",
+      "timestamp": "2026-06-15T17:39:19-05:00",
+      "preview": "\ufffcLuke were u born in penistone or cockermouth",
+      "attachmentCount": 1,
+      "attachmentTypes": [
+        "image/png"
+      ],
+      "reactionCount": 7,
+      "reactionTypes": {
+        "emoji": 4,
+        "love": 2,
+        "dislike": 1
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-3bc7b6dae2c8.jpg",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "id": "p_ompgpjafnnma",
@@ -65502,7 +66198,13 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-475534e3e483.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_giljalcfagnj",
@@ -65752,7 +66454,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-8fae7cd9dc02.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_cbijfkcnhbof",
@@ -65800,7 +66508,13 @@
       "reactionTypes": {
         "love": 5,
         "dislike": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-3147970b41e9.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_lklcimkdaepa",
@@ -65858,7 +66572,13 @@
       "reactionTypes": {
         "love": 5,
         "laugh": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d631e86c8f50.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_naljclfkoogg",
@@ -66006,7 +66726,13 @@
         "laugh": 1,
         "like": 1,
         "question": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-52dc38edacc9.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_eamccpeefocp",
@@ -66151,7 +66877,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-16794ebe12d6.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_aenjghbfhelp",
@@ -66208,7 +66940,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-e1ce23a8bb20.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_fnjheeggahdb",
@@ -66311,7 +67049,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-47b7d3baa9a2.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_hophianolnbj",
@@ -66330,7 +67074,13 @@
         "love": 4,
         "dislike": 1,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-c1e4ca9f5ec5.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_hkpdilcpfbfm",
@@ -66384,7 +67134,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-01affb71da99.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_cedffhhfcgmc",
@@ -66449,7 +67205,17 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-fe571d719dc9.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "src": "./data/reaction-media/reaction-e173939d3e97.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_nmpdjjhcpmfg",
@@ -66533,7 +67299,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-31efe43b0ff8.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_jgfheejogdfn",
@@ -66592,7 +67364,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-2988ed6134a5.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_cciiefneikim",
@@ -66752,7 +67530,13 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-33e72eea2d16.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_jkaechkfmfea",
@@ -66829,7 +67613,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-6fcd91fc1b7e.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_caknggepbjhg",
@@ -67151,7 +67941,13 @@
       "reactionTypes": {
         "love": 5,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-549ef34d6e09.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_lenblhilpjdm",
@@ -67208,7 +68004,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "emoji": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-dd2ccc5170ff.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_nkcdbedlbcph",
@@ -67225,7 +68027,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d0e390089905.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_lminlhfehfdh",
@@ -67348,7 +68156,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-bd66456ad0d8.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_ddefgoebeojj",
@@ -67380,7 +68194,13 @@
       "reactionTypes": {
         "love": 5,
         "like": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-c76986e7d0da.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_alpgmlhlakep",
@@ -67504,7 +68324,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "laugh": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-c0328c0540ba.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_bmflhlfglebb",
@@ -67534,7 +68360,13 @@
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-e935d7ddd561.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_ihoefiphfomg",
@@ -67548,6 +68380,24 @@
       "attachmentTypes": [
         "image/heic"
       ],
+      "reactionCount": 6,
+      "reactionTypes": {
+        "love": 6
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d5759b0ad4bc.jpg",
+          "type": "image/heic"
+        }
+      ]
+    },
+    {
+      "id": "p_lhileaophomo",
+      "authorId": "p_amhokpidpdnh",
+      "authorLabel": "Aadit",
+      "authorDetail": "participant",
+      "date": "2026-06-15",
+      "timestamp": "2026-06-15T19:53:46-05:00",
       "reactionCount": 6,
       "reactionTypes": {
         "love": 6
@@ -67669,7 +68519,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-a023e3bcd568.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_ilifikcbikha",
@@ -67723,7 +68579,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d2382aafa279.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_gfbnoemicafh",
@@ -67742,7 +68604,13 @@
         "laugh": 2,
         "love": 2,
         "question": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-2b5caa4ef466.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_ckpgmghhdchg",
@@ -67914,7 +68782,13 @@
       "reactionTypes": {
         "emoji": 4,
         "love": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-b8dea65caa69.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_mhomlhlcgmlb",
@@ -67966,7 +68840,17 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-d065b7974097.jpg",
+          "type": "image/heic"
+        },
+        {
+          "src": "./data/reaction-media/reaction-48d7d240ada1.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_mfjppglcpapp",
@@ -68286,7 +69170,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-c18cc2c1fe5b.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_dlnkbnegdbea",
@@ -68493,7 +69383,13 @@
       "reactionTypes": {
         "love": 4,
         "laugh": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-1d9181de4e7a.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_jpojabecnlgm",
@@ -68534,7 +69430,13 @@
       "reactionTypes": {
         "love": 4,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-ad0ca39cfef3.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_kpmolopffjap",
@@ -68550,7 +69452,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-cd1e8513bf8f.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_edbbncaaclog",
@@ -68678,7 +69586,13 @@
       "reactionTypes": {
         "love": 4,
         "laugh": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-3b7f8c3d479e.jpg",
+          "type": "image/jpeg"
+        }
+      ]
     },
     {
       "id": "p_igjodnlbjlml",
@@ -68828,7 +69742,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-28fa01fb33e1.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_nkdcfchelbdl",
@@ -68846,7 +69766,13 @@
       "reactionTypes": {
         "love": 4,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-7ab62111d394.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_flknfmnoklfp",
@@ -68864,7 +69790,13 @@
       "reactionTypes": {
         "love": 4,
         "laugh": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-54487c21f348.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_gdeomaphofji",
@@ -68881,7 +69813,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-2b003fbaa5f8.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_neicilgkbakn",
@@ -68930,7 +69868,13 @@
       "reactionTypes": {
         "love": 3,
         "emoji": 2
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-3e58e574cfbc.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_kfanbencfhmf",
@@ -68989,7 +69933,13 @@
         "laugh": 2,
         "love": 2,
         "emoji": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-095feeefe229.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_jpkajehnllie",
@@ -69006,7 +69956,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "dislike": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-f5ed1295c7b8.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_hplbhegldfni",
@@ -69187,7 +70143,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-90e27b58d1ea.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_mcjinmdbghkp",
@@ -69242,7 +70204,13 @@
       "reactionTypes": {
         "laugh": 4,
         "love": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-5c9b865f4d56.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_ahplbjdonojh",
@@ -69494,7 +70462,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-23e11178dee4.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_khocgibjcknh",
@@ -69688,7 +70662,13 @@
       "reactionCount": 5,
       "reactionTypes": {
         "love": 5
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-64de152d9e69.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_kaoookpgkcmj",
@@ -69782,7 +70762,13 @@
         "emoji": 2,
         "love": 2,
         "laugh": 1
-      }
+      },
+      "media": [
+        {
+          "src": "./data/reaction-media/reaction-43ccd4e82d92.jpg",
+          "type": "image/heic"
+        }
+      ]
     },
     {
       "id": "p_hbpjkgobdepp",
@@ -69820,47 +70806,6 @@
         "dislike": 3,
         "love": 2
       }
-    },
-    {
-      "id": "p_mnapjajcoaei",
-      "authorId": "p_fkioklocpgbp",
-      "authorLabel": "rohan",
-      "authorDetail": "participant",
-      "date": "2026-06-08",
-      "timestamp": "2026-06-08T23:55:18-05:00",
-      "preview": "Patagonia on some lowkey shit",
-      "reactionCount": 5,
-      "reactionTypes": {
-        "love": 4,
-        "emphasize": 1
-      }
-    },
-    {
-      "id": "p_lmgjpgocliak",
-      "authorId": "p_hpobobilhnoh",
-      "authorLabel": "Aryan Shah",
-      "authorDetail": "participant",
-      "date": "2026-06-09",
-      "timestamp": "2026-06-09T15:17:06-05:00",
-      "preview": "In Prague they had a special WiFi during exams that tracked if you used AI so I locally ran Qwen so I didnt have to stu\u2026",
-      "reactionCount": 5,
-      "reactionTypes": {
-        "love": 5
-      }
-    },
-    {
-      "id": "p_aonlehccpgne",
-      "authorId": "p_enclpbahigno",
-      "authorLabel": "aditya bodanapu",
-      "authorDetail": "participant",
-      "date": "2026-06-10",
-      "timestamp": "2026-06-10T22:42:11-05:00",
-      "preview": "Im highkey tucked into bed rn",
-      "reactionCount": 5,
-      "reactionTypes": {
-        "emoji": 4,
-        "laugh": 1
-      }
     }
   ],
   "analysis": {
@@ -69876,11 +70821,15 @@
       "ass",
       "bastard",
       "bitch",
+      "cock",
       "cunt",
       "damn",
       "dick",
       "fuck",
       "hell",
+      "hoe",
+      "nigga",
+      "nigger",
       "piss",
       "pussy",
       "shit",
