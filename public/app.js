@@ -702,14 +702,99 @@ async function loadOptionalJson(path) {
   return response.json();
 }
 
+function renderLukeDashboard(luke) {
+  if (!luke) return;
+
+  const genAt = $("lukeGeneratedAt");
+  if (genAt && luke.generatedAt) {
+    const d = new Date(luke.generatedAt);
+    genAt.textContent = shortDate.format(d);
+  }
+
+  const statsRoot = $("lukeStats");
+  if (statsRoot) {
+    const s = luke.summary;
+    statsRoot.innerHTML = `
+      <div class="luke-stat-card highlight">
+        <span>World cup ragebait</span>
+        <strong>${fmt.format(s.worldCupRagebaitCount)}</strong>
+      </div>
+      <div class="luke-stat-card">
+        <span>Nobody responded</span>
+        <strong>${fmt.format(s.noResponseCount)}</strong>
+      </div>
+      <div class="luke-stat-card">
+        <span>Ignored replies</span>
+        <strong>${fmt.format(s.ignoredRepliesCount)}</strong>
+      </div>
+      <div class="luke-stat-card">
+        <span>Told to shut up</span>
+        <strong>${fmt.format(s.dismissalCount)}</strong>
+      </div>
+    `;
+  }
+
+  const ragebaitRoot = $("lukeRagebait");
+  if (ragebaitRoot) {
+    const hits = (luke.worldCupRagebait || []).slice(0, 8);
+    ragebaitRoot.innerHTML = hits.length
+      ? hits.map((h) => `
+          <div class="luke-event">
+            <em>${escapeHtml(h.evidence || "")}</em>
+            <span>${h.ragebaited ? "ragebaited" : ""}${h.luke_upset ? " · upset" : ""}</span>
+          </div>`).join("")
+      : `<div class="empty">No ragebait detected.</div>`;
+  }
+
+  const noRespRoot = $("lukeNoResponse");
+  if (noRespRoot) {
+    const hits = (luke.noResponse || []).slice(0, 8);
+    noRespRoot.innerHTML = hits.length
+      ? hits.map((h) => `
+          <div class="luke-event">
+            <strong>${escapeHtml(h.timestamp)}</strong>
+            <em>"${escapeHtml(h.luke_said)}"</em>
+            <span>${h.gap_minutes != null ? `${h.gap_minutes}m silence` : "no reply"}${h.next_sender ? ` → ${escapeHtml(h.next_sender)} changed topic` : ""}</span>
+          </div>`).join("")
+      : `<div class="empty">No instances found.</div>`;
+  }
+
+  const ignoredRoot = $("lukeIgnored");
+  if (ignoredRoot) {
+    const hits = (luke.ignoredReplies || []).slice(0, 8);
+    ignoredRoot.innerHTML = hits.length
+      ? hits.map((h) => `
+          <div class="luke-event">
+            <em>${escapeHtml((h.evidence || h.context || "").slice(0, 200))}</em>
+          </div>`).join("")
+      : `<div class="empty">No instances found.</div>`;
+  }
+
+  const dismissRoot = $("lukeDismissals");
+  if (dismissRoot) {
+    const hits = (luke.dismissals || []);
+    dismissRoot.innerHTML = hits.length
+      ? hits.map((h) => `
+          <div class="luke-event">
+            <strong>${escapeHtml(h.timestamp)} · ${escapeHtml(h.sender)}</strong>
+            <em>"${escapeHtml(h.said)}"</em>
+          </div>`).join("")
+      : `<div class="empty">No instances found.</div>`;
+  }
+}
+
 async function init() {
   try {
-    const summary = await loadSummary();
-    const sentiments = await loadOptionalJson("./data/sentiments.json");
+    const [summary, sentiments, luke] = await Promise.all([
+      loadSummary(),
+      loadOptionalJson("./data/sentiments.json"),
+      loadOptionalJson("./data/luke_analysis.json"),
+    ]);
     state.summary = summary;
     state.sentiments = sentiments;
     state.windowDays = clampWindowDays(summary.defaultWindowDays || 14);
     render();
+    renderLukeDashboard(luke);
   } catch (error) {
     const root = $("senderBars");
     if (root) {

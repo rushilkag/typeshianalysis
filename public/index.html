@@ -199,6 +199,63 @@
           <div id="wordWatchStats" class="slur-box"></div>
         </article>
       </section>
+
+      <section class="luke-section">
+        <header class="luke-header">
+          <div>
+            <p class="eyebrow">AI analysis · last 7 days</p>
+            <h2>luke report</h2>
+          </div>
+          <div class="luke-header-stamp">
+            <span>generated</span>
+            <strong id="lukeGeneratedAt">—</strong>
+          </div>
+        </header>
+
+        <div class="luke-stats" id="lukeStats"></div>
+
+        <div class="luke-panels">
+          <article class="panel luke-panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="eyebrow">World Cup</p>
+                <h2>Ragebait moments</h2>
+              </div>
+            </div>
+            <div id="lukeRagebait" class="luke-event-list"></div>
+          </article>
+
+          <article class="panel luke-panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="eyebrow">Left on read</p>
+                <h2>Nobody responded</h2>
+              </div>
+            </div>
+            <div id="lukeNoResponse" class="luke-event-list"></div>
+          </article>
+
+          <article class="panel luke-panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="eyebrow">Ignored</p>
+                <h2>Reply but nobody cares</h2>
+              </div>
+            </div>
+            <div id="lukeIgnored" class="luke-event-list"></div>
+          </article>
+
+          <article class="panel luke-panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="eyebrow">Told to stop</p>
+                <h2>Shut up instances</h2>
+              </div>
+            </div>
+            <div id="lukeDismissals" class="luke-event-list"></div>
+          </article>
+        </div>
+      </section>
     </main>
 
     <script src="./app.js"></script>
